@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "karat",
+  "name": "Karat",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Karat hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "text-justification",
+    "check-if-every-row-and-column-contains-all-numbers",
+    "find-words-that-can-be-formed-by-characters",
+    "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+    "word-search",
+    "ransom-note",
+    "maximal-square",
+    "valid-sudoku",
+    "jump-game",
+    "high-access-employees"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 6,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-every-row-and-column-contains-all-numbers",
+        "number": 2133,
+        "title": "Check if Every Row and Column Contains All Numbers",
+        "difficulty": "Easy",
+        "frequency": 96.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-words-that-can-be-formed-by-characters",
+        "number": 1160,
+        "title": "Find Words That Can Be Formed by Characters",
+        "difficulty": "Easy",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+        "number": 1604,
+        "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 84.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ransom-note",
+        "number": 383,
+        "title": "Ransom Note",
+        "difficulty": "Easy",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 64.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-sudoku",
+        "number": 36,
+        "title": "Valid Sudoku",
+        "difficulty": "Medium",
+        "frequency": 58.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "high-access-employees",
+        "number": 2933,
+        "title": "High-Access Employees",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Karat Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Karat coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/karat",
+    "keywords": [
+      "karat interview questions",
+      "karat leetcode",
+      "karat coding questions",
+      "karat online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

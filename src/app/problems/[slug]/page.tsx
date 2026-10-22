@@ -19,6 +19,7 @@ import { StudyPanel } from "@/components/problem/study-panel";
 import { MarkdownBody } from "@/components/markdown-body";
 import { markdownToHtml } from "@/lib/markdown";
 import { ProblemList } from "@/components/problem/problem-list";
+import { Watermark } from "@/components/ui/watermark";
 
 export const dynamicParams = false;
 
@@ -85,11 +86,14 @@ export default async function ProblemPage({
       <div className="mt-6 grid lg:grid-cols-[1fr_280px] gap-10">
         <article className="min-w-0">
           <header className="space-y-4">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-sm text-muted-foreground tabular-nums">#{problem.number}</span>
-              <DifficultyBadge difficulty={problem.difficulty} />
-              {problem.premium && <Badge variant="muted">Premium on LC</Badge>}
-              <Badge variant="outline">~{problem.estimatedMinutes} min</Badge>
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-sm text-muted-foreground tabular-nums">#{problem.number}</span>
+                <DifficultyBadge difficulty={problem.difficulty} />
+                {problem.premium && <Badge variant="muted">Premium on LC</Badge>}
+                <Badge variant="outline">~{problem.estimatedMinutes} min</Badge>
+              </div>
+              <Watermark variant="pill" />
             </div>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{problem.title}</h1>
             <p className="text-muted-foreground max-w-2xl">
@@ -202,6 +206,8 @@ export default async function ProblemPage({
               <ProblemList problems={related} />
             </section>
           )}
+
+          <Watermark variant="card" className="mt-12" />
 
           <nav
             className="mt-12 flex justify-between gap-4 border-t border-border pt-6 text-sm"

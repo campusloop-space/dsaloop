@@ -1,0 +1,1083 @@
+{
+  "type": "company",
+  "slug": "flipkart",
+  "name": "Flipkart",
+  "description": "System design, recursion, DP, and greedy problem sets for SDE-1 and SDE-2 campus hiring.",
+  "problemCount": 91,
+  "problemSlugs": [
+    "contain-virus",
+    "maximum-points-you-can-obtain-from-cards",
+    "container-with-most-water",
+    "transform-array-to-all-equal-elements",
+    "rotting-oranges",
+    "minimum-number-of-coins-to-be-added",
+    "design-movie-rental-system",
+    "two-sum",
+    "the-score-of-students-solving-math-expression",
+    "minimum-cost-to-reach-city-with-discounts",
+    "numbers-with-same-consecutive-differences",
+    "triples-with-bitwise-and-equal-to-zero",
+    "minimum-limit-of-balls-in-a-bag",
+    "find-the-least-frequent-digit",
+    "gas-station",
+    "trapping-rain-water",
+    "largest-rectangle-in-histogram",
+    "next-greater-element-i",
+    "cheapest-flights-within-k-stops",
+    "kth-largest-element-in-an-array",
+    "create-maximum-number",
+    "koko-eating-bananas",
+    "search-in-rotated-sorted-array",
+    "cut-off-trees-for-golf-event",
+    "find-median-from-data-stream",
+    "sum-of-subarray-minimums",
+    "unique-paths",
+    "rectangle-area-ii",
+    "edit-distance",
+    "course-schedule",
+    "amount-of-time-for-binary-tree-to-be-infected",
+    "asteroid-collision",
+    "minimum-area-rectangle",
+    "cherry-pickup-ii",
+    "merge-intervals",
+    "reconstruct-itinerary",
+    "minimum-number-of-days-to-make-m-bouquets",
+    "word-ladder",
+    "generate-parentheses",
+    "next-permutation",
+    "critical-connections-in-a-network",
+    "trapping-rain-water-ii",
+    "next-greater-element-ii",
+    "best-time-to-buy-and-sell-stock",
+    "3sum",
+    "pacific-atlantic-water-flow",
+    "longest-palindromic-substring",
+    "merge-k-sorted-lists",
+    "spiral-matrix",
+    "jump-game-ii",
+    "median-of-two-sorted-arrays",
+    "binary-tree-maximum-path-sum",
+    "dungeon-game",
+    "number-of-islands",
+    "subarray-sum-equals-k",
+    "maximum-width-of-binary-tree",
+    "cherry-pickup",
+    "shortest-bridge",
+    "capacity-to-ship-packages-within-d-days",
+    "car-pooling",
+    "sort-colors",
+    "rotate-image",
+    "delete-node-in-a-bst",
+    "ways-to-split-array-into-good-subarrays",
+    "evaluate-division",
+    "3sum-closest",
+    "course-schedule-ii",
+    "maximum-frequency-stack",
+    "magnetic-force-between-two-balls",
+    "sort-characters-by-frequency",
+    "find-leaves-of-binary-tree",
+    "find-k-closest-elements",
+    "number-of-atoms",
+    "maximal-square",
+    "serialize-and-deserialize-binary-tree",
+    "min-stack",
+    "decode-ways",
+    "find-the-duplicate-number",
+    "valid-parentheses",
+    "diameter-of-binary-tree",
+    "lru-cache",
+    "subsets",
+    "map-sum-pairs",
+    "split-array-largest-sum",
+    "russian-doll-envelopes",
+    "loud-and-rich",
+    "remove-nth-node-from-end-of-list",
+    "jump-game",
+    "copy-list-with-random-pointer",
+    "daily-temperatures",
+    "unique-paths-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 60,
+    "hard": 25
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "contain-virus",
+        "number": 749,
+        "title": "Contain Virus",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "loud-and-rich",
+        "number": 851,
+        "title": "Loud and Rich",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-days-to-make-m-bouquets",
+        "number": 1482,
+        "title": "Minimum Number of Days to Make m Bouquets",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-i",
+        "number": 496,
+        "title": "Next Greater Element I",
+        "difficulty": "Easy",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "contain-virus",
+        "number": 749,
+        "title": "Contain Virus",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 69.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 63.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-i",
+        "number": 496,
+        "title": "Next Greater Element I",
+        "difficulty": "Easy",
+        "frequency": 63.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 55.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "loud-and-rich",
+        "number": 851,
+        "title": "Loud and Rich",
+        "difficulty": "Medium",
+        "frequency": 55.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-days-to-make-m-bouquets",
+        "number": 1482,
+        "title": "Minimum Number of Days to Make m Bouquets",
+        "difficulty": "Medium",
+        "frequency": 55.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 55.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 55.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "contain-virus",
+        "number": 749,
+        "title": "Contain Virus",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-you-can-obtain-from-cards",
+        "number": 1423,
+        "title": "Maximum Points You Can Obtain from Cards",
+        "difficulty": "Medium",
+        "frequency": 96.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 84.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "transform-array-to-all-equal-elements",
+        "number": 3576,
+        "title": "Transform Array to All Equal Elements",
+        "difficulty": "Medium",
+        "frequency": 82.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 80.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-coins-to-be-added",
+        "number": 2952,
+        "title": "Minimum Number of Coins to be Added",
+        "difficulty": "Medium",
+        "frequency": 77.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-movie-rental-system",
+        "number": 1912,
+        "title": "Design Movie Rental System",
+        "difficulty": "Hard",
+        "frequency": 77.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-score-of-students-solving-math-expression",
+        "number": 2019,
+        "title": "The Score of Students Solving Math Expression",
+        "difficulty": "Hard",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-reach-city-with-discounts",
+        "number": 2093,
+        "title": "Minimum Path Cost in a Hidden Grid",
+        "difficulty": "Medium",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "numbers-with-same-consecutive-differences",
+        "number": 967,
+        "title": "Numbers With Same Consecutive Differences",
+        "difficulty": "Medium",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "triples-with-bitwise-and-equal-to-zero",
+        "number": 982,
+        "title": "Triples with Bitwise AND Equal To Zero",
+        "difficulty": "Hard",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-limit-of-balls-in-a-bag",
+        "number": 1760,
+        "title": "Minimum Limit of Balls in a Bag",
+        "difficulty": "Medium",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-least-frequent-digit",
+        "number": 3663,
+        "title": "Find The Least Frequent Digit",
+        "difficulty": "Easy",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 71.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 68.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 68.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-i",
+        "number": 496,
+        "title": "Next Greater Element I",
+        "difficulty": "Easy",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "create-maximum-number",
+        "number": 321,
+        "title": "Create Maximum Number",
+        "difficulty": "Hard",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cut-off-trees-for-golf-event",
+        "number": 675,
+        "title": "Cut Off Trees for Golf Event",
+        "difficulty": "Hard",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-subarray-minimums",
+        "number": 907,
+        "title": "Sum of Subarray Minimums",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths",
+        "number": 62,
+        "title": "Unique Paths",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rectangle-area-ii",
+        "number": 850,
+        "title": "Rectangle Area II",
+        "difficulty": "Hard",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "amount-of-time-for-binary-tree-to-be-infected",
+        "number": 2385,
+        "title": "Amount of Time for Binary Tree to Be Infected",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-area-rectangle",
+        "number": 939,
+        "title": "Minimum Area Rectangle",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup-ii",
+        "number": 1463,
+        "title": "Cherry Pickup II",
+        "difficulty": "Hard",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-days-to-make-m-bouquets",
+        "number": 1482,
+        "title": "Minimum Number of Days to Make m Bouquets",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "critical-connections-in-a-network",
+        "number": 1192,
+        "title": "Critical Connections in a Network",
+        "difficulty": "Hard",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-ii",
+        "number": 503,
+        "title": "Next Greater Element II",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pacific-atlantic-water-flow",
+        "number": 417,
+        "title": "Pacific Atlantic Water Flow",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 52,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "dungeon-game",
+        "number": 174,
+        "title": "Dungeon Game",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-width-of-binary-tree",
+        "number": 662,
+        "title": "Maximum Width of Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-bridge",
+        "number": 934,
+        "title": "Shortest Bridge",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "car-pooling",
+        "number": 1094,
+        "title": "Car Pooling",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-node-in-a-bst",
+        "number": 450,
+        "title": "Delete Node in a BST",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ways-to-split-array-into-good-subarrays",
+        "number": 2750,
+        "title": "Ways to Split Array Into Good Subarrays",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum-closest",
+        "number": 16,
+        "title": "3 Sum Closest",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-frequency-stack",
+        "number": 895,
+        "title": "Maximum Frequency Stack",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "magnetic-force-between-two-balls",
+        "number": 1552,
+        "title": "Magnetic Force Between Two Balls",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-characters-by-frequency",
+        "number": 451,
+        "title": "Sort Characters By Frequency",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-leaves-of-binary-tree",
+        "number": 366,
+        "title": "Find Leaves of Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-closest-elements",
+        "number": 658,
+        "title": "Find K Closest Elements",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-atoms",
+        "number": 726,
+        "title": "Number of Atoms",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-ways",
+        "number": 91,
+        "title": "Decode Ways",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-duplicate-number",
+        "number": 287,
+        "title": "Find the Duplicate Number",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "map-sum-pairs",
+        "number": 677,
+        "title": "Map Sum Pairs",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "loud-and-rich",
+        "number": 851,
+        "title": "Loud and Rich",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-nth-node-from-end-of-list",
+        "number": 19,
+        "title": "Remove Nth Node From End of List",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "copy-list-with-random-pointer",
+        "number": 138,
+        "title": "Copy List with Random Pointer",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths-ii",
+        "number": 63,
+        "title": "Unique Paths II",
+        "difficulty": "Medium",
+        "frequency": 42.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Flipkart Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Flipkart coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/flipkart",
+    "keywords": [
+      "flipkart interview questions",
+      "flipkart leetcode",
+      "flipkart coding questions",
+      "flipkart online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

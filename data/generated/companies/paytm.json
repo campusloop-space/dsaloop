@@ -1,0 +1,314 @@
+{
+  "type": "company",
+  "slug": "paytm",
+  "name": "Paytm",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Paytm hiring and placement rounds.",
+  "problemCount": 25,
+  "problemSlugs": [
+    "min-stack",
+    "lexicographically-smallest-string-after-deleting-duplicate-characters",
+    "find-indices-with-index-and-value-difference-i",
+    "find-indices-with-index-and-value-difference-ii",
+    "remove-all-adjacent-duplicates-in-string",
+    "longest-nice-subarray",
+    "minimize-maximum-of-array",
+    "number-of-unequal-triplets-in-array",
+    "maximum-transactions-without-negative-balance",
+    "longest-consecutive-sequence",
+    "linked-list-cycle-ii",
+    "remove-duplicate-letters",
+    "smallest-subsequence-of-distinct-characters",
+    "trapping-rain-water",
+    "reverse-linked-list",
+    "search-in-rotated-sorted-array",
+    "longest-substring-without-repeating-characters",
+    "string-compression",
+    "search-a-2d-matrix",
+    "burst-balloons",
+    "car-pooling",
+    "ugly-number-ii",
+    "best-time-to-buy-and-sell-stock",
+    "lru-cache",
+    "spiral-matrix"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 17,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "remove-duplicate-letters",
+        "number": 316,
+        "title": "Remove Duplicate Letters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "smallest-subsequence-of-distinct-characters",
+        "number": 1081,
+        "title": "Smallest Subsequence of Distinct Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicate-letters",
+        "number": 316,
+        "title": "Remove Duplicate Letters",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-smallest-string-after-deleting-duplicate-characters",
+        "number": 3816,
+        "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-indices-with-index-and-value-difference-i",
+        "number": 2903,
+        "title": "Find Indices With Index and Value Difference I",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-indices-with-index-and-value-difference-ii",
+        "number": 2905,
+        "title": "Find Indices With Index and Value Difference II",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-nice-subarray",
+        "number": 2401,
+        "title": "Longest Nice Subarray",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-maximum-of-array",
+        "number": 2439,
+        "title": "Minimize Maximum of Array",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-unequal-triplets-in-array",
+        "number": 2475,
+        "title": "Number of Unequal Triplets in Array",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-transactions-without-negative-balance",
+        "number": 3711,
+        "title": "Maximum Transactions Without Negative Balance",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 84.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle-ii",
+        "number": 142,
+        "title": "Linked List Cycle II",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicate-letters",
+        "number": 316,
+        "title": "Remove Duplicate Letters",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-subsequence-of-distinct-characters",
+        "number": 1081,
+        "title": "Smallest Subsequence of Distinct Characters",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-a-2d-matrix",
+        "number": 74,
+        "title": "Search a 2D Matrix",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "burst-balloons",
+        "number": 312,
+        "title": "Burst Balloons",
+        "difficulty": "Hard",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "car-pooling",
+        "number": 1094,
+        "title": "Car Pooling",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ugly-number-ii",
+        "number": 264,
+        "title": "Ugly Number II",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Paytm Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Paytm coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/paytm",
+    "keywords": [
+      "paytm interview questions",
+      "paytm leetcode",
+      "paytm coding questions",
+      "paytm online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

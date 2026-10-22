@@ -1,0 +1,1285 @@
+{
+  "type": "company",
+  "slug": "de-shaw",
+  "name": "D. E. Shaw",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in D. E. Shaw hiring and placement rounds.",
+  "problemCount": 105,
+  "problemSlugs": [
+    "binary-tree-cameras",
+    "find-minimum-cost-to-remove-array-elements",
+    "maximum-number-of-subsequences-after-one-inserting",
+    "minimum-number-of-taps-to-open-to-water-a-garden",
+    "minimum-size-subarray-in-infinite-array",
+    "maximum-points-after-collecting-coins-from-all-nodes",
+    "removing-minimum-number-of-magic-beans",
+    "maximum-subsequence-score",
+    "maximum-points-tourist-can-earn",
+    "minimum-runes-to-add-to-cast-spell",
+    "letter-combinations-of-a-phone-number",
+    "relative-sort-array",
+    "sliding-window-maximum",
+    "minimum-cost-walk-in-weighted-graph",
+    "number-of-subarrays-with-and-value-of-k",
+    "number-of-substrings-containing-all-three-characters",
+    "maximum-strength-of-k-disjoint-subarrays",
+    "find-the-sum-of-the-power-of-all-subsequences",
+    "minimum-deletions-to-make-string-k-special",
+    "greatest-sum-divisible-by-three",
+    "query-kth-smallest-trimmed-number",
+    "equal-row-and-column-pairs",
+    "maximum-deletions-on-a-string",
+    "median-of-a-row-wise-sorted-matrix",
+    "determine-the-winner-of-a-bowling-game",
+    "take-gifts-from-the-richest-pile",
+    "find-the-maximum-divisibility-score",
+    "max-number-of-k-sum-pairs",
+    "shortest-string-that-contains-three-strings",
+    "sum-game",
+    "reorganize-string",
+    "minimum-number-of-refueling-stops",
+    "count-binary-substrings",
+    "furthest-building-you-can-reach",
+    "trapping-rain-water",
+    "maximum-product-subarray",
+    "insert-delete-getrandom-o1",
+    "kth-smallest-number-in-multiplication-table",
+    "asteroid-collision",
+    "longest-repeating-character-replacement",
+    "median-of-two-sorted-arrays",
+    "valid-parentheses",
+    "heaters",
+    "k-th-symbol-in-grammar",
+    "using-a-robot-to-print-the-lexicographically-smallest-string",
+    "k-th-smallest-in-lexicographical-order",
+    "majority-element",
+    "split-array-largest-sum",
+    "consecutive-numbers-sum",
+    "longest-string-chain",
+    "sum-of-subarray-ranges",
+    "find-triangular-sum-of-an-array",
+    "number-of-islands",
+    "longest-valid-parentheses",
+    "lru-cache",
+    "rotting-oranges",
+    "minimum-cost-to-merge-stones",
+    "longest-substring-without-repeating-characters",
+    "search-a-2d-matrix",
+    "maximal-square",
+    "count-vowel-substrings-of-a-string",
+    "longest-consecutive-sequence",
+    "basic-calculator-ii",
+    "put-marbles-in-bags",
+    "open-the-lock",
+    "count-the-number-of-incremovable-subarrays-ii",
+    "4sum",
+    "find-the-smallest-divisor-given-a-threshold",
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "flatten-nested-list-iterator",
+    "excel-sheet-column-title",
+    "maximize-score-of-numbers-in-ranges",
+    "design-a-leaderboard",
+    "decode-ways",
+    "text-justification",
+    "number-of-ways-to-wear-different-hats-to-each-other",
+    "wildcard-matching",
+    "number-of-ways-to-select-buildings",
+    "maximum-width-ramp",
+    "loud-and-rich",
+    "two-sum",
+    "merge-sorted-array",
+    "remove-duplicate-letters",
+    "house-robber-ii",
+    "recover-binary-search-tree",
+    "valid-anagram",
+    "boats-to-save-people",
+    "all-nodes-distance-k-in-binary-tree",
+    "coin-change",
+    "palindrome-partitioning",
+    "shortest-path-in-a-grid-with-obstacles-elimination",
+    "maximum-number-of-removable-characters",
+    "max-consecutive-ones-iii",
+    "kth-largest-element-in-an-array",
+    "find-maximum-removals-from-source-string",
+    "diameter-of-binary-tree",
+    "predict-the-winner",
+    "find-k-closest-elements",
+    "best-time-to-buy-and-sell-stock",
+    "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+    "find-median-from-data-stream",
+    "meeting-rooms-ii",
+    "create-maximum-number",
+    "linked-list-cycle",
+    "maximal-rectangle"
+  ],
+  "difficultyBreakdown": {
+    "easy": 15,
+    "medium": 61,
+    "hard": 29
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "count-binary-substrings",
+        "number": 696,
+        "title": "Count Binary Substrings",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-substrings-of-a-string",
+        "number": 2062,
+        "title": "Count Vowel Substrings of a String",
+        "difficulty": "Easy",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-refueling-stops",
+        "number": 871,
+        "title": "Minimum Number of Refueling Stops",
+        "difficulty": "Hard",
+        "frequency": 80.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "removing-minimum-number-of-magic-beans",
+        "number": 2171,
+        "title": "Removing Minimum Number of Magic Beans",
+        "difficulty": "Medium",
+        "frequency": 80.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-building-you-can-reach",
+        "number": 1642,
+        "title": "Furthest Building You Can Reach",
+        "difficulty": "Medium",
+        "frequency": 80.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "reorganize-string",
+        "number": 767,
+        "title": "Reorganize String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-binary-substrings",
+        "number": 696,
+        "title": "Count Binary Substrings",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-building-you-can-reach",
+        "number": 1642,
+        "title": "Furthest Building You Can Reach",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-th-symbol-in-grammar",
+        "number": 779,
+        "title": "K-th Symbol in Grammar",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-character-replacement",
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-substrings-of-a-string",
+        "number": 2062,
+        "title": "Count Vowel Substrings of a String",
+        "difficulty": "Easy",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "removing-minimum-number-of-magic-beans",
+        "number": 2171,
+        "title": "Removing Minimum Number of Magic Beans",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "number": 1293,
+        "title": "Shortest Path in a Grid with Obstacles Elimination",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-refueling-stops",
+        "number": 871,
+        "title": "Minimum Number of Refueling Stops",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-minimum-cost-to-remove-array-elements",
+        "number": 3469,
+        "title": "Find Minimum Cost to Remove Array Elements",
+        "difficulty": "Medium",
+        "frequency": 88.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-subsequences-after-one-inserting",
+        "number": 3628,
+        "title": "Maximum Number of Subsequences After One Inserting",
+        "difficulty": "Medium",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+        "number": 1326,
+        "title": "Minimum Number of Taps to Open to Water a Garden",
+        "difficulty": "Hard",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-size-subarray-in-infinite-array",
+        "number": 2875,
+        "title": "Minimum Size Subarray in Infinite Array",
+        "difficulty": "Medium",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+        "number": 2920,
+        "title": "Maximum Points After Collecting Coins From All Nodes",
+        "difficulty": "Hard",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "removing-minimum-number-of-magic-beans",
+        "number": 2171,
+        "title": "Removing Minimum Number of Magic Beans",
+        "difficulty": "Medium",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subsequence-score",
+        "number": 2542,
+        "title": "Maximum Subsequence Score",
+        "difficulty": "Medium",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-tourist-can-earn",
+        "number": 3332,
+        "title": "Maximum Points Tourist Can Earn",
+        "difficulty": "Medium",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-runes-to-add-to-cast-spell",
+        "number": 3383,
+        "title": "Minimum Runes to Add to Cast Spell",
+        "difficulty": "Hard",
+        "frequency": 73.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "relative-sort-array",
+        "number": 1122,
+        "title": "Relative Sort Array",
+        "difficulty": "Easy",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-walk-in-weighted-graph",
+        "number": 3108,
+        "title": "Minimum Cost Walk in Weighted Graph",
+        "difficulty": "Hard",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-subarrays-with-and-value-of-k",
+        "number": 3209,
+        "title": "Number of Subarrays With AND Value of K",
+        "difficulty": "Hard",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-substrings-containing-all-three-characters",
+        "number": 1358,
+        "title": "Number of Substrings Containing All Three Characters",
+        "difficulty": "Medium",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-strength-of-k-disjoint-subarrays",
+        "number": 3077,
+        "title": "Maximum Strength of K Disjoint Subarrays",
+        "difficulty": "Hard",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-sum-of-the-power-of-all-subsequences",
+        "number": 3082,
+        "title": "Find the Sum of the Power of All Subsequences",
+        "difficulty": "Hard",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-deletions-to-make-string-k-special",
+        "number": 3085,
+        "title": "Minimum Deletions to Make String K-Special",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "greatest-sum-divisible-by-three",
+        "number": 1262,
+        "title": "Greatest Sum Divisible by Three",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "query-kth-smallest-trimmed-number",
+        "number": 2343,
+        "title": "Query Kth Smallest Trimmed Number",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "equal-row-and-column-pairs",
+        "number": 2352,
+        "title": "Equal Row and Column Pairs",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-deletions-on-a-string",
+        "number": 2430,
+        "title": "Maximum Deletions on a String",
+        "difficulty": "Hard",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-a-row-wise-sorted-matrix",
+        "number": 2387,
+        "title": "Median of a Row Wise Sorted Matrix",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "determine-the-winner-of-a-bowling-game",
+        "number": 2660,
+        "title": "Determine the Winner of a Bowling Game",
+        "difficulty": "Easy",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "take-gifts-from-the-richest-pile",
+        "number": 2558,
+        "title": "Take Gifts From the Richest Pile",
+        "difficulty": "Easy",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-maximum-divisibility-score",
+        "number": 2644,
+        "title": "Find the Maximum Divisibility Score",
+        "difficulty": "Easy",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-number-of-k-sum-pairs",
+        "number": 1679,
+        "title": "Max Number of K-Sum Pairs",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-string-that-contains-three-strings",
+        "number": 2800,
+        "title": "Shortest String That Contains Three Strings",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-game",
+        "number": 1927,
+        "title": "Sum Game",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorganize-string",
+        "number": 767,
+        "title": "Reorganize String",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-refueling-stops",
+        "number": 871,
+        "title": "Minimum Number of Refueling Stops",
+        "difficulty": "Hard",
+        "frequency": 62.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-binary-substrings",
+        "number": 696,
+        "title": "Count Binary Substrings",
+        "difficulty": "Easy",
+        "frequency": 62.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-building-you-can-reach",
+        "number": 1642,
+        "title": "Furthest Building You Can Reach",
+        "difficulty": "Medium",
+        "frequency": 62.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 58.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 58.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 58.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-smallest-number-in-multiplication-table",
+        "number": 668,
+        "title": "Kth Smallest Number in Multiplication Table",
+        "difficulty": "Hard",
+        "frequency": 58.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 58.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-character-replacement",
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "frequency": 58.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "heaters",
+        "number": 475,
+        "title": "Heaters",
+        "difficulty": "Medium",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-th-symbol-in-grammar",
+        "number": 779,
+        "title": "K-th Symbol in Grammar",
+        "difficulty": "Medium",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-th-smallest-in-lexicographical-order",
+        "number": 440,
+        "title": "K-th Smallest in Lexicographical Order",
+        "difficulty": "Hard",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "consecutive-numbers-sum",
+        "number": 829,
+        "title": "Consecutive Numbers Sum",
+        "difficulty": "Hard",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-subarray-ranges",
+        "number": 2104,
+        "title": "Sum of Subarray Ranges",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-triangular-sum-of-an-array",
+        "number": 2221,
+        "title": "Find Triangular Sum of an Array",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-merge-stones",
+        "number": 1000,
+        "title": "Minimum Cost to Merge Stones",
+        "difficulty": "Hard",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-a-2d-matrix",
+        "number": 74,
+        "title": "Search a 2D Matrix",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-substrings-of-a-string",
+        "number": 2062,
+        "title": "Count Vowel Substrings of a String",
+        "difficulty": "Easy",
+        "frequency": 46.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "put-marbles-in-bags",
+        "number": 2551,
+        "title": "Put Marbles in Bags",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "open-the-lock",
+        "number": 752,
+        "title": "Open the Lock",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-incremovable-subarrays-ii",
+        "number": 2972,
+        "title": "Count the Number of Incremovable Subarrays II",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "4sum",
+        "number": 18,
+        "title": "4 Sum",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-smallest-divisor-given-a-threshold",
+        "number": 1283,
+        "title": "Find the Smallest Divisor Given a Threshold",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-nested-list-iterator",
+        "number": 341,
+        "title": "Flatten Nested List Iterator",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "excel-sheet-column-title",
+        "number": 168,
+        "title": "Excel Sheet Column Title",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-score-of-numbers-in-ranges",
+        "number": 3281,
+        "title": "Maximize Score of Numbers in Ranges",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-leaderboard",
+        "number": 1244,
+        "title": "Design A Leaderboard",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-ways",
+        "number": 91,
+        "title": "Decode Ways",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+        "number": 1434,
+        "title": "Number of Ways to Wear Different Hats to Each Other",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-select-buildings",
+        "number": 2222,
+        "title": "Number of Ways to Select Buildings",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-width-ramp",
+        "number": 962,
+        "title": "Maximum Width Ramp",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "loud-and-rich",
+        "number": 851,
+        "title": "Loud and Rich",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicate-letters",
+        "number": 316,
+        "title": "Remove Duplicate Letters",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-ii",
+        "number": 213,
+        "title": "House Robber II",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "recover-binary-search-tree",
+        "number": 99,
+        "title": "Recover Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "boats-to-save-people",
+        "number": 881,
+        "title": "Boats to Save People",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "all-nodes-distance-k-in-binary-tree",
+        "number": 863,
+        "title": "All Nodes Distance K in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-partitioning",
+        "number": 131,
+        "title": "Palindrome Partitioning",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "number": 1293,
+        "title": "Shortest Path in a Grid with Obstacles Elimination",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-removable-characters",
+        "number": 1898,
+        "title": "Maximum Number of Removable Characters",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-maximum-removals-from-source-string",
+        "number": 3316,
+        "title": "Find Maximum Removals From Source String",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "predict-the-winner",
+        "number": 486,
+        "title": "Predict the Winner",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-closest-elements",
+        "number": 658,
+        "title": "Find K Closest Elements",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+        "number": 1579,
+        "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "create-maximum-number",
+        "number": 321,
+        "title": "Create Maximum Number",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-rectangle",
+        "number": 85,
+        "title": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "frequency": 37.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "D. E. Shaw Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top D. E. Shaw coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/de-shaw",
+    "keywords": [
+      "d. e. shaw interview questions",
+      "d. e. shaw leetcode",
+      "d. e. shaw coding questions",
+      "d. e. shaw online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

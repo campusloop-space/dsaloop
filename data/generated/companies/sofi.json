@@ -1,0 +1,175 @@
+{
+  "type": "company",
+  "slug": "sofi",
+  "name": "Sofi",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Sofi hiring and placement rounds.",
+  "problemCount": 14,
+  "problemSlugs": [
+    "minimum-number-of-steps-to-make-two-strings-anagram",
+    "longest-mountain-in-array",
+    "top-k-frequent-elements",
+    "minimum-window-substring",
+    "insert-delete-getrandom-o1",
+    "number-of-islands",
+    "lru-cache",
+    "maximum-number-of-non-overlapping-palindrome-substrings",
+    "asteroid-collision",
+    "degree-of-an-array",
+    "merge-k-sorted-lists",
+    "meeting-scheduler",
+    "maximum-number-of-alloys",
+    "text-justification"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 9,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+        "number": 1347,
+        "title": "Minimum Number of Steps to Make Two Strings Anagram",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-mountain-in-array",
+        "number": 845,
+        "title": "Longest Mountain in Array",
+        "difficulty": "Medium",
+        "frequency": 91.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 91.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 85.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 85.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+        "number": 2472,
+        "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+        "difficulty": "Hard",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-scheduler",
+        "number": 1229,
+        "title": "Meeting Scheduler",
+        "difficulty": "Medium",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-alloys",
+        "number": 2861,
+        "title": "Maximum Number of Alloys",
+        "difficulty": "Medium",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sofi Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Sofi coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/sofi",
+    "keywords": [
+      "sofi interview questions",
+      "sofi leetcode",
+      "sofi coding questions",
+      "sofi online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "type": "company",
+  "slug": "meesho",
+  "name": "Meesho",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Meesho hiring and placement rounds.",
+  "problemCount": 36,
+  "problemSlugs": [
+    "number-of-unique-xor-triplets-ii",
+    "number-of-unique-xor-triplets-i",
+    "number-of-strings-which-can-be-rearranged-to-contain-substring",
+    "number-of-possible-sets-of-closing-branches",
+    "count-complete-substrings",
+    "design-exam-scores-tracker",
+    "sum-of-perfect-square-ancestors",
+    "rising-temperature",
+    "count-subarrays-with-fixed-bounds",
+    "reach-a-number",
+    "number-of-ways-to-form-a-target-string-given-a-dictionary",
+    "exchange-seats",
+    "minimum-edge-reversals-so-every-node-is-reachable",
+    "design-twitter",
+    "next-permutation",
+    "odd-even-linked-list",
+    "possible-bipartition",
+    "split-array-with-same-average",
+    "distinct-subsequences",
+    "maximum-profit-in-job-scheduling",
+    "minimum-number-of-taps-to-open-to-water-a-garden",
+    "consecutive-numbers",
+    "minimum-time-to-complete-trips",
+    "asteroid-collision",
+    "number-of-visible-people-in-a-queue",
+    "number-of-islands",
+    "3sum",
+    "collect-coins-in-a-tree",
+    "robot-collisions",
+    "minimum-window-substring",
+    "erect-the-fence",
+    "max-points-on-a-line",
+    "maximum-subarray",
+    "subarray-product-less-than-k",
+    "best-time-to-buy-and-sell-stock-ii",
+    "jump-game-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 19,
+    "hard": 16
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "number-of-unique-xor-triplets-ii",
+        "number": 3514,
+        "title": "Number of Unique XOR Triplets II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-unique-xor-triplets-i",
+        "number": 3513,
+        "title": "Number of Unique XOR Triplets I",
+        "difficulty": "Medium",
+        "frequency": 97.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-strings-which-can-be-rearranged-to-contain-substring",
+        "number": 2930,
+        "title": "Number of Strings Which Can Be Rearranged to Contain Substring",
+        "difficulty": "Medium",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-possible-sets-of-closing-branches",
+        "number": 2959,
+        "title": "Number of Possible Sets of Closing Branches",
+        "difficulty": "Hard",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-complete-substrings",
+        "number": 2953,
+        "title": "Count Complete Substrings",
+        "difficulty": "Hard",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-exam-scores-tracker",
+        "number": 3709,
+        "title": "Design Exam Scores Tracker",
+        "difficulty": "Medium",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-perfect-square-ancestors",
+        "number": 3715,
+        "title": "Sum of Perfect Square Ancestors",
+        "difficulty": "Hard",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rising-temperature",
+        "number": 197,
+        "title": "Rising Temperature",
+        "difficulty": "Easy",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-subarrays-with-fixed-bounds",
+        "number": 2444,
+        "title": "Count Subarrays With Fixed Bounds",
+        "difficulty": "Hard",
+        "frequency": 80.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reach-a-number",
+        "number": 754,
+        "title": "Reach a Number",
+        "difficulty": "Medium",
+        "frequency": 80.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+        "number": 1639,
+        "title": "Number of Ways to Form a Target String Given a Dictionary",
+        "difficulty": "Hard",
+        "frequency": 74.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exchange-seats",
+        "number": 626,
+        "title": "Exchange Seats",
+        "difficulty": "Medium",
+        "frequency": 74.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+        "number": 2858,
+        "title": "Minimum Edge Reversals So Every Node Is Reachable",
+        "difficulty": "Hard",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-twitter",
+        "number": 355,
+        "title": "Design Twitter",
+        "difficulty": "Medium",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "odd-even-linked-list",
+        "number": 328,
+        "title": "Odd Even Linked List",
+        "difficulty": "Medium",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "possible-bipartition",
+        "number": 886,
+        "title": "Possible Bipartition",
+        "difficulty": "Medium",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-with-same-average",
+        "number": 805,
+        "title": "Split Array With Same Average",
+        "difficulty": "Hard",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distinct-subsequences",
+        "number": 115,
+        "title": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 67.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+        "number": 1326,
+        "title": "Minimum Number of Taps to Open to Water a Garden",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "consecutive-numbers",
+        "number": 180,
+        "title": "Consecutive Numbers",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-complete-trips",
+        "number": 2187,
+        "title": "Minimum Time to Complete Trips",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-visible-people-in-a-queue",
+        "number": 1944,
+        "title": "Number of Visible People in a Queue",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "collect-coins-in-a-tree",
+        "number": 2603,
+        "title": "Collect Coins in a Tree",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "robot-collisions",
+        "number": 2751,
+        "title": "Robot Collisions",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "erect-the-fence",
+        "number": 587,
+        "title": "Erect the Fence",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-points-on-a-line",
+        "number": 149,
+        "title": "Max Points on a Line",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Meesho Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Meesho coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/meesho",
+    "keywords": [
+      "meesho interview questions",
+      "meesho leetcode",
+      "meesho coding questions",
+      "meesho online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

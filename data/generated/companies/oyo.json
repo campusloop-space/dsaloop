@@ -1,0 +1,125 @@
+{
+  "type": "company",
+  "slug": "oyo",
+  "name": "Oyo",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Oyo hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "koko-eating-bananas",
+    "copy-list-with-random-pointer",
+    "furthest-building-you-can-reach",
+    "house-robber-iii",
+    "merge-k-sorted-lists",
+    "longest-common-prefix",
+    "movement-of-robots",
+    "move-zeroes"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 5,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "movement-of-robots",
+        "number": 2731,
+        "title": "Movement of Robots",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "copy-list-with-random-pointer",
+        "number": 138,
+        "title": "Copy List with Random Pointer",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-building-you-can-reach",
+        "number": 1642,
+        "title": "Furthest Building You Can Reach",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-iii",
+        "number": 337,
+        "title": "House Robber III",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "movement-of-robots",
+        "number": 2731,
+        "title": "Movement of Robots",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Oyo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Oyo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/oyo",
+    "keywords": [
+      "oyo interview questions",
+      "oyo leetcode",
+      "oyo coding questions",
+      "oyo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

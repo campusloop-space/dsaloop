@@ -1,0 +1,195 @@
+{
+  "type": "company",
+  "slug": "zscaler",
+  "name": "Zscaler",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Zscaler hiring and placement rounds.",
+  "problemCount": 16,
+  "problemSlugs": [
+    "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+    "maximum-strong-pair-xor-i",
+    "maximum-strong-pair-xor-ii",
+    "day-of-the-year",
+    "largest-number-after-digit-swaps-by-parity",
+    "optimal-account-balancing",
+    "minimum-replacements-to-sort-the-array",
+    "minimum-increment-to-make-array-unique",
+    "set-matrix-zeroes",
+    "lru-cache",
+    "number-of-divisible-triplet-sums",
+    "word-ladder",
+    "integer-to-english-words",
+    "reverse-nodes-in-k-group",
+    "search-in-rotated-sorted-array",
+    "contains-duplicate"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 6,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+        "number": 3091,
+        "title": "Apply Operations to Make Sum of Array Greater Than or Equal to k",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-strong-pair-xor-i",
+        "number": 2932,
+        "title": "Maximum Strong Pair XOR I",
+        "difficulty": "Easy",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-strong-pair-xor-ii",
+        "number": 2935,
+        "title": "Maximum Strong Pair XOR II",
+        "difficulty": "Hard",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "day-of-the-year",
+        "number": 1154,
+        "title": "Day of the Year",
+        "difficulty": "Easy",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-number-after-digit-swaps-by-parity",
+        "number": 2231,
+        "title": "Largest Number After Digit Swaps by Parity",
+        "difficulty": "Easy",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 85.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-replacements-to-sort-the-array",
+        "number": 2366,
+        "title": "Minimum Replacements to Sort the Array",
+        "difficulty": "Hard",
+        "frequency": 85.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-increment-to-make-array-unique",
+        "number": 945,
+        "title": "Minimum Increment to Make Array Unique",
+        "difficulty": "Medium",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-matrix-zeroes",
+        "number": 73,
+        "title": "Set Matrix Zeroes",
+        "difficulty": "Medium",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-divisible-triplet-sums",
+        "number": 2964,
+        "title": "Number of Divisible Triplet Sums",
+        "difficulty": "Medium",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-english-words",
+        "number": 273,
+        "title": "Integer to English Words",
+        "difficulty": "Hard",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate",
+        "number": 217,
+        "title": "Contains Duplicate",
+        "difficulty": "Easy",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Zscaler Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Zscaler coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/zscaler",
+    "keywords": [
+      "zscaler interview questions",
+      "zscaler leetcode",
+      "zscaler coding questions",
+      "zscaler online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

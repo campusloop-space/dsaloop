@@ -1,0 +1,352 @@
+{
+  "type": "company",
+  "slug": "american-express",
+  "name": "American Express",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in American Express hiring and placement rounds.",
+  "problemCount": 27,
+  "problemSlugs": [
+    "minimum-deletions-to-make-character-frequencies-unique",
+    "divide-an-array-into-subarrays-with-minimum-cost-ii",
+    "ugly-number-iii",
+    "maximum-equal-frequency",
+    "two-sum",
+    "find-a-value-of-a-mysterious-function-closest-to-target",
+    "divide-an-array-into-subarrays-with-minimum-cost-i",
+    "percentage-of-letter-in-string",
+    "maximize-the-topmost-element-after-k-moves",
+    "maximum-xor-after-operations",
+    "equal-sum-arrays-with-minimum-number-of-operations",
+    "valid-anagram",
+    "best-time-to-buy-and-sell-stock",
+    "longest-substring-without-repeating-characters",
+    "minimum-moves-to-spread-stones-over-grid",
+    "longest-common-prefix",
+    "find-n-unique-integers-sum-up-to-zero",
+    "rotate-array",
+    "permutations",
+    "isomorphic-strings",
+    "linked-list-cycle-ii",
+    "check-if-it-is-a-good-array",
+    "sliding-window-maximum",
+    "merge-intervals",
+    "merge-k-sorted-lists",
+    "top-k-frequent-elements",
+    "count-square-submatrices-with-all-ones"
+  ],
+  "difficultyBreakdown": {
+    "easy": 8,
+    "medium": 13,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "minimum-moves-to-spread-stones-over-grid",
+        "number": 2850,
+        "title": "Minimum Moves to Spread Stones Over Grid",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "minimum-moves-to-spread-stones-over-grid",
+        "number": 2850,
+        "title": "Minimum Moves to Spread Stones Over Grid",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 89,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 89,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "minimum-deletions-to-make-character-frequencies-unique",
+        "number": 1647,
+        "title": "Minimum Deletions to Make Character Frequencies Unique",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divide-an-array-into-subarrays-with-minimum-cost-ii",
+        "number": 3013,
+        "title": "Divide an Array Into Subarrays With Minimum Cost II",
+        "difficulty": "Hard",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ugly-number-iii",
+        "number": 1201,
+        "title": "Ugly Number III",
+        "difficulty": "Medium",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-equal-frequency",
+        "number": 1224,
+        "title": "Maximum Equal Frequency",
+        "difficulty": "Hard",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-a-value-of-a-mysterious-function-closest-to-target",
+        "number": 1521,
+        "title": "Find a Value of a Mysterious Function Closest to Target",
+        "difficulty": "Hard",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+        "number": 3010,
+        "title": "Divide an Array Into Subarrays With Minimum Cost I",
+        "difficulty": "Easy",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "percentage-of-letter-in-string",
+        "number": 2278,
+        "title": "Percentage of Letter in String",
+        "difficulty": "Easy",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-the-topmost-element-after-k-moves",
+        "number": 2202,
+        "title": "Maximize the Topmost Element After K Moves",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-xor-after-operations",
+        "number": 2317,
+        "title": "Maximum XOR After Operations",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "equal-sum-arrays-with-minimum-number-of-operations",
+        "number": 1775,
+        "title": "Equal Sum Arrays With Minimum Number of Operations",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 78.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 74.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 69,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-moves-to-spread-stones-over-grid",
+        "number": 2850,
+        "title": "Minimum Moves to Spread Stones Over Grid",
+        "difficulty": "Medium",
+        "frequency": 69,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-n-unique-integers-sum-up-to-zero",
+        "number": 1304,
+        "title": "Find N Unique Integers Sum up to Zero",
+        "difficulty": "Easy",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "isomorphic-strings",
+        "number": 205,
+        "title": "Isomorphic Strings",
+        "difficulty": "Easy",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle-ii",
+        "number": 142,
+        "title": "Linked List Cycle II",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-it-is-a-good-array",
+        "number": 1250,
+        "title": "Check If It Is a Good Array",
+        "difficulty": "Hard",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-square-submatrices-with-all-ones",
+        "number": 1277,
+        "title": "Count Square Submatrices with All Ones",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "American Express Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top American Express coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/american-express",
+    "keywords": [
+      "american express interview questions",
+      "american express leetcode",
+      "american express coding questions",
+      "american express online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

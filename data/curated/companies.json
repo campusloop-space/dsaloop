@@ -1,12 +1,927 @@
 [
-  { "slug": "google", "name": "Google", "description": "Graph, systems thinking, and clean complexity analysis are heavily tested." },
-  { "slug": "meta", "name": "Meta", "description": "Product-focused coding rounds with arrays, graphs, and design hybrids." },
-  { "slug": "amazon", "name": "Amazon", "description": "Leadership principles plus OA-style arrays, trees, and greedy problems." },
-  { "slug": "apple", "name": "Apple", "description": "Solid fundamentals across trees, recursion, and low-level clarity." },
-  { "slug": "microsoft", "name": "Microsoft", "description": "Classic DSA with trees, DP, and string processing." },
-  { "slug": "netflix", "name": "Netflix", "description": "High bar on system design plus strong algorithmic coding." },
-  { "slug": "uber", "name": "Uber", "description": "Graphs, geo/interval thinking, and practical coding speed." },
-  { "slug": "linkedin", "name": "LinkedIn", "description": "Graphs, two pointers, and production-minded solutions." },
-  { "slug": "bloomberg", "name": "Bloomberg", "description": "C++/systems flavor with arrays, strings, and OOP design." },
-  { "slug": "adobe", "name": "Adobe", "description": "Classic interview set spanning DP, trees, and bit tricks." }
+  {
+    "slug": "google",
+    "name": "Google",
+    "description": "Graph, systems thinking, dynamic programming, and clean complexity analysis are heavily tested in Google technical interviews."
+  },
+  {
+    "slug": "amazon",
+    "name": "Amazon",
+    "description": "Leadership principles paired with OA-style arrays, trees, heaps, and greedy algorithms."
+  },
+  {
+    "slug": "meta",
+    "name": "Meta",
+    "description": "Product-focused coding rounds with arrays, graphs, trees, and system design hybrids."
+  },
+  {
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "description": "Classic data structures and algorithms with binary trees, DP, strings, and linked lists."
+  },
+  {
+    "slug": "bloomberg",
+    "name": "Bloomberg",
+    "description": "High-performance systems flavor with arrays, strings, hash maps, queues, and object-oriented design."
+  },
+  {
+    "slug": "uber",
+    "name": "Uber",
+    "description": "Graph algorithms, geospatial and interval math, BFS/DFS, and practical coding speed under pressure."
+  },
+  {
+    "slug": "tiktok",
+    "name": "TikTok",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in TikTok hiring and placement rounds."
+  },
+  {
+    "slug": "oracle",
+    "name": "Oracle",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Oracle hiring and placement rounds."
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "description": "Solid computer science fundamentals across trees, recursion, memory efficiency, and low-level clarity."
+  },
+  {
+    "slug": "tcs",
+    "name": "TCS",
+    "description": "Common campus placement and NQT coding questions focusing on arrays, strings, and fundamental math."
+  },
+  {
+    "slug": "infosys",
+    "name": "Infosys",
+    "description": "InfyTQ and HackWithInfy problems spanning arrays, dynamic programming, recursion, and string manipulation."
+  },
+  {
+    "slug": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "description": "Math, dynamic programming, arrays, and high-frequency quantitative coding problems."
+  },
+  {
+    "slug": "salesforce",
+    "name": "Salesforce",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Salesforce hiring and placement rounds."
+  },
+  {
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "description": "Graphs, two pointers, sliding window, and scalable production-minded solutions."
+  },
+  {
+    "slug": "ibm",
+    "name": "IBM",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in IBM hiring and placement rounds."
+  },
+  {
+    "slug": "visa",
+    "name": "Visa",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Visa hiring and placement rounds."
+  },
+  {
+    "slug": "adobe",
+    "name": "Adobe",
+    "description": "Classic interview sets spanning dynamic programming, binary trees, bit manipulation, and math."
+  },
+  {
+    "slug": "zoho",
+    "name": "Zoho",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zoho hiring and placement rounds."
+  },
+  {
+    "slug": "walmart-labs",
+    "name": "Walmart Labs",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Walmart Labs hiring and placement rounds."
+  },
+  {
+    "slug": "nvidia",
+    "name": "Nvidia",
+    "description": "Low-level algorithms, bit manipulation, memory management, and parallel computing logic."
+  },
+  {
+    "slug": "yandex",
+    "name": "Yandex",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Yandex hiring and placement rounds."
+  },
+  {
+    "slug": "de-shaw",
+    "name": "D. E. Shaw",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in D. E. Shaw hiring and placement rounds."
+  },
+  {
+    "slug": "accenture",
+    "name": "Accenture",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Accenture hiring and placement rounds."
+  },
+  {
+    "slug": "snowflake",
+    "name": "Snowflake",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Snowflake hiring and placement rounds."
+  },
+  {
+    "slug": "paypal",
+    "name": "PayPal",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in PayPal hiring and placement rounds."
+  },
+  {
+    "slug": "flipkart",
+    "name": "Flipkart",
+    "description": "System design, recursion, DP, and greedy problem sets for SDE-1 and SDE-2 campus hiring."
+  },
+  {
+    "slug": "phonepe",
+    "name": "PhonePe",
+    "description": "Data structures, modular OOP design, low-level design (LLD), and clean problem-solving."
+  },
+  {
+    "slug": "snap",
+    "name": "Snapchat",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Snapchat hiring and placement rounds."
+  },
+  {
+    "slug": "cisco",
+    "name": "Cisco",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Cisco hiring and placement rounds."
+  },
+  {
+    "slug": "citadel",
+    "name": "Citadel",
+    "description": "Extremely rigorous algorithmic and quantitative coding rounds covering advanced graphs, DP, and math."
+  },
+  {
+    "slug": "doordash",
+    "name": "DoorDash",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in DoorDash hiring and placement rounds."
+  },
+  {
+    "slug": "nutanix",
+    "name": "Nutanix",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nutanix hiring and placement rounds."
+  },
+  {
+    "slug": "expedia",
+    "name": "Expedia",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Expedia hiring and placement rounds."
+  },
+  {
+    "slug": "ebay",
+    "name": "Ebay",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ebay hiring and placement rounds."
+  },
+  {
+    "slug": "servicenow",
+    "name": "ServiceNow",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in ServiceNow hiring and placement rounds."
+  },
+  {
+    "slug": "airbnb",
+    "name": "Airbnb",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Airbnb hiring and placement rounds."
+  },
+  {
+    "slug": "capital-one",
+    "name": "Capital One",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Capital One hiring and placement rounds."
+  },
+  {
+    "slug": "bytedance",
+    "name": "ByteDance",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in ByteDance hiring and placement rounds."
+  },
+  {
+    "slug": "morgan-stanley",
+    "name": "Morgan Stanley",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Morgan Stanley hiring and placement rounds."
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Roblox hiring and placement rounds."
+  },
+  {
+    "slug": "anduril",
+    "name": "Anduril",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Anduril hiring and placement rounds."
+  },
+  {
+    "slug": "atlassian",
+    "name": "Atlassian",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Atlassian hiring and placement rounds."
+  },
+  {
+    "slug": "intuit",
+    "name": "Intuit",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Intuit hiring and placement rounds."
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Samsung hiring and placement rounds."
+  },
+  {
+    "slug": "epam-systems",
+    "name": "Epam Systems",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Epam Systems hiring and placement rounds."
+  },
+  {
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Qualcomm hiring and placement rounds."
+  },
+  {
+    "slug": "wix",
+    "name": "Wix",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wix hiring and placement rounds."
+  },
+  {
+    "slug": "x",
+    "name": "X (Twitter)",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in X (Twitter) hiring and placement rounds."
+  },
+  {
+    "slug": "cognizant",
+    "name": "Cognizant",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Cognizant hiring and placement rounds."
+  },
+  {
+    "slug": "palo-alto-networks",
+    "name": "Palo Alto Networks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Palo Alto Networks hiring and placement rounds."
+  },
+  {
+    "slug": "coupang",
+    "name": "Coupang",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Coupang hiring and placement rounds."
+  },
+  {
+    "slug": "sprinklr",
+    "name": "Sprinklr",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sprinklr hiring and placement rounds."
+  },
+  {
+    "slug": "deloitte",
+    "name": "Deloitte",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Deloitte hiring and placement rounds."
+  },
+  {
+    "slug": "pinterest",
+    "name": "Pinterest",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pinterest hiring and placement rounds."
+  },
+  {
+    "slug": "tesla",
+    "name": "Tesla",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Tesla hiring and placement rounds."
+  },
+  {
+    "slug": "agoda",
+    "name": "Agoda",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Agoda hiring and placement rounds."
+  },
+  {
+    "slug": "arista-networks",
+    "name": "Arista Networks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Arista Networks hiring and placement rounds."
+  },
+  {
+    "slug": "media-net",
+    "name": "Media.net",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Media.net hiring and placement rounds."
+  },
+  {
+    "slug": "meesho",
+    "name": "Meesho",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Meesho hiring and placement rounds."
+  },
+  {
+    "slug": "swiggy",
+    "name": "Swiggy",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Swiggy hiring and placement rounds."
+  },
+  {
+    "slug": "sap",
+    "name": "Sap",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sap hiring and placement rounds."
+  },
+  {
+    "slug": "josh-technology",
+    "name": "Josh Technology",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Josh Technology hiring and placement rounds."
+  },
+  {
+    "slug": "autodesk",
+    "name": "Autodesk",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Autodesk hiring and placement rounds."
+  },
+  {
+    "slug": "capgemini",
+    "name": "Capgemini",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Capgemini hiring and placement rounds."
+  },
+  {
+    "slug": "rubrik",
+    "name": "Rubrik",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rubrik hiring and placement rounds."
+  },
+  {
+    "slug": "rippling",
+    "name": "Rippling",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rippling hiring and placement rounds."
+  },
+  {
+    "slug": "zomato",
+    "name": "Zomato",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zomato hiring and placement rounds."
+  },
+  {
+    "slug": "squarepoint-capital",
+    "name": "Squarepoint Capital",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Squarepoint Capital hiring and placement rounds."
+  },
+  {
+    "slug": "yahoo",
+    "name": "Yahoo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Yahoo hiring and placement rounds."
+  },
+  {
+    "slug": "docusign",
+    "name": "Docusign",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Docusign hiring and placement rounds."
+  },
+  {
+    "slug": "hashedin",
+    "name": "Hashedin",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Hashedin hiring and placement rounds."
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "description": "High bar on system design, concurrency, streaming architectures, and clean algorithmic problem-solving."
+  },
+  {
+    "slug": "tekion",
+    "name": "Tekion",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Tekion hiring and placement rounds."
+  },
+  {
+    "slug": "waymo",
+    "name": "Waymo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Waymo hiring and placement rounds."
+  },
+  {
+    "slug": "yelp",
+    "name": "Yelp",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Yelp hiring and placement rounds."
+  },
+  {
+    "slug": "american-express",
+    "name": "American Express",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in American Express hiring and placement rounds."
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Grammarly hiring and placement rounds."
+  },
+  {
+    "slug": "mathworks",
+    "name": "Mathworks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mathworks hiring and placement rounds."
+  },
+  {
+    "slug": "turing",
+    "name": "Turing",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Turing hiring and placement rounds."
+  },
+  {
+    "slug": "zeta",
+    "name": "Zeta",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zeta hiring and placement rounds."
+  },
+  {
+    "slug": "databricks",
+    "name": "Databricks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Databricks hiring and placement rounds."
+  },
+  {
+    "slug": "mongodb",
+    "name": "Mongodb",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mongodb hiring and placement rounds."
+  },
+  {
+    "slug": "paytm",
+    "name": "Paytm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Paytm hiring and placement rounds."
+  },
+  {
+    "slug": "lyft",
+    "name": "Lyft",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Lyft hiring and placement rounds."
+  },
+  {
+    "slug": "okta",
+    "name": "Okta",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Okta hiring and placement rounds."
+  },
+  {
+    "slug": "dropbox",
+    "name": "Dropbox",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dropbox hiring and placement rounds."
+  },
+  {
+    "slug": "siemens",
+    "name": "Siemens",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Siemens hiring and placement rounds."
+  },
+  {
+    "slug": "zenefits",
+    "name": "Zenefits",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zenefits hiring and placement rounds."
+  },
+  {
+    "slug": "wells-fargo",
+    "name": "Wells Fargo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wells Fargo hiring and placement rounds."
+  },
+  {
+    "slug": "barclays",
+    "name": "Barclays",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Barclays hiring and placement rounds."
+  },
+  {
+    "slug": "deutsche-bank",
+    "name": "Deutsche Bank",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Deutsche Bank hiring and placement rounds."
+  },
+  {
+    "slug": "juspay",
+    "name": "Juspay",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Juspay hiring and placement rounds."
+  },
+  {
+    "slug": "quora",
+    "name": "Quora",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Quora hiring and placement rounds."
+  },
+  {
+    "slug": "tinkoff",
+    "name": "Tinkoff",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Tinkoff hiring and placement rounds."
+  },
+  {
+    "slug": "two-sigma",
+    "name": "Two Sigma",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Two Sigma hiring and placement rounds."
+  },
+  {
+    "slug": "bny-mellon",
+    "name": "Bny Mellon",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Bny Mellon hiring and placement rounds."
+  },
+  {
+    "slug": "openai",
+    "name": "Openai",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Openai hiring and placement rounds."
+  },
+  {
+    "slug": "roku",
+    "name": "Roku",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Roku hiring and placement rounds."
+  },
+  {
+    "slug": "wipro",
+    "name": "Wipro",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wipro hiring and placement rounds."
+  },
+  {
+    "slug": "amd",
+    "name": "AMD",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in AMD hiring and placement rounds."
+  },
+  {
+    "slug": "accolite",
+    "name": "Accolite",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Accolite hiring and placement rounds."
+  },
+  {
+    "slug": "akuna-capital",
+    "name": "Akuna Capital",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Akuna Capital hiring and placement rounds."
+  },
+  {
+    "slug": "booking-com",
+    "name": "Booking.com",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Booking.com hiring and placement rounds."
+  },
+  {
+    "slug": "hcl",
+    "name": "HCLTech",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in HCLTech hiring and placement rounds."
+  },
+  {
+    "slug": "ixl",
+    "name": "Ixl",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ixl hiring and placement rounds."
+  },
+  {
+    "slug": "myntra",
+    "name": "Myntra",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Myntra hiring and placement rounds."
+  },
+  {
+    "slug": "verkada",
+    "name": "Verkada",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Verkada hiring and placement rounds."
+  },
+  {
+    "slug": "epic-systems",
+    "name": "Epic Systems",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Epic Systems hiring and placement rounds."
+  },
+  {
+    "slug": "grab",
+    "name": "Grab",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Grab hiring and placement rounds."
+  },
+  {
+    "slug": "hudson-river-trading",
+    "name": "Hudson River Trading",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Hudson River Trading hiring and placement rounds."
+  },
+  {
+    "slug": "wayfair",
+    "name": "Wayfair",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wayfair hiring and placement rounds."
+  },
+  {
+    "slug": "zscaler",
+    "name": "Zscaler",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zscaler hiring and placement rounds."
+  },
+  {
+    "slug": "akamai",
+    "name": "Akamai",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Akamai hiring and placement rounds."
+  },
+  {
+    "slug": "geico",
+    "name": "Geico",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Geico hiring and placement rounds."
+  },
+  {
+    "slug": "intel",
+    "name": "Intel",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Intel hiring and placement rounds."
+  },
+  {
+    "slug": "robinhood",
+    "name": "Robinhood",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Robinhood hiring and placement rounds."
+  },
+  {
+    "slug": "sigmoid",
+    "name": "Sigmoid",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sigmoid hiring and placement rounds."
+  },
+  {
+    "slug": "spotify",
+    "name": "Spotify",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Spotify hiring and placement rounds."
+  },
+  {
+    "slug": "arcesium",
+    "name": "Arcesium",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Arcesium hiring and placement rounds."
+  },
+  {
+    "slug": "dell",
+    "name": "Dell",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dell hiring and placement rounds."
+  },
+  {
+    "slug": "pocket-gems",
+    "name": "Pocket Gems",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pocket Gems hiring and placement rounds."
+  },
+  {
+    "slug": "sofi",
+    "name": "Sofi",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sofi hiring and placement rounds."
+  },
+  {
+    "slug": "zopsmart",
+    "name": "Zopsmart",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zopsmart hiring and placement rounds."
+  },
+  {
+    "slug": "bitgo",
+    "name": "Bitgo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Bitgo hiring and placement rounds."
+  },
+  {
+    "slug": "general-motors",
+    "name": "General Motors",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in General Motors hiring and placement rounds."
+  },
+  {
+    "slug": "huawei",
+    "name": "Huawei",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Huawei hiring and placement rounds."
+  },
+  {
+    "slug": "inmobi",
+    "name": "Inmobi",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Inmobi hiring and placement rounds."
+  },
+  {
+    "slug": "jane-street",
+    "name": "Jane Street",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Jane Street hiring and placement rounds."
+  },
+  {
+    "slug": "makemytrip",
+    "name": "Makemytrip",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Makemytrip hiring and placement rounds."
+  },
+  {
+    "slug": "mastercard",
+    "name": "Mastercard",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mastercard hiring and placement rounds."
+  },
+  {
+    "slug": "nuro",
+    "name": "Nuro",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nuro hiring and placement rounds."
+  },
+  {
+    "slug": "uipath",
+    "name": "Uipath",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Uipath hiring and placement rounds."
+  },
+  {
+    "slug": "crowdstrike",
+    "name": "Crowdstrike",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Crowdstrike hiring and placement rounds."
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Datadog hiring and placement rounds."
+  },
+  {
+    "slug": "moloco",
+    "name": "Moloco",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Moloco hiring and placement rounds."
+  },
+  {
+    "slug": "netapp",
+    "name": "Netapp",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Netapp hiring and placement rounds."
+  },
+  {
+    "slug": "ozon",
+    "name": "Ozon",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ozon hiring and placement rounds."
+  },
+  {
+    "slug": "stripe",
+    "name": "Stripe",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Stripe hiring and placement rounds."
+  },
+  {
+    "slug": "vk",
+    "name": "Vk",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Vk hiring and placement rounds."
+  },
+  {
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Cloudflare hiring and placement rounds."
+  },
+  {
+    "slug": "coinbase",
+    "name": "Coinbase",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Coinbase hiring and placement rounds."
+  },
+  {
+    "slug": "dp-world",
+    "name": "Dp World",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dp World hiring and placement rounds."
+  },
+  {
+    "slug": "dream11",
+    "name": "Dream11",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dream11 hiring and placement rounds."
+  },
+  {
+    "slug": "nokia",
+    "name": "Nokia",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nokia hiring and placement rounds."
+  },
+  {
+    "slug": "twilio",
+    "name": "Twilio",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Twilio hiring and placement rounds."
+  },
+  {
+    "slug": "ukg",
+    "name": "Ukg",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ukg hiring and placement rounds."
+  },
+  {
+    "slug": "whatnot",
+    "name": "Whatnot",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Whatnot hiring and placement rounds."
+  },
+  {
+    "slug": "wissen-technology",
+    "name": "Wissen Technology",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wissen Technology hiring and placement rounds."
+  },
+  {
+    "slug": "razorpay",
+    "name": "Razorpay",
+    "description": "Fintech engineering rounds focusing on concurrency, transaction flows, and algorithmic correctness."
+  },
+  {
+    "slug": "affirm",
+    "name": "Affirm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Affirm hiring and placement rounds."
+  },
+  {
+    "slug": "applied-intuition",
+    "name": "Applied Intuition",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Applied Intuition hiring and placement rounds."
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Aurora hiring and placement rounds."
+  },
+  {
+    "slug": "baidu",
+    "name": "Baidu",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Baidu hiring and placement rounds."
+  },
+  {
+    "slug": "criteo",
+    "name": "Criteo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Criteo hiring and placement rounds."
+  },
+  {
+    "slug": "freshworks",
+    "name": "Freshworks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Freshworks hiring and placement rounds."
+  },
+  {
+    "slug": "hubspot",
+    "name": "Hubspot",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Hubspot hiring and placement rounds."
+  },
+  {
+    "slug": "karat",
+    "name": "Karat",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Karat hiring and placement rounds."
+  },
+  {
+    "slug": "lti",
+    "name": "Lti",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Lti hiring and placement rounds."
+  },
+  {
+    "slug": "millennium",
+    "name": "Millennium",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Millennium hiring and placement rounds."
+  },
+  {
+    "slug": "mitsogo",
+    "name": "Mitsogo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mitsogo hiring and placement rounds."
+  },
+  {
+    "slug": "paypay",
+    "name": "Paypay",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Paypay hiring and placement rounds."
+  },
+  {
+    "slug": "pornhub",
+    "name": "Pornhub",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pornhub hiring and placement rounds."
+  },
+  {
+    "slug": "revolut",
+    "name": "Revolut",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Revolut hiring and placement rounds."
+  },
+  {
+    "slug": "sig",
+    "name": "Sig",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sig hiring and placement rounds."
+  },
+  {
+    "slug": "weride",
+    "name": "Weride",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Weride hiring and placement rounds."
+  },
+  {
+    "slug": "blackrock",
+    "name": "Blackrock",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Blackrock hiring and placement rounds."
+  },
+  {
+    "slug": "confluent",
+    "name": "Confluent",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Confluent hiring and placement rounds."
+  },
+  {
+    "slug": "coursera",
+    "name": "Coursera",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Coursera hiring and placement rounds."
+  },
+  {
+    "slug": "disney",
+    "name": "Disney",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Disney hiring and placement rounds."
+  },
+  {
+    "slug": "instacart",
+    "name": "Instacart",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Instacart hiring and placement rounds."
+  },
+  {
+    "slug": "publicis-sapient",
+    "name": "Publicis Sapient",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Publicis Sapient hiring and placement rounds."
+  },
+  {
+    "slug": "virtu-financial",
+    "name": "Virtu Financial",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Virtu Financial hiring and placement rounds."
+  },
+  {
+    "slug": "avito",
+    "name": "Avito",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Avito hiring and placement rounds."
+  },
+  {
+    "slug": "axon",
+    "name": "Axon",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Axon hiring and placement rounds."
+  },
+  {
+    "slug": "directi",
+    "name": "Directi",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Directi hiring and placement rounds."
+  },
+  {
+    "slug": "kla",
+    "name": "Kla",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Kla hiring and placement rounds."
+  },
+  {
+    "slug": "microstrategy",
+    "name": "Microstrategy",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Microstrategy hiring and placement rounds."
+  },
+  {
+    "slug": "nagarro",
+    "name": "Nagarro",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nagarro hiring and placement rounds."
+  },
+  {
+    "slug": "pure-storage",
+    "name": "Pure Storage",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pure Storage hiring and placement rounds."
+  },
+  {
+    "slug": "rakuten",
+    "name": "Rakuten",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rakuten hiring and placement rounds."
+  },
+  {
+    "slug": "rivian",
+    "name": "Rivian",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rivian hiring and placement rounds."
+  },
+  {
+    "slug": "splunk",
+    "name": "Splunk",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Splunk hiring and placement rounds."
+  },
+  {
+    "slug": "teradata",
+    "name": "Teradata",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Teradata hiring and placement rounds."
+  },
+  {
+    "slug": "oyo",
+    "name": "Oyo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Oyo hiring and placement rounds."
+  },
+  {
+    "slug": "vmware",
+    "name": "VMware",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in VMware hiring and placement rounds."
+  }
 ]

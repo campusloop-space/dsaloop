@@ -1,0 +1,92 @@
+{
+  "chapterNumber": 2,
+  "slug": "back-of-the-envelope-estimation",
+  "title": "Back-of-the-Envelope Estimation",
+  "subtitle": "Comprehensive interview guide for Back-of-the-Envelope Estimation. Architecture, trade-offs, and key deep dives.",
+  "readTimeMinutes": 3,
+  "tags": [
+    "Estimation",
+    "Math",
+    "Capacity Planning"
+  ],
+  "imagesCount": 1,
+  "markdown": "## Introduction\nBack-of-the-envelope estimation is a crucial skill in system design interviews. It involves making quick, rough calculations to assess system capacity or performance. According to Jeff Dean, Google Senior Fellow, these estimates help evaluate whether designs meet requirements through thought experiments and common performance benchmarks.\n\nThis chapter covers key concepts, methodologies, and examples to build proficiency in scalability and estimation.\n\n---\n\n## Section 1: Key Concepts\n\n### Power of Two\nUnderstanding data volume in terms of powers of two is fundamental:\n\n\n\n![power-of-two](/system-design-assets/back-of-the-envelope-estimation/images/power-of-two.png)\n\n\n\nThis knowledge helps in performing accurate storage and bandwidth calculations.\n\n---\n\n### Latency Numbers Every Programmer Should Know\nLatency numbers represent the time taken for various operations in computing systems. These provide insights into relative performance:\n\n| Operation                | Latency (2020) |\n|--------------------------|----------------|\n| L1 Cache Access          | 0.5 ns         |\n| L2 Cache Access          | 7 ns           |\n| Main Memory Access       | 100 ns         |\n| SSD Random Read          | 150 µs         |\n| HDD Random Seek          | 10 ms          |\n| Round-Trip in Data Center| 500 µs         |\n| Inter-Region Data Center | 150 ms         |\n\n**Key Insights:**\n- Memory is fast, disk is slow.\n- Avoid disk seeks whenever possible.\n- Compress data before transmitting over the internet to save bandwidth.\n\n\n---\n\n### Availability Numbers\nHigh availability (HA) ensures minimal downtime. Availability is expressed in **nines**:\n- **99% (Two Nines):** ~3.65 days/year of downtime\n- **99.9% (Three Nines):** ~8.8 hours/year of downtime\n- **99.99% (Four Nines):** ~52 minutes/year of downtime\n- **99.999% (Five Nines):** ~5.3 minutes/year of downtime\n- **99.9999% (Six Nines):** ~31.56 seconds/year of downtime\n\n\nCloud providers like Amazon, Google, and Microsoft aim for SLAs (Service Level Agreements) of **99.9% or higher**.\n\n---\n\n## Section 2: Example Estimation - Twitter QPS and Storage Requirements\n\n### Assumptions\n- **300 million monthly active users (MAU).**\n- **50% daily active users (DAU).**\n- **Average tweets/user/day:** 2.\n- **10% of tweets contain media.**\n- **Data retention:** 5 years.\n\n### Estimations\n1. **Query Per Second (QPS):**\n   - DAU = \\( 300M x 50\\% = 150M \\)\n   - Tweets QPS = \\( 150M x 2 tweets / 24 hour / 3600 seconds = ~3500 )\n   - Peak QPS = \\( 2 x 3500 = ~7000 \\)\n\n2. **Media Storage:**\n   - **Tweet Size Components:**\n     - `tweet_id`: 64 bytes\n     - `text`: 140 bytes\n     - `media`: 1 MB\n   - **Daily Media Storage:** \\( 150M x 2 x 10\\% x 1MB = 30TB per day \\)\n   - **5-Year Storage:** \\( 30TB x 365 x 5 = ~55PB \\)\n\n---\n\n## Section 3: Tips for Effective Estimation\n\n### 1. Rounding and Approximation\nPrecision is not critical; focus on the process. Simplify complex calculations using round numbers. For example:\n- \\( 99987 / 9.1 \\) can be approximated as \\( 100,000 / 10 = 10,000 \\).\n\n### 2. Write Down Assumptions\nDocument assumptions clearly for future reference.\n\n### 3. Label Units\nAvoid ambiguity by labeling units (e.g., `5 MB` instead of `5`).\n\n### 4. Common Estimation Scenarios\n- **QPS (Queries Per Second):** Measure traffic intensity.\n- **Peak QPS:** Account for traffic spikes.\n- **Storage Requirements:** Estimate total data needs.\n- **Cache Requirements:** Evaluate memory requirements for caching.\n- **Number of Servers:** Calculate hardware needs based on workload.\n\n---\n\n> 🎓 **DSALoop by [CampusLoop](https://campusloop.space/)** — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.",
+  "html": "<h2>Introduction</h2>\n<p>Back-of-the-envelope estimation is a crucial skill in system design interviews. It involves making quick, rough calculations to assess system capacity or performance. According to Jeff Dean, Google Senior Fellow, these estimates help evaluate whether designs meet requirements through thought experiments and common performance benchmarks.</p>\n<p>This chapter covers key concepts, methodologies, and examples to build proficiency in scalability and estimation.</p>\n<hr>\n<h2>Section 1: Key Concepts</h2>\n<h3>Power of Two</h3>\n<p>Understanding data volume in terms of powers of two is fundamental:</p>\n<p><img src=\"/system-design-assets/back-of-the-envelope-estimation/images/power-of-two.png\" alt=\"power-of-two\"></p>\n<p>This knowledge helps in performing accurate storage and bandwidth calculations.</p>\n<hr>\n<h3>Latency Numbers Every Programmer Should Know</h3>\n<p>Latency numbers represent the time taken for various operations in computing systems. These provide insights into relative performance:</p>\n<table>\n<thead>\n<tr>\n<th>Operation</th>\n<th>Latency (2020)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>L1 Cache Access</td>\n<td>0.5 ns</td>\n</tr>\n<tr>\n<td>L2 Cache Access</td>\n<td>7 ns</td>\n</tr>\n<tr>\n<td>Main Memory Access</td>\n<td>100 ns</td>\n</tr>\n<tr>\n<td>SSD Random Read</td>\n<td>150 µs</td>\n</tr>\n<tr>\n<td>HDD Random Seek</td>\n<td>10 ms</td>\n</tr>\n<tr>\n<td>Round-Trip in Data Center</td>\n<td>500 µs</td>\n</tr>\n<tr>\n<td>Inter-Region Data Center</td>\n<td>150 ms</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Key Insights:</strong></p>\n<ul>\n<li>Memory is fast, disk is slow.</li>\n<li>Avoid disk seeks whenever possible.</li>\n<li>Compress data before transmitting over the internet to save bandwidth.</li>\n</ul>\n<hr>\n<h3>Availability Numbers</h3>\n<p>High availability (HA) ensures minimal downtime. Availability is expressed in <strong>nines</strong>:</p>\n<ul>\n<li><strong>99% (Two Nines):</strong> ~3.65 days/year of downtime</li>\n<li><strong>99.9% (Three Nines):</strong> ~8.8 hours/year of downtime</li>\n<li><strong>99.99% (Four Nines):</strong> ~52 minutes/year of downtime</li>\n<li><strong>99.999% (Five Nines):</strong> ~5.3 minutes/year of downtime</li>\n<li><strong>99.9999% (Six Nines):</strong> ~31.56 seconds/year of downtime</li>\n</ul>\n<p>Cloud providers like Amazon, Google, and Microsoft aim for SLAs (Service Level Agreements) of <strong>99.9% or higher</strong>.</p>\n<hr>\n<h2>Section 2: Example Estimation - Twitter QPS and Storage Requirements</h2>\n<h3>Assumptions</h3>\n<ul>\n<li><strong>300 million monthly active users (MAU).</strong></li>\n<li><strong>50% daily active users (DAU).</strong></li>\n<li><strong>Average tweets/user/day:</strong> 2.</li>\n<li><strong>10% of tweets contain media.</strong></li>\n<li><strong>Data retention:</strong> 5 years.</li>\n</ul>\n<h3>Estimations</h3>\n<ol>\n<li>\n<p><strong>Query Per Second (QPS):</strong></p>\n<ul>\n<li>DAU = ( 300M x 50% = 150M )</li>\n<li>Tweets QPS = ( 150M x 2 tweets / 24 hour / 3600 seconds = ~3500 )</li>\n<li>Peak QPS = ( 2 x 3500 = ~7000 )</li>\n</ul>\n</li>\n<li>\n<p><strong>Media Storage:</strong></p>\n<ul>\n<li><strong>Tweet Size Components:</strong>\n<ul>\n<li><code>tweet_id</code>: 64 bytes</li>\n<li><code>text</code>: 140 bytes</li>\n<li><code>media</code>: 1 MB</li>\n</ul>\n</li>\n<li><strong>Daily Media Storage:</strong> ( 150M x 2 x 10% x 1MB = 30TB per day )</li>\n<li><strong>5-Year Storage:</strong> ( 30TB x 365 x 5 = ~55PB )</li>\n</ul>\n</li>\n</ol>\n<hr>\n<h2>Section 3: Tips for Effective Estimation</h2>\n<h3>1. Rounding and Approximation</h3>\n<p>Precision is not critical; focus on the process. Simplify complex calculations using round numbers. For example:</p>\n<ul>\n<li>( 99987 / 9.1 ) can be approximated as ( 100,000 / 10 = 10,000 ).</li>\n</ul>\n<h3>2. Write Down Assumptions</h3>\n<p>Document assumptions clearly for future reference.</p>\n<h3>3. Label Units</h3>\n<p>Avoid ambiguity by labeling units (e.g., <code>5 MB</code> instead of <code>5</code>).</p>\n<h3>4. Common Estimation Scenarios</h3>\n<ul>\n<li><strong>QPS (Queries Per Second):</strong> Measure traffic intensity.</li>\n<li><strong>Peak QPS:</strong> Account for traffic spikes.</li>\n<li><strong>Storage Requirements:</strong> Estimate total data needs.</li>\n<li><strong>Cache Requirements:</strong> Evaluate memory requirements for caching.</li>\n<li><strong>Number of Servers:</strong> Calculate hardware needs based on workload.</li>\n</ul>\n<hr>\n<blockquote>\n<p>🎓 <strong>DSALoop by <a href=\"https://campusloop.space/\">CampusLoop</a></strong> — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.</p>\n</blockquote>\n",
+  "tableOfContents": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2
+    },
+    {
+      "id": "section-1-key-concepts",
+      "title": "Section 1: Key Concepts",
+      "level": 2
+    },
+    {
+      "id": "power-of-two",
+      "title": "Power of Two",
+      "level": 3
+    },
+    {
+      "id": "latency-numbers-every-programmer-should-know",
+      "title": "Latency Numbers Every Programmer Should Know",
+      "level": 3
+    },
+    {
+      "id": "availability-numbers",
+      "title": "Availability Numbers",
+      "level": 3
+    },
+    {
+      "id": "section-2-example-estimation-twitter-qps-and-storage-requirements",
+      "title": "Section 2: Example Estimation - Twitter QPS and Storage Requirements",
+      "level": 2
+    },
+    {
+      "id": "assumptions",
+      "title": "Assumptions",
+      "level": 3
+    },
+    {
+      "id": "estimations",
+      "title": "Estimations",
+      "level": 3
+    },
+    {
+      "id": "section-3-tips-for-effective-estimation",
+      "title": "Section 3: Tips for Effective Estimation",
+      "level": 2
+    },
+    {
+      "id": "1-rounding-and-approximation",
+      "title": "1. Rounding and Approximation",
+      "level": 3
+    },
+    {
+      "id": "2-write-down-assumptions",
+      "title": "2. Write Down Assumptions",
+      "level": 3
+    },
+    {
+      "id": "3-label-units",
+      "title": "3. Label Units",
+      "level": 3
+    },
+    {
+      "id": "4-common-estimation-scenarios",
+      "title": "4. Common Estimation Scenarios",
+      "level": 3
+    }
+  ],
+  "prevChapter": {
+    "slug": "scaling",
+    "title": "Scale from Zero to Millions of Users",
+    "chapterNumber": 1
+  },
+  "nextChapter": {
+    "slug": "system-design-framework",
+    "title": "A Framework for System Design Interviews",
+    "chapterNumber": 3
+  }
+}

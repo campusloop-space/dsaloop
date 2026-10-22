@@ -1,0 +1,401 @@
+{
+  "type": "company",
+  "slug": "zomato",
+  "name": "Zomato",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Zomato hiring and placement rounds.",
+  "problemCount": 30,
+  "problemSlugs": [
+    "maximum-spending-after-buying-items",
+    "split-the-array-to-make-coprime-products",
+    "bitwise-or-of-all-subsequence-sums",
+    "shortest-cycle-in-a-graph",
+    "number-of-ways-to-divide-a-long-corridor",
+    "count-the-hidden-sequences",
+    "exchange-seats",
+    "the-skyline-problem",
+    "maximum-subarray",
+    "longest-substring-without-repeating-characters",
+    "single-element-in-a-sorted-array",
+    "minimize-malware-spread",
+    "first-missing-positive",
+    "number-of-islands",
+    "snakes-and-ladders",
+    "single-number-iii",
+    "maximal-square",
+    "isomorphic-strings",
+    "course-schedule",
+    "rearrange-string-k-distance-apart",
+    "permutations",
+    "move-zeroes",
+    "combination-sum",
+    "search-a-2d-matrix-ii",
+    "merge-intervals",
+    "russian-doll-envelopes",
+    "find-the-safest-path-in-a-grid",
+    "maximum-xor-product",
+    "get-the-maximum-score",
+    "lru-cache"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 18,
+    "hard": 10
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-xor-product",
+        "number": 2939,
+        "title": "Maximum Xor Product",
+        "difficulty": "Medium",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-xor-product",
+        "number": 2939,
+        "title": "Maximum Xor Product",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exchange-seats",
+        "number": 626,
+        "title": "Exchange Seats",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-spending-after-buying-items",
+        "number": 2931,
+        "title": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-the-array-to-make-coprime-products",
+        "number": 2584,
+        "title": "Split the Array to Make Coprime Products",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bitwise-or-of-all-subsequence-sums",
+        "number": 2505,
+        "title": "Bitwise OR of All Subsequence Sums",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-cycle-in-a-graph",
+        "number": 2608,
+        "title": "Shortest Cycle in a Graph",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-divide-a-long-corridor",
+        "number": 2147,
+        "title": "Number of Ways to Divide a Long Corridor",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-hidden-sequences",
+        "number": 2145,
+        "title": "Count the Hidden Sequences",
+        "difficulty": "Medium",
+        "frequency": 96.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exchange-seats",
+        "number": 626,
+        "title": "Exchange Seats",
+        "difficulty": "Medium",
+        "frequency": 87.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-skyline-problem",
+        "number": 218,
+        "title": "The Skyline Problem",
+        "difficulty": "Hard",
+        "frequency": 81.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-element-in-a-sorted-array",
+        "number": 540,
+        "title": "Single Element in a Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snakes-and-ladders",
+        "number": 909,
+        "title": "Snakes and Ladders",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-number-iii",
+        "number": 260,
+        "title": "Single Number III",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "isomorphic-strings",
+        "number": 205,
+        "title": "Isomorphic Strings",
+        "difficulty": "Easy",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rearrange-string-k-distance-apart",
+        "number": 358,
+        "title": "Rearrange String k Distance Apart",
+        "difficulty": "Hard",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-a-2d-matrix-ii",
+        "number": 240,
+        "title": "Search a 2D Matrix II",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-safest-path-in-a-grid",
+        "number": 2812,
+        "title": "Find the Safest Path in a Grid",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-xor-product",
+        "number": 2939,
+        "title": "Maximum Xor Product",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "get-the-maximum-score",
+        "number": 1537,
+        "title": "Get the Maximum Score",
+        "difficulty": "Hard",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Zomato Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Zomato coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/zomato",
+    "keywords": [
+      "zomato interview questions",
+      "zomato leetcode",
+      "zomato coding questions",
+      "zomato online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

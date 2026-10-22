@@ -1,0 +1,185 @@
+{
+  "type": "company",
+  "slug": "sigmoid",
+  "name": "Sigmoid",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Sigmoid hiring and placement rounds.",
+  "problemCount": 15,
+  "problemSlugs": [
+    "best-time-to-buy-and-sell-stock",
+    "move-zeroes",
+    "binary-tree-zigzag-level-order-traversal",
+    "reverse-nodes-in-k-group",
+    "boats-to-save-people",
+    "min-stack",
+    "best-time-to-buy-and-sell-stock-ii",
+    "group-anagrams",
+    "longest-common-prefix",
+    "rotting-oranges",
+    "number-of-islands",
+    "next-greater-element-ii",
+    "merge-intervals",
+    "trapping-rain-water",
+    "longest-substring-without-repeating-characters"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 10,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-zigzag-level-order-traversal",
+        "number": 103,
+        "title": "Binary Tree Zigzag Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "boats-to-save-people",
+        "number": 881,
+        "title": "Boats to Save People",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-ii",
+        "number": 503,
+        "title": "Next Greater Element II",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sigmoid Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Sigmoid coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/sigmoid",
+    "keywords": [
+      "sigmoid interview questions",
+      "sigmoid leetcode",
+      "sigmoid coding questions",
+      "sigmoid online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

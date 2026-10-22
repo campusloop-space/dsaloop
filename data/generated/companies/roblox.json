@@ -1,0 +1,843 @@
+{
+  "type": "company",
+  "slug": "roblox",
+  "name": "Roblox",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Roblox hiring and placement rounds.",
+  "problemCount": 58,
+  "problemSlugs": [
+    "candy-crush",
+    "number-of-ways-to-wear-different-hats-to-each-other",
+    "reorganize-string",
+    "course-schedule-ii",
+    "task-scheduler",
+    "text-justification",
+    "maximize-distance-to-closest-person",
+    "block-placement-queries",
+    "design-hit-counter",
+    "design-search-autocomplete-system",
+    "rotate-image",
+    "count-number-of-nice-subarrays",
+    "group-the-people-given-the-group-size-they-belong-to",
+    "magnetic-force-between-two-balls",
+    "subdomain-visit-count",
+    "convert-binary-number-in-a-linked-list-to-integer",
+    "students-and-examinations",
+    "maximum-number-of-occurrences-of-a-substring",
+    "number-of-trusted-contacts-of-a-customer",
+    "minimum-operations-to-write-the-letter-y-on-a-grid",
+    "logger-rate-limiter",
+    "valid-parentheses",
+    "minimum-absolute-difference-between-elements-with-constraint",
+    "course-schedule",
+    "number-of-black-blocks",
+    "diameter-of-binary-tree",
+    "integer-to-english-words",
+    "brightest-position-on-street",
+    "subarrays-with-k-different-integers",
+    "number-of-adjacent-elements-with-the-same-color",
+    "rotating-the-box",
+    "number-of-recent-calls",
+    "simplify-path",
+    "implement-trie-prefix-tree",
+    "find-the-length-of-the-longest-common-prefix",
+    "two-sum",
+    "trapping-rain-water",
+    "design-memory-allocator",
+    "merge-intervals",
+    "count-the-number-of-good-subarrays",
+    "length-of-longest-v-shaped-diagonal-segment",
+    "closest-binary-search-tree-value",
+    "longest-common-prefix",
+    "minimum-number-of-frogs-croaking",
+    "spiral-matrix",
+    "longest-substring-without-repeating-characters",
+    "image-smoother",
+    "restore-the-array-from-adjacent-pairs",
+    "count-nice-pairs-in-an-array",
+    "insert-delete-getrandom-o1",
+    "random-pick-with-weight",
+    "sliding-window-maximum",
+    "rotate-string",
+    "non-overlapping-intervals",
+    "match-alphanumerical-pattern-in-matrix-i",
+    "number-of-flowers-in-full-bloom",
+    "get-biggest-three-rhombus-sums-in-a-grid",
+    "rotting-oranges"
+  ],
+  "difficultyBreakdown": {
+    "easy": 11,
+    "medium": 37,
+    "hard": 10
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+        "number": 1434,
+        "title": "Number of Ways to Wear Different Hats to Each Other",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 97.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 84.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-binary-search-tree-value",
+        "number": 270,
+        "title": "Closest Binary Search Tree Value",
+        "difficulty": "Easy",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-string",
+        "number": 796,
+        "title": "Rotate String",
+        "difficulty": "Easy",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "match-alphanumerical-pattern-in-matrix-i",
+        "number": 3078,
+        "title": "Match Alphanumerical Pattern in Matrix I",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-flowers-in-full-bloom",
+        "number": 2251,
+        "title": "Number of Flowers in Full Bloom",
+        "difficulty": "Hard",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+        "number": 1434,
+        "title": "Number of Ways to Wear Different Hats to Each Other",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 97.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 94.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 84.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-binary-search-tree-value",
+        "number": 270,
+        "title": "Closest Binary Search Tree Value",
+        "difficulty": "Easy",
+        "frequency": 72.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-distance-to-closest-person",
+        "number": 849,
+        "title": "Maximize Distance to Closest Person",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-string",
+        "number": 796,
+        "title": "Rotate String",
+        "difficulty": "Easy",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "match-alphanumerical-pattern-in-matrix-i",
+        "number": 3078,
+        "title": "Match Alphanumerical Pattern in Matrix I",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-flowers-in-full-bloom",
+        "number": 2251,
+        "title": "Number of Flowers in Full Bloom",
+        "difficulty": "Hard",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+        "number": 1434,
+        "title": "Number of Ways to Wear Different Hats to Each Other",
+        "difficulty": "Hard",
+        "frequency": 96.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorganize-string",
+        "number": 767,
+        "title": "Reorganize String",
+        "difficulty": "Medium",
+        "frequency": 88.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 82.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 80,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 80,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-distance-to-closest-person",
+        "number": 849,
+        "title": "Maximize Distance to Closest Person",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 74.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 71.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-search-autocomplete-system",
+        "number": 642,
+        "title": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "frequency": 71.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-nice-subarrays",
+        "number": 1248,
+        "title": "Count Number of Nice Subarrays",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-the-people-given-the-group-size-they-belong-to",
+        "number": 1282,
+        "title": "Group the People Given the Group Size They Belong To",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "magnetic-force-between-two-balls",
+        "number": 1552,
+        "title": "Magnetic Force Between Two Balls",
+        "difficulty": "Medium",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subdomain-visit-count",
+        "number": 811,
+        "title": "Subdomain Visit Count",
+        "difficulty": "Medium",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-binary-number-in-a-linked-list-to-integer",
+        "number": 1290,
+        "title": "Convert Binary Number in a Linked List to Integer",
+        "difficulty": "Easy",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "students-and-examinations",
+        "number": 1280,
+        "title": "Students and Examinations",
+        "difficulty": "Easy",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-occurrences-of-a-substring",
+        "number": 1297,
+        "title": "Maximum Number of Occurrences of a Substring",
+        "difficulty": "Medium",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-trusted-contacts-of-a-customer",
+        "number": 1364,
+        "title": "Number of Trusted Contacts of a Customer",
+        "difficulty": "Medium",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-write-the-letter-y-on-a-grid",
+        "number": 3071,
+        "title": "Minimum Operations to Write the Letter Y on a Grid",
+        "difficulty": "Medium",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference-between-elements-with-constraint",
+        "number": 2817,
+        "title": "Minimum Absolute Difference Between Elements With Constraint",
+        "difficulty": "Medium",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-black-blocks",
+        "number": 2768,
+        "title": "Number of Black Blocks",
+        "difficulty": "Medium",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-english-words",
+        "number": 273,
+        "title": "Integer to English Words",
+        "difficulty": "Hard",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarrays-with-k-different-integers",
+        "number": 992,
+        "title": "Subarrays with K Different Integers",
+        "difficulty": "Hard",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-adjacent-elements-with-the-same-color",
+        "number": 2672,
+        "title": "Number of Adjacent Elements With the Same Color",
+        "difficulty": "Medium",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotating-the-box",
+        "number": 1861,
+        "title": "Rotating the Box",
+        "difficulty": "Medium",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-recent-calls",
+        "number": 933,
+        "title": "Number of Recent Calls",
+        "difficulty": "Easy",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "number": 3043,
+        "title": "Find the Length of the Longest Common Prefix",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 45.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-good-subarrays",
+        "number": 2537,
+        "title": "Count the Number of Good Subarrays",
+        "difficulty": "Medium",
+        "frequency": 45.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "length-of-longest-v-shaped-diagonal-segment",
+        "number": 3459,
+        "title": "Length of Longest V-Shaped Diagonal Segment",
+        "difficulty": "Hard",
+        "frequency": 45.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-binary-search-tree-value",
+        "number": 270,
+        "title": "Closest Binary Search Tree Value",
+        "difficulty": "Easy",
+        "frequency": 45.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-frogs-croaking",
+        "number": 1419,
+        "title": "Minimum Number of Frogs Croaking",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "image-smoother",
+        "number": 661,
+        "title": "Image Smoother",
+        "difficulty": "Easy",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-the-array-from-adjacent-pairs",
+        "number": 1743,
+        "title": "Restore the Array From Adjacent Pairs",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-nice-pairs-in-an-array",
+        "number": 1814,
+        "title": "Count Nice Pairs in an Array",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-string",
+        "number": 796,
+        "title": "Rotate String",
+        "difficulty": "Easy",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "match-alphanumerical-pattern-in-matrix-i",
+        "number": 3078,
+        "title": "Match Alphanumerical Pattern in Matrix I",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-flowers-in-full-bloom",
+        "number": 2251,
+        "title": "Number of Flowers in Full Bloom",
+        "difficulty": "Hard",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "get-biggest-three-rhombus-sums-in-a-grid",
+        "number": 1878,
+        "title": "Get Biggest Three Rhombus Sums in a Grid",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 37.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Roblox Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Roblox coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/roblox",
+    "keywords": [
+      "roblox interview questions",
+      "roblox leetcode",
+      "roblox coding questions",
+      "roblox online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

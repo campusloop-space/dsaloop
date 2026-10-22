@@ -1,0 +1,253 @@
+{
+  "type": "company",
+  "slug": "wipro",
+  "name": "Wipro",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Wipro hiring and placement rounds.",
+  "problemCount": 18,
+  "problemSlugs": [
+    "two-sum",
+    "longest-common-prefix",
+    "group-anagrams",
+    "longest-substring-without-repeating-characters",
+    "palindrome-number",
+    "valid-anagram",
+    "best-time-to-buy-and-sell-stock",
+    "valid-parentheses",
+    "merge-intervals",
+    "add-binary",
+    "toeplitz-matrix",
+    "pascals-triangle",
+    "merge-sorted-array",
+    "kids-with-the-greatest-number-of-candies",
+    "max-consecutive-ones",
+    "reverse-string",
+    "add-strings",
+    "reverse-words-in-a-string-iii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 15,
+    "medium": 3,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 85.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 79.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-binary",
+        "number": 67,
+        "title": "Add Binary",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "toeplitz-matrix",
+        "number": 766,
+        "title": "Toeplitz Matrix",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pascals-triangle",
+        "number": 118,
+        "title": "Pascal's Triangle",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kids-with-the-greatest-number-of-candies",
+        "number": 1431,
+        "title": "Kids With the Greatest Number of Candies",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones",
+        "number": 485,
+        "title": "Max Consecutive Ones",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-string",
+        "number": 344,
+        "title": "Reverse String",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-strings",
+        "number": 415,
+        "title": "Add Strings",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string-iii",
+        "number": 557,
+        "title": "Reverse Words in a String III",
+        "difficulty": "Easy",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Wipro Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Wipro coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/wipro",
+    "keywords": [
+      "wipro interview questions",
+      "wipro leetcode",
+      "wipro coding questions",
+      "wipro online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

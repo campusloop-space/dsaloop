@@ -1,0 +1,195 @@
+{
+  "type": "company",
+  "slug": "general-motors",
+  "name": "General Motors",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in General Motors hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "number-of-connected-components-in-an-undirected-graph",
+    "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "implement-trie-prefix-tree",
+    "merge-intervals",
+    "lru-cache",
+    "minimum-path-sum",
+    "dot-product-of-two-sparse-vectors",
+    "maximum-sum-of-3-non-overlapping-subarrays",
+    "first-missing-positive",
+    "serialize-and-deserialize-binary-tree",
+    "guess-the-word",
+    "minimum-deletions-to-make-character-frequencies-unique",
+    "number-of-islands"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 9,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "number-of-connected-components-in-an-undirected-graph",
+        "number": 323,
+        "title": "Number of Connected Components in an Undirected Graph",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+        "number": 1404,
+        "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+        "difficulty": "Medium",
+        "frequency": 69.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 65.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 65.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 59.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-path-sum",
+        "number": 64,
+        "title": "Minimum Path Sum",
+        "difficulty": "Medium",
+        "frequency": 59.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "dot-product-of-two-sparse-vectors",
+        "number": 1570,
+        "title": "Dot Product of Two Sparse Vectors",
+        "difficulty": "Medium",
+        "frequency": 59.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-of-3-non-overlapping-subarrays",
+        "number": 689,
+        "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
+        "difficulty": "Hard",
+        "frequency": 59.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 52.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 52.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "guess-the-word",
+        "number": 843,
+        "title": "Guess the Word",
+        "difficulty": "Hard",
+        "frequency": 52.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-deletions-to-make-character-frequencies-unique",
+        "number": 1647,
+        "title": "Minimum Deletions to Make Character Frequencies Unique",
+        "difficulty": "Medium",
+        "frequency": 52.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 52.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "General Motors Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top General Motors coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/general-motors",
+    "keywords": [
+      "general motors interview questions",
+      "general motors leetcode",
+      "general motors coding questions",
+      "general motors online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

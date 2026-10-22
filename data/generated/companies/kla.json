@@ -1,0 +1,125 @@
+{
+  "type": "company",
+  "slug": "kla",
+  "name": "Kla",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Kla hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "maximum-product-of-first-and-last-elements-of-a-subsequence",
+    "lru-cache",
+    "maximum-fruits-harvested-after-at-most-k-steps",
+    "brick-wall",
+    "reaching-points",
+    "two-sum",
+    "find-median-from-data-stream",
+    "next-greater-element-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 4,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "next-greater-element-ii",
+        "number": 503,
+        "title": "Next Greater Element II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-product-of-first-and-last-elements-of-a-subsequence",
+        "number": 3584,
+        "title": "Maximum Product of First and Last Elements of a Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 93.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-fruits-harvested-after-at-most-k-steps",
+        "number": 2106,
+        "title": "Maximum Fruits Harvested After at Most K Steps",
+        "difficulty": "Hard",
+        "frequency": 84.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brick-wall",
+        "number": 554,
+        "title": "Brick Wall",
+        "difficulty": "Medium",
+        "frequency": 84.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reaching-points",
+        "number": 780,
+        "title": "Reaching Points",
+        "difficulty": "Hard",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-ii",
+        "number": 503,
+        "title": "Next Greater Element II",
+        "difficulty": "Medium",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Kla Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Kla coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/kla",
+    "keywords": [
+      "kla interview questions",
+      "kla leetcode",
+      "kla coding questions",
+      "kla online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

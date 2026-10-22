@@ -2,19 +2,616 @@
   "type": "company",
   "slug": "pinterest",
   "name": "Pinterest",
-  "description": "Coding interview preparation for Pinterest: high-frequency patterns and problem sets.",
-  "problemCount": 1,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Pinterest hiring and placement rounds.",
+  "problemCount": 40,
   "problemSlugs": [
-    "is-subsequence"
+    "reconstruct-itinerary",
+    "optimal-account-balancing",
+    "bus-routes",
+    "expression-add-operators",
+    "shortest-way-to-form-string",
+    "coin-change",
+    "count-subarrays-with-score-less-than-k",
+    "target-sum",
+    "split-array-largest-sum",
+    "design-search-autocomplete-system",
+    "is-subsequence",
+    "find-median-given-frequency-of-numbers",
+    "longest-word-in-dictionary",
+    "shortest-path-in-a-grid-with-obstacles-elimination",
+    "meeting-rooms-iii",
+    "delete-nodes-and-return-forest",
+    "multiply-strings",
+    "find-minimum-time-to-finish-all-jobs",
+    "put-boxes-into-the-warehouse-ii",
+    "put-boxes-into-the-warehouse-i",
+    "design-a-leaderboard",
+    "sparse-matrix-multiplication",
+    "find-median-from-data-stream",
+    "string-compression",
+    "letter-combinations-of-a-phone-number",
+    "count-and-say",
+    "maximum-profit-in-job-scheduling",
+    "reorganize-string",
+    "candy-crush",
+    "accounts-merge",
+    "combination-sum",
+    "text-justification",
+    "meeting-rooms-ii",
+    "number-of-islands",
+    "merge-k-sorted-lists",
+    "corporate-flight-bookings",
+    "merge-intervals",
+    "rotting-oranges",
+    "add-two-numbers-ii",
+    "number-of-subarrays-that-match-a-pattern-i"
   ],
-  "seo": {
-    "title": "Pinterest Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Pinterest interviews with 1 problems, patterns, and roadmaps.",
-    "keywords": [
-      "Pinterest interview questions",
-      "Pinterest leetcode",
-      "Pinterest oa"
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 24,
+    "hard": 15
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-way-to-form-string",
+        "number": 1055,
+        "title": "Shortest Way to Form String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "expression-add-operators",
+        "number": 282,
+        "title": "Expression Add Operators",
+        "difficulty": "Hard",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bus-routes",
+        "number": 815,
+        "title": "Bus Routes",
+        "difficulty": "Hard",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "target-sum",
+        "number": 494,
+        "title": "Target Sum",
+        "difficulty": "Medium",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
     ],
-    "canonicalPath": "/companies/pinterest"
+    "sixMonths": [
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 96.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-way-to-form-string",
+        "number": 1055,
+        "title": "Shortest Way to Form String",
+        "difficulty": "Medium",
+        "frequency": 94.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "expression-add-operators",
+        "number": 282,
+        "title": "Expression Add Operators",
+        "difficulty": "Hard",
+        "frequency": 92.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bus-routes",
+        "number": 815,
+        "title": "Bus Routes",
+        "difficulty": "Hard",
+        "frequency": 85,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "target-sum",
+        "number": 494,
+        "title": "Target Sum",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 66.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-search-autocomplete-system",
+        "number": 642,
+        "title": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "put-boxes-into-the-warehouse-i",
+        "number": 1564,
+        "title": "Put Boxes Into the Warehouse I",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers-ii",
+        "number": 445,
+        "title": "Add Two Numbers II",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 97.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bus-routes",
+        "number": 815,
+        "title": "Bus Routes",
+        "difficulty": "Hard",
+        "frequency": 95.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "expression-add-operators",
+        "number": 282,
+        "title": "Expression Add Operators",
+        "difficulty": "Hard",
+        "frequency": 89,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-way-to-form-string",
+        "number": 1055,
+        "title": "Shortest Way to Form String",
+        "difficulty": "Medium",
+        "frequency": 82.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 75.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-subarrays-with-score-less-than-k",
+        "number": 2302,
+        "title": "Count Subarrays With Score Less Than K",
+        "difficulty": "Hard",
+        "frequency": 70.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "target-sum",
+        "number": 494,
+        "title": "Target Sum",
+        "difficulty": "Medium",
+        "frequency": 70.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 70.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-search-autocomplete-system",
+        "number": 642,
+        "title": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "frequency": 68.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "is-subsequence",
+        "number": 392,
+        "title": "Is Subsequence",
+        "difficulty": "Easy",
+        "frequency": 66.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-given-frequency-of-numbers",
+        "number": 571,
+        "title": "Find Median Given Frequency of Numbers",
+        "difficulty": "Hard",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-word-in-dictionary",
+        "number": 720,
+        "title": "Longest Word in Dictionary",
+        "difficulty": "Medium",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "number": 1293,
+        "title": "Shortest Path in a Grid with Obstacles Elimination",
+        "difficulty": "Hard",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-iii",
+        "number": 2402,
+        "title": "Meeting Rooms III",
+        "difficulty": "Hard",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-nodes-and-return-forest",
+        "number": 1110,
+        "title": "Delete Nodes And Return Forest",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-minimum-time-to-finish-all-jobs",
+        "number": 1723,
+        "title": "Find Minimum Time to Finish All Jobs",
+        "difficulty": "Hard",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "put-boxes-into-the-warehouse-ii",
+        "number": 1580,
+        "title": "Put Boxes Into the Warehouse II",
+        "difficulty": "Medium",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "put-boxes-into-the-warehouse-i",
+        "number": 1564,
+        "title": "Put Boxes Into the Warehouse I",
+        "difficulty": "Medium",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-leaderboard",
+        "number": 1244,
+        "title": "Design A Leaderboard",
+        "difficulty": "Medium",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sparse-matrix-multiplication",
+        "number": 311,
+        "title": "Sparse Matrix Multiplication",
+        "difficulty": "Medium",
+        "frequency": 53.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 49.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 49.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-and-say",
+        "number": 38,
+        "title": "Count and Say",
+        "difficulty": "Medium",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorganize-string",
+        "number": 767,
+        "title": "Reorganize String",
+        "difficulty": "Medium",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "accounts-merge",
+        "number": 721,
+        "title": "Accounts Merge",
+        "difficulty": "Medium",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 43.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "corporate-flight-bookings",
+        "number": 1109,
+        "title": "Corporate Flight Bookings",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers-ii",
+        "number": 445,
+        "title": "Add Two Numbers II",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-subarrays-that-match-a-pattern-i",
+        "number": 3034,
+        "title": "Number of Subarrays That Match a Pattern I",
+        "difficulty": "Medium",
+        "frequency": 36.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Pinterest Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Pinterest coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/pinterest",
+    "keywords": [
+      "pinterest interview questions",
+      "pinterest leetcode",
+      "pinterest coding questions",
+      "pinterest online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Baloo_2, Nunito_Sans, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -13,26 +12,6 @@ import {
   softwareApplicationJsonLd,
 } from "@/lib/seo/jsonld";
 import { siteConfig } from "@/lib/config";
-
-const nunitoSans = Nunito_Sans({
-  variable: "--font-body",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "600", "700"],
-});
-
-const baloo2 = Baloo_2({
-  variable: "--font-display",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["600", "700", "800"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-mono-custom",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const viewport: Viewport = {
   themeColor: [
@@ -67,9 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${nunitoSans.variable} ${baloo2.variable} ${jetbrainsMono.variable} font-sans antialiased min-h-screen bg-background text-foreground`}
-      >
+      <body className="font-sans antialiased min-h-screen bg-background text-foreground">
         <ThemeProvider>
           <JsonLd data={organizationJsonLd()} />
           <JsonLd data={websiteJsonLd()} />

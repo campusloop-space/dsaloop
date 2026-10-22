@@ -1,0 +1,308 @@
+{
+  "type": "company",
+  "slug": "juspay",
+  "name": "Juspay",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Juspay hiring and placement rounds.",
+  "problemCount": 19,
+  "problemSlugs": [
+    "operations-on-tree",
+    "find-closest-node-to-given-two-nodes",
+    "longest-subsequence-with-decreasing-adjacent-difference",
+    "longest-cycle-in-a-graph",
+    "node-with-highest-edge-score",
+    "toggle-light-bulbs",
+    "sliding-window-maximum",
+    "minimum-number-of-operations-to-make-array-continuous",
+    "largest-color-value-in-a-directed-graph",
+    "minimum-cost-homecoming-of-a-robot-in-a-grid",
+    "shortest-path-in-a-weighted-tree",
+    "set-matrix-zeroes",
+    "maximum-score-from-removing-substrings",
+    "gas-station",
+    "asteroid-collision",
+    "merge-intervals",
+    "maximum-product-subarray",
+    "container-with-most-water",
+    "number-of-islands"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 13,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+        "number": 2087,
+        "title": "Minimum Cost Homecoming of a Robot in a Grid",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-operations-to-make-array-continuous",
+        "number": 2009,
+        "title": "Minimum Number of Operations to Make Array Continuous",
+        "difficulty": "Hard",
+        "frequency": 92.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "operations-on-tree",
+        "number": 1993,
+        "title": "Operations on Tree",
+        "difficulty": "Medium",
+        "frequency": 92.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 82.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "minimum-number-of-operations-to-make-array-continuous",
+        "number": 2009,
+        "title": "Minimum Number of Operations to Make Array Continuous",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "operations-on-tree",
+        "number": 1993,
+        "title": "Operations on Tree",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+        "number": 2087,
+        "title": "Minimum Cost Homecoming of a Robot in a Grid",
+        "difficulty": "Medium",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-closest-node-to-given-two-nodes",
+        "number": 2359,
+        "title": "Find Closest Node to Given Two Nodes",
+        "difficulty": "Medium",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "operations-on-tree",
+        "number": 1993,
+        "title": "Operations on Tree",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-closest-node-to-given-two-nodes",
+        "number": 2359,
+        "title": "Find Closest Node to Given Two Nodes",
+        "difficulty": "Medium",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-subsequence-with-decreasing-adjacent-difference",
+        "number": 3409,
+        "title": "Longest Subsequence With Decreasing Adjacent Difference",
+        "difficulty": "Medium",
+        "frequency": 81,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-cycle-in-a-graph",
+        "number": 2360,
+        "title": "Longest Cycle in a Graph",
+        "difficulty": "Hard",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "node-with-highest-edge-score",
+        "number": 2374,
+        "title": "Node With Highest Edge Score",
+        "difficulty": "Medium",
+        "frequency": 74.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "toggle-light-bulbs",
+        "number": 3842,
+        "title": "Toggle Light Bulbs",
+        "difficulty": "Easy",
+        "frequency": 74.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 68.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-operations-to-make-array-continuous",
+        "number": 2009,
+        "title": "Minimum Number of Operations to Make Array Continuous",
+        "difficulty": "Hard",
+        "frequency": 68.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-color-value-in-a-directed-graph",
+        "number": 1857,
+        "title": "Largest Color Value in a Directed Graph",
+        "difficulty": "Hard",
+        "frequency": 60.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+        "number": 2087,
+        "title": "Minimum Cost Homecoming of a Robot in a Grid",
+        "difficulty": "Medium",
+        "frequency": 60.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-weighted-tree",
+        "number": 3515,
+        "title": "Shortest Path in a Weighted Tree",
+        "difficulty": "Hard",
+        "frequency": 54.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-matrix-zeroes",
+        "number": 73,
+        "title": "Set Matrix Zeroes",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-score-from-removing-substrings",
+        "number": 1717,
+        "title": "Maximum Score From Removing Substrings",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 46.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Juspay Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Juspay coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/juspay",
+    "keywords": [
+      "juspay interview questions",
+      "juspay leetcode",
+      "juspay coding questions",
+      "juspay online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

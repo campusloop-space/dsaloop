@@ -1,0 +1,735 @@
+{
+  "type": "company",
+  "slug": "doordash",
+  "name": "DoorDash",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in DoorDash hiring and placement rounds.",
+  "problemCount": 69,
+  "problemSlugs": [
+    "walls-and-gates",
+    "longest-increasing-path-in-a-matrix",
+    "binary-tree-maximum-path-sum",
+    "search-suggestions-system",
+    "maximum-profit-in-job-scheduling",
+    "koko-eating-bananas",
+    "design-file-system",
+    "shortest-distance-from-all-buildings",
+    "single-threaded-cpu",
+    "design-in-memory-file-system",
+    "next-greater-element-iii",
+    "find-k-closest-elements",
+    "most-profit-assigning-work",
+    "count-nodes-with-the-highest-score",
+    "minimum-number-of-steps-to-make-two-strings-anagram",
+    "basic-calculator-iii",
+    "making-a-large-island",
+    "check-if-one-string-swap-can-make-strings-equal",
+    "count-all-valid-pickup-and-delivery-options",
+    "interval-list-intersections",
+    "immediate-food-delivery-i",
+    "immediate-food-delivery-ii",
+    "subsequence-with-the-minimum-score",
+    "mice-and-cheese",
+    "132-pattern",
+    "vertical-order-traversal-of-a-binary-tree",
+    "largest-rectangle-in-histogram",
+    "01-matrix",
+    "minimum-size-subarray-sum",
+    "course-schedule-ii",
+    "basic-calculator",
+    "basic-calculator-ii",
+    "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+    "buddy-strings",
+    "two-sum",
+    "next-permutation",
+    "longest-common-subsequence",
+    "serialize-and-deserialize-binary-tree",
+    "asteroid-collision",
+    "max-area-of-island",
+    "word-search-ii",
+    "sliding-window-maximum",
+    "best-meeting-point",
+    "ways-to-make-a-fair-array",
+    "minimize-malware-spread",
+    "sliding-window-median",
+    "course-schedule",
+    "merge-intervals",
+    "sudoku-solver",
+    "jump-game",
+    "maximum-path-quality-of-a-graph",
+    "lru-cache",
+    "number-of-islands",
+    "binary-tree-vertical-order-traversal",
+    "4sum",
+    "insert-delete-getrandom-o1",
+    "merge-k-sorted-lists",
+    "similar-string-groups",
+    "integer-to-roman",
+    "jump-game-ii",
+    "shortest-path-to-get-food",
+    "swim-in-rising-water",
+    "brace-expansion",
+    "longest-palindromic-substring",
+    "roman-to-integer",
+    "find-edges-in-shortest-paths",
+    "rotting-oranges",
+    "add-two-numbers",
+    "diameter-of-binary-tree"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 38,
+    "hard": 24
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "132-pattern",
+        "number": 456,
+        "title": "132 Pattern",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "walls-and-gates",
+        "number": 286,
+        "title": "Walls and Gates",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 88.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-suggestions-system",
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "difficulty": "Medium",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 77.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 75.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-file-system",
+        "number": 1166,
+        "title": "Design File System",
+        "difficulty": "Medium",
+        "frequency": 74.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-distance-from-all-buildings",
+        "number": 317,
+        "title": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-threaded-cpu",
+        "number": 1834,
+        "title": "Single-Threaded CPU",
+        "difficulty": "Medium",
+        "frequency": 71.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-in-memory-file-system",
+        "number": 588,
+        "title": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "frequency": 66.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-iii",
+        "number": 556,
+        "title": "Next Greater Element III",
+        "difficulty": "Medium",
+        "frequency": 65.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-closest-elements",
+        "number": 658,
+        "title": "Find K Closest Elements",
+        "difficulty": "Medium",
+        "frequency": 65.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "most-profit-assigning-work",
+        "number": 826,
+        "title": "Most Profit Assigning Work",
+        "difficulty": "Medium",
+        "frequency": 63.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-nodes-with-the-highest-score",
+        "number": 2049,
+        "title": "Count Nodes With the Highest Score",
+        "difficulty": "Medium",
+        "frequency": 60.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+        "number": 1347,
+        "title": "Minimum Number of Steps to Make Two Strings Anagram",
+        "difficulty": "Medium",
+        "frequency": 60.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 57.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-a-large-island",
+        "number": 827,
+        "title": "Making A Large Island",
+        "difficulty": "Hard",
+        "frequency": 57.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-one-string-swap-can-make-strings-equal",
+        "number": 1790,
+        "title": "Check if One String Swap Can Make Strings Equal",
+        "difficulty": "Easy",
+        "frequency": 57.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-all-valid-pickup-and-delivery-options",
+        "number": 1359,
+        "title": "Count All Valid Pickup and Delivery Options",
+        "difficulty": "Hard",
+        "frequency": 55.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "interval-list-intersections",
+        "number": 986,
+        "title": "Interval List Intersections",
+        "difficulty": "Medium",
+        "frequency": 53.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "immediate-food-delivery-i",
+        "number": 1173,
+        "title": "Immediate Food Delivery I",
+        "difficulty": "Easy",
+        "frequency": 53.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "immediate-food-delivery-ii",
+        "number": 1174,
+        "title": "Immediate Food Delivery II",
+        "difficulty": "Medium",
+        "frequency": 53.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsequence-with-the-minimum-score",
+        "number": 2565,
+        "title": "Subsequence With the Minimum Score",
+        "difficulty": "Hard",
+        "frequency": 53.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "mice-and-cheese",
+        "number": 2611,
+        "title": "Mice and Cheese",
+        "difficulty": "Medium",
+        "frequency": 53.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "132-pattern",
+        "number": 456,
+        "title": "132 Pattern",
+        "difficulty": "Medium",
+        "frequency": 53.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "vertical-order-traversal-of-a-binary-tree",
+        "number": 987,
+        "title": "Vertical Order Traversal of a Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "01-matrix",
+        "number": 542,
+        "title": "01 Matrix",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-size-subarray-sum",
+        "number": 209,
+        "title": "Minimum Size Subarray Sum",
+        "difficulty": "Medium",
+        "frequency": 50.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 48.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator",
+        "number": 224,
+        "title": "Basic Calculator",
+        "difficulty": "Hard",
+        "frequency": 48.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 48.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+        "number": 1779,
+        "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+        "difficulty": "Easy",
+        "frequency": 48.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "buddy-strings",
+        "number": 859,
+        "title": "Buddy Strings",
+        "difficulty": "Easy",
+        "frequency": 48.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 44.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 44.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-subsequence",
+        "number": 1143,
+        "title": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "frequency": 44.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 44.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 44.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-area-of-island",
+        "number": 695,
+        "title": "Max Area of Island",
+        "difficulty": "Medium",
+        "frequency": 44.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-meeting-point",
+        "number": 296,
+        "title": "Best Meeting Point",
+        "difficulty": "Hard",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ways-to-make-a-fair-array",
+        "number": 1664,
+        "title": "Ways to Make a Fair Array",
+        "difficulty": "Medium",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-median",
+        "number": 480,
+        "title": "Sliding Window Median",
+        "difficulty": "Hard",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 41,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sudoku-solver",
+        "number": 37,
+        "title": "Sudoku Solver",
+        "difficulty": "Hard",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-path-quality-of-a-graph",
+        "number": 2065,
+        "title": "Maximum Path Quality of a Graph",
+        "difficulty": "Hard",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-vertical-order-traversal",
+        "number": 314,
+        "title": "Binary Tree Vertical Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "4sum",
+        "number": 18,
+        "title": "4 Sum",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "similar-string-groups",
+        "number": 839,
+        "title": "Similar String Groups",
+        "difficulty": "Hard",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 35.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-to-get-food",
+        "number": 1730,
+        "title": "Shortest Path to Get Food",
+        "difficulty": "Medium",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swim-in-rising-water",
+        "number": 778,
+        "title": "Swim in Rising Water",
+        "difficulty": "Hard",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brace-expansion",
+        "number": 1087,
+        "title": "Brace Expansion",
+        "difficulty": "Medium",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-edges-in-shortest-paths",
+        "number": 3123,
+        "title": "Find Edges in Shortest Paths",
+        "difficulty": "Hard",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 28.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "DoorDash Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top DoorDash coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/doordash",
+    "keywords": [
+      "doordash interview questions",
+      "doordash leetcode",
+      "doordash coding questions",
+      "doordash online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "affirm",
+  "name": "Affirm",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Affirm hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "insert-delete-getrandom-o1",
+    "shortest-uncommon-substring-in-an-array",
+    "parse-lisp-expression",
+    "insert-delete-getrandom-o1-duplicates-allowed",
+    "design-hit-counter",
+    "group-anagrams",
+    "valid-anagram",
+    "string-compression",
+    "coin-change",
+    "optimal-account-balancing"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 6,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-uncommon-substring-in-an-array",
+        "number": 3076,
+        "title": "Shortest Uncommon Substring in an Array",
+        "difficulty": "Medium",
+        "frequency": 87.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "parse-lisp-expression",
+        "number": 736,
+        "title": "Parse Lisp Expression",
+        "difficulty": "Hard",
+        "frequency": 78.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+        "number": 381,
+        "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+        "difficulty": "Hard",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Affirm Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Affirm coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/affirm",
+    "keywords": [
+      "affirm interview questions",
+      "affirm leetcode",
+      "affirm coding questions",
+      "affirm online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

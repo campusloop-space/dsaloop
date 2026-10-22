@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "mitsogo",
+  "name": "Mitsogo",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Mitsogo hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "right-triangles",
+    "find-the-integer-added-to-array-i",
+    "find-the-integer-added-to-array-ii",
+    "minimum-substring-partition-of-equal-character-frequency",
+    "construct-string-with-minimum-cost",
+    "maximum-total-reward-using-operations-i",
+    "maximum-total-reward-using-operations-ii",
+    "shortest-subarray-with-or-at-least-k-ii",
+    "shortest-subarray-with-or-at-least-k-i",
+    "delayed-count-of-equal-elements"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 6,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "right-triangles",
+        "number": 3128,
+        "title": "Right Triangles",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-integer-added-to-array-i",
+        "number": 3131,
+        "title": "Find the Integer Added to Array I",
+        "difficulty": "Easy",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-integer-added-to-array-ii",
+        "number": 3132,
+        "title": "Find the Integer Added to Array II",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-substring-partition-of-equal-character-frequency",
+        "number": 3144,
+        "title": "Minimum Substring Partition of Equal Character Frequency",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "construct-string-with-minimum-cost",
+        "number": 3213,
+        "title": "Construct String with Minimum Cost",
+        "difficulty": "Hard",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-total-reward-using-operations-i",
+        "number": 3180,
+        "title": "Maximum Total Reward Using Operations I",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-total-reward-using-operations-ii",
+        "number": 3181,
+        "title": "Maximum Total Reward Using Operations II",
+        "difficulty": "Hard",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-subarray-with-or-at-least-k-ii",
+        "number": 3097,
+        "title": "Shortest Subarray With OR at Least K II",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-subarray-with-or-at-least-k-i",
+        "number": 3095,
+        "title": "Shortest Subarray With OR at Least K I",
+        "difficulty": "Easy",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delayed-count-of-equal-elements",
+        "number": 3837,
+        "title": "Delayed Count of Equal Elements",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Mitsogo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Mitsogo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/mitsogo",
+    "keywords": [
+      "mitsogo interview questions",
+      "mitsogo leetcode",
+      "mitsogo coding questions",
+      "mitsogo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

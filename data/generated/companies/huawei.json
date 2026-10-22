@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "huawei",
+  "name": "Huawei",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Huawei hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "minimum-number-of-visited-cells-in-a-grid",
+    "maximum-binary-string-after-change",
+    "two-sum",
+    "valid-parentheses",
+    "longest-increasing-subsequence",
+    "number-of-islands",
+    "generate-parentheses",
+    "longest-palindromic-substring",
+    "n-queens",
+    "trapping-rain-water",
+    "linked-list-cycle",
+    "top-k-frequent-elements",
+    "single-number"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 6,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "minimum-number-of-visited-cells-in-a-grid",
+        "number": 2617,
+        "title": "Minimum Number of Visited Cells in a Grid",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-binary-string-after-change",
+        "number": 1702,
+        "title": "Maximum Binary String After Change",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 76.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 76.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 76.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "n-queens",
+        "number": 51,
+        "title": "N-Queens",
+        "difficulty": "Hard",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-number",
+        "number": 136,
+        "title": "Single Number",
+        "difficulty": "Easy",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Huawei Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Huawei coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/huawei",
+    "keywords": [
+      "huawei interview questions",
+      "huawei leetcode",
+      "huawei coding questions",
+      "huawei online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

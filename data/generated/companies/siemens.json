@@ -1,0 +1,284 @@
+{
+  "type": "company",
+  "slug": "siemens",
+  "name": "Siemens",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Siemens hiring and placement rounds.",
+  "problemCount": 22,
+  "problemSlugs": [
+    "peaks-in-array",
+    "minimized-maximum-of-products-distributed-to-any-store",
+    "number-of-islands",
+    "valid-parentheses",
+    "merge-intervals",
+    "the-skyline-problem",
+    "best-time-to-buy-and-sell-stock",
+    "merge-two-sorted-lists",
+    "angle-between-hands-of-a-clock",
+    "remove-duplicates-from-sorted-array",
+    "group-anagrams",
+    "minimum-add-to-make-parentheses-valid",
+    "lru-cache",
+    "maximum-product-subarray",
+    "single-number-iii",
+    "top-k-frequent-elements",
+    "rotate-array",
+    "clone-graph",
+    "strong-password-checker",
+    "reverse-string",
+    "zigzag-conversion",
+    "find-peak-element"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 14,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "peaks-in-array",
+        "number": 3187,
+        "title": "Peaks in Array",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimized-maximum-of-products-distributed-to-any-store",
+        "number": 2064,
+        "title": "Minimized Maximum of Products Distributed to Any Store",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 96.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 82.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-skyline-problem",
+        "number": 218,
+        "title": "The Skyline Problem",
+        "difficulty": "Hard",
+        "frequency": 75.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 75.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "angle-between-hands-of-a-clock",
+        "number": 1344,
+        "title": "Angle Between Hands of a Clock",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-add-to-make-parentheses-valid",
+        "number": 921,
+        "title": "Minimum Add to Make Parentheses Valid",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-number-iii",
+        "number": 260,
+        "title": "Single Number III",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "strong-password-checker",
+        "number": 420,
+        "title": "Strong Password Checker",
+        "difficulty": "Hard",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-string",
+        "number": 344,
+        "title": "Reverse String",
+        "difficulty": "Easy",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Siemens Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Siemens coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/siemens",
+    "keywords": [
+      "siemens interview questions",
+      "siemens leetcode",
+      "siemens coding questions",
+      "siemens online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

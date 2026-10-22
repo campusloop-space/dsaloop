@@ -1,0 +1,680 @@
+{
+  "type": "company",
+  "slug": "morgan-stanley",
+  "name": "Morgan Stanley",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Morgan Stanley hiring and placement rounds.",
+  "problemCount": 58,
+  "problemSlugs": [
+    "best-time-to-buy-and-sell-stock",
+    "best-team-with-no-conflicts",
+    "two-sum",
+    "find-the-longest-valid-obstacle-course-at-each-position",
+    "minimum-number-of-lines-to-cover-points",
+    "find-subarrays-with-equal-sum",
+    "the-employee-that-worked-on-the-longest-task",
+    "find-the-original-array-of-prefix-xor",
+    "delete-and-earn",
+    "longest-substring-without-repeating-characters",
+    "merge-intervals",
+    "copy-list-with-random-pointer",
+    "lru-cache",
+    "palindrome-number",
+    "first-unique-character-in-a-string",
+    "sort-colors",
+    "count-subarrays-with-fixed-bounds",
+    "kth-largest-element-in-an-array",
+    "3sum",
+    "group-anagrams",
+    "stamping-the-sequence",
+    "spiral-matrix",
+    "maximum-product-subarray",
+    "daily-temperatures",
+    "remove-nth-node-from-end-of-list",
+    "jump-game",
+    "contiguous-array",
+    "remove-duplicates-from-sorted-array",
+    "generate-parentheses",
+    "make-k-subarray-sums-equal",
+    "word-search",
+    "minimum-operations-to-reduce-x-to-zero",
+    "remove-all-adjacent-duplicates-in-string-ii",
+    "longest-common-subsequence",
+    "next-greater-element-iii",
+    "minimum-substring-partition-of-equal-character-frequency",
+    "next-greater-element-ii",
+    "minimum-number-of-taps-to-open-to-water-a-garden",
+    "least-number-of-unique-integers-after-k-removals",
+    "candy",
+    "longest-palindromic-substring",
+    "reorder-list",
+    "palindrome-linked-list",
+    "longest-increasing-subsequence",
+    "majority-element",
+    "sum-of-subarray-minimums",
+    "coin-change",
+    "shuffle-the-array",
+    "container-with-most-water",
+    "maximum-subarray",
+    "count-of-range-sum",
+    "integer-to-english-words",
+    "longest-valid-parentheses",
+    "fibonacci-number",
+    "maximum-length-substring-with-two-occurrences",
+    "merge-sorted-array",
+    "combination-sum-ii",
+    "maximum-employees-to-be-invited-to-a-meeting"
+  ],
+  "difficultyBreakdown": {
+    "easy": 13,
+    "medium": 36,
+    "hard": 9
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "maximum-length-substring-with-two-occurrences",
+        "number": 3090,
+        "title": "Maximum Length Substring With Two Occurrences",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-employees-to-be-invited-to-a-meeting",
+        "number": 2127,
+        "title": "Maximum Employees to Be Invited to a Meeting",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-length-substring-with-two-occurrences",
+        "number": 3090,
+        "title": "Maximum Length Substring With Two Occurrences",
+        "difficulty": "Easy",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-employees-to-be-invited-to-a-meeting",
+        "number": 2127,
+        "title": "Maximum Employees to Be Invited to a Meeting",
+        "difficulty": "Hard",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-team-with-no-conflicts",
+        "number": 1626,
+        "title": "Best Team With No Conflicts",
+        "difficulty": "Medium",
+        "frequency": 95.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+        "number": 1964,
+        "title": "Find the Longest Valid Obstacle Course at Each Position",
+        "difficulty": "Hard",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-lines-to-cover-points",
+        "number": 2152,
+        "title": "Minimum Number of Lines to Cover Points",
+        "difficulty": "Medium",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-subarrays-with-equal-sum",
+        "number": 2395,
+        "title": "Find Subarrays With Equal Sum",
+        "difficulty": "Easy",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-employee-that-worked-on-the-longest-task",
+        "number": 2432,
+        "title": "The Employee That Worked on the Longest Task",
+        "difficulty": "Easy",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-original-array-of-prefix-xor",
+        "number": 2433,
+        "title": "Find The Original Array of Prefix Xor",
+        "difficulty": "Medium",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-and-earn",
+        "number": 740,
+        "title": "Delete and Earn",
+        "difficulty": "Medium",
+        "frequency": 86.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 82.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "copy-list-with-random-pointer",
+        "number": 138,
+        "title": "Copy List with Random Pointer",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 71.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 71.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-unique-character-in-a-string",
+        "number": 387,
+        "title": "First Unique Character in a String",
+        "difficulty": "Easy",
+        "frequency": 71.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-subarrays-with-fixed-bounds",
+        "number": 2444,
+        "title": "Count Subarrays With Fixed Bounds",
+        "difficulty": "Hard",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stamping-the-sequence",
+        "number": 936,
+        "title": "Stamping The Sequence",
+        "difficulty": "Hard",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-nth-node-from-end-of-list",
+        "number": 19,
+        "title": "Remove Nth Node From End of List",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contiguous-array",
+        "number": 525,
+        "title": "Contiguous Array",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "make-k-subarray-sums-equal",
+        "number": 2607,
+        "title": "Make K-Subarray Sums Equal",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-reduce-x-to-zero",
+        "number": 1658,
+        "title": "Minimum Operations to Reduce X to Zero",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-subsequence",
+        "number": 1143,
+        "title": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-iii",
+        "number": 556,
+        "title": "Next Greater Element III",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-substring-partition-of-equal-character-frequency",
+        "number": 3144,
+        "title": "Minimum Substring Partition of Equal Character Frequency",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-ii",
+        "number": 503,
+        "title": "Next Greater Element II",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+        "number": 1326,
+        "title": "Minimum Number of Taps to Open to Water a Garden",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "least-number-of-unique-integers-after-k-removals",
+        "number": 1481,
+        "title": "Least Number of Unique Integers after K Removals",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy",
+        "number": 135,
+        "title": "Candy",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorder-list",
+        "number": 143,
+        "title": "Reorder List",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-linked-list",
+        "number": 234,
+        "title": "Palindrome Linked List",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-subarray-minimums",
+        "number": 907,
+        "title": "Sum of Subarray Minimums",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shuffle-the-array",
+        "number": 1470,
+        "title": "Shuffle the Array",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-of-range-sum",
+        "number": 327,
+        "title": "Count of Range Sum",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-english-words",
+        "number": 273,
+        "title": "Integer to English Words",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fibonacci-number",
+        "number": 509,
+        "title": "Fibonacci Number",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-length-substring-with-two-occurrences",
+        "number": 3090,
+        "title": "Maximum Length Substring With Two Occurrences",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum-ii",
+        "number": 40,
+        "title": "Combination Sum II",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-employees-to-be-invited-to-a-meeting",
+        "number": 2127,
+        "title": "Maximum Employees to Be Invited to a Meeting",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Morgan Stanley Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Morgan Stanley coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/morgan-stanley",
+    "keywords": [
+      "morgan stanley interview questions",
+      "morgan stanley leetcode",
+      "morgan stanley coding questions",
+      "morgan stanley online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

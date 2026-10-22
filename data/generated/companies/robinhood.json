@@ -1,0 +1,204 @@
+{
+  "type": "company",
+  "slug": "robinhood",
+  "name": "Robinhood",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Robinhood hiring and placement rounds.",
+  "problemCount": 15,
+  "problemSlugs": [
+    "top-k-frequent-words",
+    "ways-to-split-array-into-three-subarrays",
+    "restore-the-array-from-adjacent-pairs",
+    "brightest-position-on-street",
+    "count-good-meals",
+    "number-of-orders-in-the-backlog",
+    "check-if-there-is-a-valid-path-in-a-grid",
+    "capital-gainloss",
+    "count-the-number-of-consistent-strings",
+    "text-justification",
+    "minesweeper",
+    "top-k-frequent-elements",
+    "employee-importance",
+    "best-time-to-buy-and-sell-stock",
+    "defanging-an-ip-address"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 11,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ways-to-split-array-into-three-subarrays",
+        "number": 1712,
+        "title": "Ways to Split Array Into Three Subarrays",
+        "difficulty": "Medium",
+        "frequency": 95.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-the-array-from-adjacent-pairs",
+        "number": 1743,
+        "title": "Restore the Array From Adjacent Pairs",
+        "difficulty": "Medium",
+        "frequency": 95.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-good-meals",
+        "number": 1711,
+        "title": "Count Good Meals",
+        "difficulty": "Medium",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-orders-in-the-backlog",
+        "number": 1801,
+        "title": "Number of Orders in the Backlog",
+        "difficulty": "Medium",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-there-is-a-valid-path-in-a-grid",
+        "number": 1391,
+        "title": "Check if There is a Valid Path in a Grid",
+        "difficulty": "Medium",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capital-gainloss",
+        "number": 1393,
+        "title": "Capital Gain/Loss",
+        "difficulty": "Medium",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-consistent-strings",
+        "number": 1684,
+        "title": "Count the Number of Consistent Strings",
+        "difficulty": "Easy",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minesweeper",
+        "number": 529,
+        "title": "Minesweeper",
+        "difficulty": "Medium",
+        "frequency": 76.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 76.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-importance",
+        "number": 690,
+        "title": "Employee Importance",
+        "difficulty": "Medium",
+        "frequency": 69.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 60.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "defanging-an-ip-address",
+        "number": 1108,
+        "title": "Defanging an IP Address",
+        "difficulty": "Easy",
+        "frequency": 60.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Robinhood Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Robinhood coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/robinhood",
+    "keywords": [
+      "robinhood interview questions",
+      "robinhood leetcode",
+      "robinhood coding questions",
+      "robinhood online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

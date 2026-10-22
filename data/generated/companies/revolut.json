@@ -1,0 +1,154 @@
+{
+  "type": "company",
+  "slug": "revolut",
+  "name": "Revolut",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Revolut hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "longest-common-prefix",
+    "perfect-squares",
+    "reverse-linked-list-ii",
+    "binary-tree-paths",
+    "longest-increasing-subsequence",
+    "find-all-anagrams-in-a-string",
+    "restaurant-growth",
+    "subarray-product-less-than-k",
+    "missing-number",
+    "simple-bank-system"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 7,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 90.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "perfect-squares",
+        "number": 279,
+        "title": "Perfect Squares",
+        "difficulty": "Medium",
+        "frequency": 93.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list-ii",
+        "number": 92,
+        "title": "Reverse Linked List II",
+        "difficulty": "Medium",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-paths",
+        "number": 257,
+        "title": "Binary Tree Paths",
+        "difficulty": "Easy",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-all-anagrams-in-a-string",
+        "number": 438,
+        "title": "Find All Anagrams in a String",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restaurant-growth",
+        "number": 1321,
+        "title": "Restaurant Growth",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "missing-number",
+        "number": 268,
+        "title": "Missing Number",
+        "difficulty": "Easy",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Revolut Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Revolut coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/revolut",
+    "keywords": [
+      "revolut interview questions",
+      "revolut leetcode",
+      "revolut coding questions",
+      "revolut online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

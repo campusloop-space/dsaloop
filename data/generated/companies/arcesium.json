@@ -1,0 +1,231 @@
+{
+  "type": "company",
+  "slug": "arcesium",
+  "name": "Arcesium",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Arcesium hiring and placement rounds.",
+  "problemCount": 14,
+  "problemSlugs": [
+    "maximum-length-of-subarray-with-positive-product",
+    "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "count-collisions-on-a-road",
+    "cycle-length-queries-in-a-tree",
+    "maximize-the-confusion-of-an-exam",
+    "number-of-people-aware-of-a-secret",
+    "house-robber-iv",
+    "minimum-swaps-to-group-all-1s-together-ii",
+    "median-of-two-sorted-arrays",
+    "find-median-from-data-stream",
+    "russian-doll-envelopes",
+    "longest-consecutive-sequence",
+    "sudoku-solver",
+    "beautiful-towers-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 8,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+        "number": 2035,
+        "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-towers-ii",
+        "number": 2866,
+        "title": "Beautiful Towers II",
+        "difficulty": "Medium",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+        "number": 2035,
+        "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 83.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-towers-ii",
+        "number": 2866,
+        "title": "Beautiful Towers II",
+        "difficulty": "Medium",
+        "frequency": 83.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-length-of-subarray-with-positive-product",
+        "number": 1567,
+        "title": "Maximum Length of Subarray With Positive Product",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+        "number": 2035,
+        "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-collisions-on-a-road",
+        "number": 2211,
+        "title": "Count Collisions on a Road",
+        "difficulty": "Medium",
+        "frequency": 97.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cycle-length-queries-in-a-tree",
+        "number": 2509,
+        "title": "Cycle Length Queries in a Tree",
+        "difficulty": "Hard",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-the-confusion-of-an-exam",
+        "number": 2024,
+        "title": "Maximize the Confusion of an Exam",
+        "difficulty": "Medium",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-people-aware-of-a-secret",
+        "number": 2327,
+        "title": "Number of People Aware of a Secret",
+        "difficulty": "Medium",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-iv",
+        "number": 2560,
+        "title": "House Robber IV",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-swaps-to-group-all-1s-together-ii",
+        "number": 2134,
+        "title": "Minimum Swaps to Group All 1's Together II",
+        "difficulty": "Medium",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 61.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 61.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 61.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 61.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sudoku-solver",
+        "number": 37,
+        "title": "Sudoku Solver",
+        "difficulty": "Hard",
+        "frequency": 61.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-towers-ii",
+        "number": 2866,
+        "title": "Beautiful Towers II",
+        "difficulty": "Medium",
+        "frequency": 61.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Arcesium Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Arcesium coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/arcesium",
+    "keywords": [
+      "arcesium interview questions",
+      "arcesium leetcode",
+      "arcesium coding questions",
+      "arcesium online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

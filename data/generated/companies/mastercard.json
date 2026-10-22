@@ -1,0 +1,203 @@
+{
+  "type": "company",
+  "slug": "mastercard",
+  "name": "Mastercard",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Mastercard hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "two-sum",
+    "strange-printer",
+    "best-time-to-buy-and-sell-stock",
+    "n-queens",
+    "valid-parentheses",
+    "coin-change",
+    "fizz-buzz",
+    "contain-virus",
+    "gas-station",
+    "word-search",
+    "rotate-image",
+    "maximum-subarray",
+    "jump-game"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 6,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "strange-printer",
+        "number": 664,
+        "title": "Strange Printer",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contain-virus",
+        "number": 749,
+        "title": "Contain Virus",
+        "difficulty": "Hard",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "strange-printer",
+        "number": 664,
+        "title": "Strange Printer",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contain-virus",
+        "number": 749,
+        "title": "Contain Virus",
+        "difficulty": "Hard",
+        "frequency": 88.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "strange-printer",
+        "number": 664,
+        "title": "Strange Printer",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 93.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "n-queens",
+        "number": 51,
+        "title": "N-Queens",
+        "difficulty": "Hard",
+        "frequency": 93.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 86,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 86,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fizz-buzz",
+        "number": 412,
+        "title": "Fizz Buzz",
+        "difficulty": "Easy",
+        "frequency": 86,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contain-virus",
+        "number": 749,
+        "title": "Contain Virus",
+        "difficulty": "Hard",
+        "frequency": 86,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Mastercard Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Mastercard coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/mastercard",
+    "keywords": [
+      "mastercard interview questions",
+      "mastercard leetcode",
+      "mastercard coding questions",
+      "mastercard online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

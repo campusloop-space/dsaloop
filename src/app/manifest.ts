@@ -4,10 +4,10 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "DSALoop — CampusLoop DSA & Interview Platform",
+    name: "DSALoop by https://campusloop.space/",
     short_name: "DSALoop",
     description:
-      "Minimal, pattern-first coding interview preparation with roadmaps, problem search, and local progress tracking by CampusLoop.",
+      "DSALoop by https://campusloop.space/ — Minimal, pattern-first coding interview preparation with roadmaps, 185+ company tracks, and 28-chapter system design primer.",
     start_url: "/",
     scope: "/",
     display: "standalone",

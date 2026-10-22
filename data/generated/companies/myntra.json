@@ -1,0 +1,205 @@
+{
+  "type": "company",
+  "slug": "myntra",
+  "name": "Myntra",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Myntra hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "maximum-earnings-from-taxi",
+    "best-time-to-buy-and-sell-stock",
+    "largest-rectangle-in-histogram",
+    "target-sum",
+    "deepest-leaves-sum",
+    "find-pivot-index",
+    "first-missing-positive",
+    "3sum",
+    "wiggle-sort",
+    "rotting-oranges",
+    "minimum-moves-to-equal-array-elements-ii",
+    "container-with-most-water",
+    "remove-duplicates-from-sorted-array",
+    "longest-substring-without-repeating-characters",
+    "generate-parentheses",
+    "longest-consecutive-sequence",
+    "capacity-to-ship-packages-within-d-days"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 12,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "maximum-earnings-from-taxi",
+        "number": 2008,
+        "title": "Maximum Earnings From Taxi",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "target-sum",
+        "number": 494,
+        "title": "Target Sum",
+        "difficulty": "Medium",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "deepest-leaves-sum",
+        "number": 1302,
+        "title": "Deepest Leaves Sum",
+        "difficulty": "Medium",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-pivot-index",
+        "number": 724,
+        "title": "Find Pivot Index",
+        "difficulty": "Easy",
+        "frequency": 73.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wiggle-sort",
+        "number": 280,
+        "title": "Wiggle Sort",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-moves-to-equal-array-elements-ii",
+        "number": 462,
+        "title": "Minimum Moves to Equal Array Elements II",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Myntra Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Myntra coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/myntra",
+    "keywords": [
+      "myntra interview questions",
+      "myntra leetcode",
+      "myntra coding questions",
+      "myntra online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

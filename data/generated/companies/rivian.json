@@ -1,0 +1,115 @@
+{
+  "type": "company",
+  "slug": "rivian",
+  "name": "Rivian",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Rivian hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "number-of-islands",
+    "lru-cache",
+    "degree-of-an-array",
+    "flatten-deeply-nested-array",
+    "string-compression",
+    "merge-k-sorted-lists",
+    "max-increase-to-keep-city-skyline",
+    "basic-calculator-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 6,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-deeply-nested-array",
+        "number": 2625,
+        "title": "Flatten Deeply Nested Array",
+        "difficulty": "Medium",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-increase-to-keep-city-skyline",
+        "number": 807,
+        "title": "Max Increase to Keep City Skyline",
+        "difficulty": "Medium",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Rivian Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Rivian coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/rivian",
+    "keywords": [
+      "rivian interview questions",
+      "rivian leetcode",
+      "rivian coding questions",
+      "rivian online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

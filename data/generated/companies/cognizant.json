@@ -1,0 +1,628 @@
+{
+  "type": "company",
+  "slug": "cognizant",
+  "name": "Cognizant",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Cognizant hiring and placement rounds.",
+  "problemCount": 50,
+  "problemSlugs": [
+    "count-subarrays-of-length-three-with-a-condition",
+    "two-sum",
+    "palindrome-number",
+    "longest-substring-without-repeating-characters",
+    "longest-palindromic-substring",
+    "smallest-value-of-the-rearranged-number",
+    "sort-array-by-absolute-value",
+    "second-highest-salary",
+    "move-zeroes",
+    "valid-parentheses",
+    "best-time-to-buy-and-sell-stock",
+    "fibonacci-number",
+    "valid-anagram",
+    "median-of-two-sorted-arrays",
+    "valid-palindrome",
+    "subarray-sum-equals-k",
+    "reverse-integer",
+    "remove-duplicates-from-sorted-array",
+    "merge-sorted-array",
+    "first-missing-positive",
+    "replace-employee-id-with-the-unique-identifier",
+    "article-views-i",
+    "single-number",
+    "combine-two-tables",
+    "climbing-stairs",
+    "max-consecutive-ones",
+    "majority-element",
+    "consecutive-numbers-sum",
+    "rising-temperature",
+    "jump-game",
+    "employees-earning-more-than-their-managers",
+    "find-the-highest-altitude",
+    "string-compression",
+    "minimum-absolute-difference",
+    "linked-list-cycle",
+    "next-permutation",
+    "find-total-time-spent-by-each-employee",
+    "nth-highest-salary",
+    "third-maximum-number",
+    "sort-vowels-in-a-string",
+    "rank-scores",
+    "rotting-oranges",
+    "find-customer-referee",
+    "palindromic-substrings",
+    "product-price-at-a-given-date",
+    "department-top-three-salaries",
+    "customers-who-never-order",
+    "3sum",
+    "longest-consecutive-sequence",
+    "boats-to-save-people"
+  ],
+  "difficultyBreakdown": {
+    "easy": 28,
+    "medium": 18,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "consecutive-numbers-sum",
+        "number": 829,
+        "title": "Consecutive Numbers Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "consecutive-numbers-sum",
+        "number": 829,
+        "title": "Consecutive Numbers Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "consecutive-numbers-sum",
+        "number": 829,
+        "title": "Consecutive Numbers Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-scores",
+        "number": 178,
+        "title": "Rank Scores",
+        "difficulty": "Medium",
+        "frequency": 87.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-customer-referee",
+        "number": 584,
+        "title": "Find Customer Referee",
+        "difficulty": "Easy",
+        "frequency": 87.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "count-subarrays-of-length-three-with-a-condition",
+        "number": 3392,
+        "title": "Count Subarrays of Length Three With a Condition",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 94.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 87.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 85,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-value-of-the-rearranged-number",
+        "number": 2165,
+        "title": "Smallest Value of the Rearranged Number",
+        "difficulty": "Medium",
+        "frequency": 79.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-array-by-absolute-value",
+        "number": 3667,
+        "title": "Sort Array By Absolute Value",
+        "difficulty": "Easy",
+        "frequency": 79.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fibonacci-number",
+        "number": 509,
+        "title": "Fibonacci Number",
+        "difficulty": "Easy",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 63.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 63.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-integer",
+        "number": 7,
+        "title": "Reverse Integer",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "replace-employee-id-with-the-unique-identifier",
+        "number": 1378,
+        "title": "Replace Employee ID With The Unique Identifier",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "article-views-i",
+        "number": 1148,
+        "title": "Article Views I",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-number",
+        "number": 136,
+        "title": "Single Number",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combine-two-tables",
+        "number": 175,
+        "title": "Combine Two Tables",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones",
+        "number": 485,
+        "title": "Max Consecutive Ones",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "consecutive-numbers-sum",
+        "number": 829,
+        "title": "Consecutive Numbers Sum",
+        "difficulty": "Hard",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rising-temperature",
+        "number": 197,
+        "title": "Rising Temperature",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employees-earning-more-than-their-managers",
+        "number": 181,
+        "title": "Employees Earning More Than Their Managers",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-highest-altitude",
+        "number": 1732,
+        "title": "Find the Highest Altitude",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference",
+        "number": 1200,
+        "title": "Minimum Absolute Difference",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-total-time-spent-by-each-employee",
+        "number": 1741,
+        "title": "Find Total Time Spent by Each Employee",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "nth-highest-salary",
+        "number": 177,
+        "title": "Nth Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "third-maximum-number",
+        "number": 414,
+        "title": "Third Maximum Number",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-vowels-in-a-string",
+        "number": 2785,
+        "title": "Sort Vowels in a String",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-scores",
+        "number": 178,
+        "title": "Rank Scores",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-customer-referee",
+        "number": 584,
+        "title": "Find Customer Referee",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-price-at-a-given-date",
+        "number": 1164,
+        "title": "Product Price at a Given Date",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-top-three-salaries",
+        "number": 185,
+        "title": "Department Top Three Salaries",
+        "difficulty": "Hard",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "customers-who-never-order",
+        "number": 183,
+        "title": "Customers Who Never Order",
+        "difficulty": "Easy",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "boats-to-save-people",
+        "number": 881,
+        "title": "Boats to Save People",
+        "difficulty": "Medium",
+        "frequency": 47.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Cognizant Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Cognizant coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/cognizant",
+    "keywords": [
+      "cognizant interview questions",
+      "cognizant leetcode",
+      "cognizant coding questions",
+      "cognizant online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

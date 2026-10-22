@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "criteo",
+  "name": "Criteo",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Criteo hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "intersection-of-two-arrays",
+    "intersection-of-two-arrays-ii",
+    "flood-fill",
+    "ransom-note",
+    "two-sum",
+    "search-in-rotated-sorted-array",
+    "random-pick-with-weight",
+    "maximum-subarray",
+    "valid-parentheses",
+    "set-mismatch"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 3,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "intersection-of-two-arrays",
+        "number": 349,
+        "title": "Intersection of Two Arrays",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "intersection-of-two-arrays",
+        "number": 349,
+        "title": "Intersection of Two Arrays",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-arrays-ii",
+        "number": 350,
+        "title": "Intersection of Two Arrays II",
+        "difficulty": "Easy",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flood-fill",
+        "number": 733,
+        "title": "Max Area of Island",
+        "difficulty": "Easy",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ransom-note",
+        "number": 383,
+        "title": "Ransom Note",
+        "difficulty": "Easy",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-mismatch",
+        "number": 645,
+        "title": "Set Mismatch",
+        "difficulty": "Easy",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Criteo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Criteo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/criteo",
+    "keywords": [
+      "criteo interview questions",
+      "criteo leetcode",
+      "criteo coding questions",
+      "criteo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "type": "company",
+  "slug": "openai",
+  "name": "Openai",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Openai hiring and placement rounds.",
+  "problemCount": 18,
+  "problemSlugs": [
+    "design-memory-allocator",
+    "design-sql",
+    "encode-and-decode-strings",
+    "rotting-oranges",
+    "time-based-key-value-store",
+    "ip-to-cidr",
+    "flatten-nested-list-iterator",
+    "simplify-path",
+    "largest-local-values-in-a-matrix",
+    "design-excel-sum-formula",
+    "asteroid-collision",
+    "trapping-rain-water",
+    "design-spreadsheet",
+    "design-hit-counter",
+    "design-authentication-manager",
+    "snapshot-array",
+    "lru-cache",
+    "find-duplicate-file-in-system"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 15,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "find-duplicate-file-in-system",
+        "number": 609,
+        "title": "Find Duplicate File in System",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-duplicate-file-in-system",
+        "number": 609,
+        "title": "Find Duplicate File in System",
+        "difficulty": "Medium",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-authentication-manager",
+        "number": 1797,
+        "title": "Design Authentication Manager",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-duplicate-file-in-system",
+        "number": 609,
+        "title": "Find Duplicate File in System",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-sql",
+        "number": 2408,
+        "title": "Design SQL",
+        "difficulty": "Medium",
+        "frequency": 96.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "encode-and-decode-strings",
+        "number": 271,
+        "title": "Encode and Decode Strings",
+        "difficulty": "Medium",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ip-to-cidr",
+        "number": 751,
+        "title": "IP to CIDR",
+        "difficulty": "Medium",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-nested-list-iterator",
+        "number": 341,
+        "title": "Flatten Nested List Iterator",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-local-values-in-a-matrix",
+        "number": 2373,
+        "title": "Largest Local Values in a Matrix",
+        "difficulty": "Easy",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-excel-sum-formula",
+        "number": 631,
+        "title": "Design Excel Sum Formula",
+        "difficulty": "Hard",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-spreadsheet",
+        "number": 3484,
+        "title": "Design Spreadsheet",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-authentication-manager",
+        "number": 1797,
+        "title": "Design Authentication Manager",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-duplicate-file-in-system",
+        "number": 609,
+        "title": "Find Duplicate File in System",
+        "difficulty": "Medium",
+        "frequency": 48.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Openai Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Openai coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/openai",
+    "keywords": [
+      "openai interview questions",
+      "openai leetcode",
+      "openai coding questions",
+      "openai online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

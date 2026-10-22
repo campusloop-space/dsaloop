@@ -1,0 +1,262 @@
+{
+  "type": "company",
+  "slug": "hcl",
+  "name": "HCLTech",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in HCLTech hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "two-sum",
+    "best-time-to-buy-and-sell-stock",
+    "valid-parentheses",
+    "longest-substring-without-repeating-characters",
+    "merge-sorted-array",
+    "valid-palindrome",
+    "second-highest-salary",
+    "maximum-subarray",
+    "trapping-rain-water",
+    "reverse-string",
+    "department-top-three-salaries",
+    "palindromic-substrings",
+    "missing-number",
+    "minimum-size-subarray-sum",
+    "valid-perfect-square",
+    "palindrome-number",
+    "group-anagrams"
+  ],
+  "difficultyBreakdown": {
+    "easy": 9,
+    "medium": 6,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 81.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-string",
+        "number": 344,
+        "title": "Reverse String",
+        "difficulty": "Easy",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-top-three-salaries",
+        "number": 185,
+        "title": "Department Top Three Salaries",
+        "difficulty": "Hard",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "missing-number",
+        "number": 268,
+        "title": "Missing Number",
+        "difficulty": "Easy",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-size-subarray-sum",
+        "number": 209,
+        "title": "Minimum Size Subarray Sum",
+        "difficulty": "Medium",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-perfect-square",
+        "number": 367,
+        "title": "Valid Perfect Square",
+        "difficulty": "Easy",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 59.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "HCLTech Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top HCLTech coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/hcl",
+    "keywords": [
+      "hcltech interview questions",
+      "hcltech leetcode",
+      "hcltech coding questions",
+      "hcltech online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

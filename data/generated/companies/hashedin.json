@@ -1,0 +1,325 @@
+{
+  "type": "company",
+  "slug": "hashedin",
+  "name": "Hashedin",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Hashedin hiring and placement rounds.",
+  "problemCount": 28,
+  "problemSlugs": [
+    "maximum-points-inside-the-square",
+    "group-anagrams",
+    "subarrays-with-k-different-integers",
+    "jump-game",
+    "longest-substring-without-repeating-characters",
+    "trapping-rain-water",
+    "jump-game-ii",
+    "minimum-time-to-repair-cars",
+    "longest-palindromic-substring",
+    "subarray-sums-divisible-by-k",
+    "minimum-cost-to-make-array-equal",
+    "next-permutation",
+    "chalkboard-xor-game",
+    "beautiful-arrangement",
+    "number-of-islands",
+    "maximum-product-subarray",
+    "edit-distance",
+    "container-with-most-water",
+    "koko-eating-bananas",
+    "longest-common-prefix",
+    "best-time-to-buy-and-sell-stock-iv",
+    "decode-string",
+    "two-sum",
+    "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+    "restore-ip-addresses",
+    "jump-game-iv",
+    "sort-colors",
+    "coin-change"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 19,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-points-inside-the-square",
+        "number": 3143,
+        "title": "Maximum Points Inside the Square",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarrays-with-k-different-integers",
+        "number": 992,
+        "title": "Subarrays with K Different Integers",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 79.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 79.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-repair-cars",
+        "number": 2594,
+        "title": "Minimum Time to Repair Cars",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sums-divisible-by-k",
+        "number": 974,
+        "title": "Subarray Sums Divisible by K",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-make-array-equal",
+        "number": 2448,
+        "title": "Minimum Cost to Make Array Equal",
+        "difficulty": "Hard",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "chalkboard-xor-game",
+        "number": 810,
+        "title": "Chalkboard XOR Game",
+        "difficulty": "Hard",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-arrangement",
+        "number": 526,
+        "title": "Beautiful Arrangement",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iv",
+        "number": 188,
+        "title": "Best Time to Buy and Sell Stock IV",
+        "difficulty": "Hard",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+        "number": 1505,
+        "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+        "difficulty": "Hard",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-iv",
+        "number": 1345,
+        "title": "Jump Game IV",
+        "difficulty": "Hard",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Hashedin Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Hashedin coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/hashedin",
+    "keywords": [
+      "hashedin interview questions",
+      "hashedin leetcode",
+      "hashedin coding questions",
+      "hashedin online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

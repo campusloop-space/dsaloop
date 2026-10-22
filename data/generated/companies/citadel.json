@@ -1,0 +1,913 @@
+{
+  "type": "company",
+  "slug": "citadel",
+  "name": "Citadel",
+  "description": "Extremely rigorous algorithmic and quantitative coding rounds covering advanced graphs, DP, and math.",
+  "problemCount": 74,
+  "problemSlugs": [
+    "sliding-window-maximum",
+    "count-palindromic-subsequences",
+    "number-of-orders-in-the-backlog",
+    "palindromic-substrings",
+    "best-time-to-buy-and-sell-stock",
+    "find-median-from-data-stream",
+    "best-position-for-a-service-centre",
+    "merge-intervals",
+    "insert-delete-getrandom-o1",
+    "minimum-costs-using-the-train-line",
+    "time-based-key-value-store",
+    "maximum-total-damage-with-spell-casting",
+    "evaluate-division",
+    "first-completely-painted-row-or-column",
+    "maximum-length-of-repeated-subarray",
+    "evaluate-reverse-polish-notation",
+    "lru-cache",
+    "lfu-cache",
+    "parallel-courses-iii",
+    "design-spreadsheet",
+    "course-schedule-ii",
+    "employee-free-time",
+    "meeting-scheduler",
+    "find-servers-that-handled-most-number-of-requests",
+    "smallest-missing-non-negative-integer-after-operations",
+    "binary-tree-maximum-path-sum",
+    "number-of-islands",
+    "find-the-duplicate-number",
+    "sqrtx",
+    "reconstruct-itinerary",
+    "max-consecutive-ones-iii",
+    "word-ladder",
+    "optimal-account-balancing",
+    "design-tic-tac-toe",
+    "two-sum",
+    "merge-k-sorted-lists",
+    "sudoku-solver",
+    "serialize-and-deserialize-binary-tree",
+    "search-suggestions-system",
+    "couples-holding-hands",
+    "paint-house",
+    "rank-transform-of-a-matrix",
+    "binary-tree-zigzag-level-order-traversal",
+    "meeting-rooms-ii",
+    "maximum-subarray",
+    "design-in-memory-file-system",
+    "trapping-rain-water",
+    "combination-sum",
+    "permutations",
+    "minimum-operations-to-make-numbers-non-positive",
+    "length-of-longest-subarray-with-at-most-k-frequency",
+    "design-circular-queue",
+    "fizz-buzz",
+    "moving-average-from-data-stream",
+    "climbing-stairs",
+    "powx-n",
+    "koko-eating-bananas",
+    "max-points-on-a-line",
+    "longest-palindromic-substring",
+    "count-primes",
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "next-permutation",
+    "validate-binary-search-tree",
+    "number-of-dice-rolls-with-target-sum",
+    "best-time-to-buy-and-sell-stock-iv",
+    "min-stack",
+    "design-a-leaderboard",
+    "best-time-to-buy-and-sell-stock-with-transaction-fee",
+    "knight-probability-in-chessboard",
+    "number-of-ways-to-paint-n-3-grid",
+    "find-eventual-safe-states",
+    "design-search-autocomplete-system",
+    "knight-dialer",
+    "implement-trie-prefix-tree"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 43,
+    "hard": 25
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "evaluate-reverse-polish-notation",
+        "number": 150,
+        "title": "Evaluate Reverse Polish Notation",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "number-of-orders-in-the-backlog",
+        "number": 1801,
+        "title": "Number of Orders in the Backlog",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-spreadsheet",
+        "number": 3484,
+        "title": "Design Spreadsheet",
+        "difficulty": "Medium",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-reverse-polish-notation",
+        "number": 150,
+        "title": "Evaluate Reverse Polish Notation",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "number-of-orders-in-the-backlog",
+        "number": 1801,
+        "title": "Number of Orders in the Backlog",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 93.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-spreadsheet",
+        "number": 3484,
+        "title": "Design Spreadsheet",
+        "difficulty": "Medium",
+        "frequency": 83.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 76.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-reverse-polish-notation",
+        "number": 150,
+        "title": "Evaluate Reverse Polish Notation",
+        "difficulty": "Medium",
+        "frequency": 76.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-palindromic-subsequences",
+        "number": 2484,
+        "title": "Count Palindromic Subsequences",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-orders-in-the-backlog",
+        "number": 1801,
+        "title": "Number of Orders in the Backlog",
+        "difficulty": "Medium",
+        "frequency": 98.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 95.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-position-for-a-service-centre",
+        "number": 1515,
+        "title": "Best Position for a Service Centre",
+        "difficulty": "Hard",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-costs-using-the-train-line",
+        "number": 2361,
+        "title": "Minimum Costs Using the Train Line",
+        "difficulty": "Hard",
+        "frequency": 84.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 84.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-total-damage-with-spell-casting",
+        "number": 3186,
+        "title": "Maximum Total Damage With Spell Casting",
+        "difficulty": "Medium",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-completely-painted-row-or-column",
+        "number": 2661,
+        "title": "First Completely Painted Row or Column",
+        "difficulty": "Medium",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-length-of-repeated-subarray",
+        "number": 718,
+        "title": "Maximum Length of Repeated Subarray",
+        "difficulty": "Medium",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-reverse-polish-notation",
+        "number": 150,
+        "title": "Evaluate Reverse Polish Notation",
+        "difficulty": "Medium",
+        "frequency": 77.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "parallel-courses-iii",
+        "number": 2050,
+        "title": "Parallel Courses III",
+        "difficulty": "Hard",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-spreadsheet",
+        "number": 3484,
+        "title": "Design Spreadsheet",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-free-time",
+        "number": 759,
+        "title": "Employee Free Time",
+        "difficulty": "Hard",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-scheduler",
+        "number": 1229,
+        "title": "Meeting Scheduler",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-servers-that-handled-most-number-of-requests",
+        "number": 1606,
+        "title": "Find Servers That Handled Most Number of Requests",
+        "difficulty": "Hard",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-missing-non-negative-integer-after-operations",
+        "number": 2598,
+        "title": "Smallest Missing Non-negative Integer After Operations",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-duplicate-number",
+        "number": 287,
+        "title": "Find the Duplicate Number",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sqrtx",
+        "number": 69,
+        "title": "Sqrt(x)",
+        "difficulty": "Easy",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-tic-tac-toe",
+        "number": 348,
+        "title": "Design Tic-Tac-Toe",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sudoku-solver",
+        "number": 37,
+        "title": "Sudoku Solver",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-suggestions-system",
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "couples-holding-hands",
+        "number": 765,
+        "title": "Couples Holding Hands",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "paint-house",
+        "number": 256,
+        "title": "Paint House",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-transform-of-a-matrix",
+        "number": 1632,
+        "title": "Rank Transform of a Matrix",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-zigzag-level-order-traversal",
+        "number": 103,
+        "title": "Binary Tree Zigzag Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-in-memory-file-system",
+        "number": 588,
+        "title": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-make-numbers-non-positive",
+        "number": 2702,
+        "title": "Minimum Operations to Make Numbers Non-positive",
+        "difficulty": "Hard",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+        "number": 2958,
+        "title": "Length of Longest Subarray With at Most K Frequency",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fizz-buzz",
+        "number": 412,
+        "title": "Fizz Buzz",
+        "difficulty": "Easy",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "moving-average-from-data-stream",
+        "number": 346,
+        "title": "Moving Average from Data Stream",
+        "difficulty": "Easy",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "powx-n",
+        "number": 50,
+        "title": "Pow(x, n)",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-points-on-a-line",
+        "number": 149,
+        "title": "Max Points on a Line",
+        "difficulty": "Hard",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-primes",
+        "number": 204,
+        "title": "Count Primes",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-dice-rolls-with-target-sum",
+        "number": 1155,
+        "title": "Number of Dice Rolls With Target Sum",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iv",
+        "number": 188,
+        "title": "Best Time to Buy and Sell Stock IV",
+        "difficulty": "Hard",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-leaderboard",
+        "number": 1244,
+        "title": "Design A Leaderboard",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+        "number": 714,
+        "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "knight-probability-in-chessboard",
+        "number": 688,
+        "title": "Knight Probability in Chessboard",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-paint-n-3-grid",
+        "number": 1411,
+        "title": "Number of Ways to Paint N × 3 Grid",
+        "difficulty": "Hard",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-eventual-safe-states",
+        "number": 802,
+        "title": "Find Eventual Safe States",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-search-autocomplete-system",
+        "number": 642,
+        "title": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "knight-dialer",
+        "number": 935,
+        "title": "Knight Dialer",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 46.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Citadel Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Citadel coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/citadel",
+    "keywords": [
+      "citadel interview questions",
+      "citadel leetcode",
+      "citadel coding questions",
+      "citadel online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

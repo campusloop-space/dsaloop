@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export const metadata: Metadata = buildMetadata({
-  title: "AlgoForge Blog — DSA & Interview Guides",
+  title: "DSALoop Blog — DSA & Interview Guides",
   description: "In-depth guides on dynamic programming, DFS, sliding window, and interview strategy.",
   keywords: ["leetcode blog", "dsa guides", "coding interview blog"],
   canonicalPath: "/blog",

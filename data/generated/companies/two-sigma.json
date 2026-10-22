@@ -2,22 +2,224 @@
   "type": "company",
   "slug": "two-sigma",
   "name": "Two Sigma",
-  "description": "Coding interview preparation for Two Sigma: high-frequency patterns and problem sets.",
-  "problemCount": 4,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Two Sigma hiring and placement rounds.",
+  "problemCount": 19,
   "problemSlugs": [
+    "random-pick-with-weight",
+    "multiply-strings",
+    "maximum-subarray-sum-with-one-deletion",
+    "wildcard-matching",
+    "longest-string-chain",
     "game-of-life",
     "power-of-four",
     "intersection-of-two-arrays",
-    "intersection-of-two-arrays-ii"
+    "maximum-sum-circular-subarray",
+    "parallel-courses-iii",
+    "word-search-ii",
+    "merge-k-sorted-lists",
+    "design-memory-allocator",
+    "valid-parentheses",
+    "meeting-rooms-ii",
+    "number-of-islands",
+    "house-robber-iii",
+    "number-of-orders-in-the-backlog",
+    "regular-expression-matching"
   ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 11,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 93.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray-sum-with-one-deletion",
+        "number": 1186,
+        "title": "Maximum Subarray Sum with One Deletion",
+        "difficulty": "Medium",
+        "frequency": 93.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "game-of-life",
+        "number": 289,
+        "title": "Game of Life",
+        "difficulty": "Medium",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "power-of-four",
+        "number": 342,
+        "title": "Power of Four",
+        "difficulty": "Easy",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-arrays",
+        "number": 349,
+        "title": "Intersection of Two Arrays",
+        "difficulty": "Easy",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-circular-subarray",
+        "number": 918,
+        "title": "Maximum Sum Circular Subarray",
+        "difficulty": "Medium",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "parallel-courses-iii",
+        "number": 2050,
+        "title": "Parallel Courses III",
+        "difficulty": "Hard",
+        "frequency": 83.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 83.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 67.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 67.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 67.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 57.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 57.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-iii",
+        "number": 337,
+        "title": "House Robber III",
+        "difficulty": "Medium",
+        "frequency": 57.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-orders-in-the-backlog",
+        "number": 1801,
+        "title": "Number of Orders in the Backlog",
+        "difficulty": "Medium",
+        "frequency": 57.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "regular-expression-matching",
+        "number": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "frequency": 57.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Two Sigma Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Two Sigma interviews with 4 problems, patterns, and roadmaps.",
+    "title": "Two Sigma Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Two Sigma coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/two-sigma",
     "keywords": [
-      "Two Sigma interview questions",
-      "Two Sigma leetcode",
-      "Two Sigma oa"
-    ],
-    "canonicalPath": "/companies/two-sigma"
+      "two sigma interview questions",
+      "two sigma leetcode",
+      "two sigma coding questions",
+      "two sigma online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

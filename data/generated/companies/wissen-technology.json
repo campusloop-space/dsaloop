@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "wissen-technology",
+  "name": "Wissen Technology",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Wissen Technology hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "longest-consecutive-sequence",
+    "longest-substring-without-repeating-characters",
+    "valid-sudoku",
+    "minimum-window-substring",
+    "3sum",
+    "remove-duplicates-from-sorted-array-ii",
+    "spiral-matrix",
+    "remove-duplicates-from-sorted-array",
+    "search-a-2d-matrix",
+    "sort-characters-by-frequency",
+    "group-anagrams"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 9,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-sudoku",
+        "number": 36,
+        "title": "Valid Sudoku",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array-ii",
+        "number": 80,
+        "title": "Remove Duplicates from Sorted Array II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-a-2d-matrix",
+        "number": 74,
+        "title": "Search a 2D Matrix",
+        "difficulty": "Medium",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-characters-by-frequency",
+        "number": 451,
+        "title": "Sort Characters By Frequency",
+        "difficulty": "Medium",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Wissen Technology Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Wissen Technology coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/wissen-technology",
+    "keywords": [
+      "wissen technology interview questions",
+      "wissen technology leetcode",
+      "wissen technology coding questions",
+      "wissen technology online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

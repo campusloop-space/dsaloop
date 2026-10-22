@@ -2,21 +2,324 @@
   "type": "company",
   "slug": "yahoo",
   "name": "Yahoo",
-  "description": "Coding interview preparation for Yahoo: high-frequency patterns and problem sets.",
-  "problemCount": 3,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Yahoo hiring and placement rounds.",
+  "problemCount": 29,
   "problemSlugs": [
+    "two-sum",
+    "maximum-depth-of-binary-tree",
     "lru-cache",
+    "reverse-linked-list",
+    "serialize-and-deserialize-binary-tree",
+    "largest-palindrome-product",
+    "median-of-two-sorted-arrays",
+    "roman-to-integer",
+    "word-break",
+    "linked-list-cycle",
     "contains-duplicate",
-    "largest-palindrome-product"
+    "peeking-iterator",
+    "maximum-distance-in-arrays",
+    "binary-number-with-alternating-bits",
+    "matrix-cells-in-distance-order",
+    "top-k-frequent-elements",
+    "combination-sum",
+    "longest-common-prefix",
+    "valid-parentheses",
+    "spiral-matrix",
+    "validate-binary-search-tree",
+    "decode-string",
+    "subarray-sum-equals-k",
+    "restore-ip-addresses",
+    "evaluate-division",
+    "flatten-nested-list-iterator",
+    "find-peak-element",
+    "word-search",
+    "meeting-rooms-ii"
   ],
+  "difficultyBreakdown": {
+    "easy": 10,
+    "medium": 16,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-depth-of-binary-tree",
+        "number": 104,
+        "title": "Maximum Depth of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-palindrome-product",
+        "number": 479,
+        "title": "Largest Palindrome Product",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate",
+        "number": 217,
+        "title": "Contains Duplicate",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "peeking-iterator",
+        "number": 284,
+        "title": "Peeking Iterator",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-distance-in-arrays",
+        "number": 624,
+        "title": "Maximum Distance in Arrays",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-number-with-alternating-bits",
+        "number": 693,
+        "title": "Binary Number with Alternating Bits",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "matrix-cells-in-distance-order",
+        "number": 1030,
+        "title": "Matrix Cells in Distance Order",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 84.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 71.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-nested-list-iterator",
+        "number": 341,
+        "title": "Flatten Nested List Iterator",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Yahoo Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Yahoo interviews with 3 problems, patterns, and roadmaps.",
+    "title": "Yahoo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Yahoo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/yahoo",
     "keywords": [
-      "Yahoo interview questions",
-      "Yahoo leetcode",
-      "Yahoo oa"
-    ],
-    "canonicalPath": "/companies/yahoo"
+      "yahoo interview questions",
+      "yahoo leetcode",
+      "yahoo coding questions",
+      "yahoo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

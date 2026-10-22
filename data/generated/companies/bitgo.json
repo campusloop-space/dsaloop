@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "bitgo",
+  "name": "Bitgo",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Bitgo hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "check-if-an-original-string-exists-given-two-encoded-strings",
+    "number-of-islands",
+    "gas-station",
+    "lru-cache",
+    "bus-routes",
+    "longest-palindromic-substring",
+    "longest-substring-with-at-most-k-distinct-characters",
+    "trapping-rain-water",
+    "lowest-common-ancestor-of-a-binary-tree",
+    "largest-rectangle-in-histogram",
+    "course-schedule",
+    "longest-substring-without-repeating-characters",
+    "longest-consecutive-sequence"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 9,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "check-if-an-original-string-exists-given-two-encoded-strings",
+        "number": 2060,
+        "title": "Check if an Original String Exists Given Two Encoded Strings",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 89,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 83.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 83.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bus-routes",
+        "number": 815,
+        "title": "Bus Routes",
+        "difficulty": "Hard",
+        "frequency": 77,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 77,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-with-at-most-k-distinct-characters",
+        "number": 340,
+        "title": "Longest Substring with At Most K Distinct Characters",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lowest-common-ancestor-of-a-binary-tree",
+        "number": 236,
+        "title": "Lowest Common Ancestor of a Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Bitgo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Bitgo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/bitgo",
+    "keywords": [
+      "bitgo interview questions",
+      "bitgo leetcode",
+      "bitgo coding questions",
+      "bitgo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

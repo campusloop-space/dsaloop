@@ -1,0 +1,362 @@
+{
+  "type": "company",
+  "slug": "tekion",
+  "name": "Tekion",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Tekion hiring and placement rounds.",
+  "problemCount": 28,
+  "problemSlugs": [
+    "count-the-number-of-infection-sequences",
+    "trapping-rain-water",
+    "best-time-to-buy-and-sell-stock-iii",
+    "maximum-subarray",
+    "split-array-largest-sum",
+    "two-sum",
+    "rotting-oranges",
+    "longest-string-chain",
+    "numbers-with-same-consecutive-differences",
+    "max-consecutive-ones-iii",
+    "ways-to-split-array-into-three-subarrays",
+    "meeting-rooms-ii",
+    "product-of-the-last-k-numbers",
+    "word-ladder",
+    "daily-temperatures",
+    "subarray-product-less-than-k",
+    "rank-teams-by-votes",
+    "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "longest-substring-without-repeating-characters",
+    "find-median-from-data-stream",
+    "lexicographically-maximum-mex-array",
+    "longest-palindromic-substring",
+    "longest-balanced-substring-after-one-swap",
+    "letter-combinations-of-a-phone-number",
+    "find-minimum-diameter-after-merging-two-trees",
+    "gas-station",
+    "largest-divisible-subset",
+    "find-k-th-smallest-pair-distance"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 18,
+    "hard": 9
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "find-minimum-diameter-after-merging-two-trees",
+        "number": 3203,
+        "title": "Find Minimum Diameter After Merging Two Trees",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-balanced-substring-after-one-swap",
+        "number": 3900,
+        "title": "Longest Balanced Substring After One Swap",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-minimum-diameter-after-merging-two-trees",
+        "number": 3203,
+        "title": "Find Minimum Diameter After Merging Two Trees",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "count-the-number-of-infection-sequences",
+        "number": 2954,
+        "title": "Count the Number of Infection Sequences",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 87.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iii",
+        "number": 123,
+        "title": "Best Time to Buy and Sell Stock III",
+        "difficulty": "Hard",
+        "frequency": 81.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 81.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "numbers-with-same-consecutive-differences",
+        "number": 967,
+        "title": "Numbers With Same Consecutive Differences",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ways-to-split-array-into-three-subarrays",
+        "number": 1712,
+        "title": "Ways to Split Array Into Three Subarrays",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-the-last-k-numbers",
+        "number": 1352,
+        "title": "Product of the Last K Numbers",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-teams-by-votes",
+        "number": 1366,
+        "title": "Rank Teams by Votes",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+        "number": 1574,
+        "title": "Shortest Subarray to be Removed to Make Array Sorted",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-balanced-substring-after-one-swap",
+        "number": 3900,
+        "title": "Longest Balanced Substring After One Swap",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-minimum-diameter-after-merging-two-trees",
+        "number": 3203,
+        "title": "Find Minimum Diameter After Merging Two Trees",
+        "difficulty": "Hard",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-divisible-subset",
+        "number": 368,
+        "title": "Largest Divisible Subset",
+        "difficulty": "Medium",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-th-smallest-pair-distance",
+        "number": 719,
+        "title": "Find K-th Smallest Pair Distance",
+        "difficulty": "Hard",
+        "frequency": 63.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Tekion Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Tekion coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/tekion",
+    "keywords": [
+      "tekion interview questions",
+      "tekion leetcode",
+      "tekion coding questions",
+      "tekion online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

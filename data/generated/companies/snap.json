@@ -1,0 +1,938 @@
+{
+  "type": "company",
+  "slug": "snap",
+  "name": "Snapchat",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Snapchat hiring and placement rounds.",
+  "problemCount": 82,
+  "problemSlugs": [
+    "lru-cache",
+    "number-of-islands",
+    "meeting-rooms-ii",
+    "word-ladder",
+    "bus-routes",
+    "minimum-window-substring",
+    "number-of-distinct-islands",
+    "basic-calculator-ii",
+    "design-log-storage-system",
+    "making-a-large-island",
+    "word-break-ii",
+    "bricks-falling-when-hit",
+    "combination-sum",
+    "reverse-words-in-a-string",
+    "course-schedule-ii",
+    "valid-sudoku",
+    "sudoku-solver",
+    "combination-sum-ii",
+    "wildcard-matching",
+    "unique-binary-search-trees",
+    "min-stack",
+    "one-edit-distance",
+    "reverse-linked-list",
+    "alien-dictionary",
+    "closest-binary-search-tree-value",
+    "game-of-life",
+    "burst-balloons",
+    "binary-tree-vertical-order-traversal",
+    "top-k-frequent-elements",
+    "combination-sum-iv",
+    "remove-k-digits",
+    "frog-jump",
+    "ternary-expression-parser",
+    "string-compression",
+    "word-abbreviation",
+    "largest-merge-of-two-strings",
+    "least-operators-to-express-number",
+    "best-time-to-buy-and-sell-stock-iii",
+    "evaluate-division",
+    "decode-ways",
+    "best-meeting-point",
+    "escape-the-spreading-fire",
+    "merge-intervals",
+    "word-search",
+    "minimum-remove-to-make-valid-parentheses",
+    "basic-calculator-iii",
+    "basic-calculator",
+    "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+    "course-schedule",
+    "power-of-two",
+    "reorder-list",
+    "letter-combinations-of-a-phone-number",
+    "word-search-ii",
+    "lfu-cache",
+    "reaching-points",
+    "open-the-lock",
+    "number-of-submatrices-that-sum-to-target",
+    "split-array-largest-sum",
+    "binary-tree-maximum-path-sum",
+    "shortest-path-in-a-grid-with-obstacles-elimination",
+    "cheapest-flights-within-k-stops",
+    "group-anagrams",
+    "minimum-area-rectangle",
+    "the-maze",
+    "product-of-array-except-self",
+    "search-in-rotated-sorted-array",
+    "minimum-number-of-pushes-to-type-word-i",
+    "add-binary",
+    "number-of-ways-to-form-a-target-string-given-a-dictionary",
+    "longest-substring-without-repeating-characters",
+    "utf-8-validation",
+    "koko-eating-bananas",
+    "sliding-window-median",
+    "possible-bipartition",
+    "most-stones-removed-with-same-row-or-column",
+    "fraction-to-recurring-decimal",
+    "design-hit-counter",
+    "merge-k-sorted-lists",
+    "longest-valid-parentheses",
+    "capacity-to-ship-packages-within-d-days",
+    "shortest-path-in-binary-matrix",
+    "android-unlock-patterns"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 48,
+    "hard": 29
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bus-routes",
+        "number": 815,
+        "title": "Bus Routes",
+        "difficulty": "Hard",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 93.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bus-routes",
+        "number": 815,
+        "title": "Bus Routes",
+        "difficulty": "Hard",
+        "frequency": 93.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 91.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-distinct-islands",
+        "number": 694,
+        "title": "Number of Distinct Islands",
+        "difficulty": "Medium",
+        "frequency": 91.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 89.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-log-storage-system",
+        "number": 635,
+        "title": "Design Log Storage System",
+        "difficulty": "Medium",
+        "frequency": 89.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-a-large-island",
+        "number": 827,
+        "title": "Making A Large Island",
+        "difficulty": "Hard",
+        "frequency": 89.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break-ii",
+        "number": 140,
+        "title": "Word Break II",
+        "difficulty": "Hard",
+        "frequency": 85.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bricks-falling-when-hit",
+        "number": 803,
+        "title": "Bricks Falling When Hit",
+        "difficulty": "Hard",
+        "frequency": 85.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 82.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 82.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 82.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-sudoku",
+        "number": 36,
+        "title": "Valid Sudoku",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sudoku-solver",
+        "number": 37,
+        "title": "Sudoku Solver",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum-ii",
+        "number": 40,
+        "title": "Combination Sum II",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-binary-search-trees",
+        "number": 96,
+        "title": "Unique Binary Search Trees",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "one-edit-distance",
+        "number": 161,
+        "title": "One Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-binary-search-tree-value",
+        "number": 270,
+        "title": "Closest Binary Search Tree Value",
+        "difficulty": "Easy",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "game-of-life",
+        "number": 289,
+        "title": "Game of Life",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "burst-balloons",
+        "number": 312,
+        "title": "Burst Balloons",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-vertical-order-traversal",
+        "number": 314,
+        "title": "Binary Tree Vertical Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum-iv",
+        "number": 377,
+        "title": "Combination Sum IV",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "frog-jump",
+        "number": 403,
+        "title": "Frog Jump",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ternary-expression-parser",
+        "number": 439,
+        "title": "Ternary Expression Parser",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-abbreviation",
+        "number": 527,
+        "title": "Word Abbreviation",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-merge-of-two-strings",
+        "number": 1754,
+        "title": "Largest Merge Of Two Strings",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "least-operators-to-express-number",
+        "number": 964,
+        "title": "Least Operators to Express Number",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iii",
+        "number": 123,
+        "title": "Best Time to Buy and Sell Stock III",
+        "difficulty": "Hard",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-ways",
+        "number": 91,
+        "title": "Decode Ways",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-meeting-point",
+        "number": 296,
+        "title": "Best Meeting Point",
+        "difficulty": "Hard",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "escape-the-spreading-fire",
+        "number": 2258,
+        "title": "Escape the Spreading Fire",
+        "difficulty": "Hard",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 62,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 62,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-remove-to-make-valid-parentheses",
+        "number": 1249,
+        "title": "Minimum Remove to Make Valid Parentheses",
+        "difficulty": "Medium",
+        "frequency": 62,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 62,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator",
+        "number": 224,
+        "title": "Basic Calculator",
+        "difficulty": "Hard",
+        "frequency": 62,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+        "number": 2316,
+        "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+        "difficulty": "Medium",
+        "frequency": 62,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "power-of-two",
+        "number": 231,
+        "title": "Power of Two",
+        "difficulty": "Easy",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorder-list",
+        "number": 143,
+        "title": "Reorder List",
+        "difficulty": "Medium",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reaching-points",
+        "number": 780,
+        "title": "Reaching Points",
+        "difficulty": "Hard",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "open-the-lock",
+        "number": 752,
+        "title": "Open the Lock",
+        "difficulty": "Medium",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-submatrices-that-sum-to-target",
+        "number": 1074,
+        "title": "Number of Submatrices That Sum to Target",
+        "difficulty": "Hard",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "number": 1293,
+        "title": "Shortest Path in a Grid with Obstacles Elimination",
+        "difficulty": "Hard",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-area-rectangle",
+        "number": 939,
+        "title": "Minimum Area Rectangle",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-maze",
+        "number": 490,
+        "title": "The Maze",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-array-except-self",
+        "number": 238,
+        "title": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-pushes-to-type-word-i",
+        "number": 3014,
+        "title": "Minimum Number of Pushes to Type Word I",
+        "difficulty": "Easy",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-binary",
+        "number": 67,
+        "title": "Add Binary",
+        "difficulty": "Easy",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+        "number": 1639,
+        "title": "Number of Ways to Form a Target String Given a Dictionary",
+        "difficulty": "Hard",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "utf-8-validation",
+        "number": 393,
+        "title": "UTF-8 Validation",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-median",
+        "number": 480,
+        "title": "Sliding Window Median",
+        "difficulty": "Hard",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "possible-bipartition",
+        "number": 886,
+        "title": "Possible Bipartition",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "most-stones-removed-with-same-row-or-column",
+        "number": 947,
+        "title": "Most Stones Removed with Same Row or Column",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fraction-to-recurring-decimal",
+        "number": 166,
+        "title": "Fraction to Recurring Decimal",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-binary-matrix",
+        "number": 1091,
+        "title": "Shortest Path in Binary Matrix",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "android-unlock-patterns",
+        "number": 351,
+        "title": "Android Unlock Patterns",
+        "difficulty": "Medium",
+        "frequency": 44.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Snapchat Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Snapchat coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/snap",
+    "keywords": [
+      "snapchat interview questions",
+      "snapchat leetcode",
+      "snapchat coding questions",
+      "snapchat online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

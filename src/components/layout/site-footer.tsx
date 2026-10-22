@@ -52,14 +52,22 @@ export function SiteFooter() {
                 <span className="font-heading text-lg font-black tracking-tight text-foreground">
                   DSA<span className="text-primary font-black">Loop</span>
                 </span>
-                <span className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider">
-                  CampusLoop Network
+                <span className="text-[10px] font-bold text-muted-foreground tracking-tight">
+                  by{" "}
+                  <a
+                    href="https://campusloop.space/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-foreground hover:text-primary transition-colors underline-offset-2 hover:underline"
+                  >
+                    https://campusloop.space/
+                  </a>
                 </span>
               </div>
             </Link>
 
             <p className="mt-3.5 max-w-sm text-xs leading-relaxed text-muted-foreground">
-              {siteConfig.description} Designed with deliberate whitespace, pattern-first recall, and zero noise.
+              <strong>DSALoop by https://campusloop.space/</strong> is a clean, minimal coding interview and system design platform built for students and engineers.
             </p>
 
             <div className="mt-4 flex items-center gap-2 text-[11px] font-medium text-muted-foreground">
@@ -69,7 +77,7 @@ export function SiteFooter() {
 
             <div className="mt-6 flex items-center gap-3 text-xs font-semibold text-muted-foreground">
               <a
-                href="https://campusloop.space"
+                href="https://campusloop.space/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-foreground hover:text-primary transition-colors inline-flex items-center gap-1 font-bold"
@@ -121,7 +129,7 @@ export function SiteFooter() {
 
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-muted-foreground">
-          <p>© {new Date().getFullYear()} CampusLoop. Open-source interview platform.</p>
+          <p>© {new Date().getFullYear()} DSALoop by <a href="https://campusloop.space/" target="_blank" rel="noreferrer" className="text-foreground hover:text-primary font-bold underline-offset-2 hover:underline">https://campusloop.space/</a>. Open-source placement preparation.</p>
           <div className="flex items-center gap-4">
             <Link href="/about" className="hover:text-foreground transition-colors">
               About

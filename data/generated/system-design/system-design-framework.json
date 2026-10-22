@@ -1,0 +1,132 @@
+{
+  "chapterNumber": 3,
+  "slug": "system-design-framework",
+  "title": "A Framework for System Design Interviews",
+  "subtitle": "System design interviews are a key part of the hiring process, simulating real-life problem-solving scenarios. These interviews evaluate not just technical skills but also collaboration, communication, and the ability to handle ambiguous requirements.",
+  "readTimeMinutes": 3,
+  "tags": [
+    "Interview Framework",
+    "Strategy",
+    "Communication"
+  ],
+  "imagesCount": 0,
+  "markdown": "## Introduction\nSystem design interviews are a key part of the hiring process, simulating real-life problem-solving scenarios. These interviews evaluate not just technical skills but also collaboration, communication, and the ability to handle ambiguous requirements.\n\nThis chapter introduces a **4-step framework** for navigating system design interviews effectively.\n\n---\n\n## Step 1: Understand the Problem and Establish Design Scope\n\n### Key Objectives\n- Clarify requirements and assumptions.\n- Avoid jumping into solutions prematurely.\n- Showcase critical thinking by asking good questions.\n\n### Approach\n- **Ask Clarifying Questions:**\n  - What are the most important features?\n  - What scale does the system need to handle?\n  - Are we building for web, mobile, or both?\n  - Are there existing technologies or constraints?\n\n- **Document Assumptions:** Write assumptions on a whiteboard or paper for reference.\n\n### Example\n**Problem:** Design a news feed system.  \n**Questions:**\n- Is it a mobile app, web app, or both?\n- How many friends can a user have?\n- Should the feed include images and videos?\n- Is the feed sorted by reverse chronological order?\n\n---\n\n## Step 2: Propose High-Level Design and Get Buy-In\n\n### Key Objectives\n- Develop a high-level architecture.\n- Collaborate with the interviewer to refine the design.\n\n### Approach\n- **Draft a Blueprint:**\n  - Use box diagrams for key components (e.g., clients, APIs, databases, caches, CDNs).\n  - Treat the interviewer as a teammate to refine the design.\n\n- **Perform Back-of-the-Envelope Calculations:**\n  - Ensure the design can handle the scale constraints.\n\n- **Walk Through Use Cases:** Identify edge cases and validate design assumptions.\n\n### Example\nFor a news feed system, divide the design into:\n1. **Feed Publishing Flow:** Writing posts into databases and populating friends' feeds.\n2. **Feed Retrieval Flow:** Aggregating and displaying friends' posts in reverse chronological order.\n\n---\n\n## Step 3: Design Deep Dive\n\n### Key Objectives\n- Dive into critical components.\n- Showcase depth of understanding and adaptability.\n\n### Approach\n- **Prioritize Key Components:** Focus on areas most relevant to the problem.\n- **Discuss Bottlenecks:** Identify potential performance issues and propose solutions.\n- **Balance Detail:** Avoid over-engineering or unnecessary deep dives.\n\n### Example Topics\n- **URL Shortener:** Focus on hash function design.\n- **Chat System:** Explore latency reduction and online/offline status handling.\n- **News Feed System:** Examine feed publishing and retrieval processes.\n\n---\n\n## Step 4: Wrap-Up\n\n### Key Objectives\n- Highlight areas for improvement.\n- Recap the design and discuss follow-ups.\n\n### Approach\n- **Identify Bottlenecks:** Discuss potential limitations and scaling strategies.\n- **Summarize Design:** Recap major design decisions and trade-offs.\n- **Propose Enhancements:**\n  - How to scale from 1 million to 10 million users.\n  - Error handling for server failures or network issues.\n\n---\n\n## Best Practices\n\n### Dos\n- **Ask Questions:** Clarify ambiguities before diving into solutions.\n- **Communicate:** Share your thought process with the interviewer.\n- **Iterate with the Interviewer:** Treat them as a collaborator.\n- **Show Flexibility:** Suggest alternative approaches and refine your design.\n- **Focus on Critical Components:** Prioritize key parts of the system.\n\n### Don’ts\n- **Avoid Premature Solutions:** Don’t design before understanding the requirements.\n- **Don’t Go Silent:** Communicate regularly during the process.\n- **Avoid Over-Engineering:** Focus on practical, scalable solutions.\n\n---\n\n## Time Management\n\n### Suggested Time Allocation (for 45-Minute Interviews):\n1. **Understand Problem and Scope:** 3–10 minutes\n2. **High-Level Design and Buy-In:** 10–15 minutes\n3. **Deep Dive:** 10–25 minutes\n4. **Wrap-Up:** 3–5 minutes\n\n---\n\n> 🎓 **DSALoop by [CampusLoop](https://campusloop.space/)** — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.",
+  "html": "<h2>Introduction</h2>\n<p>System design interviews are a key part of the hiring process, simulating real-life problem-solving scenarios. These interviews evaluate not just technical skills but also collaboration, communication, and the ability to handle ambiguous requirements.</p>\n<p>This chapter introduces a <strong>4-step framework</strong> for navigating system design interviews effectively.</p>\n<hr>\n<h2>Step 1: Understand the Problem and Establish Design Scope</h2>\n<h3>Key Objectives</h3>\n<ul>\n<li>Clarify requirements and assumptions.</li>\n<li>Avoid jumping into solutions prematurely.</li>\n<li>Showcase critical thinking by asking good questions.</li>\n</ul>\n<h3>Approach</h3>\n<ul>\n<li>\n<p><strong>Ask Clarifying Questions:</strong></p>\n<ul>\n<li>What are the most important features?</li>\n<li>What scale does the system need to handle?</li>\n<li>Are we building for web, mobile, or both?</li>\n<li>Are there existing technologies or constraints?</li>\n</ul>\n</li>\n<li>\n<p><strong>Document Assumptions:</strong> Write assumptions on a whiteboard or paper for reference.</p>\n</li>\n</ul>\n<h3>Example</h3>\n<p><strong>Problem:</strong> Design a news feed system.<br>\n<strong>Questions:</strong></p>\n<ul>\n<li>Is it a mobile app, web app, or both?</li>\n<li>How many friends can a user have?</li>\n<li>Should the feed include images and videos?</li>\n<li>Is the feed sorted by reverse chronological order?</li>\n</ul>\n<hr>\n<h2>Step 2: Propose High-Level Design and Get Buy-In</h2>\n<h3>Key Objectives</h3>\n<ul>\n<li>Develop a high-level architecture.</li>\n<li>Collaborate with the interviewer to refine the design.</li>\n</ul>\n<h3>Approach</h3>\n<ul>\n<li>\n<p><strong>Draft a Blueprint:</strong></p>\n<ul>\n<li>Use box diagrams for key components (e.g., clients, APIs, databases, caches, CDNs).</li>\n<li>Treat the interviewer as a teammate to refine the design.</li>\n</ul>\n</li>\n<li>\n<p><strong>Perform Back-of-the-Envelope Calculations:</strong></p>\n<ul>\n<li>Ensure the design can handle the scale constraints.</li>\n</ul>\n</li>\n<li>\n<p><strong>Walk Through Use Cases:</strong> Identify edge cases and validate design assumptions.</p>\n</li>\n</ul>\n<h3>Example</h3>\n<p>For a news feed system, divide the design into:</p>\n<ol>\n<li><strong>Feed Publishing Flow:</strong> Writing posts into databases and populating friends' feeds.</li>\n<li><strong>Feed Retrieval Flow:</strong> Aggregating and displaying friends' posts in reverse chronological order.</li>\n</ol>\n<hr>\n<h2>Step 3: Design Deep Dive</h2>\n<h3>Key Objectives</h3>\n<ul>\n<li>Dive into critical components.</li>\n<li>Showcase depth of understanding and adaptability.</li>\n</ul>\n<h3>Approach</h3>\n<ul>\n<li><strong>Prioritize Key Components:</strong> Focus on areas most relevant to the problem.</li>\n<li><strong>Discuss Bottlenecks:</strong> Identify potential performance issues and propose solutions.</li>\n<li><strong>Balance Detail:</strong> Avoid over-engineering or unnecessary deep dives.</li>\n</ul>\n<h3>Example Topics</h3>\n<ul>\n<li><strong>URL Shortener:</strong> Focus on hash function design.</li>\n<li><strong>Chat System:</strong> Explore latency reduction and online/offline status handling.</li>\n<li><strong>News Feed System:</strong> Examine feed publishing and retrieval processes.</li>\n</ul>\n<hr>\n<h2>Step 4: Wrap-Up</h2>\n<h3>Key Objectives</h3>\n<ul>\n<li>Highlight areas for improvement.</li>\n<li>Recap the design and discuss follow-ups.</li>\n</ul>\n<h3>Approach</h3>\n<ul>\n<li><strong>Identify Bottlenecks:</strong> Discuss potential limitations and scaling strategies.</li>\n<li><strong>Summarize Design:</strong> Recap major design decisions and trade-offs.</li>\n<li><strong>Propose Enhancements:</strong>\n<ul>\n<li>How to scale from 1 million to 10 million users.</li>\n<li>Error handling for server failures or network issues.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h2>Best Practices</h2>\n<h3>Dos</h3>\n<ul>\n<li><strong>Ask Questions:</strong> Clarify ambiguities before diving into solutions.</li>\n<li><strong>Communicate:</strong> Share your thought process with the interviewer.</li>\n<li><strong>Iterate with the Interviewer:</strong> Treat them as a collaborator.</li>\n<li><strong>Show Flexibility:</strong> Suggest alternative approaches and refine your design.</li>\n<li><strong>Focus on Critical Components:</strong> Prioritize key parts of the system.</li>\n</ul>\n<h3>Don’ts</h3>\n<ul>\n<li><strong>Avoid Premature Solutions:</strong> Don’t design before understanding the requirements.</li>\n<li><strong>Don’t Go Silent:</strong> Communicate regularly during the process.</li>\n<li><strong>Avoid Over-Engineering:</strong> Focus on practical, scalable solutions.</li>\n</ul>\n<hr>\n<h2>Time Management</h2>\n<h3>Suggested Time Allocation (for 45-Minute Interviews):</h3>\n<ol>\n<li><strong>Understand Problem and Scope:</strong> 3–10 minutes</li>\n<li><strong>High-Level Design and Buy-In:</strong> 10–15 minutes</li>\n<li><strong>Deep Dive:</strong> 10–25 minutes</li>\n<li><strong>Wrap-Up:</strong> 3–5 minutes</li>\n</ol>\n<hr>\n<blockquote>\n<p>🎓 <strong>DSALoop by <a href=\"https://campusloop.space/\">CampusLoop</a></strong> — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.</p>\n</blockquote>\n",
+  "tableOfContents": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2
+    },
+    {
+      "id": "step-1-understand-the-problem-and-establish-design-scope",
+      "title": "Step 1: Understand the Problem and Establish Design Scope",
+      "level": 2
+    },
+    {
+      "id": "key-objectives",
+      "title": "Key Objectives",
+      "level": 3
+    },
+    {
+      "id": "approach",
+      "title": "Approach",
+      "level": 3
+    },
+    {
+      "id": "example",
+      "title": "Example",
+      "level": 3
+    },
+    {
+      "id": "step-2-propose-high-level-design-and-get-buy-in",
+      "title": "Step 2: Propose High-Level Design and Get Buy-In",
+      "level": 2
+    },
+    {
+      "id": "key-objectives",
+      "title": "Key Objectives",
+      "level": 3
+    },
+    {
+      "id": "approach",
+      "title": "Approach",
+      "level": 3
+    },
+    {
+      "id": "example",
+      "title": "Example",
+      "level": 3
+    },
+    {
+      "id": "step-3-design-deep-dive",
+      "title": "Step 3: Design Deep Dive",
+      "level": 2
+    },
+    {
+      "id": "key-objectives",
+      "title": "Key Objectives",
+      "level": 3
+    },
+    {
+      "id": "approach",
+      "title": "Approach",
+      "level": 3
+    },
+    {
+      "id": "example-topics",
+      "title": "Example Topics",
+      "level": 3
+    },
+    {
+      "id": "step-4-wrap-up",
+      "title": "Step 4: Wrap-Up",
+      "level": 2
+    },
+    {
+      "id": "key-objectives",
+      "title": "Key Objectives",
+      "level": 3
+    },
+    {
+      "id": "approach",
+      "title": "Approach",
+      "level": 3
+    },
+    {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "level": 2
+    },
+    {
+      "id": "dos",
+      "title": "Dos",
+      "level": 3
+    },
+    {
+      "id": "don-ts",
+      "title": "Don’ts",
+      "level": 3
+    },
+    {
+      "id": "time-management",
+      "title": "Time Management",
+      "level": 2
+    },
+    {
+      "id": "suggested-time-allocation-for-45-minute-interviews",
+      "title": "Suggested Time Allocation (for 45-Minute Interviews):",
+      "level": 3
+    }
+  ],
+  "prevChapter": {
+    "slug": "back-of-the-envelope-estimation",
+    "title": "Back-of-the-Envelope Estimation",
+    "chapterNumber": 2
+  },
+  "nextChapter": {
+    "slug": "rate-limiter",
+    "title": "Design a Rate Limiter",
+    "chapterNumber": 4
+  }
+}

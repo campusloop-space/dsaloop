@@ -5,8 +5,8 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ProblemList } from "@/components/problem/problem-list";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Grind 169 Solutions & Tracker | AlgoForge",
-  description: "Grind 169 expanded interview set with AlgoForge explanations and patterns.",
+  title: "Grind 169 Solutions & Tracker | DSALoop by CampusLoop",
+  description: "Grind 169 expanded interview set with DSALoop explanations and patterns.",
   keywords: ["grind 169", "grind 75", "leetcode grind"],
   canonicalPath: "/grind-169",
 });

@@ -1,0 +1,215 @@
+{
+  "type": "company",
+  "slug": "verkada",
+  "name": "Verkada",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Verkada hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "interval-list-intersections",
+    "maximum-profit-in-job-scheduling",
+    "lru-cache",
+    "non-overlapping-intervals",
+    "time-based-key-value-store",
+    "snapshot-array",
+    "basic-calculator-ii",
+    "remove-sub-folders-from-the-filesystem",
+    "transpose-matrix",
+    "valid-sudoku",
+    "integer-to-roman",
+    "merge-intervals",
+    "guess-the-word",
+    "basic-calculator-iii",
+    "diameter-of-binary-tree",
+    "number-of-1-bits",
+    "merge-sorted-array"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 10,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "interval-list-intersections",
+        "number": 986,
+        "title": "Interval List Intersections",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "interval-list-intersections",
+        "number": 986,
+        "title": "Interval List Intersections",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 91,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 84.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 80.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-sub-folders-from-the-filesystem",
+        "number": 1233,
+        "title": "Remove Sub-Folders from the Filesystem",
+        "difficulty": "Medium",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "transpose-matrix",
+        "number": 867,
+        "title": "Transpose Matrix",
+        "difficulty": "Easy",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-sudoku",
+        "number": 36,
+        "title": "Valid Sudoku",
+        "difficulty": "Medium",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 75.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 69.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "guess-the-word",
+        "number": 843,
+        "title": "Guess the Word",
+        "difficulty": "Hard",
+        "frequency": 60.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 60.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 60.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-1-bits",
+        "number": 191,
+        "title": "Number of 1 Bits",
+        "difficulty": "Easy",
+        "frequency": 60.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 60.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Verkada Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Verkada coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/verkada",
+    "keywords": [
+      "verkada interview questions",
+      "verkada leetcode",
+      "verkada coding questions",
+      "verkada online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

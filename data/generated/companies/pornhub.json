@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "pornhub",
+  "name": "Pornhub",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Pornhub hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "next-permutation",
+    "spiral-matrix",
+    "count-salary-categories",
+    "valid-parenthesis-string",
+    "palindrome-number",
+    "container-with-most-water",
+    "longest-palindromic-substring",
+    "surrounded-regions",
+    "subsets",
+    "trapping-rain-water"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 8,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-salary-categories",
+        "number": 1907,
+        "title": "Count Salary Categories",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parenthesis-string",
+        "number": 678,
+        "title": "Valid Parenthesis String",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "surrounded-regions",
+        "number": 130,
+        "title": "Surrounded Regions",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Pornhub Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Pornhub coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/pornhub",
+    "keywords": [
+      "pornhub interview questions",
+      "pornhub leetcode",
+      "pornhub coding questions",
+      "pornhub online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

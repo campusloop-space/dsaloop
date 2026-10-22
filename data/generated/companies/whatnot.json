@@ -1,0 +1,174 @@
+{
+  "type": "company",
+  "slug": "whatnot",
+  "name": "Whatnot",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Whatnot hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "valid-palindrome-ii",
+    "remove-all-adjacent-duplicates-in-string",
+    "knight-dialer",
+    "number-of-islands",
+    "squares-of-a-sorted-array",
+    "analyze-user-website-visit-pattern",
+    "group-anagrams",
+    "maximal-square",
+    "meeting-rooms-ii",
+    "k-closest-points-to-origin",
+    "first-bad-version"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 7,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "knight-dialer",
+        "number": 935,
+        "title": "Knight Dialer",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "valid-palindrome-ii",
+        "number": 680,
+        "title": "Valid Palindrome II",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "knight-dialer",
+        "number": 935,
+        "title": "Knight Dialer",
+        "difficulty": "Medium",
+        "frequency": 90.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "squares-of-a-sorted-array",
+        "number": 977,
+        "title": "Squares of a Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "analyze-user-website-visit-pattern",
+        "number": 1152,
+        "title": "Analyze User Website Visit Pattern",
+        "difficulty": "Medium",
+        "frequency": 77.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 62.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 62.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 62.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-closest-points-to-origin",
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "difficulty": "Medium",
+        "frequency": 62.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-bad-version",
+        "number": 278,
+        "title": "First Bad Version",
+        "difficulty": "Easy",
+        "frequency": 62.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Whatnot Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Whatnot coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/whatnot",
+    "keywords": [
+      "whatnot interview questions",
+      "whatnot leetcode",
+      "whatnot coding questions",
+      "whatnot online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

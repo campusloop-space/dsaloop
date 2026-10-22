@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "makemytrip",
+  "name": "Makemytrip",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Makemytrip hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "length-of-longest-subarray-with-at-most-k-frequency",
+    "sum-of-special-evenly-spaced-elements-in-array",
+    "longest-ideal-subsequence",
+    "reachable-nodes-with-restrictions",
+    "first-missing-positive",
+    "merge-intervals",
+    "longest-valid-parentheses",
+    "group-anagrams",
+    "multiply-strings",
+    "maximum-sum-circular-subarray",
+    "longest-substring-without-repeating-characters",
+    "house-robber",
+    "house-robber-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 10,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+        "number": 2958,
+        "title": "Length of Longest Subarray With at Most K Frequency",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-special-evenly-spaced-elements-in-array",
+        "number": 1714,
+        "title": "Sum Of Special Evenly-Spaced Elements In Array",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-ideal-subsequence",
+        "number": 2370,
+        "title": "Longest Ideal Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reachable-nodes-with-restrictions",
+        "number": 2368,
+        "title": "Reachable Nodes With Restrictions",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-circular-subarray",
+        "number": 918,
+        "title": "Maximum Sum Circular Subarray",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-ii",
+        "number": 213,
+        "title": "House Robber II",
+        "difficulty": "Medium",
+        "frequency": 64.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Makemytrip Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Makemytrip coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/makemytrip",
+    "keywords": [
+      "makemytrip interview questions",
+      "makemytrip leetcode",
+      "makemytrip coding questions",
+      "makemytrip online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

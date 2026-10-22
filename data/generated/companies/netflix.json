@@ -2,17 +2,342 @@
   "type": "company",
   "slug": "netflix",
   "name": "Netflix",
-  "description": "High bar on system design plus strong algorithmic coding.",
-  "problemCount": 0,
-  "problemSlugs": [],
-  "seo": {
-    "title": "Netflix Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Netflix interviews with curated problems, patterns, and roadmaps.",
-    "keywords": [
-      "Netflix interview questions",
-      "Netflix leetcode",
-      "Netflix oa"
+  "description": "High bar on system design, concurrency, streaming architectures, and clean algorithmic problem-solving.",
+  "problemCount": 28,
+  "problemSlugs": [
+    "cache-with-time-limit",
+    "longest-substring-without-repeating-characters",
+    "course-schedule-ii",
+    "time-based-key-value-store",
+    "contains-duplicate-iii",
+    "merge-intervals",
+    "reconstruct-itinerary",
+    "logger-rate-limiter",
+    "parallel-courses",
+    "meeting-rooms-ii",
+    "word-search",
+    "contains-duplicate-ii",
+    "network-delay-time",
+    "contains-duplicate",
+    "string-to-integer-atoi",
+    "lru-cache",
+    "word-break",
+    "koko-eating-bananas",
+    "first-missing-positive",
+    "summary-ranges",
+    "top-k-frequent-elements",
+    "fruit-into-baskets",
+    "all-paths-from-source-to-target",
+    "maximum-length-of-repeated-subarray",
+    "snapshot-array",
+    "lfu-cache",
+    "find-peak-element",
+    "design-search-autocomplete-system"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 19,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "cache-with-time-limit",
+        "number": 2622,
+        "title": "Cache With Time Limit",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 74.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 74.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
     ],
-    "canonicalPath": "/companies/netflix"
+    "allTime": [
+      {
+        "slug": "cache-with-time-limit",
+        "number": 2622,
+        "title": "Cache With Time Limit",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate-iii",
+        "number": 220,
+        "title": "Contains Duplicate III",
+        "difficulty": "Hard",
+        "frequency": 86.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 79.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "parallel-courses",
+        "number": 1136,
+        "title": "Parallel Courses",
+        "difficulty": "Medium",
+        "frequency": 79.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 73.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate-ii",
+        "number": 219,
+        "title": "Contains Duplicate II",
+        "difficulty": "Easy",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "network-delay-time",
+        "number": 743,
+        "title": "Network Delay Time",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate",
+        "number": 217,
+        "title": "Contains Duplicate",
+        "difficulty": "Easy",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-to-integer-atoi",
+        "number": 8,
+        "title": "String to Integer (atoi)",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 58.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 58.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 58.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "summary-ranges",
+        "number": 228,
+        "title": "Summary Ranges",
+        "difficulty": "Easy",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fruit-into-baskets",
+        "number": 904,
+        "title": "Fruit Into Baskets",
+        "difficulty": "Medium",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "all-paths-from-source-to-target",
+        "number": 797,
+        "title": "All Paths From Source to Target",
+        "difficulty": "Medium",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-length-of-repeated-subarray",
+        "number": 718,
+        "title": "Maximum Length of Repeated Subarray",
+        "difficulty": "Medium",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-search-autocomplete-system",
+        "number": 642,
+        "title": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "frequency": 49.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Netflix Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Netflix coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/netflix",
+    "keywords": [
+      "netflix interview questions",
+      "netflix leetcode",
+      "netflix coding questions",
+      "netflix online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

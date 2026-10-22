@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "crowdstrike",
+  "name": "Crowdstrike",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Crowdstrike hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "string-compression",
+    "number-of-islands",
+    "encode-and-decode-strings",
+    "merge-intervals",
+    "time-based-key-value-store",
+    "trapping-rain-water",
+    "squares-of-a-sorted-array",
+    "course-schedule",
+    "valid-parentheses",
+    "clone-graph",
+    "group-anagrams",
+    "design-auction-system"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 9,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "encode-and-decode-strings",
+        "number": 271,
+        "title": "Encode and Decode Strings",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 74.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "squares-of-a-sorted-array",
+        "number": 977,
+        "title": "Squares of a Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-auction-system",
+        "number": 3815,
+        "title": "Design Auction System",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Crowdstrike Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Crowdstrike coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/crowdstrike",
+    "keywords": [
+      "crowdstrike interview questions",
+      "crowdstrike leetcode",
+      "crowdstrike coding questions",
+      "crowdstrike online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

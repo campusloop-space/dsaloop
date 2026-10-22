@@ -30,8 +30,8 @@ export async function generateMetadata({
   const end = Math.min(pageNumber * PROBLEMS_PAGE_SIZE, totalItems);
 
   return buildMetadata({
-    title: `LeetCode Problems ${start}–${end} — AlgoForge`,
-    description: `Browse problems ${start}–${end} from AlgoForge's structured coding interview library.`,
+    title: `LeetCode Problems ${start}–${end} — DSALoop by CampusLoop`,
+    description: `Browse problems ${start}–${end} from DSALoop's structured coding interview library.`,
     keywords: ["leetcode problems", "coding interview problems", "dsa problems"],
     canonicalPath: `/problems/page/${pageNumber}`,
   });
@@ -72,7 +72,7 @@ export default async function ProblemsPage({
           Problems {start}–{end}
         </h1>
         <p className="mt-3 text-base leading-7 text-muted-foreground">
-          Continue through the AlgoForge interview problem library. Every problem links to its own canonical learning page.
+          Continue through the DSALoop interview problem library. Every problem links to its own canonical learning page.
         </p>
       </header>
 

@@ -2,22 +2,254 @@
   "type": "company",
   "slug": "dropbox",
   "name": "Dropbox",
-  "description": "Coding interview preparation for Dropbox: high-frequency patterns and problem sets.",
-  "problemCount": 4,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Dropbox hiring and placement rounds.",
+  "problemCount": 22,
   "problemSlugs": [
+    "simple-bank-system",
+    "web-crawler",
+    "web-crawler-multithreaded",
+    "minimize-malware-spread",
+    "two-sum",
+    "median-of-two-sorted-arrays",
+    "letter-combinations-of-a-phone-number",
+    "grid-illumination",
+    "find-duplicate-file-in-system",
     "word-break-ii",
-    "game-of-life",
+    "number-of-valid-words-for-each-puzzle",
     "word-pattern",
-    "find-duplicate-file-in-system"
+    "game-of-life",
+    "word-pattern-ii",
+    "design-a-text-editor",
+    "check-if-it-is-a-good-array",
+    "design-hit-counter",
+    "seat-reservation-manager",
+    "minimize-malware-spread-ii",
+    "guess-the-word",
+    "candy",
+    "merge-intervals"
   ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 10,
+    "hard": 10
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "web-crawler",
+        "number": 1236,
+        "title": "Web Crawler",
+        "difficulty": "Medium",
+        "frequency": 95,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "web-crawler-multithreaded",
+        "number": 1242,
+        "title": "Web Crawler Multithreaded",
+        "difficulty": "Medium",
+        "frequency": 95,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 95,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "grid-illumination",
+        "number": 1001,
+        "title": "Grid Illumination",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-duplicate-file-in-system",
+        "number": 609,
+        "title": "Find Duplicate File in System",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break-ii",
+        "number": 140,
+        "title": "Word Break II",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-valid-words-for-each-puzzle",
+        "number": 1178,
+        "title": "Number of Valid Words for Each Puzzle",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-pattern",
+        "number": 290,
+        "title": "Word Pattern",
+        "difficulty": "Easy",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "game-of-life",
+        "number": 289,
+        "title": "Game of Life",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-pattern-ii",
+        "number": 291,
+        "title": "Word Pattern II",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-it-is-a-good-array",
+        "number": 1250,
+        "title": "Check If It Is a Good Array",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "seat-reservation-manager",
+        "number": 1845,
+        "title": "Seat Reservation Manager",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread-ii",
+        "number": 928,
+        "title": "Minimize Malware Spread II",
+        "difficulty": "Hard",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "guess-the-word",
+        "number": 843,
+        "title": "Guess the Word",
+        "difficulty": "Hard",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy",
+        "number": 135,
+        "title": "Candy",
+        "difficulty": "Hard",
+        "frequency": 67.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 58,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Dropbox Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Dropbox interviews with 4 problems, patterns, and roadmaps.",
+    "title": "Dropbox Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Dropbox coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/dropbox",
     "keywords": [
-      "Dropbox interview questions",
-      "Dropbox leetcode",
-      "Dropbox oa"
-    ],
-    "canonicalPath": "/companies/dropbox"
+      "dropbox interview questions",
+      "dropbox leetcode",
+      "dropbox coding questions",
+      "dropbox online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

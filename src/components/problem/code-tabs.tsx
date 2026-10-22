@@ -58,7 +58,9 @@ export function CodeTabs({
   async function copy() {
     if (!sol) return;
     try {
-      await navigator.clipboard.writeText(sol.code);
+      const commentPrefix = active.startsWith("py") ? "#" : "//";
+      const codeWithWatermark = `${sol.code}\n\n${commentPrefix} Solved on DSALoop by https://campusloop.space/\n`;
+      await navigator.clipboard.writeText(codeWithWatermark);
       setCopied(true);
       setTimeout(() => setCopied(false), 1500);
     } catch {
@@ -107,6 +109,19 @@ export function CodeTabs({
           <code>{sol?.code}</code>
         )}
       </pre>
+      <div className="flex items-center justify-between px-3.5 py-1.5 bg-black/40 border-t border-white/5 text-[10px] text-slate-400 select-none">
+        <span className="font-mono text-slate-500">
+          {solutions[active]?.language}
+        </span>
+        <a
+          href="https://campusloop.space/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-primary transition-colors text-slate-400 hover:underline inline-flex items-center gap-1"
+        >
+          <span>DSALoop by https://campusloop.space/</span>
+        </a>
+      </div>
     </div>
   );
 }

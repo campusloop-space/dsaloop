@@ -66782,267 +66782,6 @@
     "keywords": "Wqs Binary Search pattern"
   },
   {
-    "id": "company:google",
-    "type": "company",
-    "title": "Google",
-    "slug": "google",
-    "path": "/companies/google",
-    "description": "Graph, systems thinking, and clean complexity analysis are heavily tested.",
-    "keywords": "Google interview"
-  },
-  {
-    "id": "company:amazon",
-    "type": "company",
-    "title": "Amazon",
-    "slug": "amazon",
-    "path": "/companies/amazon",
-    "description": "Leadership principles plus OA-style arrays, trees, and greedy problems.",
-    "keywords": "Amazon interview"
-  },
-  {
-    "id": "company:meta",
-    "type": "company",
-    "title": "Meta",
-    "slug": "meta",
-    "path": "/companies/meta",
-    "description": "Product-focused coding rounds with arrays, graphs, and design hybrids.",
-    "keywords": "Meta interview"
-  },
-  {
-    "id": "company:microsoft",
-    "type": "company",
-    "title": "Microsoft",
-    "slug": "microsoft",
-    "path": "/companies/microsoft",
-    "description": "Classic DSA with trees, DP, and string processing.",
-    "keywords": "Microsoft interview"
-  },
-  {
-    "id": "company:apple",
-    "type": "company",
-    "title": "Apple",
-    "slug": "apple",
-    "path": "/companies/apple",
-    "description": "Solid fundamentals across trees, recursion, and low-level clarity.",
-    "keywords": "Apple interview"
-  },
-  {
-    "id": "company:bloomberg",
-    "type": "company",
-    "title": "Bloomberg",
-    "slug": "bloomberg",
-    "path": "/companies/bloomberg",
-    "description": "C++/systems flavor with arrays, strings, and OOP design.",
-    "keywords": "Bloomberg interview"
-  },
-  {
-    "id": "company:adobe",
-    "type": "company",
-    "title": "Adobe",
-    "slug": "adobe",
-    "path": "/companies/adobe",
-    "description": "Classic interview set spanning DP, trees, and bit tricks.",
-    "keywords": "Adobe interview"
-  },
-  {
-    "id": "company:linkedin",
-    "type": "company",
-    "title": "LinkedIn",
-    "slug": "linkedin",
-    "path": "/companies/linkedin",
-    "description": "Graphs, two pointers, and production-minded solutions.",
-    "keywords": "LinkedIn interview"
-  },
-  {
-    "id": "company:uber",
-    "type": "company",
-    "title": "Uber",
-    "slug": "uber",
-    "path": "/companies/uber",
-    "description": "Graphs, geo/interval thinking, and practical coding speed.",
-    "keywords": "Uber interview"
-  },
-  {
-    "id": "company:snapchat",
-    "type": "company",
-    "title": "Snapchat",
-    "slug": "snapchat",
-    "path": "/companies/snapchat",
-    "description": "Coding interview preparation for Snapchat: high-frequency patterns and problem sets.",
-    "keywords": "Snapchat interview"
-  },
-  {
-    "id": "company:airbnb",
-    "type": "company",
-    "title": "Airbnb",
-    "slug": "airbnb",
-    "path": "/companies/airbnb",
-    "description": "Coding interview preparation for Airbnb: high-frequency patterns and problem sets.",
-    "keywords": "Airbnb interview"
-  },
-  {
-    "id": "company:pocket-gems",
-    "type": "company",
-    "title": "Pocket Gems",
-    "slug": "pocket-gems",
-    "path": "/companies/pocket-gems",
-    "description": "Coding interview preparation for Pocket Gems: high-frequency patterns and problem sets.",
-    "keywords": "Pocket Gems interview"
-  },
-  {
-    "id": "company:zenefits",
-    "type": "company",
-    "title": "Zenefits",
-    "slug": "zenefits",
-    "path": "/companies/zenefits",
-    "description": "Coding interview preparation for Zenefits: high-frequency patterns and problem sets.",
-    "keywords": "Zenefits interview"
-  },
-  {
-    "id": "company:twitter",
-    "type": "company",
-    "title": "Twitter",
-    "slug": "twitter",
-    "path": "/companies/twitter",
-    "description": "Coding interview preparation for Twitter: high-frequency patterns and problem sets.",
-    "keywords": "Twitter interview"
-  },
-  {
-    "id": "company:yapper",
-    "type": "company",
-    "title": "Yapper",
-    "slug": "yapper",
-    "path": "/companies/yapper",
-    "description": "Coding interview preparation for Yapper: high-frequency patterns and problem sets.",
-    "keywords": "Yapper interview"
-  },
-  {
-    "id": "company:dropbox",
-    "type": "company",
-    "title": "Dropbox",
-    "slug": "dropbox",
-    "path": "/companies/dropbox",
-    "description": "Coding interview preparation for Dropbox: high-frequency patterns and problem sets.",
-    "keywords": "Dropbox interview"
-  },
-  {
-    "id": "company:yahoo",
-    "type": "company",
-    "title": "Yahoo",
-    "slug": "yahoo",
-    "path": "/companies/yahoo",
-    "description": "Coding interview preparation for Yahoo: high-frequency patterns and problem sets.",
-    "keywords": "Yahoo interview"
-  },
-  {
-    "id": "company:yelp",
-    "type": "company",
-    "title": "Yelp",
-    "slug": "yelp",
-    "path": "/companies/yelp",
-    "description": "Coding interview preparation for Yelp: high-frequency patterns and problem sets.",
-    "keywords": "Yelp interview"
-  },
-  {
-    "id": "company:tiktok",
-    "type": "company",
-    "title": "Tiktok",
-    "slug": "tiktok",
-    "path": "/companies/tiktok",
-    "description": "Coding interview preparation for Tiktok: high-frequency patterns and problem sets.",
-    "keywords": "Tiktok interview"
-  },
-  {
-    "id": "company:goldman-sachs",
-    "type": "company",
-    "title": "Goldman Sachs",
-    "slug": "goldman-sachs",
-    "path": "/companies/goldman-sachs",
-    "description": "Coding interview preparation for Goldman Sachs: high-frequency patterns and problem sets.",
-    "keywords": "Goldman Sachs interview"
-  },
-  {
-    "id": "company:palantir",
-    "type": "company",
-    "title": "Palantir",
-    "slug": "palantir",
-    "path": "/companies/palantir",
-    "description": "Coding interview preparation for Palantir: high-frequency patterns and problem sets.",
-    "keywords": "Palantir interview"
-  },
-  {
-    "id": "company:lyft",
-    "type": "company",
-    "title": "Lyft",
-    "slug": "lyft",
-    "path": "/companies/lyft",
-    "description": "Coding interview preparation for Lyft: high-frequency patterns and problem sets.",
-    "keywords": "Lyft interview"
-  },
-  {
-    "id": "company:two-sigma",
-    "type": "company",
-    "title": "Two Sigma",
-    "slug": "two-sigma",
-    "path": "/companies/two-sigma",
-    "description": "Coding interview preparation for Two Sigma: high-frequency patterns and problem sets.",
-    "keywords": "Two Sigma interview"
-  },
-  {
-    "id": "company:hulu",
-    "type": "company",
-    "title": "Hulu",
-    "slug": "hulu",
-    "path": "/companies/hulu",
-    "description": "Coding interview preparation for Hulu: high-frequency patterns and problem sets.",
-    "keywords": "Hulu interview"
-  },
-  {
-    "id": "company:affirmd",
-    "type": "company",
-    "title": "Affirmd",
-    "slug": "affirmd",
-    "path": "/companies/affirmd",
-    "description": "Coding interview preparation for Affirmd: high-frequency patterns and problem sets.",
-    "keywords": "Affirmd interview"
-  },
-  {
-    "id": "company:pinterest",
-    "type": "company",
-    "title": "Pinterest",
-    "slug": "pinterest",
-    "path": "/companies/pinterest",
-    "description": "Coding interview preparation for Pinterest: high-frequency patterns and problem sets.",
-    "keywords": "Pinterest interview"
-  },
-  {
-    "id": "company:expedia",
-    "type": "company",
-    "title": "Expedia",
-    "slug": "expedia",
-    "path": "/companies/expedia",
-    "description": "Coding interview preparation for Expedia: high-frequency patterns and problem sets.",
-    "keywords": "Expedia interview"
-  },
-  {
-    "id": "company:baidu",
-    "type": "company",
-    "title": "Baidu",
-    "slug": "baidu",
-    "path": "/companies/baidu",
-    "description": "Coding interview preparation for Baidu: high-frequency patterns and problem sets.",
-    "keywords": "Baidu interview"
-  },
-  {
-    "id": "company:netflix",
-    "type": "company",
-    "title": "Netflix",
-    "slug": "netflix",
-    "path": "/companies/netflix",
-    "description": "High bar on system design plus strong algorithmic coding.",
-    "keywords": "Netflix interview"
-  },
-  {
     "id": "collection:blind-75",
     "type": "collection",
     "title": "Blind 75",
@@ -67131,5 +66870,1922 @@
     "path": "/roadmaps/dsa-fundamentals",
     "description": "A beginner-to-job path: arrays → hashing → trees → graphs → DP.",
     "keywords": "DSA Fundamentals Roadmap"
+  },
+  {
+    "id": "system-design:scaling",
+    "type": "system design",
+    "title": "Chapter 1: Scale from Zero to Millions of Users",
+    "slug": "scaling",
+    "path": "/system-design/scaling",
+    "description": "Scaling a system to support millions of users is a complex, iterative journey requiring refinement and optimization. This chapter outlines how to begin with a single server setup and scale the architecture step by step to handle millions of users.",
+    "keywords": "Scale from Zero to Millions of Users Scalability Architecture Database Caching system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:back-of-the-envelope-estimation",
+    "type": "system design",
+    "title": "Chapter 2: Back-of-the-Envelope Estimation",
+    "slug": "back-of-the-envelope-estimation",
+    "path": "/system-design/back-of-the-envelope-estimation",
+    "description": "Comprehensive interview guide for Back-of-the-Envelope Estimation. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Back-of-the-Envelope Estimation Estimation Math Capacity Planning system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:system-design-framework",
+    "type": "system design",
+    "title": "Chapter 3: A Framework for System Design Interviews",
+    "slug": "system-design-framework",
+    "path": "/system-design/system-design-framework",
+    "description": "System design interviews are a key part of the hiring process, simulating real-life problem-solving scenarios. These interviews evaluate not just technical skills but also collaboration, communication, and the ability to handle ambiguous requirements.",
+    "keywords": "A Framework for System Design Interviews Interview Framework Strategy Communication system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:rate-limiter",
+    "type": "system design",
+    "title": "Chapter 4: Design a Rate Limiter",
+    "slug": "rate-limiter",
+    "path": "/system-design/rate-limiter",
+    "description": "Comprehensive interview guide for Design a Rate Limiter. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design a Rate Limiter Rate Limiter Concurrency Security Token Bucket system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:consistent-hashing",
+    "type": "system design",
+    "title": "Chapter 5: Design Consistent Hashing",
+    "slug": "consistent-hashing",
+    "path": "/system-design/consistent-hashing",
+    "description": "Comprehensive interview guide for Design Consistent Hashing. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design Consistent Hashing Consistent Hashing Distributed Systems Hashing system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:key-value-store",
+    "type": "system design",
+    "title": "Chapter 6: Design a Key-Value Store",
+    "slug": "key-value-store",
+    "path": "/system-design/key-value-store",
+    "description": "Comprehensive interview guide for Design a Key-Value Store. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design a Key-Value Store Key-Value Store Storage CAP Theorem Quorum system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:unique-id-generator",
+    "type": "system design",
+    "title": "Chapter 7: Design a Unique ID Generator in Distributed Systems",
+    "slug": "unique-id-generator",
+    "path": "/system-design/unique-id-generator",
+    "description": "Comprehensive interview guide for Design a Unique ID Generator in Distributed Systems. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design a Unique ID Generator in Distributed Systems Unique ID Snowflake Distributed Systems system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:url-shortener",
+    "type": "system design",
+    "title": "Chapter 8: Design a URL Shortener",
+    "slug": "url-shortener",
+    "path": "/system-design/url-shortener",
+    "description": "This chapter discusses the design of a URL shortening service like TinyURL. The system's main goals include **URL shortening**, **redirecting**, and **high scalability** to handle large traffic volumes.",
+    "keywords": "Design a URL Shortener URL Shortener Base62 Database Hashing system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:web-crawler",
+    "type": "system design",
+    "title": "Chapter 9: Design a Web Crawler",
+    "slug": "web-crawler",
+    "path": "/system-design/web-crawler",
+    "description": "A **web crawler**, also known as a spider or robot, is used to discover and collect web content, such as web pages, images, and videos. This chapter focuses on designing a scalable web crawler for **search engine indexing**.",
+    "keywords": "Design a Web Crawler Web Crawler Networking Distributed Systems Graph system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:notification-system",
+    "type": "system design",
+    "title": "Chapter 10: Design a Notification System",
+    "slug": "notification-system",
+    "path": "/system-design/notification-system",
+    "description": "A **notification system** is essential for modern applications, providing timely updates like product notifications, events, offers, and alerts. Notifications can be sent through: 1. **Push notifications** (mobile or desktop), 2. **SMS messages**, and 3. **Emails**.",
+    "keywords": "Design a Notification System Notifications APNs FCM Message Queue system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:news-feed-system",
+    "type": "system design",
+    "title": "Chapter 11: Design a News Feed System",
+    "slug": "news-feed-system",
+    "path": "/system-design/news-feed-system",
+    "description": "Comprehensive interview guide for Design a News Feed System. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design a News Feed System News Feed Fan-out Caching Social Graph system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:chat-system",
+    "type": "system design",
+    "title": "Chapter 12: Design a Chat System",
+    "slug": "chat-system",
+    "path": "/system-design/chat-system",
+    "description": "A **chat system** supports real-time messaging between users. This chapter focuses on designing a chat app that includes: - **One-on-One Chat** - **Group Chat (max 100 users)** - **Online Presence Indicators** - **Multiple Device Support** - **Push Notifications**",
+    "keywords": "Design a Chat System Chat System WebSocket Real-time Presence system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:search-autocomplete",
+    "type": "system design",
+    "title": "Chapter 13: Design a Search Autocomplete System",
+    "slug": "search-autocomplete",
+    "path": "/system-design/search-autocomplete",
+    "description": "Autocomplete, also known as typeahead or incremental search, provides real-time suggestions to users as they type in search boxes. The system must efficiently deliver top-k relevant and popular suggestions based on historical query data.",
+    "keywords": "Design a Search Autocomplete System Search Autocomplete Trie Caching Typeahead system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:youtube",
+    "type": "system design",
+    "title": "Chapter 14: Design YouTube",
+    "slug": "youtube",
+    "path": "/system-design/youtube",
+    "description": "Comprehensive interview guide for Design YouTube. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design YouTube YouTube Video Streaming CDN Transcoding system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:google-drive",
+    "type": "system design",
+    "title": "Chapter 15: Design Google Drive",
+    "slug": "google-drive",
+    "path": "/system-design/google-drive",
+    "description": "Comprehensive interview guide for Design Google Drive. Architecture, trade-offs, and key deep dives.",
+    "keywords": "Design Google Drive Google Drive File Storage Block Level Sync Cloud system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:proximity-service",
+    "type": "system design",
+    "title": "Chapter 16: Proximity Service",
+    "slug": "proximity-service",
+    "path": "/system-design/proximity-service",
+    "description": "A **proximity service** is designed to find nearby locations, such as restaurants, hotels, gas stations, and other businesses. This functionality is used in applications like **Google Maps** and **Yelp** to help users discover places within a defined radius.",
+    "keywords": "Proximity Service Proximity Service Geohash QuadTree LBS system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:nearby-friends",
+    "type": "system design",
+    "title": "Chapter 17: Nearby Friends",
+    "slug": "nearby-friends",
+    "path": "/system-design/nearby-friends",
+    "description": "This chapter focuses on designing a scalable backend for an application which enables user to share their location and discover friends who are **nearby**.",
+    "keywords": "Nearby Friends Nearby Friends WebSocket Redis PubSub Location system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:google-maps",
+    "type": "system design",
+    "title": "Chapter 18: Google Maps",
+    "slug": "google-maps",
+    "path": "/system-design/google-maps",
+    "description": "We'll design a simple version of **Google Maps**.",
+    "keywords": "Google Maps Google Maps Pathfinding Navigation Tiling system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:distributed-message-queue",
+    "type": "system design",
+    "title": "Chapter 19: Distributed Message Queue",
+    "slug": "distributed-message-queue",
+    "path": "/system-design/distributed-message-queue",
+    "description": "We'll be designing a **distributed message queue** in this chapter.",
+    "keywords": "Distributed Message Queue Message Queue Kafka Pub/Sub Replication system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:metrics-monitoring-and-alerting-system",
+    "type": "system design",
+    "title": "Chapter 20: Metrics Monitoring and Alerting System",
+    "slug": "metrics-monitoring-and-alerting-system",
+    "path": "/system-design/metrics-monitoring-and-alerting-system",
+    "description": "This chapter focuses on designing a highly scalable **metrics monitoring and alerting system**, which is critical for ensuring high availability and reliability.",
+    "keywords": "Metrics Monitoring and Alerting System Monitoring Time Series Alerting Observability system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:ad-click-event-aggregation",
+    "type": "system design",
+    "title": "Chapter 21: Ad Click Event Aggregation",
+    "slug": "ad-click-event-aggregation",
+    "path": "/system-design/ad-click-event-aggregation",
+    "description": "**Digital advertising** is a big industry with the rise of Facebook, YouTube, TikTok, etc.",
+    "keywords": "Ad Click Event Aggregation Event Aggregation MapReduce Streaming Analytics system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:hotel-reservation-system",
+    "type": "system design",
+    "title": "Chapter 22: Hotel Reservation System",
+    "slug": "hotel-reservation-system",
+    "path": "/system-design/hotel-reservation-system",
+    "description": "In this chapter, we're designing a **hotel reservation system**, similar to Marriott International.",
+    "keywords": "Hotel Reservation System Hotel Reservation Concurrency Transactions Booking system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:distributed-email-service",
+    "type": "system design",
+    "title": "Chapter 23: Distributed Email Service",
+    "slug": "distributed-email-service",
+    "path": "/system-design/distributed-email-service",
+    "description": "We'll design a **distributed email service**, similar to **Gmail** in this chapter.",
+    "keywords": "Distributed Email Service Email Service SMTP IMAP Distributed Storage system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:s3-like-object-storage",
+    "type": "system design",
+    "title": "Chapter 24: S3-like Object Storage",
+    "slug": "s3-like-object-storage",
+    "path": "/system-design/s3-like-object-storage",
+    "description": "In this chapter, we'll be designing an **object storage** service, similar to **Amazon S3**.",
+    "keywords": "S3-like Object Storage S3 Object Storage Blob Storage Erasure Coding Replication system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:real-time-gaming-leaderboard",
+    "type": "system design",
+    "title": "Chapter 25: Real-time Gaming Leaderboard",
+    "slug": "real-time-gaming-leaderboard",
+    "path": "/system-design/real-time-gaming-leaderboard",
+    "description": "We are going to design a **leaderboard** for an online mobile game:",
+    "keywords": "Real-time Gaming Leaderboard Leaderboard Redis Sorted Sets Real-time Gaming system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:payment-system",
+    "type": "system design",
+    "title": "Chapter 26: Payment System",
+    "slug": "payment-system",
+    "path": "/system-design/payment-system",
+    "description": "We'll design a **payment system** in this chapter, which underpins all of modern **e-commerce**.",
+    "keywords": "Payment System Payment System Idempotency Reconciliation FinTech system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:digital-wallet",
+    "type": "system design",
+    "title": "Chapter 27: Digital Wallet",
+    "slug": "digital-wallet",
+    "path": "/system-design/digital-wallet",
+    "description": "**Payment platforms** usually have a **wallet service**, where they allow clients to store funds within the application, which they can withdraw later.",
+    "keywords": "Digital Wallet Digital Wallet Double-Entry Ledger Transactions FinTech system design architecture distributed systems"
+  },
+  {
+    "id": "system-design:stock-exchange",
+    "type": "system design",
+    "title": "Chapter 28: Stock Exchange",
+    "slug": "stock-exchange",
+    "path": "/system-design/stock-exchange",
+    "description": "We'll design an **electronic stock exchange** in this chapter.",
+    "keywords": "Stock Exchange Stock Exchange Matching Engine Low Latency Finance system design architecture distributed systems"
+  },
+  {
+    "id": "company:google",
+    "type": "company track",
+    "title": "Google Coding Interview Questions",
+    "slug": "google",
+    "path": "/companies/google",
+    "description": "Graph, systems thinking, dynamic programming, and clean complexity analysis are heavily tested in Google technical interviews.",
+    "keywords": "Google google interview leetcode placement coding"
+  },
+  {
+    "id": "company:amazon",
+    "type": "company track",
+    "title": "Amazon Coding Interview Questions",
+    "slug": "amazon",
+    "path": "/companies/amazon",
+    "description": "Leadership principles paired with OA-style arrays, trees, heaps, and greedy algorithms.",
+    "keywords": "Amazon amazon interview leetcode placement coding"
+  },
+  {
+    "id": "company:meta",
+    "type": "company track",
+    "title": "Meta Coding Interview Questions",
+    "slug": "meta",
+    "path": "/companies/meta",
+    "description": "Product-focused coding rounds with arrays, graphs, trees, and system design hybrids.",
+    "keywords": "Meta meta interview leetcode placement coding"
+  },
+  {
+    "id": "company:microsoft",
+    "type": "company track",
+    "title": "Microsoft Coding Interview Questions",
+    "slug": "microsoft",
+    "path": "/companies/microsoft",
+    "description": "Classic data structures and algorithms with binary trees, DP, strings, and linked lists.",
+    "keywords": "Microsoft microsoft interview leetcode placement coding"
+  },
+  {
+    "id": "company:bloomberg",
+    "type": "company track",
+    "title": "Bloomberg Coding Interview Questions",
+    "slug": "bloomberg",
+    "path": "/companies/bloomberg",
+    "description": "High-performance systems flavor with arrays, strings, hash maps, queues, and object-oriented design.",
+    "keywords": "Bloomberg bloomberg interview leetcode placement coding"
+  },
+  {
+    "id": "company:uber",
+    "type": "company track",
+    "title": "Uber Coding Interview Questions",
+    "slug": "uber",
+    "path": "/companies/uber",
+    "description": "Graph algorithms, geospatial and interval math, BFS/DFS, and practical coding speed under pressure.",
+    "keywords": "Uber uber interview leetcode placement coding"
+  },
+  {
+    "id": "company:tiktok",
+    "type": "company track",
+    "title": "TikTok Coding Interview Questions",
+    "slug": "tiktok",
+    "path": "/companies/tiktok",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in TikTok hiring and placement rounds.",
+    "keywords": "TikTok tiktok interview leetcode placement coding"
+  },
+  {
+    "id": "company:oracle",
+    "type": "company track",
+    "title": "Oracle Coding Interview Questions",
+    "slug": "oracle",
+    "path": "/companies/oracle",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Oracle hiring and placement rounds.",
+    "keywords": "Oracle oracle interview leetcode placement coding"
+  },
+  {
+    "id": "company:apple",
+    "type": "company track",
+    "title": "Apple Coding Interview Questions",
+    "slug": "apple",
+    "path": "/companies/apple",
+    "description": "Solid computer science fundamentals across trees, recursion, memory efficiency, and low-level clarity.",
+    "keywords": "Apple apple interview leetcode placement coding"
+  },
+  {
+    "id": "company:tcs",
+    "type": "company track",
+    "title": "TCS Coding Interview Questions",
+    "slug": "tcs",
+    "path": "/companies/tcs",
+    "description": "Common campus placement and NQT coding questions focusing on arrays, strings, and fundamental math.",
+    "keywords": "TCS tcs interview leetcode placement coding"
+  },
+  {
+    "id": "company:infosys",
+    "type": "company track",
+    "title": "Infosys Coding Interview Questions",
+    "slug": "infosys",
+    "path": "/companies/infosys",
+    "description": "InfyTQ and HackWithInfy problems spanning arrays, dynamic programming, recursion, and string manipulation.",
+    "keywords": "Infosys infosys interview leetcode placement coding"
+  },
+  {
+    "id": "company:goldman-sachs",
+    "type": "company track",
+    "title": "Goldman Sachs Coding Interview Questions",
+    "slug": "goldman-sachs",
+    "path": "/companies/goldman-sachs",
+    "description": "Math, dynamic programming, arrays, and high-frequency quantitative coding problems.",
+    "keywords": "Goldman Sachs goldman-sachs interview leetcode placement coding"
+  },
+  {
+    "id": "company:salesforce",
+    "type": "company track",
+    "title": "Salesforce Coding Interview Questions",
+    "slug": "salesforce",
+    "path": "/companies/salesforce",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Salesforce hiring and placement rounds.",
+    "keywords": "Salesforce salesforce interview leetcode placement coding"
+  },
+  {
+    "id": "company:linkedin",
+    "type": "company track",
+    "title": "LinkedIn Coding Interview Questions",
+    "slug": "linkedin",
+    "path": "/companies/linkedin",
+    "description": "Graphs, two pointers, sliding window, and scalable production-minded solutions.",
+    "keywords": "LinkedIn linkedin interview leetcode placement coding"
+  },
+  {
+    "id": "company:ibm",
+    "type": "company track",
+    "title": "IBM Coding Interview Questions",
+    "slug": "ibm",
+    "path": "/companies/ibm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in IBM hiring and placement rounds.",
+    "keywords": "IBM ibm interview leetcode placement coding"
+  },
+  {
+    "id": "company:visa",
+    "type": "company track",
+    "title": "Visa Coding Interview Questions",
+    "slug": "visa",
+    "path": "/companies/visa",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Visa hiring and placement rounds.",
+    "keywords": "Visa visa interview leetcode placement coding"
+  },
+  {
+    "id": "company:adobe",
+    "type": "company track",
+    "title": "Adobe Coding Interview Questions",
+    "slug": "adobe",
+    "path": "/companies/adobe",
+    "description": "Classic interview sets spanning dynamic programming, binary trees, bit manipulation, and math.",
+    "keywords": "Adobe adobe interview leetcode placement coding"
+  },
+  {
+    "id": "company:zoho",
+    "type": "company track",
+    "title": "Zoho Coding Interview Questions",
+    "slug": "zoho",
+    "path": "/companies/zoho",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zoho hiring and placement rounds.",
+    "keywords": "Zoho zoho interview leetcode placement coding"
+  },
+  {
+    "id": "company:walmart-labs",
+    "type": "company track",
+    "title": "Walmart Labs Coding Interview Questions",
+    "slug": "walmart-labs",
+    "path": "/companies/walmart-labs",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Walmart Labs hiring and placement rounds.",
+    "keywords": "Walmart Labs walmart-labs interview leetcode placement coding"
+  },
+  {
+    "id": "company:nvidia",
+    "type": "company track",
+    "title": "Nvidia Coding Interview Questions",
+    "slug": "nvidia",
+    "path": "/companies/nvidia",
+    "description": "Low-level algorithms, bit manipulation, memory management, and parallel computing logic.",
+    "keywords": "Nvidia nvidia interview leetcode placement coding"
+  },
+  {
+    "id": "company:yandex",
+    "type": "company track",
+    "title": "Yandex Coding Interview Questions",
+    "slug": "yandex",
+    "path": "/companies/yandex",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Yandex hiring and placement rounds.",
+    "keywords": "Yandex yandex interview leetcode placement coding"
+  },
+  {
+    "id": "company:de-shaw",
+    "type": "company track",
+    "title": "D. E. Shaw Coding Interview Questions",
+    "slug": "de-shaw",
+    "path": "/companies/de-shaw",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in D. E. Shaw hiring and placement rounds.",
+    "keywords": "D. E. Shaw de-shaw interview leetcode placement coding"
+  },
+  {
+    "id": "company:accenture",
+    "type": "company track",
+    "title": "Accenture Coding Interview Questions",
+    "slug": "accenture",
+    "path": "/companies/accenture",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Accenture hiring and placement rounds.",
+    "keywords": "Accenture accenture interview leetcode placement coding"
+  },
+  {
+    "id": "company:snowflake",
+    "type": "company track",
+    "title": "Snowflake Coding Interview Questions",
+    "slug": "snowflake",
+    "path": "/companies/snowflake",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Snowflake hiring and placement rounds.",
+    "keywords": "Snowflake snowflake interview leetcode placement coding"
+  },
+  {
+    "id": "company:paypal",
+    "type": "company track",
+    "title": "PayPal Coding Interview Questions",
+    "slug": "paypal",
+    "path": "/companies/paypal",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in PayPal hiring and placement rounds.",
+    "keywords": "PayPal paypal interview leetcode placement coding"
+  },
+  {
+    "id": "company:flipkart",
+    "type": "company track",
+    "title": "Flipkart Coding Interview Questions",
+    "slug": "flipkart",
+    "path": "/companies/flipkart",
+    "description": "System design, recursion, DP, and greedy problem sets for SDE-1 and SDE-2 campus hiring.",
+    "keywords": "Flipkart flipkart interview leetcode placement coding"
+  },
+  {
+    "id": "company:phonepe",
+    "type": "company track",
+    "title": "PhonePe Coding Interview Questions",
+    "slug": "phonepe",
+    "path": "/companies/phonepe",
+    "description": "Data structures, modular OOP design, low-level design (LLD), and clean problem-solving.",
+    "keywords": "PhonePe phonepe interview leetcode placement coding"
+  },
+  {
+    "id": "company:snap",
+    "type": "company track",
+    "title": "Snapchat Coding Interview Questions",
+    "slug": "snap",
+    "path": "/companies/snap",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Snapchat hiring and placement rounds.",
+    "keywords": "Snapchat snap interview leetcode placement coding"
+  },
+  {
+    "id": "company:cisco",
+    "type": "company track",
+    "title": "Cisco Coding Interview Questions",
+    "slug": "cisco",
+    "path": "/companies/cisco",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Cisco hiring and placement rounds.",
+    "keywords": "Cisco cisco interview leetcode placement coding"
+  },
+  {
+    "id": "company:citadel",
+    "type": "company track",
+    "title": "Citadel Coding Interview Questions",
+    "slug": "citadel",
+    "path": "/companies/citadel",
+    "description": "Extremely rigorous algorithmic and quantitative coding rounds covering advanced graphs, DP, and math.",
+    "keywords": "Citadel citadel interview leetcode placement coding"
+  },
+  {
+    "id": "company:doordash",
+    "type": "company track",
+    "title": "DoorDash Coding Interview Questions",
+    "slug": "doordash",
+    "path": "/companies/doordash",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in DoorDash hiring and placement rounds.",
+    "keywords": "DoorDash doordash interview leetcode placement coding"
+  },
+  {
+    "id": "company:nutanix",
+    "type": "company track",
+    "title": "Nutanix Coding Interview Questions",
+    "slug": "nutanix",
+    "path": "/companies/nutanix",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nutanix hiring and placement rounds.",
+    "keywords": "Nutanix nutanix interview leetcode placement coding"
+  },
+  {
+    "id": "company:expedia",
+    "type": "company track",
+    "title": "Expedia Coding Interview Questions",
+    "slug": "expedia",
+    "path": "/companies/expedia",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Expedia hiring and placement rounds.",
+    "keywords": "Expedia expedia interview leetcode placement coding"
+  },
+  {
+    "id": "company:ebay",
+    "type": "company track",
+    "title": "Ebay Coding Interview Questions",
+    "slug": "ebay",
+    "path": "/companies/ebay",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ebay hiring and placement rounds.",
+    "keywords": "Ebay ebay interview leetcode placement coding"
+  },
+  {
+    "id": "company:servicenow",
+    "type": "company track",
+    "title": "ServiceNow Coding Interview Questions",
+    "slug": "servicenow",
+    "path": "/companies/servicenow",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in ServiceNow hiring and placement rounds.",
+    "keywords": "ServiceNow servicenow interview leetcode placement coding"
+  },
+  {
+    "id": "company:airbnb",
+    "type": "company track",
+    "title": "Airbnb Coding Interview Questions",
+    "slug": "airbnb",
+    "path": "/companies/airbnb",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Airbnb hiring and placement rounds.",
+    "keywords": "Airbnb airbnb interview leetcode placement coding"
+  },
+  {
+    "id": "company:capital-one",
+    "type": "company track",
+    "title": "Capital One Coding Interview Questions",
+    "slug": "capital-one",
+    "path": "/companies/capital-one",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Capital One hiring and placement rounds.",
+    "keywords": "Capital One capital-one interview leetcode placement coding"
+  },
+  {
+    "id": "company:bytedance",
+    "type": "company track",
+    "title": "ByteDance Coding Interview Questions",
+    "slug": "bytedance",
+    "path": "/companies/bytedance",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in ByteDance hiring and placement rounds.",
+    "keywords": "ByteDance bytedance interview leetcode placement coding"
+  },
+  {
+    "id": "company:morgan-stanley",
+    "type": "company track",
+    "title": "Morgan Stanley Coding Interview Questions",
+    "slug": "morgan-stanley",
+    "path": "/companies/morgan-stanley",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Morgan Stanley hiring and placement rounds.",
+    "keywords": "Morgan Stanley morgan-stanley interview leetcode placement coding"
+  },
+  {
+    "id": "company:roblox",
+    "type": "company track",
+    "title": "Roblox Coding Interview Questions",
+    "slug": "roblox",
+    "path": "/companies/roblox",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Roblox hiring and placement rounds.",
+    "keywords": "Roblox roblox interview leetcode placement coding"
+  },
+  {
+    "id": "company:anduril",
+    "type": "company track",
+    "title": "Anduril Coding Interview Questions",
+    "slug": "anduril",
+    "path": "/companies/anduril",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Anduril hiring and placement rounds.",
+    "keywords": "Anduril anduril interview leetcode placement coding"
+  },
+  {
+    "id": "company:atlassian",
+    "type": "company track",
+    "title": "Atlassian Coding Interview Questions",
+    "slug": "atlassian",
+    "path": "/companies/atlassian",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Atlassian hiring and placement rounds.",
+    "keywords": "Atlassian atlassian interview leetcode placement coding"
+  },
+  {
+    "id": "company:intuit",
+    "type": "company track",
+    "title": "Intuit Coding Interview Questions",
+    "slug": "intuit",
+    "path": "/companies/intuit",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Intuit hiring and placement rounds.",
+    "keywords": "Intuit intuit interview leetcode placement coding"
+  },
+  {
+    "id": "company:samsung",
+    "type": "company track",
+    "title": "Samsung Coding Interview Questions",
+    "slug": "samsung",
+    "path": "/companies/samsung",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Samsung hiring and placement rounds.",
+    "keywords": "Samsung samsung interview leetcode placement coding"
+  },
+  {
+    "id": "company:epam-systems",
+    "type": "company track",
+    "title": "Epam Systems Coding Interview Questions",
+    "slug": "epam-systems",
+    "path": "/companies/epam-systems",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Epam Systems hiring and placement rounds.",
+    "keywords": "Epam Systems epam-systems interview leetcode placement coding"
+  },
+  {
+    "id": "company:qualcomm",
+    "type": "company track",
+    "title": "Qualcomm Coding Interview Questions",
+    "slug": "qualcomm",
+    "path": "/companies/qualcomm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Qualcomm hiring and placement rounds.",
+    "keywords": "Qualcomm qualcomm interview leetcode placement coding"
+  },
+  {
+    "id": "company:wix",
+    "type": "company track",
+    "title": "Wix Coding Interview Questions",
+    "slug": "wix",
+    "path": "/companies/wix",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wix hiring and placement rounds.",
+    "keywords": "Wix wix interview leetcode placement coding"
+  },
+  {
+    "id": "company:x",
+    "type": "company track",
+    "title": "X (Twitter) Coding Interview Questions",
+    "slug": "x",
+    "path": "/companies/x",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in X (Twitter) hiring and placement rounds.",
+    "keywords": "X (Twitter) x interview leetcode placement coding"
+  },
+  {
+    "id": "company:cognizant",
+    "type": "company track",
+    "title": "Cognizant Coding Interview Questions",
+    "slug": "cognizant",
+    "path": "/companies/cognizant",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Cognizant hiring and placement rounds.",
+    "keywords": "Cognizant cognizant interview leetcode placement coding"
+  },
+  {
+    "id": "company:palo-alto-networks",
+    "type": "company track",
+    "title": "Palo Alto Networks Coding Interview Questions",
+    "slug": "palo-alto-networks",
+    "path": "/companies/palo-alto-networks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Palo Alto Networks hiring and placement rounds.",
+    "keywords": "Palo Alto Networks palo-alto-networks interview leetcode placement coding"
+  },
+  {
+    "id": "company:coupang",
+    "type": "company track",
+    "title": "Coupang Coding Interview Questions",
+    "slug": "coupang",
+    "path": "/companies/coupang",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Coupang hiring and placement rounds.",
+    "keywords": "Coupang coupang interview leetcode placement coding"
+  },
+  {
+    "id": "company:sprinklr",
+    "type": "company track",
+    "title": "Sprinklr Coding Interview Questions",
+    "slug": "sprinklr",
+    "path": "/companies/sprinklr",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sprinklr hiring and placement rounds.",
+    "keywords": "Sprinklr sprinklr interview leetcode placement coding"
+  },
+  {
+    "id": "company:deloitte",
+    "type": "company track",
+    "title": "Deloitte Coding Interview Questions",
+    "slug": "deloitte",
+    "path": "/companies/deloitte",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Deloitte hiring and placement rounds.",
+    "keywords": "Deloitte deloitte interview leetcode placement coding"
+  },
+  {
+    "id": "company:pinterest",
+    "type": "company track",
+    "title": "Pinterest Coding Interview Questions",
+    "slug": "pinterest",
+    "path": "/companies/pinterest",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pinterest hiring and placement rounds.",
+    "keywords": "Pinterest pinterest interview leetcode placement coding"
+  },
+  {
+    "id": "company:tesla",
+    "type": "company track",
+    "title": "Tesla Coding Interview Questions",
+    "slug": "tesla",
+    "path": "/companies/tesla",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Tesla hiring and placement rounds.",
+    "keywords": "Tesla tesla interview leetcode placement coding"
+  },
+  {
+    "id": "company:agoda",
+    "type": "company track",
+    "title": "Agoda Coding Interview Questions",
+    "slug": "agoda",
+    "path": "/companies/agoda",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Agoda hiring and placement rounds.",
+    "keywords": "Agoda agoda interview leetcode placement coding"
+  },
+  {
+    "id": "company:arista-networks",
+    "type": "company track",
+    "title": "Arista Networks Coding Interview Questions",
+    "slug": "arista-networks",
+    "path": "/companies/arista-networks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Arista Networks hiring and placement rounds.",
+    "keywords": "Arista Networks arista-networks interview leetcode placement coding"
+  },
+  {
+    "id": "company:media-net",
+    "type": "company track",
+    "title": "Media.net Coding Interview Questions",
+    "slug": "media-net",
+    "path": "/companies/media-net",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Media.net hiring and placement rounds.",
+    "keywords": "Media.net media-net interview leetcode placement coding"
+  },
+  {
+    "id": "company:meesho",
+    "type": "company track",
+    "title": "Meesho Coding Interview Questions",
+    "slug": "meesho",
+    "path": "/companies/meesho",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Meesho hiring and placement rounds.",
+    "keywords": "Meesho meesho interview leetcode placement coding"
+  },
+  {
+    "id": "company:swiggy",
+    "type": "company track",
+    "title": "Swiggy Coding Interview Questions",
+    "slug": "swiggy",
+    "path": "/companies/swiggy",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Swiggy hiring and placement rounds.",
+    "keywords": "Swiggy swiggy interview leetcode placement coding"
+  },
+  {
+    "id": "company:sap",
+    "type": "company track",
+    "title": "Sap Coding Interview Questions",
+    "slug": "sap",
+    "path": "/companies/sap",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sap hiring and placement rounds.",
+    "keywords": "Sap sap interview leetcode placement coding"
+  },
+  {
+    "id": "company:josh-technology",
+    "type": "company track",
+    "title": "Josh Technology Coding Interview Questions",
+    "slug": "josh-technology",
+    "path": "/companies/josh-technology",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Josh Technology hiring and placement rounds.",
+    "keywords": "Josh Technology josh-technology interview leetcode placement coding"
+  },
+  {
+    "id": "company:autodesk",
+    "type": "company track",
+    "title": "Autodesk Coding Interview Questions",
+    "slug": "autodesk",
+    "path": "/companies/autodesk",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Autodesk hiring and placement rounds.",
+    "keywords": "Autodesk autodesk interview leetcode placement coding"
+  },
+  {
+    "id": "company:capgemini",
+    "type": "company track",
+    "title": "Capgemini Coding Interview Questions",
+    "slug": "capgemini",
+    "path": "/companies/capgemini",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Capgemini hiring and placement rounds.",
+    "keywords": "Capgemini capgemini interview leetcode placement coding"
+  },
+  {
+    "id": "company:rubrik",
+    "type": "company track",
+    "title": "Rubrik Coding Interview Questions",
+    "slug": "rubrik",
+    "path": "/companies/rubrik",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rubrik hiring and placement rounds.",
+    "keywords": "Rubrik rubrik interview leetcode placement coding"
+  },
+  {
+    "id": "company:rippling",
+    "type": "company track",
+    "title": "Rippling Coding Interview Questions",
+    "slug": "rippling",
+    "path": "/companies/rippling",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rippling hiring and placement rounds.",
+    "keywords": "Rippling rippling interview leetcode placement coding"
+  },
+  {
+    "id": "company:zomato",
+    "type": "company track",
+    "title": "Zomato Coding Interview Questions",
+    "slug": "zomato",
+    "path": "/companies/zomato",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zomato hiring and placement rounds.",
+    "keywords": "Zomato zomato interview leetcode placement coding"
+  },
+  {
+    "id": "company:squarepoint-capital",
+    "type": "company track",
+    "title": "Squarepoint Capital Coding Interview Questions",
+    "slug": "squarepoint-capital",
+    "path": "/companies/squarepoint-capital",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Squarepoint Capital hiring and placement rounds.",
+    "keywords": "Squarepoint Capital squarepoint-capital interview leetcode placement coding"
+  },
+  {
+    "id": "company:yahoo",
+    "type": "company track",
+    "title": "Yahoo Coding Interview Questions",
+    "slug": "yahoo",
+    "path": "/companies/yahoo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Yahoo hiring and placement rounds.",
+    "keywords": "Yahoo yahoo interview leetcode placement coding"
+  },
+  {
+    "id": "company:docusign",
+    "type": "company track",
+    "title": "Docusign Coding Interview Questions",
+    "slug": "docusign",
+    "path": "/companies/docusign",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Docusign hiring and placement rounds.",
+    "keywords": "Docusign docusign interview leetcode placement coding"
+  },
+  {
+    "id": "company:hashedin",
+    "type": "company track",
+    "title": "Hashedin Coding Interview Questions",
+    "slug": "hashedin",
+    "path": "/companies/hashedin",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Hashedin hiring and placement rounds.",
+    "keywords": "Hashedin hashedin interview leetcode placement coding"
+  },
+  {
+    "id": "company:netflix",
+    "type": "company track",
+    "title": "Netflix Coding Interview Questions",
+    "slug": "netflix",
+    "path": "/companies/netflix",
+    "description": "High bar on system design, concurrency, streaming architectures, and clean algorithmic problem-solving.",
+    "keywords": "Netflix netflix interview leetcode placement coding"
+  },
+  {
+    "id": "company:tekion",
+    "type": "company track",
+    "title": "Tekion Coding Interview Questions",
+    "slug": "tekion",
+    "path": "/companies/tekion",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Tekion hiring and placement rounds.",
+    "keywords": "Tekion tekion interview leetcode placement coding"
+  },
+  {
+    "id": "company:waymo",
+    "type": "company track",
+    "title": "Waymo Coding Interview Questions",
+    "slug": "waymo",
+    "path": "/companies/waymo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Waymo hiring and placement rounds.",
+    "keywords": "Waymo waymo interview leetcode placement coding"
+  },
+  {
+    "id": "company:yelp",
+    "type": "company track",
+    "title": "Yelp Coding Interview Questions",
+    "slug": "yelp",
+    "path": "/companies/yelp",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Yelp hiring and placement rounds.",
+    "keywords": "Yelp yelp interview leetcode placement coding"
+  },
+  {
+    "id": "company:american-express",
+    "type": "company track",
+    "title": "American Express Coding Interview Questions",
+    "slug": "american-express",
+    "path": "/companies/american-express",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in American Express hiring and placement rounds.",
+    "keywords": "American Express american-express interview leetcode placement coding"
+  },
+  {
+    "id": "company:grammarly",
+    "type": "company track",
+    "title": "Grammarly Coding Interview Questions",
+    "slug": "grammarly",
+    "path": "/companies/grammarly",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Grammarly hiring and placement rounds.",
+    "keywords": "Grammarly grammarly interview leetcode placement coding"
+  },
+  {
+    "id": "company:mathworks",
+    "type": "company track",
+    "title": "Mathworks Coding Interview Questions",
+    "slug": "mathworks",
+    "path": "/companies/mathworks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mathworks hiring and placement rounds.",
+    "keywords": "Mathworks mathworks interview leetcode placement coding"
+  },
+  {
+    "id": "company:turing",
+    "type": "company track",
+    "title": "Turing Coding Interview Questions",
+    "slug": "turing",
+    "path": "/companies/turing",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Turing hiring and placement rounds.",
+    "keywords": "Turing turing interview leetcode placement coding"
+  },
+  {
+    "id": "company:zeta",
+    "type": "company track",
+    "title": "Zeta Coding Interview Questions",
+    "slug": "zeta",
+    "path": "/companies/zeta",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zeta hiring and placement rounds.",
+    "keywords": "Zeta zeta interview leetcode placement coding"
+  },
+  {
+    "id": "company:databricks",
+    "type": "company track",
+    "title": "Databricks Coding Interview Questions",
+    "slug": "databricks",
+    "path": "/companies/databricks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Databricks hiring and placement rounds.",
+    "keywords": "Databricks databricks interview leetcode placement coding"
+  },
+  {
+    "id": "company:mongodb",
+    "type": "company track",
+    "title": "Mongodb Coding Interview Questions",
+    "slug": "mongodb",
+    "path": "/companies/mongodb",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mongodb hiring and placement rounds.",
+    "keywords": "Mongodb mongodb interview leetcode placement coding"
+  },
+  {
+    "id": "company:paytm",
+    "type": "company track",
+    "title": "Paytm Coding Interview Questions",
+    "slug": "paytm",
+    "path": "/companies/paytm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Paytm hiring and placement rounds.",
+    "keywords": "Paytm paytm interview leetcode placement coding"
+  },
+  {
+    "id": "company:lyft",
+    "type": "company track",
+    "title": "Lyft Coding Interview Questions",
+    "slug": "lyft",
+    "path": "/companies/lyft",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Lyft hiring and placement rounds.",
+    "keywords": "Lyft lyft interview leetcode placement coding"
+  },
+  {
+    "id": "company:okta",
+    "type": "company track",
+    "title": "Okta Coding Interview Questions",
+    "slug": "okta",
+    "path": "/companies/okta",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Okta hiring and placement rounds.",
+    "keywords": "Okta okta interview leetcode placement coding"
+  },
+  {
+    "id": "company:dropbox",
+    "type": "company track",
+    "title": "Dropbox Coding Interview Questions",
+    "slug": "dropbox",
+    "path": "/companies/dropbox",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dropbox hiring and placement rounds.",
+    "keywords": "Dropbox dropbox interview leetcode placement coding"
+  },
+  {
+    "id": "company:siemens",
+    "type": "company track",
+    "title": "Siemens Coding Interview Questions",
+    "slug": "siemens",
+    "path": "/companies/siemens",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Siemens hiring and placement rounds.",
+    "keywords": "Siemens siemens interview leetcode placement coding"
+  },
+  {
+    "id": "company:zenefits",
+    "type": "company track",
+    "title": "Zenefits Coding Interview Questions",
+    "slug": "zenefits",
+    "path": "/companies/zenefits",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zenefits hiring and placement rounds.",
+    "keywords": "Zenefits zenefits interview leetcode placement coding"
+  },
+  {
+    "id": "company:wells-fargo",
+    "type": "company track",
+    "title": "Wells Fargo Coding Interview Questions",
+    "slug": "wells-fargo",
+    "path": "/companies/wells-fargo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wells Fargo hiring and placement rounds.",
+    "keywords": "Wells Fargo wells-fargo interview leetcode placement coding"
+  },
+  {
+    "id": "company:barclays",
+    "type": "company track",
+    "title": "Barclays Coding Interview Questions",
+    "slug": "barclays",
+    "path": "/companies/barclays",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Barclays hiring and placement rounds.",
+    "keywords": "Barclays barclays interview leetcode placement coding"
+  },
+  {
+    "id": "company:deutsche-bank",
+    "type": "company track",
+    "title": "Deutsche Bank Coding Interview Questions",
+    "slug": "deutsche-bank",
+    "path": "/companies/deutsche-bank",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Deutsche Bank hiring and placement rounds.",
+    "keywords": "Deutsche Bank deutsche-bank interview leetcode placement coding"
+  },
+  {
+    "id": "company:juspay",
+    "type": "company track",
+    "title": "Juspay Coding Interview Questions",
+    "slug": "juspay",
+    "path": "/companies/juspay",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Juspay hiring and placement rounds.",
+    "keywords": "Juspay juspay interview leetcode placement coding"
+  },
+  {
+    "id": "company:quora",
+    "type": "company track",
+    "title": "Quora Coding Interview Questions",
+    "slug": "quora",
+    "path": "/companies/quora",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Quora hiring and placement rounds.",
+    "keywords": "Quora quora interview leetcode placement coding"
+  },
+  {
+    "id": "company:tinkoff",
+    "type": "company track",
+    "title": "Tinkoff Coding Interview Questions",
+    "slug": "tinkoff",
+    "path": "/companies/tinkoff",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Tinkoff hiring and placement rounds.",
+    "keywords": "Tinkoff tinkoff interview leetcode placement coding"
+  },
+  {
+    "id": "company:two-sigma",
+    "type": "company track",
+    "title": "Two Sigma Coding Interview Questions",
+    "slug": "two-sigma",
+    "path": "/companies/two-sigma",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Two Sigma hiring and placement rounds.",
+    "keywords": "Two Sigma two-sigma interview leetcode placement coding"
+  },
+  {
+    "id": "company:bny-mellon",
+    "type": "company track",
+    "title": "Bny Mellon Coding Interview Questions",
+    "slug": "bny-mellon",
+    "path": "/companies/bny-mellon",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Bny Mellon hiring and placement rounds.",
+    "keywords": "Bny Mellon bny-mellon interview leetcode placement coding"
+  },
+  {
+    "id": "company:openai",
+    "type": "company track",
+    "title": "Openai Coding Interview Questions",
+    "slug": "openai",
+    "path": "/companies/openai",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Openai hiring and placement rounds.",
+    "keywords": "Openai openai interview leetcode placement coding"
+  },
+  {
+    "id": "company:roku",
+    "type": "company track",
+    "title": "Roku Coding Interview Questions",
+    "slug": "roku",
+    "path": "/companies/roku",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Roku hiring and placement rounds.",
+    "keywords": "Roku roku interview leetcode placement coding"
+  },
+  {
+    "id": "company:wipro",
+    "type": "company track",
+    "title": "Wipro Coding Interview Questions",
+    "slug": "wipro",
+    "path": "/companies/wipro",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wipro hiring and placement rounds.",
+    "keywords": "Wipro wipro interview leetcode placement coding"
+  },
+  {
+    "id": "company:amd",
+    "type": "company track",
+    "title": "AMD Coding Interview Questions",
+    "slug": "amd",
+    "path": "/companies/amd",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in AMD hiring and placement rounds.",
+    "keywords": "AMD amd interview leetcode placement coding"
+  },
+  {
+    "id": "company:accolite",
+    "type": "company track",
+    "title": "Accolite Coding Interview Questions",
+    "slug": "accolite",
+    "path": "/companies/accolite",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Accolite hiring and placement rounds.",
+    "keywords": "Accolite accolite interview leetcode placement coding"
+  },
+  {
+    "id": "company:akuna-capital",
+    "type": "company track",
+    "title": "Akuna Capital Coding Interview Questions",
+    "slug": "akuna-capital",
+    "path": "/companies/akuna-capital",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Akuna Capital hiring and placement rounds.",
+    "keywords": "Akuna Capital akuna-capital interview leetcode placement coding"
+  },
+  {
+    "id": "company:booking-com",
+    "type": "company track",
+    "title": "Booking.com Coding Interview Questions",
+    "slug": "booking-com",
+    "path": "/companies/booking-com",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Booking.com hiring and placement rounds.",
+    "keywords": "Booking.com booking-com interview leetcode placement coding"
+  },
+  {
+    "id": "company:hcl",
+    "type": "company track",
+    "title": "HCLTech Coding Interview Questions",
+    "slug": "hcl",
+    "path": "/companies/hcl",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in HCLTech hiring and placement rounds.",
+    "keywords": "HCLTech hcl interview leetcode placement coding"
+  },
+  {
+    "id": "company:ixl",
+    "type": "company track",
+    "title": "Ixl Coding Interview Questions",
+    "slug": "ixl",
+    "path": "/companies/ixl",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ixl hiring and placement rounds.",
+    "keywords": "Ixl ixl interview leetcode placement coding"
+  },
+  {
+    "id": "company:myntra",
+    "type": "company track",
+    "title": "Myntra Coding Interview Questions",
+    "slug": "myntra",
+    "path": "/companies/myntra",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Myntra hiring and placement rounds.",
+    "keywords": "Myntra myntra interview leetcode placement coding"
+  },
+  {
+    "id": "company:verkada",
+    "type": "company track",
+    "title": "Verkada Coding Interview Questions",
+    "slug": "verkada",
+    "path": "/companies/verkada",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Verkada hiring and placement rounds.",
+    "keywords": "Verkada verkada interview leetcode placement coding"
+  },
+  {
+    "id": "company:epic-systems",
+    "type": "company track",
+    "title": "Epic Systems Coding Interview Questions",
+    "slug": "epic-systems",
+    "path": "/companies/epic-systems",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Epic Systems hiring and placement rounds.",
+    "keywords": "Epic Systems epic-systems interview leetcode placement coding"
+  },
+  {
+    "id": "company:grab",
+    "type": "company track",
+    "title": "Grab Coding Interview Questions",
+    "slug": "grab",
+    "path": "/companies/grab",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Grab hiring and placement rounds.",
+    "keywords": "Grab grab interview leetcode placement coding"
+  },
+  {
+    "id": "company:hudson-river-trading",
+    "type": "company track",
+    "title": "Hudson River Trading Coding Interview Questions",
+    "slug": "hudson-river-trading",
+    "path": "/companies/hudson-river-trading",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Hudson River Trading hiring and placement rounds.",
+    "keywords": "Hudson River Trading hudson-river-trading interview leetcode placement coding"
+  },
+  {
+    "id": "company:wayfair",
+    "type": "company track",
+    "title": "Wayfair Coding Interview Questions",
+    "slug": "wayfair",
+    "path": "/companies/wayfair",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wayfair hiring and placement rounds.",
+    "keywords": "Wayfair wayfair interview leetcode placement coding"
+  },
+  {
+    "id": "company:zscaler",
+    "type": "company track",
+    "title": "Zscaler Coding Interview Questions",
+    "slug": "zscaler",
+    "path": "/companies/zscaler",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zscaler hiring and placement rounds.",
+    "keywords": "Zscaler zscaler interview leetcode placement coding"
+  },
+  {
+    "id": "company:akamai",
+    "type": "company track",
+    "title": "Akamai Coding Interview Questions",
+    "slug": "akamai",
+    "path": "/companies/akamai",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Akamai hiring and placement rounds.",
+    "keywords": "Akamai akamai interview leetcode placement coding"
+  },
+  {
+    "id": "company:geico",
+    "type": "company track",
+    "title": "Geico Coding Interview Questions",
+    "slug": "geico",
+    "path": "/companies/geico",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Geico hiring and placement rounds.",
+    "keywords": "Geico geico interview leetcode placement coding"
+  },
+  {
+    "id": "company:intel",
+    "type": "company track",
+    "title": "Intel Coding Interview Questions",
+    "slug": "intel",
+    "path": "/companies/intel",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Intel hiring and placement rounds.",
+    "keywords": "Intel intel interview leetcode placement coding"
+  },
+  {
+    "id": "company:robinhood",
+    "type": "company track",
+    "title": "Robinhood Coding Interview Questions",
+    "slug": "robinhood",
+    "path": "/companies/robinhood",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Robinhood hiring and placement rounds.",
+    "keywords": "Robinhood robinhood interview leetcode placement coding"
+  },
+  {
+    "id": "company:sigmoid",
+    "type": "company track",
+    "title": "Sigmoid Coding Interview Questions",
+    "slug": "sigmoid",
+    "path": "/companies/sigmoid",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sigmoid hiring and placement rounds.",
+    "keywords": "Sigmoid sigmoid interview leetcode placement coding"
+  },
+  {
+    "id": "company:spotify",
+    "type": "company track",
+    "title": "Spotify Coding Interview Questions",
+    "slug": "spotify",
+    "path": "/companies/spotify",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Spotify hiring and placement rounds.",
+    "keywords": "Spotify spotify interview leetcode placement coding"
+  },
+  {
+    "id": "company:arcesium",
+    "type": "company track",
+    "title": "Arcesium Coding Interview Questions",
+    "slug": "arcesium",
+    "path": "/companies/arcesium",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Arcesium hiring and placement rounds.",
+    "keywords": "Arcesium arcesium interview leetcode placement coding"
+  },
+  {
+    "id": "company:dell",
+    "type": "company track",
+    "title": "Dell Coding Interview Questions",
+    "slug": "dell",
+    "path": "/companies/dell",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dell hiring and placement rounds.",
+    "keywords": "Dell dell interview leetcode placement coding"
+  },
+  {
+    "id": "company:pocket-gems",
+    "type": "company track",
+    "title": "Pocket Gems Coding Interview Questions",
+    "slug": "pocket-gems",
+    "path": "/companies/pocket-gems",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pocket Gems hiring and placement rounds.",
+    "keywords": "Pocket Gems pocket-gems interview leetcode placement coding"
+  },
+  {
+    "id": "company:sofi",
+    "type": "company track",
+    "title": "Sofi Coding Interview Questions",
+    "slug": "sofi",
+    "path": "/companies/sofi",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sofi hiring and placement rounds.",
+    "keywords": "Sofi sofi interview leetcode placement coding"
+  },
+  {
+    "id": "company:zopsmart",
+    "type": "company track",
+    "title": "Zopsmart Coding Interview Questions",
+    "slug": "zopsmart",
+    "path": "/companies/zopsmart",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Zopsmart hiring and placement rounds.",
+    "keywords": "Zopsmart zopsmart interview leetcode placement coding"
+  },
+  {
+    "id": "company:bitgo",
+    "type": "company track",
+    "title": "Bitgo Coding Interview Questions",
+    "slug": "bitgo",
+    "path": "/companies/bitgo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Bitgo hiring and placement rounds.",
+    "keywords": "Bitgo bitgo interview leetcode placement coding"
+  },
+  {
+    "id": "company:general-motors",
+    "type": "company track",
+    "title": "General Motors Coding Interview Questions",
+    "slug": "general-motors",
+    "path": "/companies/general-motors",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in General Motors hiring and placement rounds.",
+    "keywords": "General Motors general-motors interview leetcode placement coding"
+  },
+  {
+    "id": "company:huawei",
+    "type": "company track",
+    "title": "Huawei Coding Interview Questions",
+    "slug": "huawei",
+    "path": "/companies/huawei",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Huawei hiring and placement rounds.",
+    "keywords": "Huawei huawei interview leetcode placement coding"
+  },
+  {
+    "id": "company:inmobi",
+    "type": "company track",
+    "title": "Inmobi Coding Interview Questions",
+    "slug": "inmobi",
+    "path": "/companies/inmobi",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Inmobi hiring and placement rounds.",
+    "keywords": "Inmobi inmobi interview leetcode placement coding"
+  },
+  {
+    "id": "company:jane-street",
+    "type": "company track",
+    "title": "Jane Street Coding Interview Questions",
+    "slug": "jane-street",
+    "path": "/companies/jane-street",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Jane Street hiring and placement rounds.",
+    "keywords": "Jane Street jane-street interview leetcode placement coding"
+  },
+  {
+    "id": "company:makemytrip",
+    "type": "company track",
+    "title": "Makemytrip Coding Interview Questions",
+    "slug": "makemytrip",
+    "path": "/companies/makemytrip",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Makemytrip hiring and placement rounds.",
+    "keywords": "Makemytrip makemytrip interview leetcode placement coding"
+  },
+  {
+    "id": "company:mastercard",
+    "type": "company track",
+    "title": "Mastercard Coding Interview Questions",
+    "slug": "mastercard",
+    "path": "/companies/mastercard",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mastercard hiring and placement rounds.",
+    "keywords": "Mastercard mastercard interview leetcode placement coding"
+  },
+  {
+    "id": "company:nuro",
+    "type": "company track",
+    "title": "Nuro Coding Interview Questions",
+    "slug": "nuro",
+    "path": "/companies/nuro",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nuro hiring and placement rounds.",
+    "keywords": "Nuro nuro interview leetcode placement coding"
+  },
+  {
+    "id": "company:uipath",
+    "type": "company track",
+    "title": "Uipath Coding Interview Questions",
+    "slug": "uipath",
+    "path": "/companies/uipath",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Uipath hiring and placement rounds.",
+    "keywords": "Uipath uipath interview leetcode placement coding"
+  },
+  {
+    "id": "company:crowdstrike",
+    "type": "company track",
+    "title": "Crowdstrike Coding Interview Questions",
+    "slug": "crowdstrike",
+    "path": "/companies/crowdstrike",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Crowdstrike hiring and placement rounds.",
+    "keywords": "Crowdstrike crowdstrike interview leetcode placement coding"
+  },
+  {
+    "id": "company:datadog",
+    "type": "company track",
+    "title": "Datadog Coding Interview Questions",
+    "slug": "datadog",
+    "path": "/companies/datadog",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Datadog hiring and placement rounds.",
+    "keywords": "Datadog datadog interview leetcode placement coding"
+  },
+  {
+    "id": "company:moloco",
+    "type": "company track",
+    "title": "Moloco Coding Interview Questions",
+    "slug": "moloco",
+    "path": "/companies/moloco",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Moloco hiring and placement rounds.",
+    "keywords": "Moloco moloco interview leetcode placement coding"
+  },
+  {
+    "id": "company:netapp",
+    "type": "company track",
+    "title": "Netapp Coding Interview Questions",
+    "slug": "netapp",
+    "path": "/companies/netapp",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Netapp hiring and placement rounds.",
+    "keywords": "Netapp netapp interview leetcode placement coding"
+  },
+  {
+    "id": "company:ozon",
+    "type": "company track",
+    "title": "Ozon Coding Interview Questions",
+    "slug": "ozon",
+    "path": "/companies/ozon",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ozon hiring and placement rounds.",
+    "keywords": "Ozon ozon interview leetcode placement coding"
+  },
+  {
+    "id": "company:stripe",
+    "type": "company track",
+    "title": "Stripe Coding Interview Questions",
+    "slug": "stripe",
+    "path": "/companies/stripe",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Stripe hiring and placement rounds.",
+    "keywords": "Stripe stripe interview leetcode placement coding"
+  },
+  {
+    "id": "company:vk",
+    "type": "company track",
+    "title": "Vk Coding Interview Questions",
+    "slug": "vk",
+    "path": "/companies/vk",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Vk hiring and placement rounds.",
+    "keywords": "Vk vk interview leetcode placement coding"
+  },
+  {
+    "id": "company:cloudflare",
+    "type": "company track",
+    "title": "Cloudflare Coding Interview Questions",
+    "slug": "cloudflare",
+    "path": "/companies/cloudflare",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Cloudflare hiring and placement rounds.",
+    "keywords": "Cloudflare cloudflare interview leetcode placement coding"
+  },
+  {
+    "id": "company:coinbase",
+    "type": "company track",
+    "title": "Coinbase Coding Interview Questions",
+    "slug": "coinbase",
+    "path": "/companies/coinbase",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Coinbase hiring and placement rounds.",
+    "keywords": "Coinbase coinbase interview leetcode placement coding"
+  },
+  {
+    "id": "company:dp-world",
+    "type": "company track",
+    "title": "Dp World Coding Interview Questions",
+    "slug": "dp-world",
+    "path": "/companies/dp-world",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dp World hiring and placement rounds.",
+    "keywords": "Dp World dp-world interview leetcode placement coding"
+  },
+  {
+    "id": "company:dream11",
+    "type": "company track",
+    "title": "Dream11 Coding Interview Questions",
+    "slug": "dream11",
+    "path": "/companies/dream11",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Dream11 hiring and placement rounds.",
+    "keywords": "Dream11 dream11 interview leetcode placement coding"
+  },
+  {
+    "id": "company:nokia",
+    "type": "company track",
+    "title": "Nokia Coding Interview Questions",
+    "slug": "nokia",
+    "path": "/companies/nokia",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nokia hiring and placement rounds.",
+    "keywords": "Nokia nokia interview leetcode placement coding"
+  },
+  {
+    "id": "company:twilio",
+    "type": "company track",
+    "title": "Twilio Coding Interview Questions",
+    "slug": "twilio",
+    "path": "/companies/twilio",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Twilio hiring and placement rounds.",
+    "keywords": "Twilio twilio interview leetcode placement coding"
+  },
+  {
+    "id": "company:ukg",
+    "type": "company track",
+    "title": "Ukg Coding Interview Questions",
+    "slug": "ukg",
+    "path": "/companies/ukg",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Ukg hiring and placement rounds.",
+    "keywords": "Ukg ukg interview leetcode placement coding"
+  },
+  {
+    "id": "company:whatnot",
+    "type": "company track",
+    "title": "Whatnot Coding Interview Questions",
+    "slug": "whatnot",
+    "path": "/companies/whatnot",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Whatnot hiring and placement rounds.",
+    "keywords": "Whatnot whatnot interview leetcode placement coding"
+  },
+  {
+    "id": "company:wissen-technology",
+    "type": "company track",
+    "title": "Wissen Technology Coding Interview Questions",
+    "slug": "wissen-technology",
+    "path": "/companies/wissen-technology",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Wissen Technology hiring and placement rounds.",
+    "keywords": "Wissen Technology wissen-technology interview leetcode placement coding"
+  },
+  {
+    "id": "company:razorpay",
+    "type": "company track",
+    "title": "Razorpay Coding Interview Questions",
+    "slug": "razorpay",
+    "path": "/companies/razorpay",
+    "description": "Fintech engineering rounds focusing on concurrency, transaction flows, and algorithmic correctness.",
+    "keywords": "Razorpay razorpay interview leetcode placement coding"
+  },
+  {
+    "id": "company:affirm",
+    "type": "company track",
+    "title": "Affirm Coding Interview Questions",
+    "slug": "affirm",
+    "path": "/companies/affirm",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Affirm hiring and placement rounds.",
+    "keywords": "Affirm affirm interview leetcode placement coding"
+  },
+  {
+    "id": "company:applied-intuition",
+    "type": "company track",
+    "title": "Applied Intuition Coding Interview Questions",
+    "slug": "applied-intuition",
+    "path": "/companies/applied-intuition",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Applied Intuition hiring and placement rounds.",
+    "keywords": "Applied Intuition applied-intuition interview leetcode placement coding"
+  },
+  {
+    "id": "company:aurora",
+    "type": "company track",
+    "title": "Aurora Coding Interview Questions",
+    "slug": "aurora",
+    "path": "/companies/aurora",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Aurora hiring and placement rounds.",
+    "keywords": "Aurora aurora interview leetcode placement coding"
+  },
+  {
+    "id": "company:baidu",
+    "type": "company track",
+    "title": "Baidu Coding Interview Questions",
+    "slug": "baidu",
+    "path": "/companies/baidu",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Baidu hiring and placement rounds.",
+    "keywords": "Baidu baidu interview leetcode placement coding"
+  },
+  {
+    "id": "company:criteo",
+    "type": "company track",
+    "title": "Criteo Coding Interview Questions",
+    "slug": "criteo",
+    "path": "/companies/criteo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Criteo hiring and placement rounds.",
+    "keywords": "Criteo criteo interview leetcode placement coding"
+  },
+  {
+    "id": "company:freshworks",
+    "type": "company track",
+    "title": "Freshworks Coding Interview Questions",
+    "slug": "freshworks",
+    "path": "/companies/freshworks",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Freshworks hiring and placement rounds.",
+    "keywords": "Freshworks freshworks interview leetcode placement coding"
+  },
+  {
+    "id": "company:hubspot",
+    "type": "company track",
+    "title": "Hubspot Coding Interview Questions",
+    "slug": "hubspot",
+    "path": "/companies/hubspot",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Hubspot hiring and placement rounds.",
+    "keywords": "Hubspot hubspot interview leetcode placement coding"
+  },
+  {
+    "id": "company:karat",
+    "type": "company track",
+    "title": "Karat Coding Interview Questions",
+    "slug": "karat",
+    "path": "/companies/karat",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Karat hiring and placement rounds.",
+    "keywords": "Karat karat interview leetcode placement coding"
+  },
+  {
+    "id": "company:lti",
+    "type": "company track",
+    "title": "Lti Coding Interview Questions",
+    "slug": "lti",
+    "path": "/companies/lti",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Lti hiring and placement rounds.",
+    "keywords": "Lti lti interview leetcode placement coding"
+  },
+  {
+    "id": "company:millennium",
+    "type": "company track",
+    "title": "Millennium Coding Interview Questions",
+    "slug": "millennium",
+    "path": "/companies/millennium",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Millennium hiring and placement rounds.",
+    "keywords": "Millennium millennium interview leetcode placement coding"
+  },
+  {
+    "id": "company:mitsogo",
+    "type": "company track",
+    "title": "Mitsogo Coding Interview Questions",
+    "slug": "mitsogo",
+    "path": "/companies/mitsogo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Mitsogo hiring and placement rounds.",
+    "keywords": "Mitsogo mitsogo interview leetcode placement coding"
+  },
+  {
+    "id": "company:paypay",
+    "type": "company track",
+    "title": "Paypay Coding Interview Questions",
+    "slug": "paypay",
+    "path": "/companies/paypay",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Paypay hiring and placement rounds.",
+    "keywords": "Paypay paypay interview leetcode placement coding"
+  },
+  {
+    "id": "company:pornhub",
+    "type": "company track",
+    "title": "Pornhub Coding Interview Questions",
+    "slug": "pornhub",
+    "path": "/companies/pornhub",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pornhub hiring and placement rounds.",
+    "keywords": "Pornhub pornhub interview leetcode placement coding"
+  },
+  {
+    "id": "company:revolut",
+    "type": "company track",
+    "title": "Revolut Coding Interview Questions",
+    "slug": "revolut",
+    "path": "/companies/revolut",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Revolut hiring and placement rounds.",
+    "keywords": "Revolut revolut interview leetcode placement coding"
+  },
+  {
+    "id": "company:sig",
+    "type": "company track",
+    "title": "Sig Coding Interview Questions",
+    "slug": "sig",
+    "path": "/companies/sig",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Sig hiring and placement rounds.",
+    "keywords": "Sig sig interview leetcode placement coding"
+  },
+  {
+    "id": "company:weride",
+    "type": "company track",
+    "title": "Weride Coding Interview Questions",
+    "slug": "weride",
+    "path": "/companies/weride",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Weride hiring and placement rounds.",
+    "keywords": "Weride weride interview leetcode placement coding"
+  },
+  {
+    "id": "company:blackrock",
+    "type": "company track",
+    "title": "Blackrock Coding Interview Questions",
+    "slug": "blackrock",
+    "path": "/companies/blackrock",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Blackrock hiring and placement rounds.",
+    "keywords": "Blackrock blackrock interview leetcode placement coding"
+  },
+  {
+    "id": "company:confluent",
+    "type": "company track",
+    "title": "Confluent Coding Interview Questions",
+    "slug": "confluent",
+    "path": "/companies/confluent",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Confluent hiring and placement rounds.",
+    "keywords": "Confluent confluent interview leetcode placement coding"
+  },
+  {
+    "id": "company:coursera",
+    "type": "company track",
+    "title": "Coursera Coding Interview Questions",
+    "slug": "coursera",
+    "path": "/companies/coursera",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Coursera hiring and placement rounds.",
+    "keywords": "Coursera coursera interview leetcode placement coding"
+  },
+  {
+    "id": "company:disney",
+    "type": "company track",
+    "title": "Disney Coding Interview Questions",
+    "slug": "disney",
+    "path": "/companies/disney",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Disney hiring and placement rounds.",
+    "keywords": "Disney disney interview leetcode placement coding"
+  },
+  {
+    "id": "company:instacart",
+    "type": "company track",
+    "title": "Instacart Coding Interview Questions",
+    "slug": "instacart",
+    "path": "/companies/instacart",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Instacart hiring and placement rounds.",
+    "keywords": "Instacart instacart interview leetcode placement coding"
+  },
+  {
+    "id": "company:publicis-sapient",
+    "type": "company track",
+    "title": "Publicis Sapient Coding Interview Questions",
+    "slug": "publicis-sapient",
+    "path": "/companies/publicis-sapient",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Publicis Sapient hiring and placement rounds.",
+    "keywords": "Publicis Sapient publicis-sapient interview leetcode placement coding"
+  },
+  {
+    "id": "company:virtu-financial",
+    "type": "company track",
+    "title": "Virtu Financial Coding Interview Questions",
+    "slug": "virtu-financial",
+    "path": "/companies/virtu-financial",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Virtu Financial hiring and placement rounds.",
+    "keywords": "Virtu Financial virtu-financial interview leetcode placement coding"
+  },
+  {
+    "id": "company:avito",
+    "type": "company track",
+    "title": "Avito Coding Interview Questions",
+    "slug": "avito",
+    "path": "/companies/avito",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Avito hiring and placement rounds.",
+    "keywords": "Avito avito interview leetcode placement coding"
+  },
+  {
+    "id": "company:axon",
+    "type": "company track",
+    "title": "Axon Coding Interview Questions",
+    "slug": "axon",
+    "path": "/companies/axon",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Axon hiring and placement rounds.",
+    "keywords": "Axon axon interview leetcode placement coding"
+  },
+  {
+    "id": "company:directi",
+    "type": "company track",
+    "title": "Directi Coding Interview Questions",
+    "slug": "directi",
+    "path": "/companies/directi",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Directi hiring and placement rounds.",
+    "keywords": "Directi directi interview leetcode placement coding"
+  },
+  {
+    "id": "company:kla",
+    "type": "company track",
+    "title": "Kla Coding Interview Questions",
+    "slug": "kla",
+    "path": "/companies/kla",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Kla hiring and placement rounds.",
+    "keywords": "Kla kla interview leetcode placement coding"
+  },
+  {
+    "id": "company:microstrategy",
+    "type": "company track",
+    "title": "Microstrategy Coding Interview Questions",
+    "slug": "microstrategy",
+    "path": "/companies/microstrategy",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Microstrategy hiring and placement rounds.",
+    "keywords": "Microstrategy microstrategy interview leetcode placement coding"
+  },
+  {
+    "id": "company:nagarro",
+    "type": "company track",
+    "title": "Nagarro Coding Interview Questions",
+    "slug": "nagarro",
+    "path": "/companies/nagarro",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Nagarro hiring and placement rounds.",
+    "keywords": "Nagarro nagarro interview leetcode placement coding"
+  },
+  {
+    "id": "company:pure-storage",
+    "type": "company track",
+    "title": "Pure Storage Coding Interview Questions",
+    "slug": "pure-storage",
+    "path": "/companies/pure-storage",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Pure Storage hiring and placement rounds.",
+    "keywords": "Pure Storage pure-storage interview leetcode placement coding"
+  },
+  {
+    "id": "company:rakuten",
+    "type": "company track",
+    "title": "Rakuten Coding Interview Questions",
+    "slug": "rakuten",
+    "path": "/companies/rakuten",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rakuten hiring and placement rounds.",
+    "keywords": "Rakuten rakuten interview leetcode placement coding"
+  },
+  {
+    "id": "company:rivian",
+    "type": "company track",
+    "title": "Rivian Coding Interview Questions",
+    "slug": "rivian",
+    "path": "/companies/rivian",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Rivian hiring and placement rounds.",
+    "keywords": "Rivian rivian interview leetcode placement coding"
+  },
+  {
+    "id": "company:splunk",
+    "type": "company track",
+    "title": "Splunk Coding Interview Questions",
+    "slug": "splunk",
+    "path": "/companies/splunk",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Splunk hiring and placement rounds.",
+    "keywords": "Splunk splunk interview leetcode placement coding"
+  },
+  {
+    "id": "company:teradata",
+    "type": "company track",
+    "title": "Teradata Coding Interview Questions",
+    "slug": "teradata",
+    "path": "/companies/teradata",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Teradata hiring and placement rounds.",
+    "keywords": "Teradata teradata interview leetcode placement coding"
+  },
+  {
+    "id": "company:oyo",
+    "type": "company track",
+    "title": "Oyo Coding Interview Questions",
+    "slug": "oyo",
+    "path": "/companies/oyo",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in Oyo hiring and placement rounds.",
+    "keywords": "Oyo oyo interview leetcode placement coding"
+  },
+  {
+    "id": "company:vmware",
+    "type": "company track",
+    "title": "VMware Coding Interview Questions",
+    "slug": "vmware",
+    "path": "/companies/vmware",
+    "description": "Top coding interview questions, assessments, and DSA frequency asked in VMware hiring and placement rounds.",
+    "keywords": "VMware vmware interview leetcode placement coding"
   }
 ]

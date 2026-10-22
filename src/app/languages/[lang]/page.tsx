@@ -18,7 +18,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   return buildMetadata({
-    title: `${lang} LeetCode Solutions | AlgoForge`,
+    title: `${lang} LeetCode Solutions | DSALoop by CampusLoop`,
     description: `Browse coding interview solutions in ${lang}.`,
     keywords: [`${lang} leetcode`, `${lang} solutions`],
     canonicalPath: `/languages/${lang}`,

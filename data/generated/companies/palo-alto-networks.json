@@ -1,0 +1,580 @@
+{
+  "type": "company",
+  "slug": "palo-alto-networks",
+  "name": "Palo Alto Networks",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Palo Alto Networks hiring and placement rounds.",
+  "problemCount": 49,
+  "problemSlugs": [
+    "lru-cache",
+    "find-the-longest-equal-subarray",
+    "logger-rate-limiter",
+    "merge-intervals",
+    "longest-substring-without-repeating-characters",
+    "group-anagrams",
+    "string-compression",
+    "design-hashmap",
+    "search-in-rotated-sorted-array",
+    "decode-string",
+    "merge-sorted-array",
+    "median-of-two-sorted-arrays",
+    "binary-tree-level-order-traversal",
+    "min-stack",
+    "integer-to-roman",
+    "top-k-frequent-words",
+    "insert-delete-getrandom-o1",
+    "restore-ip-addresses",
+    "longest-common-prefix",
+    "advantage-shuffle",
+    "reverse-linked-list-ii",
+    "linked-list-cycle",
+    "add-two-numbers",
+    "subarray-sum-equals-k",
+    "meeting-rooms",
+    "word-break",
+    "merge-two-sorted-lists",
+    "sliding-window-maximum",
+    "basic-calculator",
+    "invert-binary-tree",
+    "valid-parentheses",
+    "basic-calculator-ii",
+    "multiply-strings",
+    "path-sum",
+    "path-sum-ii",
+    "reconstruct-itinerary",
+    "koko-eating-bananas",
+    "maximum-length-of-a-concatenated-string-with-unique-characters",
+    "longest-palindromic-substring",
+    "binary-tree-zigzag-level-order-traversal",
+    "design-twitter",
+    "maximum-profit-in-job-scheduling",
+    "remove-zero-sum-consecutive-nodes-from-linked-list",
+    "diameter-of-binary-tree",
+    "reverse-nodes-in-k-group",
+    "couples-holding-hands",
+    "open-the-lock",
+    "valid-palindrome",
+    "best-time-to-buy-and-sell-stock"
+  ],
+  "difficultyBreakdown": {
+    "easy": 13,
+    "medium": 29,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 94.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-twitter",
+        "number": 355,
+        "title": "Design Twitter",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "open-the-lock",
+        "number": 752,
+        "title": "Open the Lock",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-longest-equal-subarray",
+        "number": 2831,
+        "title": "Find the Longest Equal Subarray",
+        "difficulty": "Medium",
+        "frequency": 85.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 74.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hashmap",
+        "number": 706,
+        "title": "Design HashMap",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-level-order-traversal",
+        "number": 102,
+        "title": "Binary Tree Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "advantage-shuffle",
+        "number": 870,
+        "title": "Advantage Shuffle",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list-ii",
+        "number": 92,
+        "title": "Reverse Linked List II",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms",
+        "number": 252,
+        "title": "Meeting Rooms",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator",
+        "number": 224,
+        "title": "Basic Calculator",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "invert-binary-tree",
+        "number": 226,
+        "title": "Invert Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-sum",
+        "number": 112,
+        "title": "Path Sum",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-sum-ii",
+        "number": 113,
+        "title": "Path Sum II",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+        "number": 1239,
+        "title": "Maximum Length of a Concatenated String with Unique Characters",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-zigzag-level-order-traversal",
+        "number": 103,
+        "title": "Binary Tree Zigzag Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-twitter",
+        "number": 355,
+        "title": "Design Twitter",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
+        "number": 1171,
+        "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "couples-holding-hands",
+        "number": 765,
+        "title": "Couples Holding Hands",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "open-the-lock",
+        "number": 752,
+        "title": "Open the Lock",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Palo Alto Networks Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Palo Alto Networks coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/palo-alto-networks",
+    "keywords": [
+      "palo alto networks interview questions",
+      "palo alto networks leetcode",
+      "palo alto networks coding questions",
+      "palo alto networks online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

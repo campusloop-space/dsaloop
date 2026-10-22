@@ -1,0 +1,235 @@
+{
+  "type": "company",
+  "slug": "tinkoff",
+  "name": "Tinkoff",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Tinkoff hiring and placement rounds.",
+  "problemCount": 19,
+  "problemSlugs": [
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "longest-palindromic-substring",
+    "search-in-rotated-sorted-array",
+    "two-sum",
+    "simplify-path",
+    "is-subsequence",
+    "decode-string",
+    "find-the-longest-balanced-substring-of-a-binary-string",
+    "longest-substring-without-repeating-characters",
+    "min-stack",
+    "battleships-in-a-board",
+    "event-emitter",
+    "number-of-islands",
+    "minimum-difference-between-highest-and-lowest-of-k-scores",
+    "remove-nth-node-from-end-of-list",
+    "summary-ranges",
+    "roman-to-integer",
+    "string-compression",
+    "line-reflection"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 13,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 94,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 94,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "is-subsequence",
+        "number": 392,
+        "title": "Is Subsequence",
+        "difficulty": "Easy",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-longest-balanced-substring-of-a-binary-string",
+        "number": 2609,
+        "title": "Find the Longest Balanced Substring of a Binary String",
+        "difficulty": "Easy",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "battleships-in-a-board",
+        "number": 419,
+        "title": "Battleships in a Board",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "event-emitter",
+        "number": 2694,
+        "title": "Event Emitter",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+        "number": 1984,
+        "title": "Minimum Difference Between Highest and Lowest of K Scores",
+        "difficulty": "Easy",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-nth-node-from-end-of-list",
+        "number": 19,
+        "title": "Remove Nth Node From End of List",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "summary-ranges",
+        "number": 228,
+        "title": "Summary Ranges",
+        "difficulty": "Easy",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "line-reflection",
+        "number": 356,
+        "title": "Line Reflection",
+        "difficulty": "Medium",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Tinkoff Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Tinkoff coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/tinkoff",
+    "keywords": [
+      "tinkoff interview questions",
+      "tinkoff leetcode",
+      "tinkoff coding questions",
+      "tinkoff online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

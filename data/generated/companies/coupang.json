@@ -1,0 +1,544 @@
+{
+  "type": "company",
+  "slug": "coupang",
+  "name": "Coupang",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Coupang hiring and placement rounds.",
+  "problemCount": 48,
+  "problemSlugs": [
+    "decode-string",
+    "subsets",
+    "word-break",
+    "range-module",
+    "find-pivot-index",
+    "split-bst",
+    "longest-substring-with-at-most-k-distinct-characters",
+    "lfu-cache",
+    "course-schedule",
+    "remove-k-digits",
+    "shortest-bridge",
+    "lru-cache",
+    "shopping-offers",
+    "longest-duplicate-substring",
+    "wildcard-matching",
+    "find-k-closest-elements",
+    "largest-rectangle-in-histogram",
+    "merge-intervals",
+    "design-in-memory-file-system",
+    "sliding-window-maximum",
+    "longest-repeating-substring",
+    "group-anagrams",
+    "number-of-distinct-islands",
+    "longest-substring-without-repeating-characters",
+    "find-median-from-data-stream",
+    "design-hit-counter",
+    "snapshot-array",
+    "alien-dictionary",
+    "palindrome-partitioning",
+    "maximum-good-subarray-sum",
+    "regular-expression-matching",
+    "number-of-islands",
+    "design-twitter",
+    "single-element-in-a-sorted-array",
+    "open-the-lock",
+    "split-strings-by-separator",
+    "distinct-subsequences",
+    "kth-largest-element-in-an-array",
+    "largest-positive-integer-that-exists-with-its-negative",
+    "insert-delete-getrandom-o1",
+    "maximum-subarray",
+    "basic-calculator-iii",
+    "merge-k-sorted-lists",
+    "task-scheduler",
+    "random-pick-with-weight",
+    "3sum",
+    "koko-eating-bananas",
+    "maximum-number-of-alloys"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 32,
+    "hard": 13
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "range-module",
+        "number": 715,
+        "title": "Range Module",
+        "difficulty": "Hard",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-pivot-index",
+        "number": 724,
+        "title": "Find Pivot Index",
+        "difficulty": "Easy",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-bst",
+        "number": 776,
+        "title": "Split BST",
+        "difficulty": "Medium",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-with-at-most-k-distinct-characters",
+        "number": 340,
+        "title": "Longest Substring with At Most K Distinct Characters",
+        "difficulty": "Medium",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-bridge",
+        "number": 934,
+        "title": "Shortest Bridge",
+        "difficulty": "Medium",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shopping-offers",
+        "number": 638,
+        "title": "Shopping Offers",
+        "difficulty": "Medium",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-duplicate-substring",
+        "number": 1044,
+        "title": "Longest Duplicate Substring",
+        "difficulty": "Hard",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-closest-elements",
+        "number": 658,
+        "title": "Find K Closest Elements",
+        "difficulty": "Medium",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 76,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-in-memory-file-system",
+        "number": 588,
+        "title": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-substring",
+        "number": 1062,
+        "title": "Longest Repeating Substring",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-distinct-islands",
+        "number": 694,
+        "title": "Number of Distinct Islands",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-partitioning",
+        "number": 131,
+        "title": "Palindrome Partitioning",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-good-subarray-sum",
+        "number": 3026,
+        "title": "Maximum Good Subarray Sum",
+        "difficulty": "Medium",
+        "frequency": 68.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "regular-expression-matching",
+        "number": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-twitter",
+        "number": 355,
+        "title": "Design Twitter",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-element-in-a-sorted-array",
+        "number": 540,
+        "title": "Single Element in a Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "open-the-lock",
+        "number": 752,
+        "title": "Open the Lock",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-strings-by-separator",
+        "number": 2788,
+        "title": "Split Strings by Separator",
+        "difficulty": "Easy",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distinct-subsequences",
+        "number": 115,
+        "title": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-positive-integer-that-exists-with-its-negative",
+        "number": 2441,
+        "title": "Largest Positive Integer That Exists With Its Negative",
+        "difficulty": "Easy",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-alloys",
+        "number": 2861,
+        "title": "Maximum Number of Alloys",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Coupang Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Coupang coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/coupang",
+    "keywords": [
+      "coupang interview questions",
+      "coupang leetcode",
+      "coupang coding questions",
+      "coupang online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

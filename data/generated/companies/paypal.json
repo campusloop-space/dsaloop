@@ -1,0 +1,984 @@
+{
+  "type": "company",
+  "slug": "paypal",
+  "name": "PayPal",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in PayPal hiring and placement rounds.",
+  "problemCount": 92,
+  "problemSlugs": [
+    "zigzag-conversion",
+    "minimum-absolute-difference",
+    "longest-increasing-subsequence",
+    "find-words-that-can-be-formed-by-characters",
+    "count-vowel-strings-in-ranges",
+    "lru-cache",
+    "pythagorean-distance-nodes-in-a-tree",
+    "maximum-number-of-integers-to-choose-from-a-range-i",
+    "meeting-scheduler",
+    "maximal-square",
+    "minimum-non-zero-product-of-the-array-elements",
+    "word-search",
+    "smallest-greater-multiple-made-of-two-digits",
+    "number-of-valid-move-combinations-on-chessboard",
+    "product-of-array-except-self",
+    "count-array-pairs-divisible-by-k",
+    "time-needed-to-rearrange-a-binary-string",
+    "count-the-number-of-vowel-strings-in-range",
+    "maximum-frequency-score-of-a-subarray",
+    "maximum-number-of-integers-to-choose-from-a-range-ii",
+    "paint-house-iii",
+    "maximum-sum-obtained-of-any-permutation",
+    "coin-change",
+    "longest-substring-without-repeating-characters",
+    "merge-intervals",
+    "number-of-islands",
+    "group-anagrams",
+    "find-median-from-data-stream",
+    "search-in-rotated-sorted-array",
+    "best-time-to-buy-and-sell-stock",
+    "maximum-number-of-events-that-can-be-attended",
+    "last-stone-weight",
+    "asteroid-collision",
+    "find-the-smallest-divisor-given-a-threshold",
+    "lfu-cache",
+    "valid-sudoku",
+    "smallest-string-with-swaps",
+    "two-sum",
+    "valid-parentheses",
+    "top-k-frequent-elements",
+    "subarray-sum-equals-k",
+    "loud-and-rich",
+    "house-robber",
+    "maximum-subarray",
+    "random-pick-with-weight",
+    "find-peak-element",
+    "degree-of-an-array",
+    "spiral-matrix",
+    "palindromic-substrings",
+    "longest-consecutive-sequence",
+    "3sum-smaller",
+    "reaching-points",
+    "subsets",
+    "top-k-frequent-words",
+    "average-selling-price",
+    "number-of-operations-to-make-network-connected",
+    "median-of-two-sorted-arrays",
+    "container-with-most-water",
+    "3sum",
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "trapping-rain-water",
+    "sort-colors",
+    "valid-anagram",
+    "pairs-of-songs-with-total-durations-divisible-by-60",
+    "first-missing-positive",
+    "flatten-deeply-nested-array",
+    "jump-game",
+    "koko-eating-bananas",
+    "happy-number",
+    "course-schedule",
+    "search-a-2d-matrix-ii",
+    "binary-tree-maximum-path-sum",
+    "move-zeroes",
+    "rotting-oranges",
+    "swap-nodes-in-pairs",
+    "search-suggestions-system",
+    "longest-substring-of-all-vowels-in-order",
+    "serialize-and-deserialize-binary-tree",
+    "climbing-stairs",
+    "missing-element-in-sorted-array",
+    "fizz-buzz",
+    "remove-all-adjacent-duplicates-in-string-ii",
+    "nearest-exit-from-entrance-in-maze",
+    "longest-string-chain",
+    "minimum-edge-reversals-so-every-node-is-reachable",
+    "insert-interval",
+    "best-time-to-buy-and-sell-stock-iii",
+    "longest-palindromic-substring",
+    "combination-sum",
+    "non-overlapping-intervals",
+    "decode-string",
+    "majority-element"
+  ],
+  "difficultyBreakdown": {
+    "easy": 15,
+    "medium": 63,
+    "hard": 14
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 78.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference",
+        "number": 1200,
+        "title": "Minimum Absolute Difference",
+        "difficulty": "Easy",
+        "frequency": 93.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-words-that-can-be-formed-by-characters",
+        "number": 1160,
+        "title": "Find Words That Can Be Formed by Characters",
+        "difficulty": "Easy",
+        "frequency": 83.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-strings-in-ranges",
+        "number": 2559,
+        "title": "Count Vowel Strings in Ranges",
+        "difficulty": "Medium",
+        "frequency": 81.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 79.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pythagorean-distance-nodes-in-a-tree",
+        "number": 3820,
+        "title": "Pythagorean Distance Nodes in a Tree",
+        "difficulty": "Medium",
+        "frequency": 79.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
+        "number": 2554,
+        "title": "Maximum Number of Integers to Choose From a Range I",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-scheduler",
+        "number": 1229,
+        "title": "Meeting Scheduler",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-non-zero-product-of-the-array-elements",
+        "number": 1969,
+        "title": "Minimum Non-Zero Product of the Array Elements",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-greater-multiple-made-of-two-digits",
+        "number": 1999,
+        "title": "Smallest Greater Multiple Made of Two Digits",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-valid-move-combinations-on-chessboard",
+        "number": 2056,
+        "title": "Number of Valid Move Combinations On Chessboard",
+        "difficulty": "Hard",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-array-except-self",
+        "number": 238,
+        "title": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-array-pairs-divisible-by-k",
+        "number": 2183,
+        "title": "Count Array Pairs Divisible by K",
+        "difficulty": "Hard",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-needed-to-rearrange-a-binary-string",
+        "number": 2380,
+        "title": "Time Needed to Rearrange a Binary String",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-vowel-strings-in-range",
+        "number": 2586,
+        "title": "Count the Number of Vowel Strings in Range",
+        "difficulty": "Easy",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-frequency-score-of-a-subarray",
+        "number": 2524,
+        "title": "Maximum Frequency Score of a Subarray",
+        "difficulty": "Hard",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-integers-to-choose-from-a-range-ii",
+        "number": 2557,
+        "title": "Maximum Number of Integers to Choose From a Range II",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "paint-house-iii",
+        "number": 1473,
+        "title": "Paint House III",
+        "difficulty": "Hard",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-obtained-of-any-permutation",
+        "number": 1589,
+        "title": "Maximum Sum Obtained of Any Permutation",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 74.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 71,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 71,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 71,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 67.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 67.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-events-that-can-be-attended",
+        "number": 1353,
+        "title": "Maximum Number of Events That Can Be Attended",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "last-stone-weight",
+        "number": 1046,
+        "title": "Last Stone Weight",
+        "difficulty": "Easy",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-smallest-divisor-given-a-threshold",
+        "number": 1283,
+        "title": "Find the Smallest Divisor Given a Threshold",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-sudoku",
+        "number": 36,
+        "title": "Valid Sudoku",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-string-with-swaps",
+        "number": 1202,
+        "title": "Smallest String With Swaps",
+        "difficulty": "Medium",
+        "frequency": 57.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "loud-and-rich",
+        "number": 851,
+        "title": "Loud and Rich",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum-smaller",
+        "number": 259,
+        "title": "3Sum Smaller",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reaching-points",
+        "number": 780,
+        "title": "Reaching Points",
+        "difficulty": "Hard",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "average-selling-price",
+        "number": 1251,
+        "title": "Average Selling Price",
+        "difficulty": "Easy",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-operations-to-make-network-connected",
+        "number": 1319,
+        "title": "Number of Operations to Make Network Connected",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pairs-of-songs-with-total-durations-divisible-by-60",
+        "number": 1010,
+        "title": "Pairs of Songs With Total Durations Divisible by 60",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-deeply-nested-array",
+        "number": 2625,
+        "title": "Flatten Deeply Nested Array",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-a-2d-matrix-ii",
+        "number": 240,
+        "title": "Search a 2D Matrix II",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swap-nodes-in-pairs",
+        "number": 24,
+        "title": "Swap Nodes in Pairs",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-suggestions-system",
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-of-all-vowels-in-order",
+        "number": 1839,
+        "title": "Longest Substring Of All Vowels in Order",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "missing-element-in-sorted-array",
+        "number": 1060,
+        "title": "Missing Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fizz-buzz",
+        "number": 412,
+        "title": "Fizz Buzz",
+        "difficulty": "Easy",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "nearest-exit-from-entrance-in-maze",
+        "number": 1926,
+        "title": "Nearest Exit from Entrance in Maze",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+        "number": 2858,
+        "title": "Minimum Edge Reversals So Every Node Is Reachable",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-interval",
+        "number": 57,
+        "title": "Insert Interval",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iii",
+        "number": 123,
+        "title": "Best Time to Buy and Sell Stock III",
+        "difficulty": "Hard",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 41.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "PayPal Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top PayPal coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/paypal",
+    "keywords": [
+      "paypal interview questions",
+      "paypal leetcode",
+      "paypal coding questions",
+      "paypal online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

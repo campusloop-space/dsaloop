@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "razorpay",
+  "name": "Razorpay",
+  "description": "Fintech engineering rounds focusing on concurrency, transaction flows, and algorithmic correctness.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "minimum-total-cost-to-make-arrays-unequal",
+    "two-best-non-overlapping-events",
+    "most-beautiful-item-for-each-query",
+    "shortest-subarray-to-be-removed-to-make-array-sorted",
+    "lru-cache",
+    "decode-string",
+    "merge-intervals",
+    "rotate-array",
+    "first-unique-character-in-a-string",
+    "unique-paths",
+    "smallest-good-base"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 8,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "minimum-total-cost-to-make-arrays-unequal",
+        "number": 2499,
+        "title": "Minimum Total Cost to Make Arrays Unequal",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-best-non-overlapping-events",
+        "number": 2054,
+        "title": "Two Best Non-Overlapping Events",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "most-beautiful-item-for-each-query",
+        "number": 2070,
+        "title": "Most Beautiful Item for Each Query",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+        "number": 1574,
+        "title": "Shortest Subarray to be Removed to Make Array Sorted",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 86.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-unique-character-in-a-string",
+        "number": 387,
+        "title": "First Unique Character in a String",
+        "difficulty": "Easy",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths",
+        "number": 62,
+        "title": "Unique Paths",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-good-base",
+        "number": 483,
+        "title": "Smallest Good Base",
+        "difficulty": "Hard",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Razorpay Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Razorpay coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/razorpay",
+    "keywords": [
+      "razorpay interview questions",
+      "razorpay leetcode",
+      "razorpay coding questions",
+      "razorpay online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

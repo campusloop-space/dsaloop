@@ -1,0 +1,315 @@
+{
+  "type": "company",
+  "slug": "turing",
+  "name": "Turing",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Turing hiring and placement rounds.",
+  "problemCount": 27,
+  "problemSlugs": [
+    "longest-substring-without-repeating-characters",
+    "validate-ip-address",
+    "minimum-cost-for-tickets",
+    "koko-eating-bananas",
+    "minimum-length-of-anagram-concatenation",
+    "valid-parentheses",
+    "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+    "minimum-number-of-operations-to-satisfy-conditions",
+    "minimum-adjacent-swaps-for-k-consecutive-ones",
+    "longest-palindromic-substring",
+    "best-time-to-buy-and-sell-stock",
+    "two-sum",
+    "minimum-cost-walk-in-weighted-graph",
+    "ugly-number-ii",
+    "maximum-subarray",
+    "merge-intervals",
+    "degree-of-an-array",
+    "number-of-islands",
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "race-car",
+    "jump-game",
+    "sum-of-digit-differences-of-all-pairs",
+    "3sum",
+    "k-divisible-elements-subarrays",
+    "count-square-sum-triples",
+    "non-decreasing-array",
+    "permutation-sequence"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 18,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "ugly-number-ii",
+        "number": 264,
+        "title": "Ugly Number II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-for-tickets",
+        "number": 983,
+        "title": "Minimum Cost For Tickets",
+        "difficulty": "Medium",
+        "frequency": 83.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 80.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-length-of-anagram-concatenation",
+        "number": 3138,
+        "title": "Minimum Length of Anagram Concatenation",
+        "difficulty": "Medium",
+        "frequency": 80.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 70.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+        "number": 3091,
+        "title": "Apply Operations to Make Sum of Array Greater Than or Equal to k",
+        "difficulty": "Medium",
+        "frequency": 70.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-operations-to-satisfy-conditions",
+        "number": 3122,
+        "title": "Minimum Number of Operations to Satisfy Conditions",
+        "difficulty": "Medium",
+        "frequency": 70.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+        "number": 1703,
+        "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+        "difficulty": "Hard",
+        "frequency": 70.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-walk-in-weighted-graph",
+        "number": 3108,
+        "title": "Minimum Cost Walk in Weighted Graph",
+        "difficulty": "Hard",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ugly-number-ii",
+        "number": 264,
+        "title": "Ugly Number II",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "race-car",
+        "number": 818,
+        "title": "Race Car",
+        "difficulty": "Hard",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-digit-differences-of-all-pairs",
+        "number": 3153,
+        "title": "Sum of Digit Differences of All Pairs",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-divisible-elements-subarrays",
+        "number": 2261,
+        "title": "K Divisible Elements Subarrays",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-square-sum-triples",
+        "number": 1925,
+        "title": "Count Square Sum Triples",
+        "difficulty": "Easy",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-decreasing-array",
+        "number": 665,
+        "title": "Non-decreasing Array",
+        "difficulty": "Medium",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutation-sequence",
+        "number": 60,
+        "title": "Permutation Sequence",
+        "difficulty": "Hard",
+        "frequency": 54.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Turing Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Turing coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/turing",
+    "keywords": [
+      "turing interview questions",
+      "turing leetcode",
+      "turing coding questions",
+      "turing online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

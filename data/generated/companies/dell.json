@@ -1,0 +1,175 @@
+{
+  "type": "company",
+  "slug": "dell",
+  "name": "Dell",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Dell hiring and placement rounds.",
+  "problemCount": 14,
+  "problemSlugs": [
+    "count-binary-substrings",
+    "break-a-palindrome",
+    "minimum-value-to-get-positive-step-by-step-sum",
+    "longest-substring-without-repeating-characters",
+    "group-anagrams",
+    "two-sum",
+    "maximum-subarray",
+    "delete-duplicate-emails",
+    "department-top-three-salaries",
+    "valid-parentheses",
+    "valid-anagram",
+    "generate-parentheses",
+    "merge-two-sorted-lists",
+    "trapping-rain-water"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 5,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "count-binary-substrings",
+        "number": 696,
+        "title": "Count Binary Substrings",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "break-a-palindrome",
+        "number": 1328,
+        "title": "Break a Palindrome",
+        "difficulty": "Medium",
+        "frequency": 81.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-value-to-get-positive-step-by-step-sum",
+        "number": 1413,
+        "title": "Minimum Value to Get Positive Step by Step Sum",
+        "difficulty": "Easy",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-duplicate-emails",
+        "number": 196,
+        "title": "Delete Duplicate Emails",
+        "difficulty": "Easy",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-top-three-salaries",
+        "number": 185,
+        "title": "Department Top Three Salaries",
+        "difficulty": "Hard",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Dell Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Dell coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/dell",
+    "keywords": [
+      "dell interview questions",
+      "dell leetcode",
+      "dell coding questions",
+      "dell online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

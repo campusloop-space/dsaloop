@@ -1,0 +1,365 @@
+{
+  "type": "company",
+  "slug": "autodesk",
+  "name": "Autodesk",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Autodesk hiring and placement rounds.",
+  "problemCount": 32,
+  "problemSlugs": [
+    "number-of-subarrays-that-match-a-pattern-i",
+    "distribute-elements-into-two-arrays-i",
+    "distribute-elements-into-two-arrays-ii",
+    "number-of-subarrays-that-match-a-pattern-ii",
+    "count-prefix-and-suffix-pairs-ii",
+    "count-prefix-and-suffix-pairs-i",
+    "number-of-changing-keys",
+    "search-in-rotated-sorted-array",
+    "valid-parentheses",
+    "lru-cache",
+    "group-anagrams",
+    "median-of-two-sorted-arrays",
+    "3sum",
+    "longest-palindromic-substring",
+    "sort-colors",
+    "reverse-nodes-in-k-group",
+    "majority-element",
+    "koko-eating-bananas",
+    "maximum-subarray",
+    "set-matrix-zeroes",
+    "elimination-game",
+    "linked-list-cycle",
+    "spiral-matrix",
+    "two-sum",
+    "kth-largest-element-in-an-array",
+    "merge-intervals",
+    "word-break",
+    "number-of-islands",
+    "text-justification",
+    "logger-rate-limiter",
+    "happy-number",
+    "climbing-stairs"
+  ],
+  "difficultyBreakdown": {
+    "easy": 10,
+    "medium": 16,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "number-of-subarrays-that-match-a-pattern-i",
+        "number": 3034,
+        "title": "Number of Subarrays That Match a Pattern I",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-elements-into-two-arrays-i",
+        "number": 3069,
+        "title": "Distribute Elements Into Two Arrays I",
+        "difficulty": "Easy",
+        "frequency": 97.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-elements-into-two-arrays-ii",
+        "number": 3072,
+        "title": "Distribute Elements Into Two Arrays II",
+        "difficulty": "Hard",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-subarrays-that-match-a-pattern-ii",
+        "number": 3036,
+        "title": "Number of Subarrays That Match a Pattern II",
+        "difficulty": "Hard",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-prefix-and-suffix-pairs-ii",
+        "number": 3045,
+        "title": "Count Prefix and Suffix Pairs II",
+        "difficulty": "Hard",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-prefix-and-suffix-pairs-i",
+        "number": 3042,
+        "title": "Count Prefix and Suffix Pairs I",
+        "difficulty": "Easy",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-changing-keys",
+        "number": 3019,
+        "title": "Number of Changing Keys",
+        "difficulty": "Easy",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 82.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 82.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 69.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-matrix-zeroes",
+        "number": 73,
+        "title": "Set Matrix Zeroes",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "elimination-game",
+        "number": 390,
+        "title": "Elimination Game",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Autodesk Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Autodesk coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/autodesk",
+    "keywords": [
+      "autodesk interview questions",
+      "autodesk leetcode",
+      "autodesk coding questions",
+      "autodesk online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

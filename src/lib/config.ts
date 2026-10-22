@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: "DSALoop",
+  name: "DSALoop by https://campusloop.space/",
   brandName: "CampusLoop",
   subName: "DSA",
-  tagline: "Master coding interviews with patterns, roadmaps, and solutions",
+  tagline: "Master coding interviews with patterns, 185+ company tracks, and 28-chapter system design primer",
   description:
-    "DSALoop is CampusLoop's clean, minimal, pattern-first coding interview and DSA workspace. Follow structured roadmaps, master reusable problem patterns, and track your progress.",
+    "DSALoop by https://campusloop.space/ — The clean, minimal, pattern-first coding interview and DSA workspace. Follow structured roadmaps, explore 185+ company-tagged problems, and study 28 in-depth system design chapters.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dsaloop.campusloop.space",
   basePath: "",
   ogImage: "/og-default.svg",

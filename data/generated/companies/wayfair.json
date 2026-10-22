@@ -1,0 +1,195 @@
+{
+  "type": "company",
+  "slug": "wayfair",
+  "name": "Wayfair",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Wayfair hiring and placement rounds.",
+  "problemCount": 16,
+  "problemSlugs": [
+    "best-sightseeing-pair",
+    "design-a-leaderboard",
+    "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+    "maximum-number-of-balloons",
+    "delete-characters-to-make-fancy-string",
+    "minimum-moves-to-reach-target-score",
+    "longest-happy-string",
+    "largest-magic-square",
+    "tournament-winners",
+    "team-scores-in-football-tournament",
+    "number-of-divisible-substrings",
+    "add-strings",
+    "valid-palindrome",
+    "sliding-window-maximum",
+    "time-needed-to-rearrange-a-binary-string",
+    "least-number-of-unique-integers-after-k-removals"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 10,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "best-sightseeing-pair",
+        "number": 1014,
+        "title": "Best Sightseeing Pair",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-leaderboard",
+        "number": 1244,
+        "title": "Design A Leaderboard",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+        "number": 1604,
+        "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-balloons",
+        "number": 1189,
+        "title": "Maximum Number of Balloons",
+        "difficulty": "Easy",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-characters-to-make-fancy-string",
+        "number": 1957,
+        "title": "Delete Characters to Make Fancy String",
+        "difficulty": "Easy",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-moves-to-reach-target-score",
+        "number": 2139,
+        "title": "Minimum Moves to Reach Target Score",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-happy-string",
+        "number": 1405,
+        "title": "Longest Happy String",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-magic-square",
+        "number": 1895,
+        "title": "Largest Magic Square",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "tournament-winners",
+        "number": 1194,
+        "title": "Tournament Winners",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "team-scores-in-football-tournament",
+        "number": 1212,
+        "title": "Team Scores in Football Tournament",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-divisible-substrings",
+        "number": 2950,
+        "title": "Number of Divisible Substrings",
+        "difficulty": "Medium",
+        "frequency": 89.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-strings",
+        "number": 415,
+        "title": "Add Strings",
+        "difficulty": "Easy",
+        "frequency": 72.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-needed-to-rearrange-a-binary-string",
+        "number": 2380,
+        "title": "Time Needed to Rearrange a Binary String",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "least-number-of-unique-integers-after-k-removals",
+        "number": 1481,
+        "title": "Least Number of Unique Integers after K Removals",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Wayfair Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Wayfair coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/wayfair",
+    "keywords": [
+      "wayfair interview questions",
+      "wayfair leetcode",
+      "wayfair coding questions",
+      "wayfair online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "type": "company",
+  "slug": "uipath",
+  "name": "Uipath",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Uipath hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "escape-a-large-maze",
+    "sorting-three-groups",
+    "as-far-from-land-as-possible",
+    "integer-to-roman",
+    "making-a-large-island",
+    "satisfiability-of-equality-equations",
+    "longest-repeating-character-replacement",
+    "collect-coins-in-a-tree",
+    "burst-balloons",
+    "min-stack",
+    "subsets-ii",
+    "russian-doll-envelopes",
+    "binary-tree-cameras"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 7,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "escape-a-large-maze",
+        "number": 1036,
+        "title": "Escape a Large Maze",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sorting-three-groups",
+        "number": 2826,
+        "title": "Sorting Three Groups",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "as-far-from-land-as-possible",
+        "number": 1162,
+        "title": "As Far from Land as Possible",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 74,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-a-large-island",
+        "number": 827,
+        "title": "Making A Large Island",
+        "difficulty": "Hard",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "satisfiability-of-equality-equations",
+        "number": 990,
+        "title": "Satisfiability of Equality Equations",
+        "difficulty": "Medium",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-character-replacement",
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "collect-coins-in-a-tree",
+        "number": 2603,
+        "title": "Collect Coins in a Tree",
+        "difficulty": "Hard",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "burst-balloons",
+        "number": 312,
+        "title": "Burst Balloons",
+        "difficulty": "Hard",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets-ii",
+        "number": 90,
+        "title": "Subsets II",
+        "difficulty": "Medium",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Uipath Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Uipath coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/uipath",
+    "keywords": [
+      "uipath interview questions",
+      "uipath leetcode",
+      "uipath coding questions",
+      "uipath online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

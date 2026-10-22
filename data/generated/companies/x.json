@@ -1,0 +1,545 @@
+{
+  "type": "company",
+  "slug": "x",
+  "name": "X (Twitter)",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in X (Twitter) hiring and placement rounds.",
+  "problemCount": 51,
+  "problemSlugs": [
+    "minimum-genetic-mutation",
+    "trapping-rain-water",
+    "merge-intervals",
+    "lru-cache",
+    "flatten-nested-list-iterator",
+    "design-twitter",
+    "tweet-counts-per-frequency",
+    "invalid-tweets",
+    "regular-expression-matching",
+    "integer-to-roman",
+    "valid-parentheses",
+    "merge-k-sorted-lists",
+    "multiply-strings",
+    "wildcard-matching",
+    "permutation-sequence",
+    "pascals-triangle",
+    "word-break-ii",
+    "time-needed-to-buy-tickets",
+    "max-points-on-a-line",
+    "one-edit-distance",
+    "happy-number",
+    "reverse-linked-list",
+    "implement-trie-prefix-tree",
+    "the-skyline-problem",
+    "lowest-common-ancestor-of-a-binary-search-tree",
+    "flatten-2d-vector",
+    "alien-dictionary",
+    "best-meeting-point",
+    "design-skiplist",
+    "number-of-connected-components-in-an-undirected-graph",
+    "kth-smallest-element-in-a-sorted-matrix",
+    "insert-delete-getrandom-o1",
+    "trapping-rain-water-ii",
+    "minimum-number-of-steps-to-make-two-strings-anagram",
+    "validate-ip-address",
+    "count-student-number-in-departments",
+    "rectangles-area",
+    "investments-in-2016",
+    "customer-placing-the-largest-number-of-orders",
+    "tree-node",
+    "number-of-black-blocks",
+    "masking-personal-information",
+    "design-authentication-manager",
+    "minimum-elements-to-add-to-form-a-given-sum",
+    "binary-gap",
+    "finding-the-users-active-minutes",
+    "process-tasks-using-servers",
+    "remove-all-occurrences-of-a-substring",
+    "count-sub-islands",
+    "largest-plus-sign",
+    "minimum-cost-to-connect-sticks"
+  ],
+  "difficultyBreakdown": {
+    "easy": 8,
+    "medium": 31,
+    "hard": 12
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "minimum-genetic-mutation",
+        "number": 433,
+        "title": "Minimum Genetic Mutation",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-nested-list-iterator",
+        "number": 341,
+        "title": "Flatten Nested List Iterator",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-twitter",
+        "number": 355,
+        "title": "Design Twitter",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "tweet-counts-per-frequency",
+        "number": 1348,
+        "title": "Tweet Counts Per Frequency",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "invalid-tweets",
+        "number": 1683,
+        "title": "Invalid Tweets",
+        "difficulty": "Easy",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "regular-expression-matching",
+        "number": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutation-sequence",
+        "number": 60,
+        "title": "Permutation Sequence",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pascals-triangle",
+        "number": 118,
+        "title": "Pascal's Triangle",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break-ii",
+        "number": 140,
+        "title": "Word Break II",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-needed-to-buy-tickets",
+        "number": 2073,
+        "title": "Time Needed to Buy Tickets",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-points-on-a-line",
+        "number": 149,
+        "title": "Max Points on a Line",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "one-edit-distance",
+        "number": 161,
+        "title": "One Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-skyline-problem",
+        "number": 218,
+        "title": "The Skyline Problem",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+        "number": 235,
+        "title": "Lowest Common Ancestor of a Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-2d-vector",
+        "number": 251,
+        "title": "Flatten 2D Vector",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-meeting-point",
+        "number": 296,
+        "title": "Best Meeting Point",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-skiplist",
+        "number": 1206,
+        "title": "Design Skiplist",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-connected-components-in-an-undirected-graph",
+        "number": 323,
+        "title": "Number of Connected Components in an Undirected Graph",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-smallest-element-in-a-sorted-matrix",
+        "number": 378,
+        "title": "Kth Smallest Element in a Sorted Matrix",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+        "number": 1347,
+        "title": "Minimum Number of Steps to Make Two Strings Anagram",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-student-number-in-departments",
+        "number": 580,
+        "title": "Count Student Number in Departments",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rectangles-area",
+        "number": 1459,
+        "title": "Rectangles Area",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "investments-in-2016",
+        "number": 585,
+        "title": "Investments in 2016",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "customer-placing-the-largest-number-of-orders",
+        "number": 586,
+        "title": "Customer Placing the Largest Number of Orders",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "tree-node",
+        "number": 608,
+        "title": "Tree Node",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-black-blocks",
+        "number": 2768,
+        "title": "Number of Black Blocks",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "masking-personal-information",
+        "number": 831,
+        "title": "Masking Personal Information",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-authentication-manager",
+        "number": 1797,
+        "title": "Design Authentication Manager",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-elements-to-add-to-form-a-given-sum",
+        "number": 1785,
+        "title": "Minimum Elements to Add to Form a Given Sum",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-gap",
+        "number": 868,
+        "title": "Binary Gap",
+        "difficulty": "Easy",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "finding-the-users-active-minutes",
+        "number": 1817,
+        "title": "Finding the Users Active Minutes",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "process-tasks-using-servers",
+        "number": 1882,
+        "title": "Process Tasks Using Servers",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-occurrences-of-a-substring",
+        "number": 1910,
+        "title": "Remove All Occurrences of a Substring",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-sub-islands",
+        "number": 1905,
+        "title": "Count Sub Islands",
+        "difficulty": "Medium",
+        "frequency": 93.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-plus-sign",
+        "number": 764,
+        "title": "Largest Plus Sign",
+        "difficulty": "Medium",
+        "frequency": 66.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-connect-sticks",
+        "number": 1167,
+        "title": "Minimum Cost to Connect Sticks",
+        "difficulty": "Medium",
+        "frequency": 54.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "X (Twitter) Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top X (Twitter) coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/x",
+    "keywords": [
+      "x (twitter) interview questions",
+      "x (twitter) leetcode",
+      "x (twitter) coding questions",
+      "x (twitter) online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

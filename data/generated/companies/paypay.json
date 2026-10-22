@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "paypay",
+  "name": "Paypay",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Paypay hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "largest-3-same-digit-number-in-string",
+    "block-placement-queries",
+    "zigzag-conversion",
+    "successful-pairs-of-spells-and-potions",
+    "min-cost-to-connect-all-points",
+    "best-time-to-buy-and-sell-stock",
+    "peak-index-in-a-mountain-array",
+    "two-sum",
+    "decode-string",
+    "search-in-rotated-sorted-array"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 6,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "largest-3-same-digit-number-in-string",
+        "number": 2264,
+        "title": "Largest 3-Same-Digit Number in String",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 77,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "successful-pairs-of-spells-and-potions",
+        "number": 2300,
+        "title": "Successful Pairs of Spells and Potions",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-cost-to-connect-all-points",
+        "number": 1584,
+        "title": "Min Cost to Connect All Points",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "peak-index-in-a-mountain-array",
+        "number": 852,
+        "title": "Peak Index in a Mountain Array",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Paypay Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Paypay coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/paypay",
+    "keywords": [
+      "paypay interview questions",
+      "paypay leetcode",
+      "paypay coding questions",
+      "paypay online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

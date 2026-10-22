@@ -47,3 +47,4 @@ next-env.d.ts
 # /data/generated/
 /public/search-index.json
 .deploy/
+/scratch/

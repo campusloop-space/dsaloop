@@ -1,0 +1,325 @@
+{
+  "type": "company",
+  "slug": "mathworks",
+  "name": "Mathworks",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Mathworks hiring and placement rounds.",
+  "problemCount": 27,
+  "problemSlugs": [
+    "total-cost-to-hire-k-workers",
+    "sell-diminishing-valued-colored-balls",
+    "maximum-number-of-alloys",
+    "maximum-palindromes-after-operations",
+    "binary-tree-cameras",
+    "shopping-offers",
+    "reshape-the-matrix",
+    "count-anagrams",
+    "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+    "last-substring-in-lexicographical-order",
+    "minimum-cost-tree-from-leaf-values",
+    "earliest-second-to-mark-indices-ii",
+    "earliest-second-to-mark-indices-i",
+    "keyboard-row",
+    "count-subarrays-with-fixed-bounds",
+    "pass-the-pillow",
+    "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
+    "minimum-edge-reversals-so-every-node-is-reachable",
+    "task-scheduler",
+    "reverse-nodes-in-k-group",
+    "number-of-divisible-triplet-sums",
+    "count-vowel-strings-in-ranges",
+    "lexicographically-smallest-palindrome",
+    "count-vowels-permutation",
+    "valid-parentheses",
+    "total-characters-in-string-after-transformations-i",
+    "longest-palindromic-subsequence"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 14,
+    "hard": 8
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "longest-palindromic-subsequence",
+        "number": 516,
+        "title": "Longest Palindromic Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "longest-palindromic-subsequence",
+        "number": 516,
+        "title": "Longest Palindromic Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "total-cost-to-hire-k-workers",
+        "number": 2462,
+        "title": "Total Cost to Hire K Workers",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sell-diminishing-valued-colored-balls",
+        "number": 1648,
+        "title": "Sell Diminishing-Valued Colored Balls",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-alloys",
+        "number": 2861,
+        "title": "Maximum Number of Alloys",
+        "difficulty": "Medium",
+        "frequency": 97.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-palindromes-after-operations",
+        "number": 3035,
+        "title": "Maximum Palindromes After Operations",
+        "difficulty": "Medium",
+        "frequency": 95.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 95.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shopping-offers",
+        "number": 638,
+        "title": "Shopping Offers",
+        "difficulty": "Medium",
+        "frequency": 95.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reshape-the-matrix",
+        "number": 566,
+        "title": "Reshape the Matrix",
+        "difficulty": "Easy",
+        "frequency": 92.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-anagrams",
+        "number": 2514,
+        "title": "Count Anagrams",
+        "difficulty": "Hard",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+        "number": 2038,
+        "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+        "difficulty": "Medium",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "last-substring-in-lexicographical-order",
+        "number": 1163,
+        "title": "Last Substring in Lexicographical Order",
+        "difficulty": "Hard",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-tree-from-leaf-values",
+        "number": 1130,
+        "title": "Minimum Cost Tree From Leaf Values",
+        "difficulty": "Medium",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "earliest-second-to-mark-indices-ii",
+        "number": 3049,
+        "title": "Earliest Second to Mark Indices II",
+        "difficulty": "Hard",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "earliest-second-to-mark-indices-i",
+        "number": 3048,
+        "title": "Earliest Second to Mark Indices I",
+        "difficulty": "Medium",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "keyboard-row",
+        "number": 500,
+        "title": "Keyboard Row",
+        "difficulty": "Easy",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-subarrays-with-fixed-bounds",
+        "number": 2444,
+        "title": "Count Subarrays With Fixed Bounds",
+        "difficulty": "Hard",
+        "frequency": 73,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pass-the-pillow",
+        "number": 2582,
+        "title": "Pass the Pillow",
+        "difficulty": "Easy",
+        "frequency": 73,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
+        "number": 2918,
+        "title": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
+        "difficulty": "Medium",
+        "frequency": 73,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+        "number": 2858,
+        "title": "Minimum Edge Reversals So Every Node Is Reachable",
+        "difficulty": "Hard",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-divisible-triplet-sums",
+        "number": 2964,
+        "title": "Number of Divisible Triplet Sums",
+        "difficulty": "Medium",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-strings-in-ranges",
+        "number": 2559,
+        "title": "Count Vowel Strings in Ranges",
+        "difficulty": "Medium",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-smallest-palindrome",
+        "number": 2697,
+        "title": "Lexicographically Smallest Palindrome",
+        "difficulty": "Easy",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowels-permutation",
+        "number": 1220,
+        "title": "Count Vowels Permutation",
+        "difficulty": "Hard",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "total-characters-in-string-after-transformations-i",
+        "number": 3335,
+        "title": "Total Characters in String After Transformations I",
+        "difficulty": "Medium",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-subsequence",
+        "number": 516,
+        "title": "Longest Palindromic Subsequence",
+        "difficulty": "Medium",
+        "frequency": 56,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Mathworks Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Mathworks coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/mathworks",
+    "keywords": [
+      "mathworks interview questions",
+      "mathworks leetcode",
+      "mathworks coding questions",
+      "mathworks online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

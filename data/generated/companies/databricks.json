@@ -1,0 +1,332 @@
+{
+  "type": "company",
+  "slug": "databricks",
+  "name": "Databricks",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Databricks hiring and placement rounds.",
+  "problemCount": 25,
+  "problemSlugs": [
+    "design-hit-counter",
+    "ip-to-cidr",
+    "design-tic-tac-toe",
+    "find-all-anagrams-in-a-string",
+    "step-by-step-directions-from-a-binary-tree-node-to-another",
+    "house-robber",
+    "time-based-key-value-store",
+    "house-robber-ii",
+    "number-of-recent-calls",
+    "shortest-path-in-a-grid-with-obstacles-elimination",
+    "rle-iterator",
+    "longest-palindrome-by-concatenating-two-letter-words",
+    "snapshot-array",
+    "closest-leaf-in-a-binary-tree",
+    "unique-paths-iii",
+    "permutation-in-string",
+    "shortest-path-in-binary-matrix",
+    "minimum-cost-to-reach-destination-in-time",
+    "count-integers-in-intervals",
+    "minimum-knight-moves",
+    "rotting-oranges",
+    "text-justification",
+    "string-to-integer-atoi",
+    "merge-intervals",
+    "two-sum"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 18,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-all-anagrams-in-a-string",
+        "number": 438,
+        "title": "Find All Anagrams in a String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-all-anagrams-in-a-string",
+        "number": 438,
+        "title": "Find All Anagrams in a String",
+        "difficulty": "Medium",
+        "frequency": 89.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ip-to-cidr",
+        "number": 751,
+        "title": "IP to CIDR",
+        "difficulty": "Medium",
+        "frequency": 70.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ip-to-cidr",
+        "number": 751,
+        "title": "IP to CIDR",
+        "difficulty": "Medium",
+        "frequency": 98.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-tic-tac-toe",
+        "number": 348,
+        "title": "Design Tic-Tac-Toe",
+        "difficulty": "Medium",
+        "frequency": 93.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-all-anagrams-in-a-string",
+        "number": 438,
+        "title": "Find All Anagrams in a String",
+        "difficulty": "Medium",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+        "number": 2096,
+        "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+        "difficulty": "Medium",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 79.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 77.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-ii",
+        "number": 213,
+        "title": "House Robber II",
+        "difficulty": "Medium",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-recent-calls",
+        "number": 933,
+        "title": "Number of Recent Calls",
+        "difficulty": "Easy",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "number": 1293,
+        "title": "Shortest Path in a Grid with Obstacles Elimination",
+        "difficulty": "Hard",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rle-iterator",
+        "number": 900,
+        "title": "RLE Iterator",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindrome-by-concatenating-two-letter-words",
+        "number": 2131,
+        "title": "Longest Palindrome by Concatenating Two Letter Words",
+        "difficulty": "Medium",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-leaf-in-a-binary-tree",
+        "number": 742,
+        "title": "Closest Leaf in a Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 62.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths-iii",
+        "number": 980,
+        "title": "Unique Paths III",
+        "difficulty": "Hard",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutation-in-string",
+        "number": 567,
+        "title": "Permutation in String",
+        "difficulty": "Medium",
+        "frequency": 53.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-binary-matrix",
+        "number": 1091,
+        "title": "Shortest Path in Binary Matrix",
+        "difficulty": "Medium",
+        "frequency": 44.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-reach-destination-in-time",
+        "number": 1928,
+        "title": "Minimum Cost to Reach Destination in Time",
+        "difficulty": "Hard",
+        "frequency": 44.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-integers-in-intervals",
+        "number": 2276,
+        "title": "Count Integers in Intervals",
+        "difficulty": "Hard",
+        "frequency": 44.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-knight-moves",
+        "number": 1197,
+        "title": "Minimum Knight Moves",
+        "difficulty": "Medium",
+        "frequency": 44.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 44.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 36.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-to-integer-atoi",
+        "number": 8,
+        "title": "String to Integer (atoi)",
+        "difficulty": "Medium",
+        "frequency": 36.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 36.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 36.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Databricks Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Databricks coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/databricks",
+    "keywords": [
+      "databricks interview questions",
+      "databricks leetcode",
+      "databricks coding questions",
+      "databricks online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

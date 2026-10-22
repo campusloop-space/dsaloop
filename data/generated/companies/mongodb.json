@@ -1,0 +1,405 @@
+{
+  "type": "company",
+  "slug": "mongodb",
+  "name": "Mongodb",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Mongodb hiring and placement rounds.",
+  "problemCount": 25,
+  "problemSlugs": [
+    "implement-trie-prefix-tree",
+    "snapshot-array",
+    "intersection-of-two-arrays",
+    "word-break",
+    "lru-cache",
+    "text-justification",
+    "web-crawler-multithreaded",
+    "convert-json-string-to-object",
+    "course-schedule-ii",
+    "merge-k-sorted-lists",
+    "design-search-autocomplete-system",
+    "time-based-key-value-store",
+    "merge-intervals",
+    "two-sum",
+    "distribute-money-to-maximum-children",
+    "merge-two-binary-trees",
+    "stock-price-fluctuation",
+    "sliding-window-maximum",
+    "lowest-common-ancestor-of-a-binary-tree-iii",
+    "string-compression",
+    "clone-graph",
+    "compare-version-numbers",
+    "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "avoid-flood-in-the-city",
+    "course-schedule"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 16,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "distribute-money-to-maximum-children",
+        "number": 2591,
+        "title": "Distribute Money to Maximum Children",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+        "number": 1438,
+        "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+        "difficulty": "Medium",
+        "frequency": 89.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "avoid-flood-in-the-city",
+        "number": 1488,
+        "title": "Avoid Flood in The City",
+        "difficulty": "Medium",
+        "frequency": 89.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 89.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-money-to-maximum-children",
+        "number": 2591,
+        "title": "Distribute Money to Maximum Children",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+        "number": 1438,
+        "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "avoid-flood-in-the-city",
+        "number": 1488,
+        "title": "Avoid Flood in The City",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-arrays",
+        "number": 349,
+        "title": "Intersection of Two Arrays",
+        "difficulty": "Easy",
+        "frequency": 94.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 91.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 87.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 83.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "web-crawler-multithreaded",
+        "number": 1242,
+        "title": "Web Crawler Multithreaded",
+        "difficulty": "Medium",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-json-string-to-object",
+        "number": 2759,
+        "title": "Convert JSON String to Object",
+        "difficulty": "Hard",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-search-autocomplete-system",
+        "number": 642,
+        "title": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-money-to-maximum-children",
+        "number": 2591,
+        "title": "Distribute Money to Maximum Children",
+        "difficulty": "Easy",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-binary-trees",
+        "number": 617,
+        "title": "Merge Two Binary Trees",
+        "difficulty": "Easy",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stock-price-fluctuation",
+        "number": 2034,
+        "title": "Stock Price Fluctuation",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+        "number": 1650,
+        "title": "Lowest Common Ancestor of a Binary Tree III",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "compare-version-numbers",
+        "number": 165,
+        "title": "Compare Version Numbers",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+        "number": 1438,
+        "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "avoid-flood-in-the-city",
+        "number": 1488,
+        "title": "Avoid Flood in The City",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 60.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Mongodb Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Mongodb coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/mongodb",
+    "keywords": [
+      "mongodb interview questions",
+      "mongodb leetcode",
+      "mongodb coding questions",
+      "mongodb online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

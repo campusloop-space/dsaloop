@@ -1,0 +1,134 @@
+{
+  "type": "company",
+  "slug": "axon",
+  "name": "Axon",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Axon hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "time-based-key-value-store",
+    "insert-delete-getrandom-o1",
+    "design-underground-system",
+    "interleaving-string",
+    "valid-palindrome",
+    "edit-distance",
+    "exclusive-time-of-functions",
+    "k-closest-points-to-origin"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 7,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exclusive-time-of-functions",
+        "number": 636,
+        "title": "Exclusive Time of Functions",
+        "difficulty": "Medium",
+        "frequency": 90.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 97.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-underground-system",
+        "number": 1396,
+        "title": "Design Underground System",
+        "difficulty": "Medium",
+        "frequency": 93.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "interleaving-string",
+        "number": 97,
+        "title": "Interleaving String",
+        "difficulty": "Medium",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exclusive-time-of-functions",
+        "number": 636,
+        "title": "Exclusive Time of Functions",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-closest-points-to-origin",
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "difficulty": "Medium",
+        "frequency": 51.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Axon Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Axon coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/axon",
+    "keywords": [
+      "axon interview questions",
+      "axon leetcode",
+      "axon coding questions",
+      "axon online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

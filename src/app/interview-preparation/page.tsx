@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Coding Interview Preparation Guide | AlgoForge",
+  title: "Coding Interview Preparation Guide | DSALoop by CampusLoop",
   description:
     "A complete interview preparation plan: patterns, Blind 75, company tracks, mock strategy.",
   keywords: ["coding interview preparation", "faang interview prep"],

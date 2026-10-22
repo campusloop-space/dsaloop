@@ -1,0 +1,85 @@
+{
+  "type": "company",
+  "slug": "vmware",
+  "name": "VMware",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in VMware hiring and placement rounds.",
+  "problemCount": 5,
+  "problemSlugs": [
+    "break-a-palindrome",
+    "find-palindrome-with-fixed-length",
+    "make-array-non-decreasing-or-non-increasing",
+    "time-based-key-value-store",
+    "median-of-two-sorted-arrays"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 3,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "break-a-palindrome",
+        "number": 1328,
+        "title": "Break a Palindrome",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-palindrome-with-fixed-length",
+        "number": 2217,
+        "title": "Find Palindrome With Fixed Length",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "make-array-non-decreasing-or-non-increasing",
+        "number": 2263,
+        "title": "Make Array Non-decreasing or Non-increasing",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "VMware Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top VMware coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/vmware",
+    "keywords": [
+      "vmware interview questions",
+      "vmware leetcode",
+      "vmware coding questions",
+      "vmware online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "type": "company",
+  "slug": "ukg",
+  "name": "Ukg",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Ukg hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "maximum-area-rectangle-with-point-constraints-i",
+    "maximum-area-rectangle-with-point-constraints-ii",
+    "special-binary-string",
+    "two-sum",
+    "count-the-number-of-good-subsequences",
+    "minimum-length-of-anagram-concatenation",
+    "valid-word",
+    "maximize-greatness-of-an-array",
+    "split-array-largest-sum",
+    "make-a-positive-array",
+    "valid-palindrome"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 5,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-area-rectangle-with-point-constraints-i",
+        "number": 3380,
+        "title": "Maximum Area Rectangle With Point Constraints I",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-area-rectangle-with-point-constraints-ii",
+        "number": 3382,
+        "title": "Maximum Area Rectangle With Point Constraints II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "special-binary-string",
+        "number": 761,
+        "title": "Special Binary String",
+        "difficulty": "Hard",
+        "frequency": 94.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 78.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-good-subsequences",
+        "number": 2539,
+        "title": "Count the Number of Good Subsequences",
+        "difficulty": "Medium",
+        "frequency": 78.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-length-of-anagram-concatenation",
+        "number": 3138,
+        "title": "Minimum Length of Anagram Concatenation",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-word",
+        "number": 3136,
+        "title": "Valid Word",
+        "difficulty": "Easy",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-greatness-of-an-array",
+        "number": 2592,
+        "title": "Maximize Greatness of an Array",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "make-a-positive-array",
+        "number": 3511,
+        "title": "Make a Positive Array",
+        "difficulty": "Medium",
+        "frequency": 63,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 63,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Ukg Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Ukg coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/ukg",
+    "keywords": [
+      "ukg interview questions",
+      "ukg leetcode",
+      "ukg coding questions",
+      "ukg online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

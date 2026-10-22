@@ -1,0 +1,355 @@
+{
+  "type": "company",
+  "slug": "rubrik",
+  "name": "Rubrik",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Rubrik hiring and placement rounds.",
+  "problemCount": 32,
+  "problemSlugs": [
+    "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+    "manhattan-distances-of-all-arrangements-of-pieces",
+    "count-lattice-points-inside-a-circle",
+    "stamping-the-grid",
+    "find-x-value-of-array-ii",
+    "find-x-value-of-array-i",
+    "alice-and-bob-playing-flower-game",
+    "distribute-candies-among-children-i",
+    "distribute-candies-among-children-ii",
+    "distribute-candies-among-children-iii",
+    "candy-crush",
+    "find-the-sum-of-subsequence-powers",
+    "existence-of-a-substring-in-a-string-and-its-reverse",
+    "random-pick-with-weight",
+    "lru-cache",
+    "snapshot-array",
+    "minimum-number-of-moves-to-make-palindrome",
+    "next-permutation",
+    "web-crawler-multithreaded",
+    "task-scheduler-ii",
+    "task-scheduler",
+    "maximum-points-after-enemy-battles",
+    "remove-invalid-parentheses",
+    "web-crawler",
+    "design-memory-allocator",
+    "design-circular-queue",
+    "special-binary-string",
+    "count-zero-request-servers",
+    "paint-fence",
+    "smallest-string-with-swaps",
+    "3sum",
+    "range-module"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 20,
+    "hard": 10
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+        "number": 3410,
+        "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "manhattan-distances-of-all-arrangements-of-pieces",
+        "number": 3426,
+        "title": "Manhattan Distances of All Arrangements of Pieces",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-lattice-points-inside-a-circle",
+        "number": 2249,
+        "title": "Count Lattice Points Inside a Circle",
+        "difficulty": "Medium",
+        "frequency": 95.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stamping-the-grid",
+        "number": 2132,
+        "title": "Stamping the Grid",
+        "difficulty": "Hard",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-x-value-of-array-ii",
+        "number": 3525,
+        "title": "Find X Value of Array II",
+        "difficulty": "Hard",
+        "frequency": 88.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-x-value-of-array-i",
+        "number": 3524,
+        "title": "Find X Value of Array I",
+        "difficulty": "Medium",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alice-and-bob-playing-flower-game",
+        "number": 3021,
+        "title": "Alice and Bob Playing Flower Game",
+        "difficulty": "Medium",
+        "frequency": 84.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-candies-among-children-i",
+        "number": 2928,
+        "title": "Distribute Candies Among Children I",
+        "difficulty": "Easy",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-candies-among-children-ii",
+        "number": 2929,
+        "title": "Distribute Candies Among Children II",
+        "difficulty": "Medium",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-candies-among-children-iii",
+        "number": 2927,
+        "title": "Distribute Candies Among Children III",
+        "difficulty": "Hard",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-sum-of-subsequence-powers",
+        "number": 3098,
+        "title": "Find the Sum of Subsequence Powers",
+        "difficulty": "Hard",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "existence-of-a-substring-in-a-string-and-its-reverse",
+        "number": 3083,
+        "title": "Existence of a Substring in a String and Its Reverse",
+        "difficulty": "Easy",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 70.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-moves-to-make-palindrome",
+        "number": 2193,
+        "title": "Minimum Number of Moves to Make Palindrome",
+        "difficulty": "Hard",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "web-crawler-multithreaded",
+        "number": 1242,
+        "title": "Web Crawler Multithreaded",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler-ii",
+        "number": 2365,
+        "title": "Task Scheduler II",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-after-enemy-battles",
+        "number": 3207,
+        "title": "Maximum Points After Enemy Battles",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-invalid-parentheses",
+        "number": 301,
+        "title": "Remove Invalid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "web-crawler",
+        "number": 1236,
+        "title": "Web Crawler",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "special-binary-string",
+        "number": 761,
+        "title": "Special Binary String",
+        "difficulty": "Hard",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-zero-request-servers",
+        "number": 2747,
+        "title": "Count Zero Request Servers",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "paint-fence",
+        "number": 276,
+        "title": "Paint Fence",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-string-with-swaps",
+        "number": 1202,
+        "title": "Smallest String With Swaps",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "range-module",
+        "number": 715,
+        "title": "Range Module",
+        "difficulty": "Hard",
+        "frequency": 49.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Rubrik Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Rubrik coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/rubrik",
+    "keywords": [
+      "rubrik interview questions",
+      "rubrik leetcode",
+      "rubrik coding questions",
+      "rubrik online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "type": "company",
+  "slug": "vk",
+  "name": "Vk",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Vk hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "maximize-distance-to-closest-person",
+    "valid-parentheses",
+    "two-sum",
+    "move-zeroes",
+    "summary-ranges",
+    "longest-subarray-of-1s-after-deleting-one-element",
+    "valid-palindrome",
+    "longest-substring-without-repeating-characters",
+    "compare-version-numbers",
+    "merge-intervals",
+    "symmetric-tree",
+    "permutation-in-string"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 6,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "maximize-distance-to-closest-person",
+        "number": 849,
+        "title": "Maximize Distance to Closest Person",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "summary-ranges",
+        "number": 228,
+        "title": "Summary Ranges",
+        "difficulty": "Easy",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-subarray-of-1s-after-deleting-one-element",
+        "number": 1493,
+        "title": "Longest Subarray of 1's After Deleting One Element",
+        "difficulty": "Medium",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "compare-version-numbers",
+        "number": 165,
+        "title": "Compare Version Numbers",
+        "difficulty": "Medium",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "symmetric-tree",
+        "number": 101,
+        "title": "Symmetric Tree",
+        "difficulty": "Easy",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutation-in-string",
+        "number": 567,
+        "title": "Permutation in String",
+        "difficulty": "Medium",
+        "frequency": 68,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Vk Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Vk coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/vk",
+    "keywords": [
+      "vk interview questions",
+      "vk leetcode",
+      "vk coding questions",
+      "vk online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

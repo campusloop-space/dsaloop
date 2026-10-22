@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "aurora",
+  "name": "Aurora",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Aurora hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "lru-cache",
+    "maximum-number-of-visible-points",
+    "sliding-window-maximum",
+    "course-schedule-ii",
+    "number-of-distinct-islands",
+    "word-search-ii",
+    "zuma-game",
+    "flatten-nested-list-iterator",
+    "snapshot-array",
+    "angle-between-hands-of-a-clock"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 6,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-visible-points",
+        "number": 1610,
+        "title": "Maximum Number of Visible Points",
+        "difficulty": "Hard",
+        "frequency": 81.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-distinct-islands",
+        "number": 694,
+        "title": "Number of Distinct Islands",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "zuma-game",
+        "number": 488,
+        "title": "Zuma Game",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-nested-list-iterator",
+        "number": 341,
+        "title": "Flatten Nested List Iterator",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "angle-between-hands-of-a-clock",
+        "number": 1344,
+        "title": "Angle Between Hands of a Clock",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Aurora Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Aurora coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/aurora",
+    "keywords": [
+      "aurora interview questions",
+      "aurora leetcode",
+      "aurora coding questions",
+      "aurora online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

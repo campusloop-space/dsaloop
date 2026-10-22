@@ -1,0 +1,298 @@
+{
+  "type": "company",
+  "slug": "bny-mellon",
+  "name": "Bny Mellon",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Bny Mellon hiring and placement rounds.",
+  "problemCount": 18,
+  "problemSlugs": [
+    "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+    "count-visited-nodes-in-a-directed-graph",
+    "sum-of-distances",
+    "minimize-length-of-array-using-operations",
+    "minimize-malware-spread",
+    "cherry-pickup",
+    "car-fleet",
+    "bitwise-ors-of-subarrays",
+    "lfu-cache",
+    "lexicographically-maximum-mex-array",
+    "merge-intervals",
+    "count-number-of-maximum-bitwise-or-subsets",
+    "best-time-to-buy-and-sell-stock",
+    "kth-largest-element-in-an-array",
+    "palindromic-substrings",
+    "longest-substring-without-repeating-characters",
+    "count-good-subarrays",
+    "find-the-maximum-length-of-a-good-subsequence-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 10,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 78.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-maximum-length-of-a-good-subsequence-ii",
+        "number": 3177,
+        "title": "Find the Maximum Length of a Good Subsequence II",
+        "difficulty": "Hard",
+        "frequency": 78.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 87.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 78.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-maximum-length-of-a-good-subsequence-ii",
+        "number": 3177,
+        "title": "Find the Maximum Length of a Good Subsequence II",
+        "difficulty": "Hard",
+        "frequency": 78.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 78.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+        "number": 1465,
+        "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-visited-nodes-in-a-directed-graph",
+        "number": 2876,
+        "title": "Count Visited Nodes in a Directed Graph",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-distances",
+        "number": 2615,
+        "title": "Sum of Distances",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-length-of-array-using-operations",
+        "number": 3012,
+        "title": "Minimize Length of Array Using Operations",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "car-fleet",
+        "number": 853,
+        "title": "Car Fleet",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bitwise-ors-of-subarrays",
+        "number": 898,
+        "title": "Bitwise ORs of Subarrays",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-maximum-bitwise-or-subsets",
+        "number": 2044,
+        "title": "Count Number of Maximum Bitwise-OR Subsets",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-good-subarrays",
+        "number": 3878,
+        "title": "Count Good Subarrays",
+        "difficulty": "Hard",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-maximum-length-of-a-good-subsequence-ii",
+        "number": 3177,
+        "title": "Find the Maximum Length of a Good Subsequence II",
+        "difficulty": "Hard",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Bny Mellon Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Bny Mellon coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/bny-mellon",
+    "keywords": [
+      "bny mellon interview questions",
+      "bny mellon leetcode",
+      "bny mellon coding questions",
+      "bny mellon online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

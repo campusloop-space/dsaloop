@@ -1,0 +1,225 @@
+{
+  "type": "company",
+  "slug": "ixl",
+  "name": "Ixl",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Ixl hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "range-addition-ii",
+    "find-median-from-data-stream",
+    "palindrome-linked-list",
+    "merge-k-sorted-lists",
+    "fraction-to-recurring-decimal",
+    "stickers-to-spell-word",
+    "merge-intervals",
+    "fraction-addition-and-subtraction",
+    "find-the-derangement-of-an-array",
+    "basic-calculator-ii",
+    "insert-delete-getrandom-o1",
+    "find-peak-element",
+    "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+    "1-bit-and-2-bit-characters",
+    "design-snake-game",
+    "minimum-number-of-steps-to-make-two-strings-anagram",
+    "course-schedule"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 11,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "range-addition-ii",
+        "number": 598,
+        "title": "Range Addition II",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 94.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-linked-list",
+        "number": 234,
+        "title": "Palindrome Linked List",
+        "difficulty": "Easy",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 90.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fraction-to-recurring-decimal",
+        "number": 166,
+        "title": "Fraction to Recurring Decimal",
+        "difficulty": "Medium",
+        "frequency": 90.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stickers-to-spell-word",
+        "number": 691,
+        "title": "Stickers to Spell Word",
+        "difficulty": "Hard",
+        "frequency": 90.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 87.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fraction-addition-and-subtraction",
+        "number": 592,
+        "title": "Fraction Addition and Subtraction",
+        "difficulty": "Medium",
+        "frequency": 87.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-derangement-of-an-array",
+        "number": 634,
+        "title": "Find the Derangement of An Array",
+        "difficulty": "Medium",
+        "frequency": 87.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 77.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+        "number": 1465,
+        "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+        "difficulty": "Medium",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "1-bit-and-2-bit-characters",
+        "number": 717,
+        "title": "1-bit and 2-bit Characters",
+        "difficulty": "Easy",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-snake-game",
+        "number": 353,
+        "title": "Design Snake Game",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+        "number": 1347,
+        "title": "Minimum Number of Steps to Make Two Strings Anagram",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 57,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Ixl Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Ixl coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/ixl",
+    "keywords": [
+      "ixl interview questions",
+      "ixl leetcode",
+      "ixl coding questions",
+      "ixl online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "dp-world",
+  "name": "Dp World",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Dp World hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "capacity-to-ship-packages-within-d-days",
+    "set-intersection-size-at-least-two",
+    "longest-substring-without-repeating-characters",
+    "binary-tree-cameras",
+    "group-anagrams",
+    "find-the-duplicate-number",
+    "longest-palindromic-substring",
+    "rabbits-in-forest",
+    "evaluate-division",
+    "minimum-window-substring",
+    "wildcard-matching"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 7,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-intersection-size-at-least-two",
+        "number": 757,
+        "title": "Set Intersection Size At Least Two",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-duplicate-number",
+        "number": 287,
+        "title": "Find the Duplicate Number",
+        "difficulty": "Medium",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rabbits-in-forest",
+        "number": 781,
+        "title": "Rabbits in Forest",
+        "difficulty": "Medium",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 87.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Dp World Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Dp World coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/dp-world",
+    "keywords": [
+      "dp world interview questions",
+      "dp world leetcode",
+      "dp world coding questions",
+      "dp world online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "type": "company",
+  "slug": "agoda",
+  "name": "Agoda",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Agoda hiring and placement rounds.",
+  "problemCount": 38,
+  "problemSlugs": [
+    "number-of-atoms",
+    "minimum-absolute-difference",
+    "eliminate-maximum-number-of-monsters",
+    "best-time-to-buy-and-sell-stock",
+    "capacity-to-ship-packages-within-d-days",
+    "daily-temperatures",
+    "find-diameter-endpoints-of-a-tree",
+    "remove-all-adjacent-duplicates-in-string-ii",
+    "find-the-child-who-has-the-ball-after-k-seconds",
+    "longest-substring-without-repeating-characters",
+    "3sum",
+    "decode-string",
+    "rank-transform-of-an-array",
+    "sort-colors",
+    "unique-paths-ii",
+    "backspace-string-compare",
+    "subarray-sum-equals-k",
+    "house-robber",
+    "find-pivot-index",
+    "climbing-stairs",
+    "sliding-window-maximum",
+    "coin-change",
+    "koko-eating-bananas",
+    "subsets",
+    "degree-of-an-array",
+    "valid-parentheses",
+    "integer-to-roman",
+    "next-greater-element-i",
+    "find-the-smallest-divisor-given-a-threshold",
+    "subarray-product-less-than-k",
+    "longest-increasing-subsequence",
+    "longest-string-chain",
+    "reorganize-string",
+    "happy-number",
+    "best-time-to-buy-and-sell-stock-ii",
+    "jump-game",
+    "maximum-team-size-with-overlapping-intervals",
+    "valid-word-abbreviation"
+  ],
+  "difficultyBreakdown": {
+    "easy": 12,
+    "medium": 24,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "number-of-atoms",
+        "number": 726,
+        "title": "Number of Atoms",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "number-of-atoms",
+        "number": 726,
+        "title": "Number of Atoms",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-transform-of-an-array",
+        "number": 1331,
+        "title": "Rank Transform of an Array",
+        "difficulty": "Easy",
+        "frequency": 80.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "number-of-atoms",
+        "number": 726,
+        "title": "Number of Atoms",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference",
+        "number": 1200,
+        "title": "Minimum Absolute Difference",
+        "difficulty": "Easy",
+        "frequency": 96.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "eliminate-maximum-number-of-monsters",
+        "number": 1921,
+        "title": "Eliminate Maximum Number of Monsters",
+        "difficulty": "Medium",
+        "frequency": 96.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 88.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-diameter-endpoints-of-a-tree",
+        "number": 3787,
+        "title": "Find Diameter Endpoints of a Tree",
+        "difficulty": "Medium",
+        "frequency": 82,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 82,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-child-who-has-the-ball-after-k-seconds",
+        "number": 3178,
+        "title": "Find the Child Who Has the Ball After K Seconds",
+        "difficulty": "Easy",
+        "frequency": 79.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-transform-of-an-array",
+        "number": 1331,
+        "title": "Rank Transform of an Array",
+        "difficulty": "Easy",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths-ii",
+        "number": 63,
+        "title": "Unique Paths II",
+        "difficulty": "Medium",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "backspace-string-compare",
+        "number": 844,
+        "title": "Backspace String Compare",
+        "difficulty": "Easy",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-pivot-index",
+        "number": 724,
+        "title": "Find Pivot Index",
+        "difficulty": "Easy",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 57.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-i",
+        "number": 496,
+        "title": "Next Greater Element I",
+        "difficulty": "Easy",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-smallest-divisor-given-a-threshold",
+        "number": 1283,
+        "title": "Find the Smallest Divisor Given a Threshold",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorganize-string",
+        "number": 767,
+        "title": "Reorganize String",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-team-size-with-overlapping-intervals",
+        "number": 3893,
+        "title": "Maximum Team Size with Overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-word-abbreviation",
+        "number": 408,
+        "title": "Valid Word Abbreviation",
+        "difficulty": "Easy",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Agoda Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Agoda coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/agoda",
+    "keywords": [
+      "agoda interview questions",
+      "agoda leetcode",
+      "agoda coding questions",
+      "agoda online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

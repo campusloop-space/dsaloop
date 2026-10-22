@@ -10,6 +10,8 @@ import type {
   LandingPage,
   SiteManifest,
   SearchDocument,
+  SystemDesignIndexEntry,
+  SystemDesignChapter,
 } from "@/lib/schema/types";
 import {
   listGeneratedSlugs,
@@ -126,4 +128,16 @@ export function getProblemsBySlugs(slugs: string[]): ProblemIndexEntry[] {
 
 export function requireManifest(): SiteManifest {
   return readGeneratedJsonOrThrow("site-manifest.json");
+}
+
+export function getSystemDesignIndex(): SystemDesignIndexEntry[] {
+  return readGeneratedJson<SystemDesignIndexEntry[]>("system-design-index.json") ?? [];
+}
+
+export function getSystemDesignChapter(slug: string): SystemDesignChapter | null {
+  return readGeneratedJson<SystemDesignChapter>(`system-design/${slug}.json`);
+}
+
+export function getAllSystemDesignSlugs(): string[] {
+  return listGeneratedSlugs("system-design");
 }

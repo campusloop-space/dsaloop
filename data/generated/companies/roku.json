@@ -1,0 +1,235 @@
+{
+  "type": "company",
+  "slug": "roku",
+  "name": "Roku",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Roku hiring and placement rounds.",
+  "problemCount": 18,
+  "problemSlugs": [
+    "decode-string",
+    "shortest-path-to-get-all-keys",
+    "top-k-frequent-elements",
+    "minimum-cost-for-tickets",
+    "lru-cache",
+    "backspace-string-compare",
+    "multiply-strings",
+    "24-game",
+    "valid-palindrome-ii",
+    "valid-parenthesis-string",
+    "max-area-of-island",
+    "3sum",
+    "vertical-order-traversal-of-a-binary-tree",
+    "asteroid-collision",
+    "longest-valid-parentheses",
+    "three-equal-parts",
+    "max-stack",
+    "maximum-points-you-can-obtain-from-cards"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 10,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "maximum-points-you-can-obtain-from-cards",
+        "number": 1423,
+        "title": "Maximum Points You Can Obtain from Cards",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "maximum-points-you-can-obtain-from-cards",
+        "number": 1423,
+        "title": "Maximum Points You Can Obtain from Cards",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-to-get-all-keys",
+        "number": 864,
+        "title": "Shortest Path to Get All Keys",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-for-tickets",
+        "number": 983,
+        "title": "Minimum Cost For Tickets",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "backspace-string-compare",
+        "number": 844,
+        "title": "Backspace String Compare",
+        "difficulty": "Easy",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "multiply-strings",
+        "number": 43,
+        "title": "Multiply Strings",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "24-game",
+        "number": 679,
+        "title": "24 Game",
+        "difficulty": "Hard",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome-ii",
+        "number": 680,
+        "title": "Valid Palindrome II",
+        "difficulty": "Easy",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parenthesis-string",
+        "number": 678,
+        "title": "Valid Parenthesis String",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-area-of-island",
+        "number": 695,
+        "title": "Max Area of Island",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "vertical-order-traversal-of-a-binary-tree",
+        "number": 987,
+        "title": "Vertical Order Traversal of a Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "three-equal-parts",
+        "number": 927,
+        "title": "Three Equal Parts",
+        "difficulty": "Hard",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-stack",
+        "number": 716,
+        "title": "Max Stack",
+        "difficulty": "Hard",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-you-can-obtain-from-cards",
+        "number": 1423,
+        "title": "Maximum Points You Can Obtain from Cards",
+        "difficulty": "Medium",
+        "frequency": 86.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Roku Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Roku coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/roku",
+    "keywords": [
+      "roku interview questions",
+      "roku leetcode",
+      "roku coding questions",
+      "roku online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

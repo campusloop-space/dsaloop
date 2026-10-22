@@ -1,0 +1,389 @@
+[
+  {
+    "chapterNumber": 1,
+    "slug": "scaling",
+    "title": "Scale from Zero to Millions of Users",
+    "subtitle": "Scaling a system to support millions of users is a complex, iterative journey requiring refinement and optimization. This chapter outlines how to begin with a single server setup and scale the architecture step by step to handle millions of users.",
+    "readTimeMinutes": 8,
+    "tags": [
+      "Scalability",
+      "Architecture",
+      "Database",
+      "Caching"
+    ],
+    "imagesCount": 12
+  },
+  {
+    "chapterNumber": 2,
+    "slug": "back-of-the-envelope-estimation",
+    "title": "Back-of-the-Envelope Estimation",
+    "subtitle": "Comprehensive interview guide for Back-of-the-Envelope Estimation. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 3,
+    "tags": [
+      "Estimation",
+      "Math",
+      "Capacity Planning"
+    ],
+    "imagesCount": 1
+  },
+  {
+    "chapterNumber": 3,
+    "slug": "system-design-framework",
+    "title": "A Framework for System Design Interviews",
+    "subtitle": "System design interviews are a key part of the hiring process, simulating real-life problem-solving scenarios. These interviews evaluate not just technical skills but also collaboration, communication, and the ability to handle ambiguous requirements.",
+    "readTimeMinutes": 3,
+    "tags": [
+      "Interview Framework",
+      "Strategy",
+      "Communication"
+    ],
+    "imagesCount": 0
+  },
+  {
+    "chapterNumber": 4,
+    "slug": "rate-limiter",
+    "title": "Design a Rate Limiter",
+    "subtitle": "Comprehensive interview guide for Design a Rate Limiter. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 3,
+    "tags": [
+      "Rate Limiter",
+      "Concurrency",
+      "Security",
+      "Token Bucket"
+    ],
+    "imagesCount": 8
+  },
+  {
+    "chapterNumber": 5,
+    "slug": "consistent-hashing",
+    "title": "Design Consistent Hashing",
+    "subtitle": "Comprehensive interview guide for Design Consistent Hashing. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 3,
+    "tags": [
+      "Consistent Hashing",
+      "Distributed Systems",
+      "Hashing"
+    ],
+    "imagesCount": 10
+  },
+  {
+    "chapterNumber": 6,
+    "slug": "key-value-store",
+    "title": "Design a Key-Value Store",
+    "subtitle": "Comprehensive interview guide for Design a Key-Value Store. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 9,
+    "tags": [
+      "Key-Value Store",
+      "Storage",
+      "CAP Theorem",
+      "Quorum"
+    ],
+    "imagesCount": 17
+  },
+  {
+    "chapterNumber": 7,
+    "slug": "unique-id-generator",
+    "title": "Design a Unique ID Generator in Distributed Systems",
+    "subtitle": "Comprehensive interview guide for Design a Unique ID Generator in Distributed Systems. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 3,
+    "tags": [
+      "Unique ID",
+      "Snowflake",
+      "Distributed Systems"
+    ],
+    "imagesCount": 5
+  },
+  {
+    "chapterNumber": 8,
+    "slug": "url-shortener",
+    "title": "Design a URL Shortener",
+    "subtitle": "This chapter discusses the design of a URL shortening service like TinyURL. The system's main goals include **URL shortening**, **redirecting**, and **high scalability** to handle large traffic volumes.",
+    "readTimeMinutes": 4,
+    "tags": [
+      "URL Shortener",
+      "Base62",
+      "Database",
+      "Hashing"
+    ],
+    "imagesCount": 7
+  },
+  {
+    "chapterNumber": 9,
+    "slug": "web-crawler",
+    "title": "Design a Web Crawler",
+    "subtitle": "A **web crawler**, also known as a spider or robot, is used to discover and collect web content, such as web pages, images, and videos. This chapter focuses on designing a scalable web crawler for **search engine indexing**.",
+    "readTimeMinutes": 5,
+    "tags": [
+      "Web Crawler",
+      "Networking",
+      "Distributed Systems",
+      "Graph"
+    ],
+    "imagesCount": 4
+  },
+  {
+    "chapterNumber": 10,
+    "slug": "notification-system",
+    "title": "Design a Notification System",
+    "subtitle": "A **notification system** is essential for modern applications, providing timely updates like product notifications, events, offers, and alerts. Notifications can be sent through: 1. **Push notifications** (mobile or desktop), 2. **SMS messages**, and 3. **Emails**.",
+    "readTimeMinutes": 4,
+    "tags": [
+      "Notifications",
+      "APNs",
+      "FCM",
+      "Message Queue"
+    ],
+    "imagesCount": 6
+  },
+  {
+    "chapterNumber": 11,
+    "slug": "news-feed-system",
+    "title": "Design a News Feed System",
+    "subtitle": "Comprehensive interview guide for Design a News Feed System. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 4,
+    "tags": [
+      "News Feed",
+      "Fan-out",
+      "Caching",
+      "Social Graph"
+    ],
+    "imagesCount": 5
+  },
+  {
+    "chapterNumber": 12,
+    "slug": "chat-system",
+    "title": "Design a Chat System",
+    "subtitle": "A **chat system** supports real-time messaging between users. This chapter focuses on designing a chat app that includes: - **One-on-One Chat** - **Group Chat (max 100 users)** - **Online Presence Indicators** - **Multiple Device Support** - **Push Notifications**",
+    "readTimeMinutes": 5,
+    "tags": [
+      "Chat System",
+      "WebSocket",
+      "Real-time",
+      "Presence"
+    ],
+    "imagesCount": 16
+  },
+  {
+    "chapterNumber": 13,
+    "slug": "search-autocomplete",
+    "title": "Design a Search Autocomplete System",
+    "subtitle": "Autocomplete, also known as typeahead or incremental search, provides real-time suggestions to users as they type in search boxes. The system must efficiently deliver top-k relevant and popular suggestions based on historical query data.",
+    "readTimeMinutes": 5,
+    "tags": [
+      "Search Autocomplete",
+      "Trie",
+      "Caching",
+      "Typeahead"
+    ],
+    "imagesCount": 9
+  },
+  {
+    "chapterNumber": 14,
+    "slug": "youtube",
+    "title": "Design YouTube",
+    "subtitle": "Comprehensive interview guide for Design YouTube. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 6,
+    "tags": [
+      "YouTube",
+      "Video Streaming",
+      "CDN",
+      "Transcoding"
+    ],
+    "imagesCount": 14
+  },
+  {
+    "chapterNumber": 15,
+    "slug": "google-drive",
+    "title": "Design Google Drive",
+    "subtitle": "Comprehensive interview guide for Design Google Drive. Architecture, trade-offs, and key deep dives.",
+    "readTimeMinutes": 7,
+    "tags": [
+      "Google Drive",
+      "File Storage",
+      "Block Level Sync",
+      "Cloud"
+    ],
+    "imagesCount": 9
+  },
+  {
+    "chapterNumber": 16,
+    "slug": "proximity-service",
+    "title": "Proximity Service",
+    "subtitle": "A **proximity service** is designed to find nearby locations, such as restaurants, hotels, gas stations, and other businesses. This functionality is used in applications like **Google Maps** and **Yelp** to help users discover places within a defined radius.",
+    "readTimeMinutes": 9,
+    "tags": [
+      "Proximity Service",
+      "Geohash",
+      "QuadTree",
+      "LBS"
+    ],
+    "imagesCount": 15
+  },
+  {
+    "chapterNumber": 17,
+    "slug": "nearby-friends",
+    "title": "Nearby Friends",
+    "subtitle": "This chapter focuses on designing a scalable backend for an application which enables user to share their location and discover friends who are **nearby**.",
+    "readTimeMinutes": 11,
+    "tags": [
+      "Nearby Friends",
+      "WebSocket",
+      "Redis PubSub",
+      "Location"
+    ],
+    "imagesCount": 10
+  },
+  {
+    "chapterNumber": 18,
+    "slug": "google-maps",
+    "title": "Google Maps",
+    "subtitle": "We'll design a simple version of **Google Maps**.",
+    "readTimeMinutes": 13,
+    "tags": [
+      "Google Maps",
+      "Pathfinding",
+      "Navigation",
+      "Tiling"
+    ],
+    "imagesCount": 22
+  },
+  {
+    "chapterNumber": 19,
+    "slug": "distributed-message-queue",
+    "title": "Distributed Message Queue",
+    "subtitle": "We'll be designing a **distributed message queue** in this chapter.",
+    "readTimeMinutes": 22,
+    "tags": [
+      "Message Queue",
+      "Kafka",
+      "Pub/Sub",
+      "Replication"
+    ],
+    "imagesCount": 35
+  },
+  {
+    "chapterNumber": 20,
+    "slug": "metrics-monitoring-and-alerting-system",
+    "title": "Metrics Monitoring and Alerting System",
+    "subtitle": "This chapter focuses on designing a highly scalable **metrics monitoring and alerting system**, which is critical for ensuring high availability and reliability.",
+    "readTimeMinutes": 16,
+    "tags": [
+      "Monitoring",
+      "Time Series",
+      "Alerting",
+      "Observability"
+    ],
+    "imagesCount": 22
+  },
+  {
+    "chapterNumber": 21,
+    "slug": "ad-click-event-aggregation",
+    "title": "Ad Click Event Aggregation",
+    "subtitle": "**Digital advertising** is a big industry with the rise of Facebook, YouTube, TikTok, etc.",
+    "readTimeMinutes": 20,
+    "tags": [
+      "Event Aggregation",
+      "MapReduce",
+      "Streaming",
+      "Analytics"
+    ],
+    "imagesCount": 29
+  },
+  {
+    "chapterNumber": 22,
+    "slug": "hotel-reservation-system",
+    "title": "Hotel Reservation System",
+    "subtitle": "In this chapter, we're designing a **hotel reservation system**, similar to Marriott International.",
+    "readTimeMinutes": 17,
+    "tags": [
+      "Hotel Reservation",
+      "Concurrency",
+      "Transactions",
+      "Booking"
+    ],
+    "imagesCount": 17
+  },
+  {
+    "chapterNumber": 23,
+    "slug": "distributed-email-service",
+    "title": "Distributed Email Service",
+    "subtitle": "We'll design a **distributed email service**, similar to **Gmail** in this chapter.",
+    "readTimeMinutes": 13,
+    "tags": [
+      "Email Service",
+      "SMTP",
+      "IMAP",
+      "Distributed Storage"
+    ],
+    "imagesCount": 14
+  },
+  {
+    "chapterNumber": 24,
+    "slug": "s3-like-object-storage",
+    "title": "S3-like Object Storage",
+    "subtitle": "In this chapter, we'll be designing an **object storage** service, similar to **Amazon S3**.",
+    "readTimeMinutes": 17,
+    "tags": [
+      "S3 Object Storage",
+      "Blob Storage",
+      "Erasure Coding",
+      "Replication"
+    ],
+    "imagesCount": 23
+  },
+  {
+    "chapterNumber": 25,
+    "slug": "real-time-gaming-leaderboard",
+    "title": "Real-time Gaming Leaderboard",
+    "subtitle": "We are going to design a **leaderboard** for an online mobile game:",
+    "readTimeMinutes": 14,
+    "tags": [
+      "Leaderboard",
+      "Redis Sorted Sets",
+      "Real-time Gaming"
+    ],
+    "imagesCount": 23
+  },
+  {
+    "chapterNumber": 26,
+    "slug": "payment-system",
+    "title": "Payment System",
+    "subtitle": "We'll design a **payment system** in this chapter, which underpins all of modern **e-commerce**.",
+    "readTimeMinutes": 14,
+    "tags": [
+      "Payment System",
+      "Idempotency",
+      "Reconciliation",
+      "FinTech"
+    ],
+    "imagesCount": 10
+  },
+  {
+    "chapterNumber": 27,
+    "slug": "digital-wallet",
+    "title": "Digital Wallet",
+    "subtitle": "**Payment platforms** usually have a **wallet service**, where they allow clients to store funds within the application, which they can withdraw later.",
+    "readTimeMinutes": 17,
+    "tags": [
+      "Digital Wallet",
+      "Double-Entry Ledger",
+      "Transactions",
+      "FinTech"
+    ],
+    "imagesCount": 25
+  },
+  {
+    "chapterNumber": 28,
+    "slug": "stock-exchange",
+    "title": "Stock Exchange",
+    "subtitle": "We'll design an **electronic stock exchange** in this chapter.",
+    "readTimeMinutes": 21,
+    "tags": [
+      "Stock Exchange",
+      "Matching Engine",
+      "Low Latency",
+      "Finance"
+    ],
+    "imagesCount": 24
+  }
+]

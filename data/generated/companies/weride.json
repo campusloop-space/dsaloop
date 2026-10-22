@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "weride",
+  "name": "Weride",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Weride hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "find-edges-in-shortest-paths",
+    "maximize-greatness-of-an-array",
+    "longest-increasing-path-in-a-matrix",
+    "swim-in-rising-water",
+    "count-paths-that-can-form-a-palindrome-in-a-tree",
+    "detect-cycles-in-2d-grid",
+    "maximum-profit-in-job-scheduling",
+    "text-justification",
+    "count-binary-substrings",
+    "design-snake-game"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 3,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "find-edges-in-shortest-paths",
+        "number": 3123,
+        "title": "Find Edges in Shortest Paths",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-greatness-of-an-array",
+        "number": 2592,
+        "title": "Maximize Greatness of an Array",
+        "difficulty": "Medium",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swim-in-rising-water",
+        "number": 778,
+        "title": "Swim in Rising Water",
+        "difficulty": "Hard",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+        "number": 2791,
+        "title": "Count Paths That Can Form a Palindrome in a Tree",
+        "difficulty": "Hard",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "detect-cycles-in-2d-grid",
+        "number": 1559,
+        "title": "Detect Cycles in 2D Grid",
+        "difficulty": "Medium",
+        "frequency": 77.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-binary-substrings",
+        "number": 696,
+        "title": "Count Binary Substrings",
+        "difficulty": "Easy",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-snake-game",
+        "number": 353,
+        "title": "Design Snake Game",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Weride Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Weride coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/weride",
+    "keywords": [
+      "weride interview questions",
+      "weride leetcode",
+      "weride coding questions",
+      "weride online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

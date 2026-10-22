@@ -2,33 +2,737 @@
   "type": "company",
   "slug": "airbnb",
   "name": "Airbnb",
-  "description": "Coding interview preparation for Airbnb: high-frequency patterns and problem sets.",
-  "problemCount": 15,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Airbnb hiring and placement rounds.",
+  "problemCount": 62,
   "problemSlugs": [
-    "combination-sum",
     "text-justification",
-    "single-number",
+    "maximum-profit-in-job-scheduling",
+    "flatten-2d-vector",
+    "maximum-candies-you-can-get-from-boxes",
+    "smallest-common-region",
+    "design-excel-sum-formula",
     "intersection-of-two-linked-lists",
+    "pour-water",
+    "trapping-rain-water",
+    "sliding-puzzle",
+    "contains-duplicate-ii",
+    "alien-dictionary",
+    "palindrome-pairs",
+    "simple-bank-system",
+    "shortest-uncommon-substring-in-an-array",
+    "minimum-number-of-vertices-to-reach-all-nodes",
+    "ip-to-cidr",
+    "employee-free-time",
+    "two-sum",
+    "add-two-numbers",
+    "regular-expression-matching",
+    "valid-parentheses",
+    "merge-k-sorted-lists",
+    "minimize-rounding-error-to-meet-target",
+    "convert-to-base-2",
+    "design-file-system",
+    "convert-sorted-array-to-binary-search-tree",
+    "single-number",
     "reverse-bits",
     "house-robber",
+    "happy-number",
+    "word-search-ii",
     "contains-duplicate",
-    "contains-duplicate-ii",
     "contains-duplicate-iii",
     "maximal-square",
+    "basic-calculator-ii",
+    "number-of-ways-to-build-house-of-cards",
+    "mini-parser",
+    "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+    "add-strings",
+    "robot-bounded-in-circle",
+    "strings-differ-by-one-character",
+    "pyramid-transition-matrix",
+    "cheapest-flights-within-k-stops",
+    "shopping-offers",
+    "combination-sum",
+    "subarray-product-less-than-k",
+    "accounts-merge",
+    "design-tic-tac-toe",
+    "smallest-sufficient-team",
+    "minimum-window-substring",
+    "shortest-path-to-get-all-keys",
+    "shortest-path-in-binary-matrix",
+    "making-a-large-island",
+    "can-place-flowers",
+    "nth-digit",
+    "minimum-window-subsequence",
+    "consecutive-numbers-sum",
+    "minimum-cost-to-reach-destination-in-time",
+    "detonate-the-maximum-bombs",
     "coin-change",
-    "palindrome-pairs",
-    "flatten-nested-list-iterator",
-    "optimal-account-balancing",
-    "employee-free-time"
+    "k-closest-points-to-origin"
   ],
-  "seo": {
-    "title": "Airbnb Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Airbnb interviews with 15 problems, patterns, and roadmaps.",
-    "keywords": [
-      "Airbnb interview questions",
-      "Airbnb leetcode",
-      "Airbnb oa"
+  "difficultyBreakdown": {
+    "easy": 11,
+    "medium": 30,
+    "hard": 21
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
     ],
-    "canonicalPath": "/companies/airbnb"
+    "sixMonths": [
+      {
+        "slug": "design-excel-sum-formula",
+        "number": 631,
+        "title": "Design Excel Sum Formula",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 92.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-uncommon-substring-in-an-array",
+        "number": 3076,
+        "title": "Shortest Uncommon Substring in an Array",
+        "difficulty": "Medium",
+        "frequency": 92.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 92.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-sufficient-team",
+        "number": 1125,
+        "title": "Smallest Sufficient Team",
+        "difficulty": "Hard",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-closest-points-to-origin",
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "difficulty": "Medium",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-common-region",
+        "number": 1257,
+        "title": "Smallest Common Region",
+        "difficulty": "Medium",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-candies-you-can-get-from-boxes",
+        "number": 1298,
+        "title": "Maximum Candies You Can Get from Boxes",
+        "difficulty": "Hard",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 92.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-2d-vector",
+        "number": 251,
+        "title": "Flatten 2D Vector",
+        "difficulty": "Medium",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-candies-you-can-get-from-boxes",
+        "number": 1298,
+        "title": "Maximum Candies You Can Get from Boxes",
+        "difficulty": "Hard",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-common-region",
+        "number": 1257,
+        "title": "Smallest Common Region",
+        "difficulty": "Medium",
+        "frequency": 83.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-excel-sum-formula",
+        "number": 631,
+        "title": "Design Excel Sum Formula",
+        "difficulty": "Hard",
+        "frequency": 80.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-linked-lists",
+        "number": 160,
+        "title": "Intersection of Two Linked Lists",
+        "difficulty": "Easy",
+        "frequency": 74.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pour-water",
+        "number": 755,
+        "title": "Pour Water",
+        "difficulty": "Medium",
+        "frequency": 74.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 73,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-puzzle",
+        "number": 773,
+        "title": "Sliding Puzzle",
+        "difficulty": "Hard",
+        "frequency": 73,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate-ii",
+        "number": 219,
+        "title": "Contains Duplicate II",
+        "difficulty": "Easy",
+        "frequency": 71,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 71,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-pairs",
+        "number": 336,
+        "title": "Palindrome Pairs",
+        "difficulty": "Hard",
+        "frequency": 71,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-uncommon-substring-in-an-array",
+        "number": 3076,
+        "title": "Shortest Uncommon Substring in an Array",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+        "number": 1557,
+        "title": "Minimum Number of Vertices to Reach All Nodes",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ip-to-cidr",
+        "number": 751,
+        "title": "IP to CIDR",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-free-time",
+        "number": 759,
+        "title": "Employee Free Time",
+        "difficulty": "Hard",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "regular-expression-matching",
+        "number": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-rounding-error-to-meet-target",
+        "number": 1058,
+        "title": "Minimize Rounding Error to Meet Target",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-to-base-2",
+        "number": 1017,
+        "title": "Convert to Base -2",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-file-system",
+        "number": 1166,
+        "title": "Design File System",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-sorted-array-to-binary-search-tree",
+        "number": 108,
+        "title": "Convert Sorted Array to Binary Search Tree",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-number",
+        "number": 136,
+        "title": "Single Number",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-bits",
+        "number": 190,
+        "title": "Reverse Bits",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate",
+        "number": 217,
+        "title": "Contains Duplicate",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate-iii",
+        "number": 220,
+        "title": "Contains Duplicate III",
+        "difficulty": "Hard",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-build-house-of-cards",
+        "number": 2189,
+        "title": "Number of Ways to Build House of Cards",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "mini-parser",
+        "number": 385,
+        "title": "Mini Parser",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+        "number": 1284,
+        "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+        "difficulty": "Hard",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-strings",
+        "number": 415,
+        "title": "Add Strings",
+        "difficulty": "Easy",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "robot-bounded-in-circle",
+        "number": 1041,
+        "title": "Robot Bounded In Circle",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "strings-differ-by-one-character",
+        "number": 1554,
+        "title": "Strings Differ by One Character",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pyramid-transition-matrix",
+        "number": 756,
+        "title": "Pyramid Transition Matrix",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shopping-offers",
+        "number": 638,
+        "title": "Shopping Offers",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 60.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 56.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "accounts-merge",
+        "number": 721,
+        "title": "Accounts Merge",
+        "difficulty": "Medium",
+        "frequency": 56.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-tic-tac-toe",
+        "number": 348,
+        "title": "Design Tic-Tac-Toe",
+        "difficulty": "Medium",
+        "frequency": 45.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-sufficient-team",
+        "number": 1125,
+        "title": "Smallest Sufficient Team",
+        "difficulty": "Hard",
+        "frequency": 45.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-to-get-all-keys",
+        "number": 864,
+        "title": "Shortest Path to Get All Keys",
+        "difficulty": "Hard",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-binary-matrix",
+        "number": 1091,
+        "title": "Shortest Path in Binary Matrix",
+        "difficulty": "Medium",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-a-large-island",
+        "number": 827,
+        "title": "Making A Large Island",
+        "difficulty": "Hard",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "can-place-flowers",
+        "number": 605,
+        "title": "Can Place Flowers",
+        "difficulty": "Easy",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "nth-digit",
+        "number": 400,
+        "title": "Nth Digit",
+        "difficulty": "Medium",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-subsequence",
+        "number": 727,
+        "title": "Minimum Window Subsequence",
+        "difficulty": "Hard",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "consecutive-numbers-sum",
+        "number": 829,
+        "title": "Consecutive Numbers Sum",
+        "difficulty": "Hard",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-reach-destination-in-time",
+        "number": 1928,
+        "title": "Minimum Cost to Reach Destination in Time",
+        "difficulty": "Hard",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "detonate-the-maximum-bombs",
+        "number": 2101,
+        "title": "Detonate the Maximum Bombs",
+        "difficulty": "Medium",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-closest-points-to-origin",
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "difficulty": "Medium",
+        "frequency": 37.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Airbnb Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Airbnb coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/airbnb",
+    "keywords": [
+      "airbnb interview questions",
+      "airbnb leetcode",
+      "airbnb coding questions",
+      "airbnb online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

@@ -1,0 +1,175 @@
+{
+  "type": "company",
+  "slug": "ozon",
+  "name": "Ozon",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Ozon hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "monotonic-array",
+    "merge-intervals",
+    "valid-parentheses",
+    "decode-string",
+    "two-sum",
+    "squares-of-a-sorted-array",
+    "department-top-three-salaries",
+    "best-time-to-buy-and-sell-stock",
+    "valid-anagram",
+    "longest-substring-without-repeating-characters",
+    "min-stack",
+    "department-highest-salary"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 5,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "monotonic-array",
+        "number": 896,
+        "title": "Monotonic Array",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 96.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 79.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "squares-of-a-sorted-array",
+        "number": 977,
+        "title": "Squares of a Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-top-three-salaries",
+        "number": 185,
+        "title": "Department Top Three Salaries",
+        "difficulty": "Hard",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-highest-salary",
+        "number": 184,
+        "title": "Department Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Ozon Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Ozon coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/ozon",
+    "keywords": [
+      "ozon interview questions",
+      "ozon leetcode",
+      "ozon coding questions",
+      "ozon online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

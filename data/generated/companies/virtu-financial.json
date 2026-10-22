@@ -1,0 +1,182 @@
+{
+  "type": "company",
+  "slug": "virtu-financial",
+  "name": "Virtu Financial",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Virtu Financial hiring and placement rounds.",
+  "problemCount": 9,
+  "problemSlugs": [
+    "array-transformation",
+    "how-many-apples-can-you-put-into-the-basket",
+    "count-substrings-with-only-one-distinct-letter",
+    "hexspeak",
+    "count-number-of-homogenous-substrings",
+    "optimal-account-balancing",
+    "valid-parentheses",
+    "is-subsequence",
+    "reaching-points"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 1,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "array-transformation",
+        "number": 1243,
+        "title": "Array Transformation",
+        "difficulty": "Easy",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reaching-points",
+        "number": 780,
+        "title": "Reaching Points",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "array-transformation",
+        "number": 1243,
+        "title": "Array Transformation",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "how-many-apples-can-you-put-into-the-basket",
+        "number": 1196,
+        "title": "How Many Apples Can You Put into the Basket",
+        "difficulty": "Easy",
+        "frequency": 97.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-substrings-with-only-one-distinct-letter",
+        "number": 1180,
+        "title": "Count Substrings with Only One Distinct Letter",
+        "difficulty": "Easy",
+        "frequency": 92.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "hexspeak",
+        "number": 1271,
+        "title": "Hexspeak",
+        "difficulty": "Easy",
+        "frequency": 92.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-homogenous-substrings",
+        "number": 1759,
+        "title": "Count Number of Homogenous Substrings",
+        "difficulty": "Medium",
+        "frequency": 91,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 74.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "is-subsequence",
+        "number": 392,
+        "title": "Is Subsequence",
+        "difficulty": "Easy",
+        "frequency": 55.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reaching-points",
+        "number": 780,
+        "title": "Reaching Points",
+        "difficulty": "Hard",
+        "frequency": 55.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Virtu Financial Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Virtu Financial coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/virtu-financial",
+    "keywords": [
+      "virtu financial interview questions",
+      "virtu financial leetcode",
+      "virtu financial coding questions",
+      "virtu financial online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

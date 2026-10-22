@@ -1,0 +1,545 @@
+{
+  "type": "company",
+  "slug": "wix",
+  "name": "Wix",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Wix hiring and placement rounds.",
+  "problemCount": 51,
+  "problemSlugs": [
+    "number-of-islands",
+    "container-with-most-water",
+    "add-two-numbers",
+    "longest-palindromic-substring",
+    "alien-dictionary",
+    "3sum",
+    "merge-two-sorted-lists",
+    "move-zeroes",
+    "diameter-of-binary-tree",
+    "minimum-distance-between-bst-nodes",
+    "trapping-rain-water",
+    "design-hashset",
+    "powx-n",
+    "maximum-subarray",
+    "unique-morse-code-words",
+    "merge-intervals",
+    "subdomain-visit-count",
+    "palindrome-pairs",
+    "power-of-four",
+    "intersection-of-two-arrays",
+    "validate-binary-search-tree",
+    "longest-string-chain",
+    "search-suggestions-system",
+    "binary-tree-maximum-path-sum",
+    "all-nodes-distance-k-in-binary-tree",
+    "clone-graph",
+    "is-subsequence",
+    "copy-list-with-random-pointer",
+    "employees-earning-more-than-their-managers",
+    "unique-email-addresses",
+    "binary-tree-right-side-view",
+    "verifying-an-alien-dictionary",
+    "lowest-common-ancestor-of-a-binary-tree",
+    "shortest-word-distance",
+    "k-closest-points-to-origin",
+    "invalid-transactions",
+    "group-shifted-strings",
+    "rotting-oranges",
+    "strong-password-checker",
+    "subsets",
+    "escape-the-ghosts",
+    "as-far-from-land-as-possible",
+    "integer-to-roman",
+    "decode-string",
+    "word-search-ii",
+    "roman-to-integer",
+    "valid-parentheses",
+    "lowest-common-ancestor-of-a-binary-tree-iii",
+    "shortest-distance-from-all-buildings",
+    "fibonacci-number",
+    "two-sum"
+  ],
+  "difficultyBreakdown": {
+    "easy": 17,
+    "medium": 27,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-distance-between-bst-nodes",
+        "number": 783,
+        "title": "Minimum Distance Between BST Nodes",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hashset",
+        "number": 705,
+        "title": "Design HashSet",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "powx-n",
+        "number": 50,
+        "title": "Pow(x, n)",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-morse-code-words",
+        "number": 804,
+        "title": "Unique Morse Code Words",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subdomain-visit-count",
+        "number": 811,
+        "title": "Subdomain Visit Count",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-pairs",
+        "number": 336,
+        "title": "Palindrome Pairs",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "power-of-four",
+        "number": 342,
+        "title": "Power of Four",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-arrays",
+        "number": 349,
+        "title": "Intersection of Two Arrays",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-suggestions-system",
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "all-nodes-distance-k-in-binary-tree",
+        "number": 863,
+        "title": "All Nodes Distance K in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "is-subsequence",
+        "number": 392,
+        "title": "Is Subsequence",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "copy-list-with-random-pointer",
+        "number": 138,
+        "title": "Copy List with Random Pointer",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employees-earning-more-than-their-managers",
+        "number": 181,
+        "title": "Employees Earning More Than Their Managers",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-email-addresses",
+        "number": 929,
+        "title": "Unique Email Addresses",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-right-side-view",
+        "number": 199,
+        "title": "Binary Tree Right Side View",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "verifying-an-alien-dictionary",
+        "number": 953,
+        "title": "Verifying an Alien Dictionary",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lowest-common-ancestor-of-a-binary-tree",
+        "number": 236,
+        "title": "Lowest Common Ancestor of a Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-word-distance",
+        "number": 243,
+        "title": "Shortest Word Distance",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-closest-points-to-origin",
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "invalid-transactions",
+        "number": 1169,
+        "title": "Invalid Transactions",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-shifted-strings",
+        "number": 249,
+        "title": "Group Shifted Strings",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "strong-password-checker",
+        "number": 420,
+        "title": "Strong Password Checker",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subsets",
+        "number": 78,
+        "title": "Subsets",
+        "difficulty": "Medium",
+        "frequency": 69.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "escape-the-ghosts",
+        "number": 789,
+        "title": "Escape The Ghosts",
+        "difficulty": "Medium",
+        "frequency": 69.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "as-far-from-land-as-possible",
+        "number": 1162,
+        "title": "As Far from Land as Possible",
+        "difficulty": "Medium",
+        "frequency": 69.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lowest-common-ancestor-of-a-binary-tree-iii",
+        "number": 1650,
+        "title": "Lowest Common Ancestor of a Binary Tree III",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-distance-from-all-buildings",
+        "number": 317,
+        "title": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fibonacci-number",
+        "number": 509,
+        "title": "Fibonacci Number",
+        "difficulty": "Easy",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Wix Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Wix coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/wix",
+    "keywords": [
+      "wix interview questions",
+      "wix leetcode",
+      "wix coding questions",
+      "wix online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

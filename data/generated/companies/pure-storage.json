@@ -1,0 +1,125 @@
+{
+  "type": "company",
+  "slug": "pure-storage",
+  "name": "Pure Storage",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Pure Storage hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "valid-square",
+    "palindromic-substrings",
+    "design-skiplist",
+    "maximum-repeating-substring",
+    "insert-delete-getrandom-o1",
+    "detect-squares",
+    "longest-palindromic-substring",
+    "binary-search"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 5,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "valid-square",
+        "number": 593,
+        "title": "Valid Square",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "valid-square",
+        "number": 593,
+        "title": "Valid Square",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-skiplist",
+        "number": 1206,
+        "title": "Design Skiplist",
+        "difficulty": "Hard",
+        "frequency": 87.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-repeating-substring",
+        "number": 1668,
+        "title": "Maximum Repeating Substring",
+        "difficulty": "Easy",
+        "frequency": 77.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "detect-squares",
+        "number": 2013,
+        "title": "Detect Squares",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-search",
+        "number": 704,
+        "title": "Binary Search",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Pure Storage Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Pure Storage coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/pure-storage",
+    "keywords": [
+      "pure storage interview questions",
+      "pure storage leetcode",
+      "pure storage coding questions",
+      "pure storage online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

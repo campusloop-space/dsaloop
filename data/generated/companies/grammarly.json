@@ -1,0 +1,415 @@
+{
+  "type": "company",
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Grammarly hiring and placement rounds.",
+  "problemCount": 27,
+  "problemSlugs": [
+    "merge-intervals",
+    "remove-all-adjacent-duplicates-in-string",
+    "remove-all-adjacent-duplicates-in-string-ii",
+    "insert-delete-getrandom-o1",
+    "vowel-spellchecker",
+    "search-in-rotated-sorted-array",
+    "non-overlapping-intervals",
+    "two-best-non-overlapping-events",
+    "repeated-dna-sequences",
+    "climbing-stairs",
+    "search-insert-position",
+    "generate-parentheses",
+    "sqrtx",
+    "recover-a-tree-from-preorder-traversal",
+    "perfect-number",
+    "logger-rate-limiter",
+    "sum-of-left-leaves",
+    "minimum-substring-partition-of-equal-character-frequency",
+    "word-break",
+    "word-search",
+    "evaluate-reverse-polish-notation",
+    "implement-trie-prefix-tree",
+    "check-if-a-string-contains-all-binary-codes-of-size-k",
+    "number-of-islands",
+    "decode-the-slanted-ciphertext",
+    "trapping-rain-water",
+    "unique-paths"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 18,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "recover-a-tree-from-preorder-traversal",
+        "number": 1028,
+        "title": "Recover a Tree From Preorder Traversal",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 90.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-insert-position",
+        "number": 35,
+        "title": "Search Insert Position",
+        "difficulty": "Easy",
+        "frequency": 90.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-best-non-overlapping-events",
+        "number": 2054,
+        "title": "Two Best Non-Overlapping Events",
+        "difficulty": "Medium",
+        "frequency": 90.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 90.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-best-non-overlapping-events",
+        "number": 2054,
+        "title": "Two Best Non-Overlapping Events",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "recover-a-tree-from-preorder-traversal",
+        "number": 1028,
+        "title": "Recover a Tree From Preorder Traversal",
+        "difficulty": "Hard",
+        "frequency": 97.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-insert-position",
+        "number": 35,
+        "title": "Search Insert Position",
+        "difficulty": "Easy",
+        "frequency": 87.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-substring-partition-of-equal-character-frequency",
+        "number": 3144,
+        "title": "Minimum Substring Partition of Equal Character Frequency",
+        "difficulty": "Medium",
+        "frequency": 87.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 95.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 95.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "vowel-spellchecker",
+        "number": 966,
+        "title": "Vowel Spellchecker",
+        "difficulty": "Medium",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-best-non-overlapping-events",
+        "number": 2054,
+        "title": "Two Best Non-Overlapping Events",
+        "difficulty": "Medium",
+        "frequency": 90,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "repeated-dna-sequences",
+        "number": 187,
+        "title": "Repeated DNA Sequences",
+        "difficulty": "Medium",
+        "frequency": 87.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 87.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-insert-position",
+        "number": 35,
+        "title": "Search Insert Position",
+        "difficulty": "Easy",
+        "frequency": 85.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 82.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sqrtx",
+        "number": 69,
+        "title": "Sqrt(x)",
+        "difficulty": "Easy",
+        "frequency": 82.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "recover-a-tree-from-preorder-traversal",
+        "number": 1028,
+        "title": "Recover a Tree From Preorder Traversal",
+        "difficulty": "Hard",
+        "frequency": 82.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "perfect-number",
+        "number": 507,
+        "title": "Perfect Number",
+        "difficulty": "Easy",
+        "frequency": 79.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-left-leaves",
+        "number": 404,
+        "title": "Sum of Left Leaves",
+        "difficulty": "Easy",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-substring-partition-of-equal-character-frequency",
+        "number": 3144,
+        "title": "Minimum Substring Partition of Equal Character Frequency",
+        "difficulty": "Medium",
+        "frequency": 71.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 66.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 66.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-reverse-polish-notation",
+        "number": 150,
+        "title": "Evaluate Reverse Polish Notation",
+        "difficulty": "Medium",
+        "frequency": 66.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 60.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+        "number": 1461,
+        "title": "Check If a String Contains All Binary Codes of Size K",
+        "difficulty": "Medium",
+        "frequency": 60.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-the-slanted-ciphertext",
+        "number": 2075,
+        "title": "Decode the Slanted Ciphertext",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths",
+        "number": 62,
+        "title": "Unique Paths",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Grammarly Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Grammarly coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/grammarly",
+    "keywords": [
+      "grammarly interview questions",
+      "grammarly leetcode",
+      "grammarly coding questions",
+      "grammarly online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

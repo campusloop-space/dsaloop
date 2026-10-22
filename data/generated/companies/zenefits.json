@@ -2,31 +2,244 @@
   "type": "company",
   "slug": "zenefits",
   "name": "Zenefits",
-  "description": "Coding interview preparation for Zenefits: high-frequency patterns and problem sets.",
-  "problemCount": 13,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Zenefits hiring and placement rounds.",
+  "problemCount": 21,
   "problemSlugs": [
+    "median-of-two-sorted-arrays",
+    "valid-parentheses",
+    "generate-parentheses",
+    "trapping-rain-water",
+    "n-queens-ii",
     "convert-sorted-list-to-binary-search-tree",
     "valid-palindrome",
     "lru-cache",
     "min-stack",
-    "fraction-to-recurring-decimal",
     "excel-sheet-column-title",
     "majority-element",
+    "number-of-islands",
     "reverse-linked-list",
     "course-schedule",
+    "course-schedule-ii",
     "majority-element-ii",
     "sliding-window-maximum",
-    "bulls-and-cows",
-    "insert-delete-getrandom-o1"
+    "flatten-2d-vector",
+    "verify-preorder-sequence-in-binary-search-tree",
+    "graph-valid-tree",
+    "shortest-distance-from-all-buildings"
   ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 11,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "n-queens-ii",
+        "number": 52,
+        "title": "N-Queens-II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-sorted-list-to-binary-search-tree",
+        "number": 109,
+        "title": "Convert Sorted List to Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "excel-sheet-column-title",
+        "number": 168,
+        "title": "Excel Sheet Column Title",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element-ii",
+        "number": 229,
+        "title": "Majority Element II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-2d-vector",
+        "number": 251,
+        "title": "Flatten 2D Vector",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "verify-preorder-sequence-in-binary-search-tree",
+        "number": 255,
+        "title": "Verify Preorder Sequence in Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "graph-valid-tree",
+        "number": 261,
+        "title": "Graph Valid Tree",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-distance-from-all-buildings",
+        "number": 317,
+        "title": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Zenefits Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Zenefits interviews with 13 problems, patterns, and roadmaps.",
+    "title": "Zenefits Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Zenefits coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/zenefits",
     "keywords": [
-      "Zenefits interview questions",
-      "Zenefits leetcode",
-      "Zenefits oa"
-    ],
-    "canonicalPath": "/companies/zenefits"
+      "zenefits interview questions",
+      "zenefits leetcode",
+      "zenefits coding questions",
+      "zenefits online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

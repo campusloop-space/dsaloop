@@ -1,0 +1,452 @@
+{
+  "type": "company",
+  "slug": "arista-networks",
+  "name": "Arista Networks",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Arista Networks hiring and placement rounds.",
+  "problemCount": 37,
+  "problemSlugs": [
+    "construct-string-with-repeat-limit",
+    "find-the-town-judge",
+    "restore-ip-addresses",
+    "missing-number",
+    "inorder-successor-in-bst-ii",
+    "reverse-nodes-in-k-group",
+    "reorder-list",
+    "lru-cache",
+    "contains-duplicate-ii",
+    "course-schedule-ii",
+    "maximum-depth-of-binary-tree",
+    "search-in-rotated-sorted-array",
+    "copy-list-with-random-pointer",
+    "reverse-linked-list-ii",
+    "rotated-digits",
+    "remove-linked-list-elements",
+    "permutations",
+    "simplify-path",
+    "remove-duplicates-from-sorted-list-ii",
+    "path-sum-ii",
+    "word-search",
+    "maximum-subarray",
+    "word-break",
+    "remove-all-occurrences-of-a-substring",
+    "top-k-frequent-elements",
+    "valid-palindrome",
+    "longest-substring-without-repeating-characters",
+    "swap-nodes-in-pairs",
+    "decode-string",
+    "count-negative-numbers-in-a-sorted-matrix",
+    "moving-average-from-data-stream",
+    "implement-queue-using-stacks",
+    "add-two-numbers",
+    "smallest-substring-with-identical-characters-ii",
+    "lfu-cache",
+    "maximum-number-of-occurrences-of-a-substring",
+    "longest-common-subsequence"
+  ],
+  "difficultyBreakdown": {
+    "easy": 9,
+    "medium": 25,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list-ii",
+        "number": 92,
+        "title": "Reverse Linked List II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "construct-string-with-repeat-limit",
+        "number": 2182,
+        "title": "Construct String With Repeat Limit",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-town-judge",
+        "number": 997,
+        "title": "Find the Town Judge",
+        "difficulty": "Easy",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 93.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "missing-number",
+        "number": 268,
+        "title": "Missing Number",
+        "difficulty": "Easy",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "inorder-successor-in-bst-ii",
+        "number": 510,
+        "title": "Inorder Successor in BST II",
+        "difficulty": "Medium",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorder-list",
+        "number": 143,
+        "title": "Reorder List",
+        "difficulty": "Medium",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate-ii",
+        "number": 219,
+        "title": "Contains Duplicate II",
+        "difficulty": "Easy",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-depth-of-binary-tree",
+        "number": 104,
+        "title": "Maximum Depth of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "copy-list-with-random-pointer",
+        "number": 138,
+        "title": "Copy List with Random Pointer",
+        "difficulty": "Medium",
+        "frequency": 78.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list-ii",
+        "number": 92,
+        "title": "Reverse Linked List II",
+        "difficulty": "Medium",
+        "frequency": 70.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotated-digits",
+        "number": 788,
+        "title": "Rotated Digits",
+        "difficulty": "Medium",
+        "frequency": 70.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-linked-list-elements",
+        "number": 203,
+        "title": "Remove Linked List Elements",
+        "difficulty": "Easy",
+        "frequency": 70.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 70.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 70.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-list-ii",
+        "number": 82,
+        "title": "Remove Duplicates from Sorted List II",
+        "difficulty": "Medium",
+        "frequency": 70.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-sum-ii",
+        "number": 113,
+        "title": "Path Sum II",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-occurrences-of-a-substring",
+        "number": 1910,
+        "title": "Remove All Occurrences of a Substring",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swap-nodes-in-pairs",
+        "number": 24,
+        "title": "Swap Nodes in Pairs",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-negative-numbers-in-a-sorted-matrix",
+        "number": 1351,
+        "title": "Count Negative Numbers in a Sorted Matrix",
+        "difficulty": "Easy",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "moving-average-from-data-stream",
+        "number": 346,
+        "title": "Moving Average from Data Stream",
+        "difficulty": "Easy",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-queue-using-stacks",
+        "number": 232,
+        "title": "Implement Queue using Stacks",
+        "difficulty": "Easy",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-occurrences-of-a-substring",
+        "number": 1297,
+        "title": "Maximum Number of Occurrences of a Substring",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-subsequence",
+        "number": 1143,
+        "title": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Arista Networks Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Arista Networks coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/arista-networks",
+    "keywords": [
+      "arista networks interview questions",
+      "arista networks leetcode",
+      "arista networks coding questions",
+      "arista networks online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

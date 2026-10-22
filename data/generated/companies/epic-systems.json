@@ -1,0 +1,242 @@
+{
+  "type": "company",
+  "slug": "epic-systems",
+  "name": "Epic Systems",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Epic Systems hiring and placement rounds.",
+  "problemCount": 16,
+  "problemSlugs": [
+    "additive-number",
+    "spiral-matrix",
+    "valid-parentheses",
+    "letter-combinations-of-a-phone-number",
+    "stepping-numbers",
+    "self-dividing-numbers",
+    "angle-between-hands-of-a-clock",
+    "word-search",
+    "longest-palindromic-substring",
+    "count-primes",
+    "two-sum",
+    "palindromic-substrings",
+    "permutations",
+    "longest-increasing-path-in-a-matrix",
+    "valid-palindrome",
+    "bulls-and-cows"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 11,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "additive-number",
+        "number": 306,
+        "title": "Addictive Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "additive-number",
+        "number": 306,
+        "title": "Addictive Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 83.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 83.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "additive-number",
+        "number": 306,
+        "title": "Addictive Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 90.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 84.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 80.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stepping-numbers",
+        "number": 1215,
+        "title": "Stepping Numbers",
+        "difficulty": "Medium",
+        "frequency": 78.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "self-dividing-numbers",
+        "number": 728,
+        "title": "Self Dividing Numbers",
+        "difficulty": "Easy",
+        "frequency": 78.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "angle-between-hands-of-a-clock",
+        "number": 1344,
+        "title": "Angle Between Hands of a Clock",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 58.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 58.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-primes",
+        "number": 204,
+        "title": "Count Primes",
+        "difficulty": "Medium",
+        "frequency": 58.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 50.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 50.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 50.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 50.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 50.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bulls-and-cows",
+        "number": 299,
+        "title": "Bulls and Cows",
+        "difficulty": "Medium",
+        "frequency": 50.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Epic Systems Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Epic Systems coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/epic-systems",
+    "keywords": [
+      "epic systems interview questions",
+      "epic systems leetcode",
+      "epic systems coding questions",
+      "epic systems online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

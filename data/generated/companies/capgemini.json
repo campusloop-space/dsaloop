@@ -1,0 +1,365 @@
+{
+  "type": "company",
+  "slug": "capgemini",
+  "name": "Capgemini",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Capgemini hiring and placement rounds.",
+  "problemCount": 32,
+  "problemSlugs": [
+    "two-sum",
+    "reverse-degree-of-a-string",
+    "number-of-unique-subjects-taught-by-each-teacher",
+    "move-zeroes",
+    "remove-duplicates-from-sorted-array",
+    "longest-common-prefix",
+    "valid-anagram",
+    "longest-substring-without-repeating-characters",
+    "contains-duplicate",
+    "best-time-to-buy-and-sell-stock",
+    "rotate-array",
+    "median-of-two-sorted-arrays",
+    "subarray-sum-equals-k",
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "merge-two-sorted-lists",
+    "4sum",
+    "add-two-numbers",
+    "palindrome-number",
+    "trapping-rain-water",
+    "sort-colors",
+    "reverse-integer",
+    "container-with-most-water",
+    "roman-to-integer",
+    "second-highest-salary",
+    "group-anagrams",
+    "chunk-array",
+    "plus-one",
+    "minimize-maximum-pair-sum-in-array",
+    "add-binary",
+    "find-k-closest-elements",
+    "remove-duplicates-from-sorted-list",
+    "reverse-words-in-a-string"
+  ],
+  "difficultyBreakdown": {
+    "easy": 16,
+    "medium": 14,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-degree-of-a-string",
+        "number": 3498,
+        "title": "Reverse Degree of a String",
+        "difficulty": "Easy",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-unique-subjects-taught-by-each-teacher",
+        "number": 2356,
+        "title": "Number of Unique Subjects Taught by Each Teacher",
+        "difficulty": "Easy",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 73.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate",
+        "number": 217,
+        "title": "Contains Duplicate",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "4sum",
+        "number": 18,
+        "title": "4 Sum",
+        "difficulty": "Medium",
+        "frequency": 61.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-integer",
+        "number": 7,
+        "title": "Reverse Integer",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "chunk-array",
+        "number": 2677,
+        "title": "Chunk Array",
+        "difficulty": "Easy",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "plus-one",
+        "number": 66,
+        "title": "Plus One",
+        "difficulty": "Easy",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-maximum-pair-sum-in-array",
+        "number": 1877,
+        "title": "Minimize Maximum Pair Sum in Array",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-binary",
+        "number": 67,
+        "title": "Add Binary",
+        "difficulty": "Easy",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-closest-elements",
+        "number": 658,
+        "title": "Find K Closest Elements",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-list",
+        "number": 83,
+        "title": "Remove Duplicates from Sorted List",
+        "difficulty": "Easy",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 52.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Capgemini Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Capgemini coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/capgemini",
+    "keywords": [
+      "capgemini interview questions",
+      "capgemini leetcode",
+      "capgemini coding questions",
+      "capgemini online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

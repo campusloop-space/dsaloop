@@ -1,0 +1,276 @@
+{
+  "type": "company",
+  "slug": "inmobi",
+  "name": "Inmobi",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Inmobi hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "trionic-array-ii",
+    "cherry-pickup",
+    "reach-a-number",
+    "count-number-of-nice-subarrays",
+    "zuma-game",
+    "strange-printer",
+    "frog-position-after-t-seconds",
+    "critical-connections-in-a-network",
+    "longest-valid-parentheses",
+    "lexicographically-maximum-mex-array",
+    "capacity-to-ship-packages-within-d-days",
+    "longest-repeating-character-replacement",
+    "minimum-time-to-transport-all-individuals"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 4,
+    "hard": 9
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "trionic-array-ii",
+        "number": 3640,
+        "title": "Trionic Array II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-nice-subarrays",
+        "number": 1248,
+        "title": "Count Number of Nice Subarrays",
+        "difficulty": "Medium",
+        "frequency": 88,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "trionic-array-ii",
+        "number": 3640,
+        "title": "Trionic Array II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 94.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-nice-subarrays",
+        "number": 1248,
+        "title": "Count Number of Nice Subarrays",
+        "difficulty": "Medium",
+        "frequency": 94.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "critical-connections-in-a-network",
+        "number": 1192,
+        "title": "Critical Connections in a Network",
+        "difficulty": "Hard",
+        "frequency": 81.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 66.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trionic-array-ii",
+        "number": 3640,
+        "title": "Trionic Array II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-nice-subarrays",
+        "number": 1248,
+        "title": "Count Number of Nice Subarrays",
+        "difficulty": "Medium",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "critical-connections-in-a-network",
+        "number": 1192,
+        "title": "Critical Connections in a Network",
+        "difficulty": "Hard",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "trionic-array-ii",
+        "number": 3640,
+        "title": "Trionic Array II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 97.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reach-a-number",
+        "number": 754,
+        "title": "Reach a Number",
+        "difficulty": "Medium",
+        "frequency": 94.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-number-of-nice-subarrays",
+        "number": 1248,
+        "title": "Count Number of Nice Subarrays",
+        "difficulty": "Medium",
+        "frequency": 91.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "zuma-game",
+        "number": 488,
+        "title": "Zuma Game",
+        "difficulty": "Hard",
+        "frequency": 83.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "strange-printer",
+        "number": 664,
+        "title": "Strange Printer",
+        "difficulty": "Hard",
+        "frequency": 83.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "frog-position-after-t-seconds",
+        "number": 1377,
+        "title": "Frog Position After T Seconds",
+        "difficulty": "Hard",
+        "frequency": 78.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "critical-connections-in-a-network",
+        "number": 1192,
+        "title": "Critical Connections in a Network",
+        "difficulty": "Hard",
+        "frequency": 78.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-maximum-mex-array",
+        "number": 3948,
+        "title": "Lexicographically Maximum MEX Array",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-character-replacement",
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-transport-all-individuals",
+        "number": 3594,
+        "title": "Minimum Time to Transport All Individuals",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Inmobi Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Inmobi coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/inmobi",
+    "keywords": [
+      "inmobi interview questions",
+      "inmobi leetcode",
+      "inmobi coding questions",
+      "inmobi online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

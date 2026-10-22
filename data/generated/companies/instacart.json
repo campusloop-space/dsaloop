@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "instacart",
+  "name": "Instacart",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Instacart hiring and placement rounds.",
+  "problemCount": 9,
+  "problemSlugs": [
+    "find-first-and-last-position-of-element-in-sorted-array",
+    "average-waiting-time",
+    "check-if-every-row-and-column-contains-all-numbers",
+    "squares-of-a-sorted-array",
+    "time-based-key-value-store",
+    "find-the-length-of-the-longest-common-prefix",
+    "wildcard-matching",
+    "simple-bank-system",
+    "group-anagrams"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 6,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "squares-of-a-sorted-array",
+        "number": 977,
+        "title": "Squares of a Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "average-waiting-time",
+        "number": 1701,
+        "title": "Average Waiting Time",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-every-row-and-column-contains-all-numbers",
+        "number": 2133,
+        "title": "Check if Every Row and Column Contains All Numbers",
+        "difficulty": "Easy",
+        "frequency": 89.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "squares-of-a-sorted-array",
+        "number": 977,
+        "title": "Squares of a Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 89.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "number": 3043,
+        "title": "Find the Length of the Longest Common Prefix",
+        "difficulty": "Medium",
+        "frequency": 74.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "wildcard-matching",
+        "number": 44,
+        "title": "Wildcard Matching",
+        "difficulty": "Hard",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Instacart Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Instacart coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/instacart",
+    "keywords": [
+      "instacart interview questions",
+      "instacart leetcode",
+      "instacart coding questions",
+      "instacart online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

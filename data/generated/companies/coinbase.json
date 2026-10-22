@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "coinbase",
+  "name": "Coinbase",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Coinbase hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "simple-bank-system",
+    "time-based-key-value-store",
+    "zigzag-iterator",
+    "design-in-memory-file-system",
+    "decode-the-message",
+    "random-pick-with-weight",
+    "design-file-system",
+    "best-time-to-buy-and-sell-stock",
+    "design-circular-queue",
+    "course-schedule-ii",
+    "minimize-result-by-adding-parentheses-to-expression"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 8,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 90.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "zigzag-iterator",
+        "number": 281,
+        "title": "Zigzag Iterator",
+        "difficulty": "Medium",
+        "frequency": 89.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-in-memory-file-system",
+        "number": 588,
+        "title": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-the-message",
+        "number": 2325,
+        "title": "Decode the Message",
+        "difficulty": "Easy",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-file-system",
+        "number": 1166,
+        "title": "Design File System",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 51,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Coinbase Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Coinbase coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/coinbase",
+    "keywords": [
+      "coinbase interview questions",
+      "coinbase leetcode",
+      "coinbase coding questions",
+      "coinbase online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

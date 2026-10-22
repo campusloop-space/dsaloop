@@ -1,4 +1,4 @@
-/** Canonical AlgoForge data model — shared by pipeline and Next.js app. */
+/** Canonical DSALoop data model — shared by pipeline and Next.js app. */
 
 export type Difficulty = "Easy" | "Medium" | "Hard";
 export type ContentStatus = "ready" | "placeholder";
@@ -77,8 +77,61 @@ export interface Pattern extends EntitySummary {
   relatedTopics: string[];
 }
 
+export interface CompanyProblemEntry {
+  slug: string;
+  number?: number;
+  title: string;
+  difficulty: "Easy" | "Medium" | "Hard";
+  frequency?: number;
+  acceptanceRate?: string;
+  topics?: string[];
+}
+
+export interface CompanyTimeframes {
+  thirtyDays: CompanyProblemEntry[];
+  threeMonths: CompanyProblemEntry[];
+  sixMonths: CompanyProblemEntry[];
+  allTime: CompanyProblemEntry[];
+}
+
 export interface Company extends EntitySummary {
   type: "company";
+  difficultyBreakdown?: {
+    easy: number;
+    medium: number;
+    hard: number;
+  };
+  timeframes?: CompanyTimeframes;
+  timeframeCounts?: {
+    thirtyDays: number;
+    threeMonths: number;
+    sixMonths: number;
+    allTime: number;
+  };
+}
+
+export interface SystemDesignTocItem {
+  id: string;
+  title: string;
+  level: number;
+}
+
+export interface SystemDesignIndexEntry {
+  chapterNumber: number;
+  slug: string;
+  title: string;
+  subtitle: string;
+  readTimeMinutes: number;
+  tags: string[];
+  imagesCount: number;
+}
+
+export interface SystemDesignChapter extends SystemDesignIndexEntry {
+  markdown: string;
+  html: string;
+  tableOfContents: SystemDesignTocItem[];
+  prevChapter?: { slug: string; title: string; chapterNumber: number };
+  nextChapter?: { slug: string; title: string; chapterNumber: number };
 }
 
 export interface Collection {

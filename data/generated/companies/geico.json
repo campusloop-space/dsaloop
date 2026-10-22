@@ -1,0 +1,185 @@
+{
+  "type": "company",
+  "slug": "geico",
+  "name": "Geico",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Geico hiring and placement rounds.",
+  "problemCount": 15,
+  "problemSlugs": [
+    "largest-palindromic-number",
+    "cinema-seat-allocation",
+    "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "maximum-number-of-potholes-that-can-be-fixed",
+    "number-of-spaces-cleaning-robot-cleaned",
+    "coin-change",
+    "best-time-to-buy-and-sell-stock-with-cooldown",
+    "minimum-moves-to-spread-stones-over-grid",
+    "path-with-maximum-minimum-value",
+    "first-missing-positive",
+    "best-time-to-buy-and-sell-stock-ii",
+    "remove-all-adjacent-duplicates-in-string",
+    "merge-intervals",
+    "integer-to-roman",
+    "remove-all-occurrences-of-a-substring"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 13,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "largest-palindromic-number",
+        "number": 2384,
+        "title": "Largest Palindromic Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cinema-seat-allocation",
+        "number": 1386,
+        "title": "Cinema Seat Allocation",
+        "difficulty": "Medium",
+        "frequency": 96.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+        "number": 1404,
+        "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+        "difficulty": "Medium",
+        "frequency": 92.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-potholes-that-can-be-fixed",
+        "number": 3119,
+        "title": "Maximum Number of Potholes That Can Be Fixed",
+        "difficulty": "Medium",
+        "frequency": 92.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-spaces-cleaning-robot-cleaned",
+        "number": 2061,
+        "title": "Number of Spaces Cleaning Robot Cleaned",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+        "number": 309,
+        "title": "Best Time to Buy and Sell Stock with Cooldown",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-moves-to-spread-stones-over-grid",
+        "number": 2850,
+        "title": "Minimum Moves to Spread Stones Over Grid",
+        "difficulty": "Medium",
+        "frequency": 75.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-with-maximum-minimum-value",
+        "number": 1102,
+        "title": "Path With Maximum Minimum Value",
+        "difficulty": "Medium",
+        "frequency": 75.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 65.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 65.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 65.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 65.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 65.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-occurrences-of-a-substring",
+        "number": 1910,
+        "title": "Remove All Occurrences of a Substring",
+        "difficulty": "Medium",
+        "frequency": 65.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Geico Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Geico coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/geico",
+    "keywords": [
+      "geico interview questions",
+      "geico leetcode",
+      "geico coding questions",
+      "geico online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

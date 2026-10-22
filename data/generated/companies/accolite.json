@@ -1,0 +1,215 @@
+{
+  "type": "company",
+  "slug": "accolite",
+  "name": "Accolite",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Accolite hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "replace-the-substring-for-balanced-string",
+    "rotate-non-negative-elements",
+    "merge-operations-to-turn-array-into-a-palindrome",
+    "longest-substring-without-repeating-characters",
+    "two-sum",
+    "gas-station",
+    "longest-palindromic-substring",
+    "climbing-stairs",
+    "container-with-most-water",
+    "asteroid-collision",
+    "create-maximum-number",
+    "coin-change",
+    "valid-parentheses",
+    "remove-duplicates-from-sorted-array-ii",
+    "minimum-jumps-to-reach-home",
+    "group-anagrams",
+    "maximum-subarray"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 13,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "replace-the-substring-for-balanced-string",
+        "number": 1234,
+        "title": "Replace the Substring for Balanced String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-non-negative-elements",
+        "number": 3819,
+        "title": "Rotate Non Negative Elements",
+        "difficulty": "Medium",
+        "frequency": 87.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-operations-to-turn-array-into-a-palindrome",
+        "number": 2422,
+        "title": "Merge Operations to Turn Array Into a Palindrome",
+        "difficulty": "Medium",
+        "frequency": 85,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 70,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 70,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "create-maximum-number",
+        "number": 321,
+        "title": "Create Maximum Number",
+        "difficulty": "Hard",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 63.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array-ii",
+        "number": 80,
+        "title": "Remove Duplicates from Sorted Array II",
+        "difficulty": "Medium",
+        "frequency": 55.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-jumps-to-reach-home",
+        "number": 1654,
+        "title": "Minimum Jumps to Reach Home",
+        "difficulty": "Medium",
+        "frequency": 55.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 55.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 55.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Accolite Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Accolite coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/accolite",
+    "keywords": [
+      "accolite interview questions",
+      "accolite leetcode",
+      "accolite coding questions",
+      "accolite online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

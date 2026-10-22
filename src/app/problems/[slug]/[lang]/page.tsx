@@ -34,7 +34,7 @@ export async function generateMetadata({
   const problem = getProblem(slug);
   if (!problem || !problem.solutions[lang]) return {};
   return buildMetadata({
-    title: `${problem.title} ${problem.solutions[lang].language} Solution | AlgoForge`,
+    title: `${problem.title} ${problem.solutions[lang].language} Solution | DSALoop by CampusLoop`,
     description: `${problem.solutions[lang].language} solution for ${problem.title} (LeetCode #${problem.number}). Time ${problem.timeComplexity}, space ${problem.spaceComplexity}.`,
     keywords: [
       `${problem.title} ${lang}`,

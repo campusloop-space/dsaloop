@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "jane-street",
+  "name": "Jane Street",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Jane Street hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "count-common-words-with-one-occurrence",
+    "minimum-time-to-make-array-sum-at-most-x",
+    "walking-robot-simulation",
+    "design-a-text-editor",
+    "teemo-attacking",
+    "lru-cache",
+    "add-strings",
+    "two-sum",
+    "number-of-orders-in-the-backlog",
+    "add-two-numbers",
+    "longest-common-prefix",
+    "add-two-integers",
+    "valid-parentheses"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 4,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "count-common-words-with-one-occurrence",
+        "number": 2085,
+        "title": "Count Common Words With One Occurrence",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-make-array-sum-at-most-x",
+        "number": 2809,
+        "title": "Minimum Time to Make Array Sum At Most x",
+        "difficulty": "Hard",
+        "frequency": 93.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "walking-robot-simulation",
+        "number": 874,
+        "title": "Walking Robot Simulation",
+        "difficulty": "Medium",
+        "frequency": 93.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 74.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "teemo-attacking",
+        "number": 495,
+        "title": "Teemo Attacking",
+        "difficulty": "Easy",
+        "frequency": 74.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 74.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-strings",
+        "number": 415,
+        "title": "Add Strings",
+        "difficulty": "Easy",
+        "frequency": 67.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 67.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-orders-in-the-backlog",
+        "number": 1801,
+        "title": "Number of Orders in the Backlog",
+        "difficulty": "Medium",
+        "frequency": 67.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 67.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 58.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-integers",
+        "number": 2235,
+        "title": "Add Two Integers",
+        "difficulty": "Easy",
+        "frequency": 58.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 58.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Jane Street Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Jane Street coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/jane-street",
+    "keywords": [
+      "jane street interview questions",
+      "jane street leetcode",
+      "jane street coding questions",
+      "jane street online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "type": "company",
+  "slug": "qualcomm",
+  "name": "Qualcomm",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Qualcomm hiring and placement rounds.",
+  "problemCount": 51,
+  "problemSlugs": [
+    "reverse-nodes-in-k-group",
+    "string-compression-iii",
+    "maximum-number-of-ones",
+    "reverse-linked-list",
+    "number-of-islands",
+    "two-sum",
+    "longest-substring-without-repeating-characters",
+    "lru-cache",
+    "reverse-string",
+    "palindrome-number",
+    "valid-parentheses",
+    "rotate-image",
+    "implement-queue-using-stacks",
+    "rectangle-overlap",
+    "majority-element",
+    "trapping-rain-water",
+    "count-array-pairs-divisible-by-k",
+    "move-zeroes",
+    "3sum",
+    "climbing-stairs",
+    "power-of-two",
+    "reverse-bits",
+    "remove-nth-node-from-end-of-list",
+    "design-circular-queue",
+    "linked-list-cycle",
+    "count-the-number-of-fair-pairs",
+    "median-of-two-sorted-arrays",
+    "merge-two-sorted-lists",
+    "powx-n",
+    "maximum-depth-of-binary-tree",
+    "course-schedule-ii",
+    "string-to-integer-atoi",
+    "permutations",
+    "merge-sorted-array",
+    "single-number",
+    "kth-largest-element-in-an-array",
+    "edit-distance",
+    "generate-parentheses",
+    "implement-stack-using-queues",
+    "last-substring-in-lexicographical-order",
+    "merge-k-sorted-lists",
+    "container-with-most-water",
+    "moving-average-from-data-stream",
+    "longest-common-prefix",
+    "counting-bits",
+    "peak-index-in-a-mountain-array",
+    "maximum-product-subarray",
+    "number-of-1-bits",
+    "unique-paths",
+    "next-greater-node-in-linked-list",
+    "coin-change"
+  ],
+  "difficultyBreakdown": {
+    "easy": 22,
+    "medium": 22,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-string",
+        "number": 344,
+        "title": "Reverse String",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression-iii",
+        "number": 3163,
+        "title": "String Compression III",
+        "difficulty": "Medium",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-ones",
+        "number": 1183,
+        "title": "Maximum Number of Ones",
+        "difficulty": "Hard",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 86.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-string",
+        "number": 344,
+        "title": "Reverse String",
+        "difficulty": "Easy",
+        "frequency": 81.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-queue-using-stacks",
+        "number": 232,
+        "title": "Implement Queue using Stacks",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rectangle-overlap",
+        "number": 836,
+        "title": "Rectangle Overlap",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element",
+        "number": 169,
+        "title": "Majority Element",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-array-pairs-divisible-by-k",
+        "number": 2183,
+        "title": "Count Array Pairs Divisible by K",
+        "difficulty": "Hard",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "power-of-two",
+        "number": 231,
+        "title": "Power of Two",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-bits",
+        "number": 190,
+        "title": "Reverse Bits",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-nth-node-from-end-of-list",
+        "number": 19,
+        "title": "Remove Nth Node From End of List",
+        "difficulty": "Medium",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-fair-pairs",
+        "number": 2563,
+        "title": "Count the Number of Fair Pairs",
+        "difficulty": "Medium",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 68.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "powx-n",
+        "number": 50,
+        "title": "Pow(x, n)",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-depth-of-binary-tree",
+        "number": 104,
+        "title": "Maximum Depth of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-to-integer-atoi",
+        "number": 8,
+        "title": "String to Integer (atoi)",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "single-number",
+        "number": 136,
+        "title": "Single Number",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-stack-using-queues",
+        "number": 225,
+        "title": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "last-substring-in-lexicographical-order",
+        "number": 1163,
+        "title": "Last Substring in Lexicographical Order",
+        "difficulty": "Hard",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "moving-average-from-data-stream",
+        "number": 346,
+        "title": "Moving Average from Data Stream",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "counting-bits",
+        "number": 338,
+        "title": "Counting Bits",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "peak-index-in-a-mountain-array",
+        "number": 852,
+        "title": "Peak Index in a Mountain Array",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-1-bits",
+        "number": 191,
+        "title": "Number of 1 Bits",
+        "difficulty": "Easy",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths",
+        "number": 62,
+        "title": "Unique Paths",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-node-in-linked-list",
+        "number": 1019,
+        "title": "Next Greater Node In Linked List",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 57.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Qualcomm Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Qualcomm coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/qualcomm",
+    "keywords": [
+      "qualcomm interview questions",
+      "qualcomm leetcode",
+      "qualcomm coding questions",
+      "qualcomm online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

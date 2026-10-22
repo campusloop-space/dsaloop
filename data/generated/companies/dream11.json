@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "dream11",
+  "name": "Dream11",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Dream11 hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "final-prices-with-a-special-discount-in-a-shop",
+    "asteroid-collision",
+    "minimum-falling-path-sum",
+    "gas-station",
+    "3sum",
+    "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+    "partition-equal-subset-sum",
+    "longest-substring-without-repeating-characters",
+    "rotting-oranges",
+    "3sum-closest",
+    "container-with-most-water"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 9,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "final-prices-with-a-special-discount-in-a-shop",
+        "number": 1475,
+        "title": "Final Prices With a Special Discount in a Shop",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 89,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-falling-path-sum",
+        "number": 931,
+        "title": "Minimum Falling Path Sum",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+        "number": 1526,
+        "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+        "difficulty": "Hard",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-equal-subset-sum",
+        "number": 416,
+        "title": "Partition Equal Subset Sum",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum-closest",
+        "number": 16,
+        "title": "3 Sum Closest",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Dream11 Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Dream11 coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/dream11",
+    "keywords": [
+      "dream11 interview questions",
+      "dream11 leetcode",
+      "dream11 coding questions",
+      "dream11 online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

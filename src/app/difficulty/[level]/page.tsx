@@ -21,7 +21,7 @@ export async function generateMetadata({
   const { level } = await params;
   const label = level.charAt(0).toUpperCase() + level.slice(1);
   return buildMetadata({
-    title: `${label} LeetCode Problems | AlgoForge`,
+    title: `${label} LeetCode Problems | DSALoop by CampusLoop`,
     description: `Browse ${label.toLowerCase()} coding interview problems with solutions and patterns.`,
     keywords: [`${level} leetcode`, `${level} interview questions`],
     canonicalPath: `/difficulty/${level}`,

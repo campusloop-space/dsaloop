@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "hubspot",
+  "name": "Hubspot",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Hubspot hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "find-the-celebrity",
+    "simple-bank-system",
+    "merge-sorted-array",
+    "merge-intervals",
+    "two-sum",
+    "maximum-number-of-occurrences-of-a-substring",
+    "merge-two-sorted-lists",
+    "meeting-rooms-ii",
+    "find-the-k-sum-of-an-array",
+    "memoize"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 6,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "find-the-celebrity",
+        "number": 277,
+        "title": "Find the Celebrity",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 81.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 77.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 72.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-occurrences-of-a-substring",
+        "number": 1297,
+        "title": "Maximum Number of Occurrences of a Substring",
+        "difficulty": "Medium",
+        "frequency": 66.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 66.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 62.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-k-sum-of-an-array",
+        "number": 2386,
+        "title": "Find the K-Sum of an Array",
+        "difficulty": "Hard",
+        "frequency": 49.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "memoize",
+        "number": 2623,
+        "title": "Memoize",
+        "difficulty": "Medium",
+        "frequency": 49.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Hubspot Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Hubspot coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/hubspot",
+    "keywords": [
+      "hubspot interview questions",
+      "hubspot leetcode",
+      "hubspot coding questions",
+      "hubspot online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

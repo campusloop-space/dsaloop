@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export const metadata: Metadata = buildMetadata({
-  title: "DSA Topics — Interview Problem Collections | AlgoForge",
+  title: "DSA Topics — Interview Problem Collections | DSALoop by CampusLoop",
   description: "Explore coding interview topics: arrays, graphs, DP, trees, and more.",
   keywords: ["dsa topics", "leetcode topics", "graph", "dynamic programming"],
   canonicalPath: "/topics",

@@ -5,6 +5,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { siteConfig } from "@/lib/config";
 import { CuteCatMascot, CuteSparkle } from "@/components/ui/cute-illustrations";
+import { Watermark } from "@/components/ui/watermark";
 
 export const metadata: Metadata = buildMetadata({
   title: "About DSALoop — CampusLoop DSA Workspace",
@@ -58,6 +59,10 @@ export default function AboutPage() {
           </Link>
           .
         </p>
+      </div>
+
+      <div className="mt-8">
+        <Watermark variant="card" />
       </div>
     </div>
   );

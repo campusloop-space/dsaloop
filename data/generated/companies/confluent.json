@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "confluent",
+  "name": "Confluent",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Confluent hiring and placement rounds.",
+  "problemCount": 9,
+  "problemSlugs": [
+    "valid-sudoku",
+    "sudoku-solver",
+    "lru-cache",
+    "time-based-key-value-store",
+    "minimum-time-to-eat-all-grains",
+    "design-authentication-manager",
+    "combination-sum",
+    "couples-holding-hands",
+    "cache-with-time-limit"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 6,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "valid-sudoku",
+        "number": 36,
+        "title": "Valid Sudoku",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sudoku-solver",
+        "number": 37,
+        "title": "Sudoku Solver",
+        "difficulty": "Hard",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 95.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 93.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-eat-all-grains",
+        "number": 2604,
+        "title": "Minimum Time to Eat All Grains",
+        "difficulty": "Hard",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-authentication-manager",
+        "number": 1797,
+        "title": "Design Authentication Manager",
+        "difficulty": "Medium",
+        "frequency": 83.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 71.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "couples-holding-hands",
+        "number": 765,
+        "title": "Couples Holding Hands",
+        "difficulty": "Hard",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cache-with-time-limit",
+        "number": 2622,
+        "title": "Cache With Time Limit",
+        "difficulty": "Medium",
+        "frequency": 57.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Confluent Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Confluent coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/confluent",
+    "keywords": [
+      "confluent interview questions",
+      "confluent leetcode",
+      "confluent coding questions",
+      "confluent online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

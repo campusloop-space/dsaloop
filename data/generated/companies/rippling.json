@@ -1,0 +1,454 @@
+{
+  "type": "company",
+  "slug": "rippling",
+  "name": "Rippling",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Rippling hiring and placement rounds.",
+  "problemCount": 30,
+  "problemSlugs": [
+    "median-of-two-sorted-arrays",
+    "design-spreadsheet",
+    "merge-k-sorted-lists",
+    "design-excel-sum-formula",
+    "merge-two-sorted-lists",
+    "evaluate-division",
+    "number-of-visible-people-in-a-queue",
+    "maximize-amount-after-two-days-of-conversions",
+    "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+    "maximum-xor-product",
+    "top-k-frequent-elements",
+    "merge-intervals",
+    "number-of-islands",
+    "beautiful-arrangement",
+    "using-a-robot-to-print-the-lexicographically-smallest-string",
+    "maximum-nesting-depth-of-the-parentheses",
+    "synonymous-sentences",
+    "accounts-merge",
+    "lfu-cache",
+    "design-underground-system",
+    "sentence-similarity-ii",
+    "top-k-frequent-words",
+    "lru-cache",
+    "design-a-text-editor",
+    "longest-substring-without-repeating-characters",
+    "longest-substring-of-all-vowels-in-order",
+    "design-ride-sharing-system",
+    "find-median-from-data-stream",
+    "length-of-longest-subarray-with-at-most-k-frequency",
+    "time-based-key-value-store"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 21,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+        "number": 3067,
+        "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+        "difficulty": "Medium",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-nesting-depth-of-the-parentheses",
+        "number": 1614,
+        "title": "Maximum Nesting Depth of the Parentheses",
+        "difficulty": "Easy",
+        "frequency": 87.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 77.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-of-all-vowels-in-order",
+        "number": 1839,
+        "title": "Longest Substring Of All Vowels in Order",
+        "difficulty": "Medium",
+        "frequency": 77.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+        "number": 3067,
+        "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+        "difficulty": "Medium",
+        "frequency": 82,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-arrangement",
+        "number": 526,
+        "title": "Beautiful Arrangement",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-nesting-depth-of-the-parentheses",
+        "number": 1614,
+        "title": "Maximum Nesting Depth of the Parentheses",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 66.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-ride-sharing-system",
+        "number": 3829,
+        "title": "Design Ride Sharing System",
+        "difficulty": "Medium",
+        "frequency": 66.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-of-all-vowels-in-order",
+        "number": 1839,
+        "title": "Longest Substring Of All Vowels in Order",
+        "difficulty": "Medium",
+        "frequency": 66.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 66.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-spreadsheet",
+        "number": 3484,
+        "title": "Design Spreadsheet",
+        "difficulty": "Medium",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 74.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-excel-sum-formula",
+        "number": 631,
+        "title": "Design Excel Sum Formula",
+        "difficulty": "Hard",
+        "frequency": 66.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 63.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 59,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-visible-people-in-a-queue",
+        "number": 1944,
+        "title": "Number of Visible People in a Queue",
+        "difficulty": "Hard",
+        "frequency": 59,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-amount-after-two-days-of-conversions",
+        "number": 3387,
+        "title": "Maximize Amount After Two Days of Conversions",
+        "difficulty": "Medium",
+        "frequency": 59,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+        "number": 3067,
+        "title": "Count Pairs of Connectable Servers in a Weighted Tree Network",
+        "difficulty": "Medium",
+        "frequency": 59,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-xor-product",
+        "number": 2939,
+        "title": "Maximum Xor Product",
+        "difficulty": "Medium",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-arrangement",
+        "number": 526,
+        "title": "Beautiful Arrangement",
+        "difficulty": "Medium",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-nesting-depth-of-the-parentheses",
+        "number": 1614,
+        "title": "Maximum Nesting Depth of the Parentheses",
+        "difficulty": "Easy",
+        "frequency": 53.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "synonymous-sentences",
+        "number": 1258,
+        "title": "Synonymous Sentences",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "accounts-merge",
+        "number": 721,
+        "title": "Accounts Merge",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-underground-system",
+        "number": 1396,
+        "title": "Design Underground System",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sentence-similarity-ii",
+        "number": 737,
+        "title": "Sentence Similarity II",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-of-all-vowels-in-order",
+        "number": 1839,
+        "title": "Longest Substring Of All Vowels in Order",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-ride-sharing-system",
+        "number": 3829,
+        "title": "Design Ride Sharing System",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+        "number": 2958,
+        "title": "Length of Longest Subarray With at Most K Frequency",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 45.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Rippling Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Rippling coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/rippling",
+    "keywords": [
+      "rippling interview questions",
+      "rippling leetcode",
+      "rippling coding questions",
+      "rippling online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

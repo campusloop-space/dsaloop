@@ -1,0 +1,235 @@
+{
+  "type": "company",
+  "slug": "deutsche-bank",
+  "name": "Deutsche Bank",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Deutsche Bank hiring and placement rounds.",
+  "problemCount": 19,
+  "problemSlugs": [
+    "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+    "apply-operations-to-maximize-frequency-score",
+    "maximum-coins-heroes-can-collect",
+    "the-time-when-the-network-becomes-idle",
+    "maximum-running-time-of-n-computers",
+    "pour-water-between-buckets-to-make-water-levels-equal",
+    "find-the-maximum-sum-of-node-values",
+    "minimum-operations-to-make-the-array-increasing",
+    "minimum-operations-to-collect-elements",
+    "different-ways-to-add-parentheses",
+    "reverse-words-in-a-string",
+    "longest-common-prefix",
+    "best-time-to-buy-and-sell-stock",
+    "squares-of-a-sorted-array",
+    "n-queens-ii",
+    "pascals-triangle",
+    "split-array-with-same-average",
+    "coin-change",
+    "spiral-matrix"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 7,
+    "hard": 6
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+        "number": 2030,
+        "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "apply-operations-to-maximize-frequency-score",
+        "number": 2968,
+        "title": "Apply Operations to Maximize Frequency Score",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-coins-heroes-can-collect",
+        "number": 2838,
+        "title": "Maximum Coins Heroes Can Collect",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-time-when-the-network-becomes-idle",
+        "number": 2039,
+        "title": "The Time When the Network Becomes Idle",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-running-time-of-n-computers",
+        "number": 2141,
+        "title": "Maximum Running Time of N Computers",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pour-water-between-buckets-to-make-water-levels-equal",
+        "number": 2137,
+        "title": "Pour Water Between Buckets to Make Water Levels Equal",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-maximum-sum-of-node-values",
+        "number": 3068,
+        "title": "Find the Maximum Sum of Node Values",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-make-the-array-increasing",
+        "number": 1827,
+        "title": "Minimum Operations to Make the Array Increasing",
+        "difficulty": "Easy",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-collect-elements",
+        "number": 2869,
+        "title": "Minimum Operations to Collect Elements",
+        "difficulty": "Easy",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "different-ways-to-add-parentheses",
+        "number": 241,
+        "title": "Different Ways to Add Parentheses",
+        "difficulty": "Medium",
+        "frequency": 79.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "squares-of-a-sorted-array",
+        "number": 977,
+        "title": "Squares of a Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "n-queens-ii",
+        "number": 52,
+        "title": "N-Queens-II",
+        "difficulty": "Hard",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pascals-triangle",
+        "number": 118,
+        "title": "Pascal's Triangle",
+        "difficulty": "Easy",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-with-same-average",
+        "number": 805,
+        "title": "Split Array With Same Average",
+        "difficulty": "Hard",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 61.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Deutsche Bank Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Deutsche Bank coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/deutsche-bank",
+    "keywords": [
+      "deutsche bank interview questions",
+      "deutsche bank leetcode",
+      "deutsche bank coding questions",
+      "deutsche bank online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Algorithm Glossary | AlgoForge",
+  title: "Algorithm Glossary | DSALoop by CampusLoop",
   description: "Definitions of common algorithms, data structures, and interview patterns.",
   keywords: ["algorithm glossary", "data structure definitions"],
   canonicalPath: "/glossary",

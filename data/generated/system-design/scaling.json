@@ -1,0 +1,173 @@
+{
+  "chapterNumber": 1,
+  "slug": "scaling",
+  "title": "Scale from Zero to Millions of Users",
+  "subtitle": "Scaling a system to support millions of users is a complex, iterative journey requiring refinement and optimization. This chapter outlines how to begin with a single server setup and scale the architecture step by step to handle millions of users.",
+  "readTimeMinutes": 8,
+  "tags": [
+    "Scalability",
+    "Architecture",
+    "Database",
+    "Caching"
+  ],
+  "imagesCount": 12,
+  "markdown": "## Introduction\nScaling a system to support millions of users is a complex, iterative journey requiring refinement and optimization. This chapter outlines how to begin with a single server setup and scale the architecture step by step to handle millions of users.\n\n---\n\n## Section 1: Single Server Setup\nInitially, all components (web app, database, cache) run on a single server. \n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/single-server.png)\n\n\n\n\n\n\n### Request Flow\n1. Users access the application via domain names (e.g., `api.mysite.com`), resolved to IP addresses using DNS.\n2. IP address of the web-server is returned to the browser or mobile app.\n3. HTTP requests are sent to the web server, which returns HTML or JSON responses.\n\n### Traffic Sources\n1. **Web Applications:** Use server-side languages (e.g., Python, Java) for business logic and client-side languages (e.g., JavaScript, HTML) for presentation.\n2. **Mobile Applications:** Communicate with the web server using HTTP and JSON for lightweight data exchange.\n\n---\n\n## Section 2: Database Separation\nAs the user base grows, the database is moved to a dedicated server to allow independent scaling of web and database tiers.\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/database.png)\n\n\n\n\n\n\n### Database Choices\n\n1. **Relational Databases (SQL):** Structured data stored in tables. Examples: MySQL, PostgreSQL.\n2. **Non-Relational Databases (NoSQL):** Suitable for unstructured data or low-latency requirements. Categories include:\n   - Key-Value Stores\n   - Graph Databases\n   - Column Stores\n   - Document Stores\n\n- Non-relational databases might be the right choice if:\n   - application requires super-low latency.\n   - data is unstructured, or  there is no relational data.\n   - only need to serialize and deserialize data (JSON, XML, YAML, etc.).\n   - need to store a massive amount of data.\n\n---\n\n## Section 3: Vertical vs Horizontal Scaling\n### Vertical Scaling\n- Adds more resources (CPU, RAM) to existing servers.\n- Limited by hardware constraints and lacks redundancy.\n\n### Horizontal Scaling\n- Adds more servers to the pool, making it more suitable for large-scale systems.\n- A load balancer is used to handle the request routing between the servers.\n---\n\n## Section 4: Load Balancer\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/load-balancer.png)\n\n\n\n\n\n\nA **load balancer** distributes traffic among multiple servers. Benefits include:\n1. Redundancy: If a server goes offline, traffic is rerouted.\n   -  If server 1 goes offline, all the traffic will be routed to server 2.\n2. Scalability: Easily add servers to handle traffic spikes.\n   -  If the website traffic grows rapidly, subsequent servers can be added to handle the additional traffic.\n\n---\n\n## Section 5: Database Replication\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/database-replication.png)\n\n\n\n\n\n\n### Master-Slave Model\n- **Master Database:** Handles write operations.\n   - All the data-modifying commands like insert, delete, or update must be sent to the master database.\n- **Slave Databases:** Handle read operations, improving performance and reliability.\n   - Since the ratio of reads to writes is higher in most applications; thus, the number of slave\ndatabases in a system is usually larger than the number of master databases.\n\n### Benefits\n1. Improved performance through parallel read operations.\n2. High availability and data reliability through redundancy.\n\n\n### Failure Handling\n- If only one slave database is available and it goes offline, read operations will be directed\nto the master database temporarily.\n- In case multiple slave databases are available, read operations are\nredirected to other healthy slave databases and a new server will replace the old one. \n-  If the master database goes offline, a slave database will be promoted to be the new\nmaster.\n- In production system the chosen slave database might not be up to date, hence data needs to be updated by running data\nrecovery scripts (methods like multi-masters and circular replication could help).\n\n---\n\n## Section 6: Caching\nA **cache** stores frequently accessed data in memory to reduce database load. The cache tier is a temporary data store layer, much faster than the database. \n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/cache.png)\n\n\n\n\n\n\n### Caching considerations\n1. **Use case**: Consider using cache when data is read frequently but modified infrequently.\n2. **Expiration Policies:** Once cached data is expired, it is removed from the cache. When there is no expiration policy, cached\ndata will be stored in the memory permanently.\n3. **Consistency:** This means keeping the data store and the cache in sync. Inconsistency\ncan happen because data-modifying operations on the data store and cache are not in a single transaction. \n4. **Mitigating failures**: A single cache server represents a potential single point of failure, multiple\ncache servers across different data centers are recommended to avoid SPOF.\n5. **Eviction Policies:**: Once the cache is full, items need to be evicted to free up memory. LRU is the most popular cache eviction policy.\n\n---\n\n## Section 7: Content Delivery Network (CDN)\nA **CDN** improves load times by caching static content (images, CSS, JavaScript) on geographically distributed servers.\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/cdn.png)\n\n\n\n\n\n\n### Workflow\n1. User requests content from the nearest CDN server.\n2. If unavailable, content is fetched from the origin server and cached.\n\n\n### CDN considerations\n1. **Cost:** CDNs are run by third-party providers which charge for data transfers in and out of the CDN.\n2. **Cache Expiry:** The cache expiry time should neither be too long nor too short.\n3. **CDN fallback:** If there is a temporary CDN outage, clients should be able to detect the problem\nand request resources from the origin.\n4. **Invalidating files:** If files are updated the cache should be invalidated to point to the updated files.\n\n---\n\n## Section 8: Stateless Web Tier\nBy moving session data to a shared datastore, web servers become stateless. This allows:\n1. Easier horizontal scaling.\n2. Auto-scaling based on traffic.\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/stateless.png)\n\n\n\n\n\n\n---\n\n## Section 9: Multi-Data Center Setup\nDeploying across multiple data centers improves availability and reduces latency. Strategies include:\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/data-center.png)\n\n\n\n\n\n\n1. **GeoDNS Routing:** Direct users to the nearest data center.\n2. **Data Replication:** Synchronize data across centers to prevent inconsistencies.\n\n### Key considerations\n- **Traffic redirection:** Effective tools are needed to direct traffic to the correct data center.\n- **Data synchronization:** A common strategy is to replicate data across multiple data centers. \n- **Test and deployment:**  Automated deployment tools are vital to keep services consistent through all the data centers.\n\n---\n\n## Section 10: Message Queue\nA **message queue** is a durable component, stored in memory, that supports asynchronous\ncommunication. It serves as a buffer and distributes asynchronous requests.\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images//message-queue.png)\n\n\n\n\n\n\n- Input services, called producers/publishers, create messages, and publish them to a message queue.\n- Other services called consumers/subscribers, connect to the queue, and perform actions defined by the messages.\n\n---\n\n## Section 11: Logging, Metrics, and Automation\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/logging.png)\n\n\n\n\n\n\n### Importance\n1. **Logging:** Tracks errors and system health.\n2. **Metrics:** Provides insights into performance and user activity.\n3. **Automation:** Streamlines testing, deployment, and scaling.\n\n---\n\n## Section 12: Database Scaling\n### Vertical Scaling\n- Adds hardware resources but has physical and cost limitations.\n- Has multiple drawbacks:\n   -  Greater risk of single point of failures.\n   -  Overall cost of vertical scaling is high\n\n### Horizontal Scaling (Sharding)\n\n\n\n\n   \n\n![](/system-design-assets/scaling/images/horizontal-scaling.png)\n\n\n\n\n\n\n- Divides data across multiple shards using keys (e.g., `user_id`).\n   - Sharding separates large databases into smaller, more easily managed parts called shards.\n   - Each shard shares the same schema, though the actual data on each shard is unique to the shard.\n-  Sharding key is critical when implementing a sharding strategy. When choosing a sharding key it is important to choose a key that can evenly distribute data.\n\n#### Challenges \n1. **Resharding data:** Resharding data is needed when:\n   - Single shard could no longer hold more data due to rapid growth. \n   - Certain shards might experience shard exhaustion faster than others due to uneven data distribution.\n   - Consistent Hashing is used to overcome these problems\n\n2. **Celebrity problem:**  Excessive access to a specific shard could cause server overload.\n   - To solve this problem, we may need to allocate a shard for each celebrity.\n\n3. **Join and de-normalization:** Once a database has been sharded across multiple servers, it is hard to perform join operations across database shards.\n   -  A common workaround is to de-normalize the database so that queries can be performed in a single table.\n\n---\n\n## Conclusion\n### Key Takeaways\n1. Keep the web tier stateless.\n2. Build redundancy at every tier.\n3. Use caching and CDNs to optimize performance.\n4. Scale the data tier with sharding.\n5. Decouple components for flexibility.\n\nThis chapter provides a solid foundation for building scalable systems that can handle millions of users.\n\n---\n\n> 🎓 **DSALoop by [CampusLoop](https://campusloop.space/)** — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.",
+  "html": "<h2>Introduction</h2>\n<p>Scaling a system to support millions of users is a complex, iterative journey requiring refinement and optimization. This chapter outlines how to begin with a single server setup and scale the architecture step by step to handle millions of users.</p>\n<hr>\n<h2>Section 1: Single Server Setup</h2>\n<p>Initially, all components (web app, database, cache) run on a single server.</p>\n<p><img src=\"/system-design-assets/scaling/images/single-server.png\" alt=\"\"></p>\n<h3>Request Flow</h3>\n<ol>\n<li>Users access the application via domain names (e.g., <code>api.mysite.com</code>), resolved to IP addresses using DNS.</li>\n<li>IP address of the web-server is returned to the browser or mobile app.</li>\n<li>HTTP requests are sent to the web server, which returns HTML or JSON responses.</li>\n</ol>\n<h3>Traffic Sources</h3>\n<ol>\n<li><strong>Web Applications:</strong> Use server-side languages (e.g., Python, Java) for business logic and client-side languages (e.g., JavaScript, HTML) for presentation.</li>\n<li><strong>Mobile Applications:</strong> Communicate with the web server using HTTP and JSON for lightweight data exchange.</li>\n</ol>\n<hr>\n<h2>Section 2: Database Separation</h2>\n<p>As the user base grows, the database is moved to a dedicated server to allow independent scaling of web and database tiers.</p>\n<p><img src=\"/system-design-assets/scaling/images/database.png\" alt=\"\"></p>\n<h3>Database Choices</h3>\n<ol>\n<li><strong>Relational Databases (SQL):</strong> Structured data stored in tables. Examples: MySQL, PostgreSQL.</li>\n<li><strong>Non-Relational Databases (NoSQL):</strong> Suitable for unstructured data or low-latency requirements. Categories include:\n<ul>\n<li>Key-Value Stores</li>\n<li>Graph Databases</li>\n<li>Column Stores</li>\n<li>Document Stores</li>\n</ul>\n</li>\n</ol>\n<ul>\n<li>Non-relational databases might be the right choice if:\n<ul>\n<li>application requires super-low latency.</li>\n<li>data is unstructured, or  there is no relational data.</li>\n<li>only need to serialize and deserialize data (JSON, XML, YAML, etc.).</li>\n<li>need to store a massive amount of data.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h2>Section 3: Vertical vs Horizontal Scaling</h2>\n<h3>Vertical Scaling</h3>\n<ul>\n<li>Adds more resources (CPU, RAM) to existing servers.</li>\n<li>Limited by hardware constraints and lacks redundancy.</li>\n</ul>\n<h3>Horizontal Scaling</h3>\n<ul>\n<li>Adds more servers to the pool, making it more suitable for large-scale systems.</li>\n<li>A load balancer is used to handle the request routing between the servers.</li>\n</ul>\n<hr>\n<h2>Section 4: Load Balancer</h2>\n<p><img src=\"/system-design-assets/scaling/images/load-balancer.png\" alt=\"\"></p>\n<p>A <strong>load balancer</strong> distributes traffic among multiple servers. Benefits include:</p>\n<ol>\n<li>Redundancy: If a server goes offline, traffic is rerouted.\n<ul>\n<li>If server 1 goes offline, all the traffic will be routed to server 2.</li>\n</ul>\n</li>\n<li>Scalability: Easily add servers to handle traffic spikes.\n<ul>\n<li>If the website traffic grows rapidly, subsequent servers can be added to handle the additional traffic.</li>\n</ul>\n</li>\n</ol>\n<hr>\n<h2>Section 5: Database Replication</h2>\n<p><img src=\"/system-design-assets/scaling/images/database-replication.png\" alt=\"\"></p>\n<h3>Master-Slave Model</h3>\n<ul>\n<li><strong>Master Database:</strong> Handles write operations.\n<ul>\n<li>All the data-modifying commands like insert, delete, or update must be sent to the master database.</li>\n</ul>\n</li>\n<li><strong>Slave Databases:</strong> Handle read operations, improving performance and reliability.\n<ul>\n<li>Since the ratio of reads to writes is higher in most applications; thus, the number of slave\ndatabases in a system is usually larger than the number of master databases.</li>\n</ul>\n</li>\n</ul>\n<h3>Benefits</h3>\n<ol>\n<li>Improved performance through parallel read operations.</li>\n<li>High availability and data reliability through redundancy.</li>\n</ol>\n<h3>Failure Handling</h3>\n<ul>\n<li>If only one slave database is available and it goes offline, read operations will be directed\nto the master database temporarily.</li>\n<li>In case multiple slave databases are available, read operations are\nredirected to other healthy slave databases and a new server will replace the old one.</li>\n<li>If the master database goes offline, a slave database will be promoted to be the new\nmaster.</li>\n<li>In production system the chosen slave database might not be up to date, hence data needs to be updated by running data\nrecovery scripts (methods like multi-masters and circular replication could help).</li>\n</ul>\n<hr>\n<h2>Section 6: Caching</h2>\n<p>A <strong>cache</strong> stores frequently accessed data in memory to reduce database load. The cache tier is a temporary data store layer, much faster than the database.</p>\n<p><img src=\"/system-design-assets/scaling/images/cache.png\" alt=\"\"></p>\n<h3>Caching considerations</h3>\n<ol>\n<li><strong>Use case</strong>: Consider using cache when data is read frequently but modified infrequently.</li>\n<li><strong>Expiration Policies:</strong> Once cached data is expired, it is removed from the cache. When there is no expiration policy, cached\ndata will be stored in the memory permanently.</li>\n<li><strong>Consistency:</strong> This means keeping the data store and the cache in sync. Inconsistency\ncan happen because data-modifying operations on the data store and cache are not in a single transaction.</li>\n<li><strong>Mitigating failures</strong>: A single cache server represents a potential single point of failure, multiple\ncache servers across different data centers are recommended to avoid SPOF.</li>\n<li><strong>Eviction Policies:</strong>: Once the cache is full, items need to be evicted to free up memory. LRU is the most popular cache eviction policy.</li>\n</ol>\n<hr>\n<h2>Section 7: Content Delivery Network (CDN)</h2>\n<p>A <strong>CDN</strong> improves load times by caching static content (images, CSS, JavaScript) on geographically distributed servers.</p>\n<p><img src=\"/system-design-assets/scaling/images/cdn.png\" alt=\"\"></p>\n<h3>Workflow</h3>\n<ol>\n<li>User requests content from the nearest CDN server.</li>\n<li>If unavailable, content is fetched from the origin server and cached.</li>\n</ol>\n<h3>CDN considerations</h3>\n<ol>\n<li><strong>Cost:</strong> CDNs are run by third-party providers which charge for data transfers in and out of the CDN.</li>\n<li><strong>Cache Expiry:</strong> The cache expiry time should neither be too long nor too short.</li>\n<li><strong>CDN fallback:</strong> If there is a temporary CDN outage, clients should be able to detect the problem\nand request resources from the origin.</li>\n<li><strong>Invalidating files:</strong> If files are updated the cache should be invalidated to point to the updated files.</li>\n</ol>\n<hr>\n<h2>Section 8: Stateless Web Tier</h2>\n<p>By moving session data to a shared datastore, web servers become stateless. This allows:</p>\n<ol>\n<li>Easier horizontal scaling.</li>\n<li>Auto-scaling based on traffic.</li>\n</ol>\n<p><img src=\"/system-design-assets/scaling/images/stateless.png\" alt=\"\"></p>\n<hr>\n<h2>Section 9: Multi-Data Center Setup</h2>\n<p>Deploying across multiple data centers improves availability and reduces latency. Strategies include:</p>\n<p><img src=\"/system-design-assets/scaling/images/data-center.png\" alt=\"\"></p>\n<ol>\n<li><strong>GeoDNS Routing:</strong> Direct users to the nearest data center.</li>\n<li><strong>Data Replication:</strong> Synchronize data across centers to prevent inconsistencies.</li>\n</ol>\n<h3>Key considerations</h3>\n<ul>\n<li><strong>Traffic redirection:</strong> Effective tools are needed to direct traffic to the correct data center.</li>\n<li><strong>Data synchronization:</strong> A common strategy is to replicate data across multiple data centers.</li>\n<li><strong>Test and deployment:</strong>  Automated deployment tools are vital to keep services consistent through all the data centers.</li>\n</ul>\n<hr>\n<h2>Section 10: Message Queue</h2>\n<p>A <strong>message queue</strong> is a durable component, stored in memory, that supports asynchronous\ncommunication. It serves as a buffer and distributes asynchronous requests.</p>\n<p><img src=\"/system-design-assets/scaling/images//message-queue.png\" alt=\"\"></p>\n<ul>\n<li>Input services, called producers/publishers, create messages, and publish them to a message queue.</li>\n<li>Other services called consumers/subscribers, connect to the queue, and perform actions defined by the messages.</li>\n</ul>\n<hr>\n<h2>Section 11: Logging, Metrics, and Automation</h2>\n<p><img src=\"/system-design-assets/scaling/images/logging.png\" alt=\"\"></p>\n<h3>Importance</h3>\n<ol>\n<li><strong>Logging:</strong> Tracks errors and system health.</li>\n<li><strong>Metrics:</strong> Provides insights into performance and user activity.</li>\n<li><strong>Automation:</strong> Streamlines testing, deployment, and scaling.</li>\n</ol>\n<hr>\n<h2>Section 12: Database Scaling</h2>\n<h3>Vertical Scaling</h3>\n<ul>\n<li>Adds hardware resources but has physical and cost limitations.</li>\n<li>Has multiple drawbacks:\n<ul>\n<li>Greater risk of single point of failures.</li>\n<li>Overall cost of vertical scaling is high</li>\n</ul>\n</li>\n</ul>\n<h3>Horizontal Scaling (Sharding)</h3>\n<p><img src=\"/system-design-assets/scaling/images/horizontal-scaling.png\" alt=\"\"></p>\n<ul>\n<li>Divides data across multiple shards using keys (e.g., <code>user_id</code>).\n<ul>\n<li>Sharding separates large databases into smaller, more easily managed parts called shards.</li>\n<li>Each shard shares the same schema, though the actual data on each shard is unique to the shard.</li>\n</ul>\n</li>\n<li>Sharding key is critical when implementing a sharding strategy. When choosing a sharding key it is important to choose a key that can evenly distribute data.</li>\n</ul>\n<h4>Challenges</h4>\n<ol>\n<li>\n<p><strong>Resharding data:</strong> Resharding data is needed when:</p>\n<ul>\n<li>Single shard could no longer hold more data due to rapid growth.</li>\n<li>Certain shards might experience shard exhaustion faster than others due to uneven data distribution.</li>\n<li>Consistent Hashing is used to overcome these problems</li>\n</ul>\n</li>\n<li>\n<p><strong>Celebrity problem:</strong>  Excessive access to a specific shard could cause server overload.</p>\n<ul>\n<li>To solve this problem, we may need to allocate a shard for each celebrity.</li>\n</ul>\n</li>\n<li>\n<p><strong>Join and de-normalization:</strong> Once a database has been sharded across multiple servers, it is hard to perform join operations across database shards.</p>\n<ul>\n<li>A common workaround is to de-normalize the database so that queries can be performed in a single table.</li>\n</ul>\n</li>\n</ol>\n<hr>\n<h2>Conclusion</h2>\n<h3>Key Takeaways</h3>\n<ol>\n<li>Keep the web tier stateless.</li>\n<li>Build redundancy at every tier.</li>\n<li>Use caching and CDNs to optimize performance.</li>\n<li>Scale the data tier with sharding.</li>\n<li>Decouple components for flexibility.</li>\n</ol>\n<p>This chapter provides a solid foundation for building scalable systems that can handle millions of users.</p>\n<hr>\n<blockquote>\n<p>🎓 <strong>DSALoop by <a href=\"https://campusloop.space/\">CampusLoop</a></strong> — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.</p>\n</blockquote>\n",
+  "tableOfContents": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2
+    },
+    {
+      "id": "section-1-single-server-setup",
+      "title": "Section 1: Single Server Setup",
+      "level": 2
+    },
+    {
+      "id": "request-flow",
+      "title": "Request Flow",
+      "level": 3
+    },
+    {
+      "id": "traffic-sources",
+      "title": "Traffic Sources",
+      "level": 3
+    },
+    {
+      "id": "section-2-database-separation",
+      "title": "Section 2: Database Separation",
+      "level": 2
+    },
+    {
+      "id": "database-choices",
+      "title": "Database Choices",
+      "level": 3
+    },
+    {
+      "id": "section-3-vertical-vs-horizontal-scaling",
+      "title": "Section 3: Vertical vs Horizontal Scaling",
+      "level": 2
+    },
+    {
+      "id": "vertical-scaling",
+      "title": "Vertical Scaling",
+      "level": 3
+    },
+    {
+      "id": "horizontal-scaling",
+      "title": "Horizontal Scaling",
+      "level": 3
+    },
+    {
+      "id": "section-4-load-balancer",
+      "title": "Section 4: Load Balancer",
+      "level": 2
+    },
+    {
+      "id": "section-5-database-replication",
+      "title": "Section 5: Database Replication",
+      "level": 2
+    },
+    {
+      "id": "master-slave-model",
+      "title": "Master-Slave Model",
+      "level": 3
+    },
+    {
+      "id": "benefits",
+      "title": "Benefits",
+      "level": 3
+    },
+    {
+      "id": "failure-handling",
+      "title": "Failure Handling",
+      "level": 3
+    },
+    {
+      "id": "section-6-caching",
+      "title": "Section 6: Caching",
+      "level": 2
+    },
+    {
+      "id": "caching-considerations",
+      "title": "Caching considerations",
+      "level": 3
+    },
+    {
+      "id": "section-7-content-delivery-network-cdn",
+      "title": "Section 7: Content Delivery Network (CDN)",
+      "level": 2
+    },
+    {
+      "id": "workflow",
+      "title": "Workflow",
+      "level": 3
+    },
+    {
+      "id": "cdn-considerations",
+      "title": "CDN considerations",
+      "level": 3
+    },
+    {
+      "id": "section-8-stateless-web-tier",
+      "title": "Section 8: Stateless Web Tier",
+      "level": 2
+    },
+    {
+      "id": "section-9-multi-data-center-setup",
+      "title": "Section 9: Multi-Data Center Setup",
+      "level": 2
+    },
+    {
+      "id": "key-considerations",
+      "title": "Key considerations",
+      "level": 3
+    },
+    {
+      "id": "section-10-message-queue",
+      "title": "Section 10: Message Queue",
+      "level": 2
+    },
+    {
+      "id": "section-11-logging-metrics-and-automation",
+      "title": "Section 11: Logging, Metrics, and Automation",
+      "level": 2
+    },
+    {
+      "id": "importance",
+      "title": "Importance",
+      "level": 3
+    },
+    {
+      "id": "section-12-database-scaling",
+      "title": "Section 12: Database Scaling",
+      "level": 2
+    },
+    {
+      "id": "vertical-scaling",
+      "title": "Vertical Scaling",
+      "level": 3
+    },
+    {
+      "id": "horizontal-scaling-sharding",
+      "title": "Horizontal Scaling (Sharding)",
+      "level": 3
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "key-takeaways",
+      "title": "Key Takeaways",
+      "level": 3
+    }
+  ],
+  "nextChapter": {
+    "slug": "back-of-the-envelope-estimation",
+    "title": "Back-of-the-Envelope Estimation",
+    "chapterNumber": 2
+  }
+}

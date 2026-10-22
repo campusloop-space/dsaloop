@@ -1,0 +1,235 @@
+{
+  "type": "company",
+  "slug": "teradata",
+  "name": "Teradata",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Teradata hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "minimum-cost-to-hire-k-workers",
+    "maximize-the-minimum-powered-city",
+    "minimum-jumps-to-reach-end-via-prime-teleportation",
+    "remove-boxes",
+    "find-the-sum-of-the-power-of-all-subsequences",
+    "minimum-operations-to-make-binary-palindrome",
+    "reducing-dishes",
+    "count-pairs-in-two-arrays"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 3,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "minimum-cost-to-hire-k-workers",
+        "number": 857,
+        "title": "Minimum Cost to Hire K Workers",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+        "number": 3629,
+        "title": "Minimum Jumps to Reach End via Prime Teleportation",
+        "difficulty": "Medium",
+        "frequency": 98.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-sum-of-the-power-of-all-subsequences",
+        "number": 3082,
+        "title": "Find the Sum of the Power of All Subsequences",
+        "difficulty": "Hard",
+        "frequency": 91.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "maximize-the-minimum-powered-city",
+        "number": 2528,
+        "title": "Maximize the Minimum Powered City",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-hire-k-workers",
+        "number": 857,
+        "title": "Minimum Cost to Hire K Workers",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+        "number": 3629,
+        "title": "Minimum Jumps to Reach End via Prime Teleportation",
+        "difficulty": "Medium",
+        "frequency": 98.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-sum-of-the-power-of-all-subsequences",
+        "number": 3082,
+        "title": "Find the Sum of the Power of All Subsequences",
+        "difficulty": "Hard",
+        "frequency": 90.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reducing-dishes",
+        "number": 1402,
+        "title": "Reducing Dishes",
+        "difficulty": "Hard",
+        "frequency": 73.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "maximize-the-minimum-powered-city",
+        "number": 2528,
+        "title": "Maximize the Minimum Powered City",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-hire-k-workers",
+        "number": 857,
+        "title": "Minimum Cost to Hire K Workers",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+        "number": 3629,
+        "title": "Minimum Jumps to Reach End via Prime Teleportation",
+        "difficulty": "Medium",
+        "frequency": 98.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-sum-of-the-power-of-all-subsequences",
+        "number": 3082,
+        "title": "Find the Sum of the Power of All Subsequences",
+        "difficulty": "Hard",
+        "frequency": 90.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reducing-dishes",
+        "number": 1402,
+        "title": "Reducing Dishes",
+        "difficulty": "Hard",
+        "frequency": 73.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "minimum-cost-to-hire-k-workers",
+        "number": 857,
+        "title": "Minimum Cost to Hire K Workers",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-the-minimum-powered-city",
+        "number": 2528,
+        "title": "Maximize the Minimum Powered City",
+        "difficulty": "Hard",
+        "frequency": 98.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+        "number": 3629,
+        "title": "Minimum Jumps to Reach End via Prime Teleportation",
+        "difficulty": "Medium",
+        "frequency": 96.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-boxes",
+        "number": 546,
+        "title": "Remove Boxes",
+        "difficulty": "Hard",
+        "frequency": 91.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-sum-of-the-power-of-all-subsequences",
+        "number": 3082,
+        "title": "Find the Sum of the Power of All Subsequences",
+        "difficulty": "Hard",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-make-binary-palindrome",
+        "number": 3766,
+        "title": "Minimum Operations to Make Binary Palindrome",
+        "difficulty": "Medium",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reducing-dishes",
+        "number": 1402,
+        "title": "Reducing Dishes",
+        "difficulty": "Hard",
+        "frequency": 71.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-pairs-in-two-arrays",
+        "number": 1885,
+        "title": "Count Pairs in Two Arrays",
+        "difficulty": "Medium",
+        "frequency": 56.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Teradata Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Teradata coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/teradata",
+    "keywords": [
+      "teradata interview questions",
+      "teradata leetcode",
+      "teradata coding questions",
+      "teradata online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

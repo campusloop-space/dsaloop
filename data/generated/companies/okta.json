@@ -1,0 +1,293 @@
+{
+  "type": "company",
+  "slug": "okta",
+  "name": "Okta",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Okta hiring and placement rounds.",
+  "problemCount": 23,
+  "problemSlugs": [
+    "lru-cache",
+    "simple-bank-system",
+    "insert-delete-getrandom-o1",
+    "find-median-from-data-stream",
+    "all-nodes-distance-k-in-binary-tree",
+    "group-anagrams",
+    "longest-consecutive-sequence",
+    "insert-delete-getrandom-o1-duplicates-allowed",
+    "merge-intervals",
+    "median-of-two-sorted-arrays",
+    "container-with-most-water",
+    "making-file-names-unique",
+    "range-sum-query-2d-immutable",
+    "word-ladder-ii",
+    "word-ladder",
+    "task-scheduler",
+    "product-of-array-except-self",
+    "koko-eating-bananas",
+    "split-array-largest-sum",
+    "design-movie-rental-system",
+    "alien-dictionary",
+    "reverse-substrings-between-each-pair-of-parentheses",
+    "word-search"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 15,
+    "hard": 8
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+        "number": 381,
+        "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-movie-rental-system",
+        "number": 1912,
+        "title": "Design Movie Rental System",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 95.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "all-nodes-distance-k-in-binary-tree",
+        "number": 863,
+        "title": "All Nodes Distance K in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+        "number": 381,
+        "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+        "difficulty": "Hard",
+        "frequency": 81.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-file-names-unique",
+        "number": 1487,
+        "title": "Making File Names Unique",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "range-sum-query-2d-immutable",
+        "number": 304,
+        "title": "Range Sum Query 2D - Immutable",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder-ii",
+        "number": 126,
+        "title": "Word Ladder II",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-array-except-self",
+        "number": 238,
+        "title": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-movie-rental-system",
+        "number": 1912,
+        "title": "Design Movie Rental System",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-substrings-between-each-pair-of-parentheses",
+        "number": 1190,
+        "title": "Reverse Substrings Between Each Pair of Parentheses",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 70.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Okta Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Okta coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/okta",
+    "keywords": [
+      "okta interview questions",
+      "okta leetcode",
+      "okta coding questions",
+      "okta online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

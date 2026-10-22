@@ -2,20 +2,348 @@
   "type": "company",
   "slug": "lyft",
   "name": "Lyft",
-  "description": "Coding interview preparation for Lyft: high-frequency patterns and problem sets.",
-  "problemCount": 2,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Lyft hiring and placement rounds.",
+  "problemCount": 24,
   "problemSlugs": [
-    "product-of-array-except-self",
-    "flatten-nested-list-iterator"
+    "rotting-oranges",
+    "minimum-window-substring",
+    "read-n-characters-given-read4-ii-call-multiple-times",
+    "time-based-key-value-store",
+    "convert-sorted-list-to-binary-search-tree",
+    "check-completeness-of-a-binary-tree",
+    "car-pooling",
+    "string-compression",
+    "max-stack",
+    "word-ladder-ii",
+    "decode-ways",
+    "min-stack",
+    "coordinate-with-maximum-network-quality",
+    "sort-list",
+    "validate-binary-search-tree",
+    "longest-consecutive-sequence",
+    "implement-trie-prefix-tree",
+    "meeting-rooms-ii",
+    "water-and-jug-problem",
+    "longest-substring-without-repeating-characters",
+    "letter-combinations-of-a-phone-number",
+    "detonate-the-maximum-bombs",
+    "range-sum-query-2d-immutable",
+    "construct-binary-search-tree-from-preorder-traversal"
   ],
-  "seo": {
-    "title": "Lyft Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Lyft interviews with 2 problems, patterns, and roadmaps.",
-    "keywords": [
-      "Lyft interview questions",
-      "Lyft leetcode",
-      "Lyft oa"
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 20,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 79.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 79.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
     ],
-    "canonicalPath": "/companies/lyft"
+    "sixMonths": [
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 96.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "read-n-characters-given-read4-ii-call-multiple-times",
+        "number": 158,
+        "title": "Read N Characters Given Read4 II - Call multiple times",
+        "difficulty": "Hard",
+        "frequency": 92.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-ways",
+        "number": 91,
+        "title": "Decode Ways",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 94.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "read-n-characters-given-read4-ii-call-multiple-times",
+        "number": 158,
+        "title": "Read N Characters Given Read4 II - Call multiple times",
+        "difficulty": "Hard",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 86.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-sorted-list-to-binary-search-tree",
+        "number": 109,
+        "title": "Convert Sorted List to Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-completeness-of-a-binary-tree",
+        "number": 958,
+        "title": "Check Completeness of a Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 74.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "car-pooling",
+        "number": 1094,
+        "title": "Car Pooling",
+        "difficulty": "Medium",
+        "frequency": 70,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 70,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-stack",
+        "number": 716,
+        "title": "Max Stack",
+        "difficulty": "Hard",
+        "frequency": 67.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder-ii",
+        "number": 126,
+        "title": "Word Ladder II",
+        "difficulty": "Hard",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-ways",
+        "number": 91,
+        "title": "Decode Ways",
+        "difficulty": "Medium",
+        "frequency": 64.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-stack",
+        "number": 155,
+        "title": "Min Stack",
+        "difficulty": "Medium",
+        "frequency": 60.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coordinate-with-maximum-network-quality",
+        "number": 1620,
+        "title": "Coordinate With Maximum Network Quality",
+        "difficulty": "Medium",
+        "frequency": 51.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-list",
+        "number": 148,
+        "title": "Sort List",
+        "difficulty": "Medium",
+        "frequency": 51.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 51.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "water-and-jug-problem",
+        "number": 365,
+        "title": "Water and Jug Problem",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "detonate-the-maximum-bombs",
+        "number": 2101,
+        "title": "Detonate the Maximum Bombs",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "range-sum-query-2d-immutable",
+        "number": 304,
+        "title": "Range Sum Query 2D - Immutable",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "construct-binary-search-tree-from-preorder-traversal",
+        "number": 1008,
+        "title": "Construct Binary Search Tree from Preorder Traversal",
+        "difficulty": "Medium",
+        "frequency": 43.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Lyft Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Lyft coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/lyft",
+    "keywords": [
+      "lyft interview questions",
+      "lyft leetcode",
+      "lyft coding questions",
+      "lyft online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

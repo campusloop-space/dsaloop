@@ -2,24 +2,314 @@
   "type": "company",
   "slug": "yelp",
   "name": "Yelp",
-  "description": "Coding interview preparation for Yelp: high-frequency patterns and problem sets.",
-  "problemCount": 6,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Yelp hiring and placement rounds.",
+  "problemCount": 28,
   "problemSlugs": [
+    "destination-city",
+    "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+    "filter-restaurants-by-vegan-friendly-price-and-distance",
+    "two-sum",
+    "longest-substring-without-repeating-characters",
+    "longest-common-prefix",
+    "group-anagrams",
+    "merge-intervals",
+    "word-ladder-ii",
+    "word-ladder",
+    "reverse-words-in-a-string",
+    "active-businesses",
     "reverse-linked-list",
+    "course-schedule",
+    "the-skyline-problem",
     "valid-anagram",
     "top-k-frequent-elements",
+    "insert-delete-getrandom-o1",
     "insert-delete-getrandom-o1-duplicates-allowed",
+    "decode-string",
     "string-compression",
-    "find-the-closest-palindrome"
+    "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "find-the-closest-palindrome",
+    "minimum-index-sum-of-two-lists",
+    "top-k-frequent-words",
+    "letter-case-permutation",
+    "shortest-and-lexicographically-smallest-beautiful-string",
+    "minimum-value-to-get-positive-step-by-step-sum"
   ],
+  "difficultyBreakdown": {
+    "easy": 8,
+    "medium": 15,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "destination-city",
+        "number": 1436,
+        "title": "Destination City",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+        "number": 2038,
+        "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "filter-restaurants-by-vegan-friendly-price-and-distance",
+        "number": 1333,
+        "title": "Filter Restaurants by Vegan-Friendly, Price and Distance",
+        "difficulty": "Medium",
+        "frequency": 97.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder-ii",
+        "number": 126,
+        "title": "Word Ladder II",
+        "difficulty": "Hard",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "active-businesses",
+        "number": 1126,
+        "title": "Active Businesses",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-skyline-problem",
+        "number": 218,
+        "title": "The Skyline Problem",
+        "difficulty": "Hard",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+        "number": 381,
+        "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+        "difficulty": "Hard",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+        "number": 1455,
+        "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+        "difficulty": "Easy",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-closest-palindrome",
+        "number": 564,
+        "title": "Find the Closest Palindrome",
+        "difficulty": "Hard",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-index-sum-of-two-lists",
+        "number": 599,
+        "title": "Minimum Index Sum of Two Lists",
+        "difficulty": "Easy",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-case-permutation",
+        "number": 784,
+        "title": "Letter Case Permutation",
+        "difficulty": "Medium",
+        "frequency": 94.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+        "number": 2904,
+        "title": "Shortest and Lexicographically Smallest Beautiful String",
+        "difficulty": "Medium",
+        "frequency": 58.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-value-to-get-positive-step-by-step-sum",
+        "number": 1413,
+        "title": "Minimum Value to Get Positive Step by Step Sum",
+        "difficulty": "Easy",
+        "frequency": 58.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Yelp Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Yelp interviews with 6 problems, patterns, and roadmaps.",
+    "title": "Yelp Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Yelp coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/yelp",
     "keywords": [
-      "Yelp interview questions",
-      "Yelp leetcode",
-      "Yelp oa"
-    ],
-    "canonicalPath": "/companies/yelp"
+      "yelp interview questions",
+      "yelp leetcode",
+      "yelp coding questions",
+      "yelp online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

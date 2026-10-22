@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "disney",
+  "name": "Disney",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Disney hiring and placement rounds.",
+  "problemCount": 9,
+  "problemSlugs": [
+    "remove-all-adjacent-duplicates-in-string-ii",
+    "top-k-frequent-elements",
+    "longest-common-prefix",
+    "group-anagrams",
+    "meeting-rooms-ii",
+    "maximum-value-at-a-given-index-in-a-bounded-array",
+    "longest-palindromic-substring",
+    "merge-k-sorted-lists",
+    "daily-temperatures"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 7,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+        "number": 1802,
+        "title": "Maximum Value at a Given Index in a Bounded Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+        "number": 1802,
+        "title": "Maximum Value at a Given Index in a Bounded Array",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 87.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Disney Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Disney coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/disney",
+    "keywords": [
+      "disney interview questions",
+      "disney leetcode",
+      "disney coding questions",
+      "disney online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

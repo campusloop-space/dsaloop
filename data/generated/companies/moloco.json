@@ -1,0 +1,155 @@
+{
+  "type": "company",
+  "slug": "moloco",
+  "name": "Moloco",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Moloco hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "number-of-islands",
+    "lru-cache",
+    "longest-string-chain",
+    "trapping-rain-water",
+    "making-a-large-island",
+    "check-if-a-parentheses-string-can-be-valid",
+    "course-schedule-ii",
+    "decode-string",
+    "minimum-window-substring",
+    "number-of-islands-ii",
+    "rotting-oranges",
+    "merge-k-sorted-lists"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 7,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-string-chain",
+        "number": 1048,
+        "title": "Longest String Chain",
+        "difficulty": "Medium",
+        "frequency": 92,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-a-large-island",
+        "number": 827,
+        "title": "Making A Large Island",
+        "difficulty": "Hard",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-a-parentheses-string-can-be-valid",
+        "number": 2116,
+        "title": "Check if a Parentheses String Can Be Valid",
+        "difficulty": "Medium",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands-ii",
+        "number": 305,
+        "title": "Number of Islands II",
+        "difficulty": "Hard",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 80.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Moloco Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Moloco coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/moloco",
+    "keywords": [
+      "moloco interview questions",
+      "moloco leetcode",
+      "moloco coding questions",
+      "moloco online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

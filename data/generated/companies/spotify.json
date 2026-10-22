@@ -1,0 +1,241 @@
+{
+  "type": "company",
+  "slug": "spotify",
+  "name": "Spotify",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Spotify hiring and placement rounds.",
+  "problemCount": 15,
+  "problemSlugs": [
+    "moving-average-from-data-stream",
+    "longest-substring-without-repeating-characters",
+    "analyze-user-website-visit-pattern",
+    "kth-largest-element-in-an-array",
+    "two-sum",
+    "leetcodify-friends-recommendations",
+    "leetcodify-similar-friends",
+    "valid-parentheses",
+    "sliding-window-median",
+    "find-median-from-data-stream",
+    "ransom-note",
+    "fibonacci-number",
+    "maximum-depth-of-binary-tree",
+    "valid-palindrome",
+    "valid-anagram"
+  ],
+  "difficultyBreakdown": {
+    "easy": 8,
+    "medium": 3,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "analyze-user-website-visit-pattern",
+        "number": 1152,
+        "title": "Analyze User Website Visit Pattern",
+        "difficulty": "Medium",
+        "frequency": 84.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 84.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 84.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "moving-average-from-data-stream",
+        "number": 346,
+        "title": "Moving Average from Data Stream",
+        "difficulty": "Easy",
+        "frequency": 75.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "moving-average-from-data-stream",
+        "number": 346,
+        "title": "Moving Average from Data Stream",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 86.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "analyze-user-website-visit-pattern",
+        "number": 1152,
+        "title": "Analyze User Website Visit Pattern",
+        "difficulty": "Medium",
+        "frequency": 86.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 83.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 78.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "leetcodify-friends-recommendations",
+        "number": 1917,
+        "title": "Leetcodify Friends Recommendations",
+        "difficulty": "Hard",
+        "frequency": 78.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "leetcodify-similar-friends",
+        "number": 1919,
+        "title": "Leetcodify Similar Friends",
+        "difficulty": "Hard",
+        "frequency": 78.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 72.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-median",
+        "number": 480,
+        "title": "Sliding Window Median",
+        "difficulty": "Hard",
+        "frequency": 69.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 69.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ransom-note",
+        "number": 383,
+        "title": "Ransom Note",
+        "difficulty": "Easy",
+        "frequency": 64.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fibonacci-number",
+        "number": 509,
+        "title": "Fibonacci Number",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-depth-of-binary-tree",
+        "number": 104,
+        "title": "Maximum Depth of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 50.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 50.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 50.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Spotify Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Spotify coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/spotify",
+    "keywords": [
+      "spotify interview questions",
+      "spotify leetcode",
+      "spotify coding questions",
+      "spotify online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "type": "company",
+  "slug": "booking-com",
+  "name": "Booking.com",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Booking.com hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "reward-top-k-students",
+    "two-out-of-three",
+    "delete-duplicate-folders-in-system",
+    "coloring-a-border",
+    "k-highest-ranked-items-within-a-price-range",
+    "order-two-columns-independently",
+    "sliding-window-maximum",
+    "permutations",
+    "reconstruct-itinerary",
+    "integer-to-roman",
+    "lru-cache",
+    "roman-to-integer",
+    "maximal-square",
+    "longest-valid-parentheses",
+    "course-schedule",
+    "valid-parentheses",
+    "group-anagrams"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 10,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "reward-top-k-students",
+        "number": 2512,
+        "title": "Reward Top K Students",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "reward-top-k-students",
+        "number": 2512,
+        "title": "Reward Top K Students",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "reward-top-k-students",
+        "number": 2512,
+        "title": "Reward Top K Students",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-out-of-three",
+        "number": 2032,
+        "title": "Two Out of Three",
+        "difficulty": "Easy",
+        "frequency": 82,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-duplicate-folders-in-system",
+        "number": 1948,
+        "title": "Delete Duplicate Folders in System",
+        "difficulty": "Hard",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coloring-a-border",
+        "number": 1034,
+        "title": "Coloring A Border",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-highest-ranked-items-within-a-price-range",
+        "number": 2146,
+        "title": "K Highest Ranked Items Within a Price Range",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "order-two-columns-independently",
+        "number": 2159,
+        "title": "Order Two Columns Independently",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 69.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 69.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 64.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 58.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 50.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 50.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 50.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 50.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 50.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Booking.com Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Booking.com coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/booking-com",
+    "keywords": [
+      "booking.com interview questions",
+      "booking.com leetcode",
+      "booking.com coding questions",
+      "booking.com online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

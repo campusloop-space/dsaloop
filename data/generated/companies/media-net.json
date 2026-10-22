@@ -1,0 +1,489 @@
+{
+  "type": "company",
+  "slug": "media-net",
+  "name": "Media.net",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Media.net hiring and placement rounds.",
+  "problemCount": 37,
+  "problemSlugs": [
+    "trapping-rain-water-ii",
+    "difference-between-maximum-and-minimum-price-sum",
+    "count-the-number-of-square-free-subsets",
+    "minimum-total-space-wasted-with-k-resizing-operations",
+    "maximum-genetic-difference-query",
+    "minimum-cost-to-buy-apples",
+    "maximum-xor-of-two-non-overlapping-subtrees",
+    "sum-of-remoteness-of-all-cells",
+    "maximum-value-of-an-ordered-triplet-ii",
+    "maximum-value-of-an-ordered-triplet-i",
+    "furthest-building-you-can-reach",
+    "queens-that-can-attack-the-king",
+    "minimum-time-visiting-all-points",
+    "make-the-xor-of-all-segments-equal-to-zero",
+    "minimum-xor-sum-of-two-arrays",
+    "minimum-operations-to-form-subsequence-with-target-sum",
+    "jump-game-ix",
+    "trapping-rain-water",
+    "russian-doll-envelopes",
+    "most-stones-removed-with-same-row-or-column",
+    "maximum-segment-sum-after-removals",
+    "kth-smallest-number-in-multiplication-table",
+    "find-maximum-non-decreasing-array-length",
+    "minimum-number-of-valid-strings-to-form-target-i",
+    "climbing-stairs",
+    "longest-substring-without-repeating-characters",
+    "time-needed-to-inform-all-employees",
+    "queue-reconstruction-by-height",
+    "the-number-of-good-subsets",
+    "making-a-large-island",
+    "recover-binary-search-tree",
+    "maximum-subarray",
+    "best-time-to-buy-and-sell-stock",
+    "add-two-numbers",
+    "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "permutation-in-string",
+    "remove-outermost-parentheses"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 18,
+    "hard": 14
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 77.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+        "number": 105,
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "difficulty": "Medium",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "difference-between-maximum-and-minimum-price-sum",
+        "number": 2538,
+        "title": "Difference Between Maximum and Minimum Price Sum",
+        "difficulty": "Hard",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-square-free-subsets",
+        "number": 2572,
+        "title": "Count the Number of Square-Free Subsets",
+        "difficulty": "Medium",
+        "frequency": 86.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-total-space-wasted-with-k-resizing-operations",
+        "number": 1959,
+        "title": "Minimum Total Space Wasted With K Resizing Operations",
+        "difficulty": "Medium",
+        "frequency": 81.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-genetic-difference-query",
+        "number": 1938,
+        "title": "Maximum Genetic Difference Query",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-buy-apples",
+        "number": 2473,
+        "title": "Minimum Cost to Buy Apples",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-xor-of-two-non-overlapping-subtrees",
+        "number": 2479,
+        "title": "Maximum XOR of Two Non-Overlapping Subtrees",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-remoteness-of-all-cells",
+        "number": 2852,
+        "title": "Sum of Remoteness of All Cells",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-value-of-an-ordered-triplet-ii",
+        "number": 2874,
+        "title": "Maximum Value of an Ordered Triplet II",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-value-of-an-ordered-triplet-i",
+        "number": 2873,
+        "title": "Maximum Value of an Ordered Triplet I",
+        "difficulty": "Easy",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-building-you-can-reach",
+        "number": 1642,
+        "title": "Furthest Building You Can Reach",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "queens-that-can-attack-the-king",
+        "number": 1222,
+        "title": "Queens That Can Attack the King",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-visiting-all-points",
+        "number": 1266,
+        "title": "Minimum Time Visiting All Points",
+        "difficulty": "Easy",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "make-the-xor-of-all-segments-equal-to-zero",
+        "number": 1787,
+        "title": "Make the XOR of All Segments Equal to Zero",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-xor-sum-of-two-arrays",
+        "number": 1879,
+        "title": "Minimum XOR Sum of Two Arrays",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-form-subsequence-with-target-sum",
+        "number": 2835,
+        "title": "Minimum Operations to Form Subsequence With Target Sum",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ix",
+        "number": 3660,
+        "title": "Jump Game IX",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "most-stones-removed-with-same-row-or-column",
+        "number": 947,
+        "title": "Most Stones Removed with Same Row or Column",
+        "difficulty": "Medium",
+        "frequency": 68.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-segment-sum-after-removals",
+        "number": 2382,
+        "title": "Maximum Segment Sum After Removals",
+        "difficulty": "Hard",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-smallest-number-in-multiplication-table",
+        "number": 668,
+        "title": "Kth Smallest Number in Multiplication Table",
+        "difficulty": "Hard",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-maximum-non-decreasing-array-length",
+        "number": 2945,
+        "title": "Find Maximum Non-decreasing Array Length",
+        "difficulty": "Hard",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-valid-strings-to-form-target-i",
+        "number": 3291,
+        "title": "Minimum Number of Valid Strings to Form Target I",
+        "difficulty": "Medium",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 56.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-needed-to-inform-all-employees",
+        "number": 1376,
+        "title": "Time Needed to Inform All Employees",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "queue-reconstruction-by-height",
+        "number": 406,
+        "title": "Queue Reconstruction by Height",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-number-of-good-subsets",
+        "number": 1994,
+        "title": "The Number of Good Subsets",
+        "difficulty": "Hard",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "making-a-large-island",
+        "number": 827,
+        "title": "Making A Large Island",
+        "difficulty": "Hard",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "recover-binary-search-tree",
+        "number": 99,
+        "title": "Recover Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+        "number": 105,
+        "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutation-in-string",
+        "number": 567,
+        "title": "Permutation in String",
+        "difficulty": "Medium",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-outermost-parentheses",
+        "number": 1021,
+        "title": "Remove Outermost Parentheses",
+        "difficulty": "Easy",
+        "frequency": 47.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Media.net Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Media.net coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/media-net",
+    "keywords": [
+      "media.net interview questions",
+      "media.net leetcode",
+      "media.net coding questions",
+      "media.net online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

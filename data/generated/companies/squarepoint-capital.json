@@ -1,0 +1,454 @@
+{
+  "type": "company",
+  "slug": "squarepoint-capital",
+  "name": "Squarepoint Capital",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Squarepoint Capital hiring and placement rounds.",
+  "problemCount": 29,
+  "problemSlugs": [
+    "maximum-xor-product",
+    "search-suggestions-system",
+    "subarray-product-less-than-k",
+    "maximum-subarray",
+    "basic-calculator",
+    "number-of-perfect-pairs",
+    "group-anagrams",
+    "lru-cache",
+    "merge-in-between-linked-lists",
+    "trapping-rain-water",
+    "design-a-text-editor",
+    "best-time-to-buy-and-sell-stock",
+    "longest-increasing-subsequence",
+    "frog-jump",
+    "longest-non-decreasing-subarray-from-two-arrays",
+    "count-ways-to-build-good-strings",
+    "maximum-palindromes-after-operations",
+    "minimum-sideway-jumps",
+    "advantage-shuffle",
+    "minimize-malware-spread",
+    "number-of-islands",
+    "find-valid-matrix-given-row-and-column-sums",
+    "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
+    "couples-holding-hands",
+    "minimum-number-of-taps-to-open-to-water-a-garden",
+    "subarrays-with-k-different-integers",
+    "min-cost-climbing-stairs",
+    "sort-characters-by-frequency",
+    "smallest-substring-with-identical-characters-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 18,
+    "hard": 9
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 90.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "advantage-shuffle",
+        "number": 870,
+        "title": "Advantage Shuffle",
+        "difficulty": "Medium",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "advantage-shuffle",
+        "number": 870,
+        "title": "Advantage Shuffle",
+        "difficulty": "Medium",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-sideway-jumps",
+        "number": 1824,
+        "title": "Minimum Sideway Jumps",
+        "difficulty": "Medium",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-xor-product",
+        "number": 2939,
+        "title": "Maximum Xor Product",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-suggestions-system",
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "difficulty": "Medium",
+        "frequency": 95.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 90.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 90.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator",
+        "number": 224,
+        "title": "Basic Calculator",
+        "difficulty": "Hard",
+        "frequency": 90.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-perfect-pairs",
+        "number": 3649,
+        "title": "Number of Perfect Pairs",
+        "difficulty": "Medium",
+        "frequency": 90.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-in-between-linked-lists",
+        "number": 1669,
+        "title": "Merge In Between Linked Lists",
+        "difficulty": "Medium",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-text-editor",
+        "number": 2296,
+        "title": "Design a Text Editor",
+        "difficulty": "Hard",
+        "frequency": 84.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "frog-jump",
+        "number": 403,
+        "title": "Frog Jump",
+        "difficulty": "Hard",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-non-decreasing-subarray-from-two-arrays",
+        "number": 2771,
+        "title": "Longest Non-decreasing Subarray From Two Arrays",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-ways-to-build-good-strings",
+        "number": 2466,
+        "title": "Count Ways To Build Good Strings",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-palindromes-after-operations",
+        "number": 3035,
+        "title": "Maximum Palindromes After Operations",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-sideway-jumps",
+        "number": 1824,
+        "title": "Minimum Sideway Jumps",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "advantage-shuffle",
+        "number": 870,
+        "title": "Advantage Shuffle",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-valid-matrix-given-row-and-column-sums",
+        "number": 1605,
+        "title": "Find Valid Matrix Given Row and Column Sums",
+        "difficulty": "Medium",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-equal-sum-of-two-arrays-after-replacing-zeros",
+        "number": 2918,
+        "title": "Minimum Equal Sum of Two Arrays After Replacing Zeros",
+        "difficulty": "Medium",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "couples-holding-hands",
+        "number": 765,
+        "title": "Couples Holding Hands",
+        "difficulty": "Hard",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+        "number": 1326,
+        "title": "Minimum Number of Taps to Open to Water a Garden",
+        "difficulty": "Hard",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarrays-with-k-different-integers",
+        "number": 992,
+        "title": "Subarrays with K Different Integers",
+        "difficulty": "Hard",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-cost-climbing-stairs",
+        "number": 746,
+        "title": "Min Cost Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-characters-by-frequency",
+        "number": 451,
+        "title": "Sort Characters By Frequency",
+        "difficulty": "Medium",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-substring-with-identical-characters-ii",
+        "number": 3399,
+        "title": "Smallest Substring With Identical Characters II",
+        "difficulty": "Hard",
+        "frequency": 65.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Squarepoint Capital Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Squarepoint Capital coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/squarepoint-capital",
+    "keywords": [
+      "squarepoint capital interview questions",
+      "squarepoint capital leetcode",
+      "squarepoint capital coding questions",
+      "squarepoint capital online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

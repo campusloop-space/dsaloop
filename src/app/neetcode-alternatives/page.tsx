@@ -6,9 +6,9 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ProblemList } from "@/components/problem/problem-list";
 
 export const metadata: Metadata = buildMetadata({
-  title: "NeetCode Alternatives — Free Pattern Roadmap | AlgoForge",
+  title: "NeetCode Alternatives — Free Pattern Roadmap | DSALoop by CampusLoop",
   description:
-    "Looking for NeetCode alternatives? AlgoForge offers free pattern roadmaps, Blind 75, Grind 169, and original explanations.",
+    "Looking for NeetCode alternatives? DSALoop offers free pattern roadmaps, Blind 75, Grind 169, and original explanations.",
   keywords: ["neetcode alternatives", "neetcode free", "leetcode patterns free"],
   canonicalPath: "/neetcode-alternatives",
 });
@@ -27,7 +27,7 @@ export default function NeetcodeAlternativesPage() {
       />
       <h1 className="mt-4 text-3xl font-bold">NeetCode Alternatives</h1>
       <p className="mt-2 text-muted-foreground max-w-2xl">
-        AlgoForge is a free, pattern-first alternative: Blind 75 coverage, roadmaps, company pages,
+        DSALoop is a free, pattern-first alternative: Blind 75 coverage, roadmaps, company pages,
         and original explanations — without locking learning behind a paywall.
       </p>
       <ul className="mt-6 space-y-2 text-sm">

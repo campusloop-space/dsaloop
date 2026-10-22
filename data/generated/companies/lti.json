@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "lti",
+  "name": "Lti",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Lti hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "move-zeroes",
+    "maximum-white-tiles-covered-by-a-carpet",
+    "two-sum",
+    "closest-subsequence-sum",
+    "count-zero-request-servers",
+    "valid-palindrome",
+    "second-highest-salary",
+    "palindrome-number",
+    "add-two-numbers",
+    "longest-substring-without-repeating-characters"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 5,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-white-tiles-covered-by-a-carpet",
+        "number": 2271,
+        "title": "Maximum White Tiles Covered by a Carpet",
+        "difficulty": "Medium",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-subsequence-sum",
+        "number": 1755,
+        "title": "Closest Subsequence Sum",
+        "difficulty": "Hard",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-zero-request-servers",
+        "number": 2747,
+        "title": "Count Zero Request Servers",
+        "difficulty": "Medium",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 80.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Lti Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Lti coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/lti",
+    "keywords": [
+      "lti interview questions",
+      "lti leetcode",
+      "lti coding questions",
+      "lti online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

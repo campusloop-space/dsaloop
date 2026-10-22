@@ -1,0 +1,482 @@
+{
+  "type": "company",
+  "slug": "deloitte",
+  "name": "Deloitte",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Deloitte hiring and placement rounds.",
+  "problemCount": 40,
+  "problemSlugs": [
+    "merge-k-sorted-lists",
+    "two-sum",
+    "longest-substring-without-repeating-characters",
+    "change-null-values-in-a-table-to-the-previous-value",
+    "valid-parentheses",
+    "second-highest-salary",
+    "longest-palindromic-substring",
+    "palindrome-number",
+    "best-time-to-buy-and-sell-stock",
+    "group-anagrams",
+    "longest-common-prefix",
+    "container-with-most-water",
+    "merge-intervals",
+    "managers-with-at-least-5-direct-reports",
+    "minimum-time-to-repair-cars",
+    "maximum-subarray",
+    "first-unique-character-in-a-string",
+    "nth-highest-salary",
+    "3sum",
+    "remove-duplicates-from-sorted-array",
+    "add-binary",
+    "valid-anagram",
+    "climbing-stairs",
+    "valid-palindrome",
+    "rising-temperature",
+    "kth-largest-element-in-an-array",
+    "customers-who-never-order",
+    "roman-to-integer",
+    "longest-consecutive-sequence",
+    "remove-k-balanced-substrings",
+    "split-array-largest-sum",
+    "shortest-unsorted-continuous-subarray",
+    "rotate-array",
+    "remove-k-digits",
+    "remove-all-adjacent-duplicates-in-string",
+    "subarray-sum-equals-k",
+    "next-permutation",
+    "reverse-vowels-of-a-string",
+    "super-ugly-number",
+    "asteroid-collision"
+  ],
+  "difficultyBreakdown": {
+    "easy": 16,
+    "medium": 22,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 87.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 77.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "nth-highest-salary",
+        "number": 177,
+        "title": "Nth Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 77.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 95.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "change-null-values-in-a-table-to-the-previous-value",
+        "number": 2388,
+        "title": "Change Null Values in a Table to the Previous Value",
+        "difficulty": "Medium",
+        "frequency": 81.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 74.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 70.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 70.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 70.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 65.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 65.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 65.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "managers-with-at-least-5-direct-reports",
+        "number": 570,
+        "title": "Managers with at Least 5 Direct Reports",
+        "difficulty": "Medium",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-repair-cars",
+        "number": 2594,
+        "title": "Minimum Time to Repair Cars",
+        "difficulty": "Medium",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-unique-character-in-a-string",
+        "number": 387,
+        "title": "First Unique Character in a String",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "nth-highest-salary",
+        "number": 177,
+        "title": "Nth Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicates-from-sorted-array",
+        "number": 26,
+        "title": "Remove Duplicates from Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-binary",
+        "number": 67,
+        "title": "Add Binary",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 58.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rising-temperature",
+        "number": 197,
+        "title": "Rising Temperature",
+        "difficulty": "Easy",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "customers-who-never-order",
+        "number": 183,
+        "title": "Customers Who Never Order",
+        "difficulty": "Easy",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-balanced-substrings",
+        "number": 3703,
+        "title": "Remove K-Balanced Substrings",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-unsorted-continuous-subarray",
+        "number": 581,
+        "title": "Shortest Unsorted Continuous Subarray",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string",
+        "number": 1047,
+        "title": "Remove All Adjacent Duplicates In String",
+        "difficulty": "Easy",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-vowels-of-a-string",
+        "number": 345,
+        "title": "Reverse Vowels of a String",
+        "difficulty": "Easy",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "super-ugly-number",
+        "number": 313,
+        "title": "Super Ugly Number",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 49.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Deloitte Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Deloitte coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/deloitte",
+    "keywords": [
+      "deloitte interview questions",
+      "deloitte leetcode",
+      "deloitte coding questions",
+      "deloitte online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

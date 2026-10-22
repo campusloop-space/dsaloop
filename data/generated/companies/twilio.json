@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "twilio",
+  "name": "Twilio",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Twilio hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "maximize-greatness-of-an-array",
+    "reformat-date",
+    "univalued-binary-tree",
+    "count-vowel-strings-in-ranges",
+    "top-k-frequent-elements",
+    "ways-to-make-a-fair-array",
+    "group-anagrams",
+    "furthest-building-you-can-reach",
+    "search-suggestions-system",
+    "longest-substring-without-repeating-characters",
+    "remove-all-adjacent-duplicates-in-string-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 9,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximize-greatness-of-an-array",
+        "number": 2592,
+        "title": "Maximize Greatness of an Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reformat-date",
+        "number": 1507,
+        "title": "Reformat Date",
+        "difficulty": "Easy",
+        "frequency": 95,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "univalued-binary-tree",
+        "number": 965,
+        "title": "Univalued Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 95,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-strings-in-ranges",
+        "number": 2559,
+        "title": "Count Vowel Strings in Ranges",
+        "difficulty": "Medium",
+        "frequency": 79.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 73.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ways-to-make-a-fair-array",
+        "number": 1664,
+        "title": "Ways to Make a Fair Array",
+        "difficulty": "Medium",
+        "frequency": 64,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 64,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-building-you-can-reach",
+        "number": 1642,
+        "title": "Furthest Building You Can Reach",
+        "difficulty": "Medium",
+        "frequency": 64,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-suggestions-system",
+        "number": 1268,
+        "title": "Search Suggestions System",
+        "difficulty": "Medium",
+        "frequency": 64,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 64,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-all-adjacent-duplicates-in-string-ii",
+        "number": 1209,
+        "title": "Remove All Adjacent Duplicates in String II",
+        "difficulty": "Medium",
+        "frequency": 64,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Twilio Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Twilio coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/twilio",
+    "keywords": [
+      "twilio interview questions",
+      "twilio leetcode",
+      "twilio coding questions",
+      "twilio online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

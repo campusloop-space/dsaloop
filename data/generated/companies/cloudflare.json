@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "cloudflare",
+  "name": "Cloudflare",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Cloudflare hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "design-circular-queue",
+    "reaching-points",
+    "design-a-stack-with-increment-operation",
+    "3sum",
+    "4sum",
+    "merge-k-sorted-lists",
+    "lru-cache",
+    "design-hit-counter",
+    "number-of-islands",
+    "logger-rate-limiter",
+    "course-schedule"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 8,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reaching-points",
+        "number": 780,
+        "title": "Reaching Points",
+        "difficulty": "Hard",
+        "frequency": 90.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-stack-with-increment-operation",
+        "number": 1381,
+        "title": "Design a Stack With Increment Operation",
+        "difficulty": "Medium",
+        "frequency": 85.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 79.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "4sum",
+        "number": 18,
+        "title": "4 Sum",
+        "difficulty": "Medium",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 70.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-hit-counter",
+        "number": 362,
+        "title": "Design Hit Counter",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 60.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Cloudflare Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Cloudflare coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/cloudflare",
+    "keywords": [
+      "cloudflare interview questions",
+      "cloudflare leetcode",
+      "cloudflare coding questions",
+      "cloudflare online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

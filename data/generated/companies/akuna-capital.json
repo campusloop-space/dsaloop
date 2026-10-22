@@ -1,0 +1,253 @@
+{
+  "type": "company",
+  "slug": "akuna-capital",
+  "name": "Akuna Capital",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Akuna Capital hiring and placement rounds.",
+  "problemCount": 17,
+  "problemSlugs": [
+    "can-make-palindrome-from-substring",
+    "map-sum-pairs",
+    "delete-and-earn",
+    "cherry-pickup",
+    "network-delay-time",
+    "create-sorted-array-through-instructions",
+    "minimum-initial-energy-to-finish-tasks",
+    "dice-roll-simulation",
+    "number-of-different-subsequences-gcds",
+    "number-of-operations-to-make-network-connected",
+    "minimum-number-of-taps-to-open-to-water-a-garden",
+    "reduce-array-size-to-the-half",
+    "increasing-decreasing-string",
+    "maximum-star-sum-of-a-graph",
+    "minimize-malware-spread",
+    "critical-connections-in-a-network",
+    "shortest-and-lexicographically-smallest-beautiful-string"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 8,
+    "hard": 8
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "maximum-star-sum-of-a-graph",
+        "number": 2497,
+        "title": "Maximum Star Sum of a Graph",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 90.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "maximum-star-sum-of-a-graph",
+        "number": 2497,
+        "title": "Maximum Star Sum of a Graph",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "can-make-palindrome-from-substring",
+        "number": 1177,
+        "title": "Can Make Palindrome from Substring",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "map-sum-pairs",
+        "number": 677,
+        "title": "Map Sum Pairs",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-and-earn",
+        "number": 740,
+        "title": "Delete and Earn",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup",
+        "number": 741,
+        "title": "Cherry Pickup",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "network-delay-time",
+        "number": 743,
+        "title": "Network Delay Time",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "create-sorted-array-through-instructions",
+        "number": 1649,
+        "title": "Create Sorted Array through Instructions",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-initial-energy-to-finish-tasks",
+        "number": 1665,
+        "title": "Minimum Initial Energy to Finish Tasks",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "dice-roll-simulation",
+        "number": 1223,
+        "title": "Dice Roll Simulation",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-different-subsequences-gcds",
+        "number": 1819,
+        "title": "Number of Different Subsequences GCDs",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-operations-to-make-network-connected",
+        "number": 1319,
+        "title": "Number of Operations to Make Network Connected",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+        "number": 1326,
+        "title": "Minimum Number of Taps to Open to Water a Garden",
+        "difficulty": "Hard",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reduce-array-size-to-the-half",
+        "number": 1338,
+        "title": "Reduce Array Size to The Half",
+        "difficulty": "Medium",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "increasing-decreasing-string",
+        "number": 1370,
+        "title": "Increasing Decreasing String",
+        "difficulty": "Easy",
+        "frequency": 97,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-star-sum-of-a-graph",
+        "number": 2497,
+        "title": "Maximum Star Sum of a Graph",
+        "difficulty": "Medium",
+        "frequency": 89.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "critical-connections-in-a-network",
+        "number": 1192,
+        "title": "Critical Connections in a Network",
+        "difficulty": "Hard",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+        "number": 2904,
+        "title": "Shortest and Lexicographically Smallest Beautiful String",
+        "difficulty": "Medium",
+        "frequency": 62.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Akuna Capital Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Akuna Capital coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/akuna-capital",
+    "keywords": [
+      "akuna capital interview questions",
+      "akuna capital leetcode",
+      "akuna capital coding questions",
+      "akuna capital online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

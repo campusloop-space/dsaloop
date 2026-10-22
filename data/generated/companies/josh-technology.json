@@ -1,0 +1,440 @@
+{
+  "type": "company",
+  "slug": "josh-technology",
+  "name": "Josh Technology",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Josh Technology hiring and placement rounds.",
+  "problemCount": 34,
+  "problemSlugs": [
+    "largest-number",
+    "reverse-nodes-in-even-length-groups",
+    "reverse-odd-levels-of-binary-tree",
+    "maximum-twin-sum-of-a-linked-list",
+    "spiral-matrix",
+    "delete-leaves-with-a-given-value",
+    "reverse-nodes-in-k-group",
+    "count-good-nodes-in-binary-tree",
+    "remove-k-digits",
+    "daily-temperatures",
+    "maximum-difference-between-node-and-ancestor",
+    "group-anagrams",
+    "koko-eating-bananas",
+    "merge-two-binary-trees",
+    "sum-of-nodes-with-even-valued-grandparent",
+    "merge-two-sorted-lists",
+    "rotate-list",
+    "island-perimeter",
+    "move-zeroes",
+    "find-bottom-left-tree-value",
+    "invert-binary-tree",
+    "flatten-binary-tree-to-linked-list",
+    "remove-nth-node-from-end-of-list",
+    "odd-even-linked-list",
+    "find-largest-value-in-each-tree-row",
+    "largest-rectangle-in-histogram",
+    "climbing-stairs",
+    "unique-email-addresses",
+    "binary-tree-level-order-traversal",
+    "subarray-sum-equals-k",
+    "all-nodes-distance-k-in-binary-tree",
+    "maximum-width-ramp",
+    "swap-nodes-in-pairs",
+    "longest-palindromic-substring"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 25,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "largest-number",
+        "number": 179,
+        "title": "Largest Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swap-nodes-in-pairs",
+        "number": 24,
+        "title": "Swap Nodes in Pairs",
+        "difficulty": "Medium",
+        "frequency": 88.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "largest-number",
+        "number": 179,
+        "title": "Largest Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-good-nodes-in-binary-tree",
+        "number": 1448,
+        "title": "Count Good Nodes in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-even-length-groups",
+        "number": 2074,
+        "title": "Reverse Nodes in Even Length Groups",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swap-nodes-in-pairs",
+        "number": 24,
+        "title": "Swap Nodes in Pairs",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-odd-levels-of-binary-tree",
+        "number": 2415,
+        "title": "Reverse Odd Levels of Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 66,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "largest-number",
+        "number": 179,
+        "title": "Largest Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-even-length-groups",
+        "number": 2074,
+        "title": "Reverse Nodes in Even Length Groups",
+        "difficulty": "Medium",
+        "frequency": 76.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-odd-levels-of-binary-tree",
+        "number": 2415,
+        "title": "Reverse Odd Levels of Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 73.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-twin-sum-of-a-linked-list",
+        "number": 2130,
+        "title": "Maximum Twin Sum of a Linked List",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delete-leaves-with-a-given-value",
+        "number": 1325,
+        "title": "Delete Leaves With a Given Value",
+        "difficulty": "Medium",
+        "frequency": 64.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-good-nodes-in-binary-tree",
+        "number": 1448,
+        "title": "Count Good Nodes in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-difference-between-node-and-ancestor",
+        "number": 1026,
+        "title": "Maximum Difference Between Node and Ancestor",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-binary-trees",
+        "number": 617,
+        "title": "Merge Two Binary Trees",
+        "difficulty": "Easy",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-nodes-with-even-valued-grandparent",
+        "number": 1315,
+        "title": "Sum of Nodes with Even-Valued Grandparent",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-list",
+        "number": 61,
+        "title": "Rotate List",
+        "difficulty": "Medium",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "island-perimeter",
+        "number": 463,
+        "title": "Island Perimeter",
+        "difficulty": "Easy",
+        "frequency": 58.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-bottom-left-tree-value",
+        "number": 513,
+        "title": "Find Bottom Left Tree Value",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "invert-binary-tree",
+        "number": 226,
+        "title": "Invert Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flatten-binary-tree-to-linked-list",
+        "number": 114,
+        "title": "Flatten Binary Tree to Linked List",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-nth-node-from-end-of-list",
+        "number": 19,
+        "title": "Remove Nth Node From End of List",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "odd-even-linked-list",
+        "number": 328,
+        "title": "Odd Even Linked List",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-largest-value-in-each-tree-row",
+        "number": 515,
+        "title": "Find Largest Value in Each Tree Row",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-email-addresses",
+        "number": 929,
+        "title": "Unique Email Addresses",
+        "difficulty": "Easy",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-level-order-traversal",
+        "number": 102,
+        "title": "Binary Tree Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "all-nodes-distance-k-in-binary-tree",
+        "number": 863,
+        "title": "All Nodes Distance K in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-width-ramp",
+        "number": 962,
+        "title": "Maximum Width Ramp",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swap-nodes-in-pairs",
+        "number": 24,
+        "title": "Swap Nodes in Pairs",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 49.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Josh Technology Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Josh Technology coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/josh-technology",
+    "keywords": [
+      "josh technology interview questions",
+      "josh technology leetcode",
+      "josh technology coding questions",
+      "josh technology online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

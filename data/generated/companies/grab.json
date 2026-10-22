@@ -1,0 +1,205 @@
+{
+  "type": "company",
+  "slug": "grab",
+  "name": "Grab",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Grab hiring and placement rounds.",
+  "problemCount": 16,
+  "problemSlugs": [
+    "minimum-cost-for-tickets",
+    "adding-two-negabinary-numbers",
+    "reconstruct-a-2-row-binary-matrix",
+    "accounts-merge",
+    "simplify-path",
+    "daily-temperatures",
+    "house-robber",
+    "repeated-substring-pattern",
+    "two-sum",
+    "valid-parentheses",
+    "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+    "subarray-sum-equals-k",
+    "jump-game-ii",
+    "longest-palindromic-substring",
+    "group-anagrams",
+    "coin-change"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 13,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "minimum-cost-for-tickets",
+        "number": 983,
+        "title": "Minimum Cost For Tickets",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "adding-two-negabinary-numbers",
+        "number": 1073,
+        "title": "Adding Two Negabinary Numbers",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-a-2-row-binary-matrix",
+        "number": 1253,
+        "title": "Reconstruct a 2-Row Binary Matrix",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "accounts-merge",
+        "number": 721,
+        "title": "Accounts Merge",
+        "difficulty": "Medium",
+        "frequency": 82.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "repeated-substring-pattern",
+        "number": 459,
+        "title": "Repeated Substring Pattern",
+        "difficulty": "Easy",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+        "number": 1404,
+        "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 65.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Grab Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Grab coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/grab",
+    "keywords": [
+      "grab interview questions",
+      "grab leetcode",
+      "grab coding questions",
+      "grab online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

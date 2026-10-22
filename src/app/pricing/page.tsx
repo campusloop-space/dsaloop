@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Pricing | AlgoForge",
+  title: "Pricing | DSALoop by CampusLoop",
   description: "Free forever learning. Premium for sync, AI coach, and personalization — coming soon.",
   keywords: ["algoforge pricing", "interview prep premium"],
   canonicalPath: "/pricing",

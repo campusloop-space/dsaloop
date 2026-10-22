@@ -1,0 +1,165 @@
+{
+  "type": "company",
+  "slug": "stripe",
+  "name": "Stripe",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Stripe hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "minimum-penalty-for-a-shop",
+    "calculate-amount-paid-in-taxes",
+    "invalid-transactions",
+    "cheapest-flights-within-k-stops",
+    "brace-expansion",
+    "merge-intervals",
+    "parallel-courses-iii",
+    "one-edit-distance",
+    "number-of-black-blocks",
+    "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+    "simple-bank-system",
+    "next-permutation"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 10,
+    "hard": 1
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "minimum-penalty-for-a-shop",
+        "number": 2483,
+        "title": "Minimum Penalty for a Shop",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "calculate-amount-paid-in-taxes",
+        "number": 2303,
+        "title": "Calculate Amount Paid in Taxes",
+        "difficulty": "Easy",
+        "frequency": 97.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "invalid-transactions",
+        "number": 1169,
+        "title": "Invalid Transactions",
+        "difficulty": "Medium",
+        "frequency": 94,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 86,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brace-expansion",
+        "number": 1087,
+        "title": "Brace Expansion",
+        "difficulty": "Medium",
+        "frequency": 80.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 73.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "parallel-courses-iii",
+        "number": 2050,
+        "title": "Parallel Courses III",
+        "difficulty": "Hard",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "one-edit-distance",
+        "number": 161,
+        "title": "One Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-black-blocks",
+        "number": 2768,
+        "title": "Number of Black Blocks",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+        "number": 1604,
+        "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 64.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Stripe Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Stripe coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/stripe",
+    "keywords": [
+      "stripe interview questions",
+      "stripe leetcode",
+      "stripe coding questions",
+      "stripe online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

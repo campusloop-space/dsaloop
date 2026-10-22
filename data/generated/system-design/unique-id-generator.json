@@ -1,0 +1,87 @@
+{
+  "chapterNumber": 7,
+  "slug": "unique-id-generator",
+  "title": "Design a Unique ID Generator in Distributed Systems",
+  "subtitle": "Comprehensive interview guide for Design a Unique ID Generator in Distributed Systems. Architecture, trade-offs, and key deep dives.",
+  "readTimeMinutes": 3,
+  "tags": [
+    "Unique ID",
+    "Snowflake",
+    "Distributed Systems"
+  ],
+  "imagesCount": 5,
+  "markdown": "## Introduction\nThis chapter addresses the challenge of designing a **unique ID generator** for distributed systems. Traditional auto-increment keys are unsuitable in distributed environments due to scalability and synchronization challenges. The focus is on creating unique, sortable, 64-bit numerical IDs that meet the following requirements:\n- IDs must be **unique** and **ordered by date**.\n- IDs must fit within **64 bits**.\n- The system should generate **over 10,000 IDs per second**.\n\n---\n\n## Step 1: Understanding the Problem\n### Basic Requirements\n- IDs must be unique and numerical and should fit in 64 bits.\n- IDs increment with time but not strictly by `+1`.\n- IDs should be sortable by date.\n- System must handle high throughput (10,000 IDs/sec).\n\n---\n\n## Step 2: High-Level Design Options\n### 1. Multi-Master Replication\n- **Approach:** Use database `auto_increment` with step increments (e.g., `+k` for k servers).\n\n    <p align=\"left\">\n    \n\n![Multi Master](/system-design-assets/unique-id-generator/images/multi-master.png)\n\n\n    </p>\n\n- **Drawbacks:**\n  - Hard to scale across data centers.\n  - IDs do not always increase with time.\n  - Scaling issues when servers are added/removed.\n\n### 2. UUID (Universally Unique Identifier)\n- **Approach:** \n    - Generate 128-bit unique identifiers independently on each server using UUID.\n    - UUIDs can be generated independently without coordination between servers\n\n        <p align=\"left\">\n        \n\n![UUID generator](/system-design-assets/unique-id-generator/images/uuid.png)\n\n\n        </p>\n\n- **Advantages:**\n  - No coordination needed between servers.\n  - Scales easily with web servers.\n- **Drawbacks:**\n  - Exceeds 64-bit requirement.\n  - IDs are not sortable by time and may be non-numeric.\n\n\n### 3. Ticket Server\n- **Approach:** Use a centralized database server to increment and assign IDs.\n\n    <p align=\"left\">\n    \n\n![UUID generator](/system-design-assets/unique-id-generator/images/ticket-server.png)\n\n\n    </p>\n\n- **Advantages:**\n  - Simple to implement for small-scale systems.\n  - Generates numeric IDs.\n- **Drawbacks:**\n  - Single point of failure.\n  - Synchronization challenges in multi-server setups.\n\n### 4. Twitter Snowflake Approach\n- **Approach:** \n\n    \n\n\n      \n\n![Snowflake approach](/system-design-assets/unique-id-generator/images/twitter-snowflake.png)\n\n\n    \n\n\n    \n\n\n      \n\n![Snowflake ID breakdow](/system-design-assets/unique-id-generator/images/snowflake-id-breakdown.png)\n\n\n    \n\n\n\n    - Divide IDs into sections to ensure uniqueness and scalability.\n    - **Sign Bit (1 bit):** Always `0`, potentially distinguishing signed and unsigned numbers.\n    - **Timestamp (41 bits):** Milliseconds since a custom epoch (Twitter's default is `1288834974657`, equivalent to Nov 04, 2010, 01:42:54 UTC). Ensures IDs are time-ordered.\n    - **Datacenter ID (5 bits):** Identifies up to `2^5 = 32` datacenters.\n    - **Machine ID (5 bits):** Identifies up to `2^5 = 32` machines within each datacenter.\n    - **Sequence Number (12 bits):** Tracks IDs generated on a machine within the same millisecond, supporting up to `2^12 = 4096` IDs per millisecond. The sequence resets to `0` every millisecond.\n\n\n\n- **Advantages:**\n    - **Scalability:** Handles 10,000+ IDs per second across multiple servers.\n    - **Time-Order:** Ensures IDs are sortable by time.\n    - **Decentralization:** No single point of failure.\n\n\n## Step 4: Additional Considerations\n### 1. Clock Synchronization\n- **Challenge:** ID generation assumes synchronized clocks across servers.\n- **Solution:** Use **Network Time Protocol (NTP)** to minimize drift.\n\n### 2. Section Length Tuning\n- Adjust section sizes (e.g., fewer sequence bits, more timestamp bits) based on use case.\n\n### 3. High Availability\n- ID generators are mission-critical and must be fault-tolerant.\n- Consider redundancy and failover mechanisms.\n\n---\n\n> 🎓 **DSALoop by [CampusLoop](https://campusloop.space/)** — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.",
+  "html": "<h2>Introduction</h2>\n<p>This chapter addresses the challenge of designing a <strong>unique ID generator</strong> for distributed systems. Traditional auto-increment keys are unsuitable in distributed environments due to scalability and synchronization challenges. The focus is on creating unique, sortable, 64-bit numerical IDs that meet the following requirements:</p>\n<ul>\n<li>IDs must be <strong>unique</strong> and <strong>ordered by date</strong>.</li>\n<li>IDs must fit within <strong>64 bits</strong>.</li>\n<li>The system should generate <strong>over 10,000 IDs per second</strong>.</li>\n</ul>\n<hr>\n<h2>Step 1: Understanding the Problem</h2>\n<h3>Basic Requirements</h3>\n<ul>\n<li>IDs must be unique and numerical and should fit in 64 bits.</li>\n<li>IDs increment with time but not strictly by <code>+1</code>.</li>\n<li>IDs should be sortable by date.</li>\n<li>System must handle high throughput (10,000 IDs/sec).</li>\n</ul>\n<hr>\n<h2>Step 2: High-Level Design Options</h2>\n<h3>1. Multi-Master Replication</h3>\n<ul>\n<li>\n<p><strong>Approach:</strong> Use database <code>auto_increment</code> with step increments (e.g., <code>+k</code> for k servers).</p>\n</li>\n</ul>\n<p><img src=\"/system-design-assets/unique-id-generator/images/multi-master.png\" alt=\"Multi Master\"></p>\n<pre><code>&#x3C;/p>\n</code></pre>\n<ul>\n<li><strong>Drawbacks:</strong>\n<ul>\n<li>Hard to scale across data centers.</li>\n<li>IDs do not always increase with time.</li>\n<li>Scaling issues when servers are added/removed.</li>\n</ul>\n</li>\n</ul>\n<h3>2. UUID (Universally Unique Identifier)</h3>\n<ul>\n<li><strong>Approach:</strong>\n<ul>\n<li>\n<p>Generate 128-bit unique identifiers independently on each server using UUID.</p>\n</li>\n<li>\n<p>UUIDs can be generated independently without coordination between servers</p>\n</li>\n</ul>\n</li>\n</ul>\n<p><img src=\"/system-design-assets/unique-id-generator/images/uuid.png\" alt=\"UUID generator\"></p>\n<pre><code>    &#x3C;/p>\n</code></pre>\n<ul>\n<li><strong>Advantages:</strong>\n<ul>\n<li>No coordination needed between servers.</li>\n<li>Scales easily with web servers.</li>\n</ul>\n</li>\n<li><strong>Drawbacks:</strong>\n<ul>\n<li>Exceeds 64-bit requirement.</li>\n<li>IDs are not sortable by time and may be non-numeric.</li>\n</ul>\n</li>\n</ul>\n<h3>3. Ticket Server</h3>\n<ul>\n<li>\n<p><strong>Approach:</strong> Use a centralized database server to increment and assign IDs.</p>\n</li>\n</ul>\n<p><img src=\"/system-design-assets/unique-id-generator/images/ticket-server.png\" alt=\"UUID generator\"></p>\n<pre><code>&#x3C;/p>\n</code></pre>\n<ul>\n<li><strong>Advantages:</strong>\n<ul>\n<li>Simple to implement for small-scale systems.</li>\n<li>Generates numeric IDs.</li>\n</ul>\n</li>\n<li><strong>Drawbacks:</strong>\n<ul>\n<li>Single point of failure.</li>\n<li>Synchronization challenges in multi-server setups.</li>\n</ul>\n</li>\n</ul>\n<h3>4. Twitter Snowflake Approach</h3>\n<ul>\n<li><strong>Approach:</strong></li>\n</ul>\n<p><img src=\"/system-design-assets/unique-id-generator/images/twitter-snowflake.png\" alt=\"Snowflake approach\"></p>\n<p><img src=\"/system-design-assets/unique-id-generator/images/snowflake-id-breakdown.png\" alt=\"Snowflake ID breakdow\"></p>\n<pre><code>- Divide IDs into sections to ensure uniqueness and scalability.\n- **Sign Bit (1 bit):** Always `0`, potentially distinguishing signed and unsigned numbers.\n- **Timestamp (41 bits):** Milliseconds since a custom epoch (Twitter's default is `1288834974657`, equivalent to Nov 04, 2010, 01:42:54 UTC). Ensures IDs are time-ordered.\n- **Datacenter ID (5 bits):** Identifies up to `2^5 = 32` datacenters.\n- **Machine ID (5 bits):** Identifies up to `2^5 = 32` machines within each datacenter.\n- **Sequence Number (12 bits):** Tracks IDs generated on a machine within the same millisecond, supporting up to `2^12 = 4096` IDs per millisecond. The sequence resets to `0` every millisecond.\n</code></pre>\n<ul>\n<li><strong>Advantages:</strong>\n<ul>\n<li><strong>Scalability:</strong> Handles 10,000+ IDs per second across multiple servers.</li>\n<li><strong>Time-Order:</strong> Ensures IDs are sortable by time.</li>\n<li><strong>Decentralization:</strong> No single point of failure.</li>\n</ul>\n</li>\n</ul>\n<h2>Step 4: Additional Considerations</h2>\n<h3>1. Clock Synchronization</h3>\n<ul>\n<li><strong>Challenge:</strong> ID generation assumes synchronized clocks across servers.</li>\n<li><strong>Solution:</strong> Use <strong>Network Time Protocol (NTP)</strong> to minimize drift.</li>\n</ul>\n<h3>2. Section Length Tuning</h3>\n<ul>\n<li>Adjust section sizes (e.g., fewer sequence bits, more timestamp bits) based on use case.</li>\n</ul>\n<h3>3. High Availability</h3>\n<ul>\n<li>ID generators are mission-critical and must be fault-tolerant.</li>\n<li>Consider redundancy and failover mechanisms.</li>\n</ul>\n<hr>\n<blockquote>\n<p>🎓 <strong>DSALoop by <a href=\"https://campusloop.space/\">CampusLoop</a></strong> — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.</p>\n</blockquote>\n",
+  "tableOfContents": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2
+    },
+    {
+      "id": "step-1-understanding-the-problem",
+      "title": "Step 1: Understanding the Problem",
+      "level": 2
+    },
+    {
+      "id": "basic-requirements",
+      "title": "Basic Requirements",
+      "level": 3
+    },
+    {
+      "id": "step-2-high-level-design-options",
+      "title": "Step 2: High-Level Design Options",
+      "level": 2
+    },
+    {
+      "id": "1-multi-master-replication",
+      "title": "1. Multi-Master Replication",
+      "level": 3
+    },
+    {
+      "id": "2-uuid-universally-unique-identifier",
+      "title": "2. UUID (Universally Unique Identifier)",
+      "level": 3
+    },
+    {
+      "id": "3-ticket-server",
+      "title": "3. Ticket Server",
+      "level": 3
+    },
+    {
+      "id": "4-twitter-snowflake-approach",
+      "title": "4. Twitter Snowflake Approach",
+      "level": 3
+    },
+    {
+      "id": "step-4-additional-considerations",
+      "title": "Step 4: Additional Considerations",
+      "level": 2
+    },
+    {
+      "id": "1-clock-synchronization",
+      "title": "1. Clock Synchronization",
+      "level": 3
+    },
+    {
+      "id": "2-section-length-tuning",
+      "title": "2. Section Length Tuning",
+      "level": 3
+    },
+    {
+      "id": "3-high-availability",
+      "title": "3. High Availability",
+      "level": 3
+    }
+  ],
+  "prevChapter": {
+    "slug": "key-value-store",
+    "title": "Design a Key-Value Store",
+    "chapterNumber": 6
+  },
+  "nextChapter": {
+    "slug": "url-shortener",
+    "title": "Design a URL Shortener",
+    "chapterNumber": 8
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "type": "company",
+  "slug": "akamai",
+  "name": "Akamai",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Akamai hiring and placement rounds.",
+  "problemCount": 15,
+  "problemSlugs": [
+    "n-repeated-element-in-size-2n-array",
+    "best-time-to-buy-and-sell-stock",
+    "contiguous-array",
+    "add-two-integers",
+    "two-sum",
+    "first-unique-character-in-a-string",
+    "unique-paths",
+    "spiral-matrix",
+    "longest-substring-without-repeating-characters",
+    "palindromic-substrings",
+    "find-peak-element",
+    "course-schedule",
+    "minimum-absolute-difference",
+    "defuse-the-bomb",
+    "longest-palindrome"
+  ],
+  "difficultyBreakdown": {
+    "easy": 8,
+    "medium": 7,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "n-repeated-element-in-size-2n-array",
+        "number": 961,
+        "title": "N-Repeated Element in Size 2N Array",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 94,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contiguous-array",
+        "number": 525,
+        "title": "Contiguous Array",
+        "difficulty": "Medium",
+        "frequency": 85.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-integers",
+        "number": 2235,
+        "title": "Add Two Integers",
+        "difficulty": "Easy",
+        "frequency": 73.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-unique-character-in-a-string",
+        "number": 387,
+        "title": "First Unique Character in a String",
+        "difficulty": "Easy",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths",
+        "number": 62,
+        "title": "Unique Paths",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference",
+        "number": 1200,
+        "title": "Minimum Absolute Difference",
+        "difficulty": "Easy",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "defuse-the-bomb",
+        "number": 1652,
+        "title": "Defuse the Bomb",
+        "difficulty": "Easy",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindrome",
+        "number": 409,
+        "title": "Longest Palindrome",
+        "difficulty": "Easy",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Akamai Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Akamai coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/akamai",
+    "keywords": [
+      "akamai interview questions",
+      "akamai leetcode",
+      "akamai coding questions",
+      "akamai online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

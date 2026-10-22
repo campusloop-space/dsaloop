@@ -1,0 +1,255 @@
+{
+  "type": "company",
+  "slug": "wells-fargo",
+  "name": "Wells Fargo",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Wells Fargo hiring and placement rounds.",
+  "problemCount": 20,
+  "problemSlugs": [
+    "shortest-and-lexicographically-smallest-beautiful-string",
+    "minimum-string-length-after-removing-substrings",
+    "merge-strings-alternately",
+    "number-of-islands",
+    "count-binary-substrings",
+    "merge-intervals",
+    "rotate-string",
+    "verbal-arithmetic-puzzle",
+    "kth-largest-element-in-a-stream",
+    "maximum-subarray",
+    "count-vowel-substrings-of-a-string",
+    "lfu-cache",
+    "meeting-rooms-ii",
+    "backspace-string-compare",
+    "intersection-of-two-linked-lists",
+    "valid-parentheses",
+    "lru-cache",
+    "maximum-earnings-from-taxi",
+    "restore-ip-addresses",
+    "subarray-product-less-than-k"
+  ],
+  "difficultyBreakdown": {
+    "easy": 9,
+    "medium": 9,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+        "number": 2904,
+        "title": "Shortest and Lexicographically Smallest Beautiful String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-string-length-after-removing-substrings",
+        "number": 2696,
+        "title": "Minimum String Length After Removing Substrings",
+        "difficulty": "Easy",
+        "frequency": 88.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-strings-alternately",
+        "number": 1768,
+        "title": "Merge Strings Alternately",
+        "difficulty": "Easy",
+        "frequency": 75.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 75.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-binary-substrings",
+        "number": 696,
+        "title": "Count Binary Substrings",
+        "difficulty": "Easy",
+        "frequency": 75.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 75.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-string",
+        "number": 796,
+        "title": "Rotate String",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "verbal-arithmetic-puzzle",
+        "number": 1307,
+        "title": "Verbal Arithmetic Puzzle",
+        "difficulty": "Hard",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-a-stream",
+        "number": 703,
+        "title": "Kth Largest Element in a Stream",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-substrings-of-a-string",
+        "number": 2062,
+        "title": "Count Vowel Substrings of a String",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "backspace-string-compare",
+        "number": 844,
+        "title": "Backspace String Compare",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-linked-lists",
+        "number": 160,
+        "title": "Intersection of Two Linked Lists",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-earnings-from-taxi",
+        "number": 2008,
+        "title": "Maximum Earnings From Taxi",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 65.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Wells Fargo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Wells Fargo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/wells-fargo",
+    "keywords": [
+      "wells fargo interview questions",
+      "wells fargo leetcode",
+      "wells fargo coding questions",
+      "wells fargo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "type": "company",
+  "slug": "sprinklr",
+  "name": "Sprinklr",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Sprinklr hiring and placement rounds.",
+  "problemCount": 45,
+  "problemSlugs": [
+    "create-components-with-same-value",
+    "maximum-score-of-non-overlapping-intervals",
+    "minimum-edge-weight-equilibrium-queries-in-a-tree",
+    "number-of-great-partitions",
+    "apply-bitwise-operations-to-make-strings-equal",
+    "apply-operations-on-array-to-maximize-sum-of-squares",
+    "next-greater-numerically-balanced-number",
+    "count-the-number-of-powerful-integers",
+    "number-of-same-end-substrings",
+    "minimum-time-to-revert-word-to-initial-state-ii",
+    "minimum-time-to-revert-word-to-initial-state-i",
+    "closest-subsequence-sum",
+    "maximum-subarray-sum-after-one-operation",
+    "maximize-score-after-n-operations",
+    "choose-edges-to-maximize-score-in-a-tree",
+    "maximum-sum-of-two-non-overlapping-subarrays",
+    "gas-station",
+    "asteroid-collision",
+    "sum-of-subarray-minimums",
+    "isomorphic-strings",
+    "subarray-sum-equals-k",
+    "odd-even-jump",
+    "cherry-pickup-ii",
+    "find-median-from-data-stream",
+    "max-points-on-a-line",
+    "regular-expression-matching",
+    "student-attendance-record-ii",
+    "shortest-path-with-alternating-colors",
+    "longest-univalue-path",
+    "maximum-sum-circular-subarray",
+    "maximal-rectangle",
+    "longest-valid-parentheses",
+    "frog-jump",
+    "132-pattern",
+    "house-robber-iii",
+    "sliding-window-maximum",
+    "edit-distance",
+    "maximum-points-you-can-obtain-from-cards",
+    "trapping-rain-water",
+    "all-nodes-distance-k-in-binary-tree",
+    "lru-cache",
+    "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+    "find-k-pairs-with-smallest-sums",
+    "merge-intervals",
+    "median-of-two-sorted-arrays"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 22,
+    "hard": 22
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "maximum-sum-of-two-non-overlapping-subarrays",
+        "number": 1031,
+        "title": "Maximum Sum of Two Non-Overlapping Subarrays",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "maximum-sum-of-two-non-overlapping-subarrays",
+        "number": 1031,
+        "title": "Maximum Sum of Two Non-Overlapping Subarrays",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 96.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "create-components-with-same-value",
+        "number": 2440,
+        "title": "Create Components With Same Value",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-score-of-non-overlapping-intervals",
+        "number": 3414,
+        "title": "Maximum Score of Non-overlapping Intervals",
+        "difficulty": "Hard",
+        "frequency": 95.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+        "number": 2846,
+        "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-great-partitions",
+        "number": 2518,
+        "title": "Number of Great Partitions",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "apply-bitwise-operations-to-make-strings-equal",
+        "number": 2546,
+        "title": "Apply Bitwise Operations to Make Strings Equal",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+        "number": 2897,
+        "title": "Apply Operations on Array to Maximize Sum of Squares",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-numerically-balanced-number",
+        "number": 2048,
+        "title": "Next Greater Numerically Balanced Number",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-powerful-integers",
+        "number": 2999,
+        "title": "Count the Number of Powerful Integers",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-same-end-substrings",
+        "number": 2955,
+        "title": "Number of Same-End Substrings",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-revert-word-to-initial-state-ii",
+        "number": 3031,
+        "title": "Minimum Time to Revert Word to Initial State II",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-to-revert-word-to-initial-state-i",
+        "number": 3029,
+        "title": "Minimum Time to Revert Word to Initial State I",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "closest-subsequence-sum",
+        "number": 1755,
+        "title": "Closest Subsequence Sum",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray-sum-after-one-operation",
+        "number": 1746,
+        "title": "Maximum Subarray Sum After One Operation",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-score-after-n-operations",
+        "number": 1799,
+        "title": "Maximize Score After N Operations",
+        "difficulty": "Hard",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "choose-edges-to-maximize-score-in-a-tree",
+        "number": 2378,
+        "title": "Choose Edges to Maximize Score in a Tree",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-of-two-non-overlapping-subarrays",
+        "number": 1031,
+        "title": "Maximum Sum of Two Non-Overlapping Subarrays",
+        "difficulty": "Medium",
+        "frequency": 86.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 82.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-subarray-minimums",
+        "number": 907,
+        "title": "Sum of Subarray Minimums",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "isomorphic-strings",
+        "number": 205,
+        "title": "Isomorphic Strings",
+        "difficulty": "Easy",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 72,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "odd-even-jump",
+        "number": 975,
+        "title": "Odd Even Jump",
+        "difficulty": "Hard",
+        "frequency": 64.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cherry-pickup-ii",
+        "number": 1463,
+        "title": "Cherry Pickup II",
+        "difficulty": "Hard",
+        "frequency": 64.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 64.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-points-on-a-line",
+        "number": 149,
+        "title": "Max Points on a Line",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "regular-expression-matching",
+        "number": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "student-attendance-record-ii",
+        "number": 552,
+        "title": "Student Attendance Record II",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-with-alternating-colors",
+        "number": 1129,
+        "title": "Shortest Path with Alternating Colors",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-univalue-path",
+        "number": 687,
+        "title": "Longest Univalue Path",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-circular-subarray",
+        "number": 918,
+        "title": "Maximum Sum Circular Subarray",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-rectangle",
+        "number": 85,
+        "title": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "frog-jump",
+        "number": 403,
+        "title": "Frog Jump",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "132-pattern",
+        "number": 456,
+        "title": "132 Pattern",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-iii",
+        "number": 337,
+        "title": "House Robber III",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-you-can-obtain-from-cards",
+        "number": 1423,
+        "title": "Maximum Points You Can Obtain from Cards",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "all-nodes-distance-k-in-binary-tree",
+        "number": 863,
+        "title": "All Nodes Distance K in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+        "number": 1526,
+        "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-k-pairs-with-smallest-sums",
+        "number": 373,
+        "title": "Find K Pairs with Smallest Sums",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 54.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sprinklr Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Sprinklr coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/sprinklr",
+    "keywords": [
+      "sprinklr interview questions",
+      "sprinklr leetcode",
+      "sprinklr coding questions",
+      "sprinklr online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

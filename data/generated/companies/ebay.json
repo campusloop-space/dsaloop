@@ -1,0 +1,797 @@
+{
+  "type": "company",
+  "slug": "ebay",
+  "name": "Ebay",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Ebay hiring and placement rounds.",
+  "problemCount": 66,
+  "problemSlugs": [
+    "lru-cache",
+    "remove-one-element-to-make-the-array-strictly-increasing",
+    "alternating-digit-sum",
+    "partition-equal-subset-sum",
+    "subtree-of-another-tree",
+    "minimum-window-subsequence",
+    "binary-gap",
+    "design-skiplist",
+    "minimize-maximum-pair-sum-in-array",
+    "two-sum",
+    "spiral-matrix",
+    "merge-intervals",
+    "number-of-islands",
+    "top-k-frequent-elements",
+    "powx-n",
+    "set-matrix-zeroes",
+    "longest-palindromic-substring",
+    "binary-tree-cameras",
+    "matchsticks-to-square",
+    "time-based-key-value-store",
+    "sort-array-by-parity",
+    "maximal-square",
+    "minimize-result-by-adding-parentheses-to-expression",
+    "longest-substring-without-repeating-characters",
+    "valid-parentheses",
+    "group-anagrams",
+    "word-ladder",
+    "reconstruct-itinerary",
+    "open-the-lock",
+    "rotting-oranges",
+    "sort-colors",
+    "shortest-unsorted-continuous-subarray",
+    "interleaving-string",
+    "jump-game-ii",
+    "restore-the-array-from-adjacent-pairs",
+    "word-search",
+    "decode-string",
+    "block-placement-queries",
+    "merge-k-sorted-lists",
+    "best-time-to-buy-and-sell-stock-ii",
+    "kth-largest-element-in-an-array",
+    "design-a-stack-with-increment-operation",
+    "valid-palindrome-ii",
+    "course-schedule",
+    "generate-parentheses",
+    "find-peak-element",
+    "repeated-substring-pattern",
+    "walls-and-gates",
+    "palindrome-linked-list",
+    "clone-graph",
+    "sudoku-solver",
+    "3sum",
+    "product-of-array-except-self",
+    "find-median-from-data-stream",
+    "alternating-groups-ii",
+    "alien-dictionary",
+    "substring-with-concatenation-of-all-words",
+    "spiral-matrix-ii",
+    "median-of-two-sorted-arrays",
+    "string-compression",
+    "search-in-rotated-sorted-array",
+    "longest-consecutive-sequence",
+    "next-greater-element-iii",
+    "minimum-knight-moves",
+    "stepping-numbers",
+    "meeting-rooms-ii"
+  ],
+  "difficultyBreakdown": {
+    "easy": 10,
+    "medium": 44,
+    "hard": 12
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stepping-numbers",
+        "number": 1215,
+        "title": "Stepping Numbers",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-groups-ii",
+        "number": 3208,
+        "title": "Alternating Groups II",
+        "difficulty": "Medium",
+        "frequency": 81,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 81,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 81,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-knight-moves",
+        "number": 1197,
+        "title": "Minimum Knight Moves",
+        "difficulty": "Medium",
+        "frequency": 81,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stepping-numbers",
+        "number": 1215,
+        "title": "Stepping Numbers",
+        "difficulty": "Medium",
+        "frequency": 81,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-one-element-to-make-the-array-strictly-increasing",
+        "number": 1909,
+        "title": "Remove One Element to Make the Array Strictly Increasing",
+        "difficulty": "Easy",
+        "frequency": 97.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-digit-sum",
+        "number": 2544,
+        "title": "Alternating Digit Sum",
+        "difficulty": "Easy",
+        "frequency": 92.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-equal-subset-sum",
+        "number": 416,
+        "title": "Partition Equal Subset Sum",
+        "difficulty": "Medium",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subtree-of-another-tree",
+        "number": 572,
+        "title": "Subtree of Another Tree",
+        "difficulty": "Easy",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-subsequence",
+        "number": 727,
+        "title": "Minimum Window Subsequence",
+        "difficulty": "Hard",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-gap",
+        "number": 868,
+        "title": "Binary Gap",
+        "difficulty": "Easy",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-skiplist",
+        "number": 1206,
+        "title": "Design Skiplist",
+        "difficulty": "Hard",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-maximum-pair-sum-in-array",
+        "number": 1877,
+        "title": "Minimize Maximum Pair Sum in Array",
+        "difficulty": "Medium",
+        "frequency": 89.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 85.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 85.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 85.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "powx-n",
+        "number": 50,
+        "title": "Pow(x, n)",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-matrix-zeroes",
+        "number": 73,
+        "title": "Set Matrix Zeroes",
+        "difficulty": "Medium",
+        "frequency": 76.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "matchsticks-to-square",
+        "number": 473,
+        "title": "Matchsticks to Square",
+        "difficulty": "Medium",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "time-based-key-value-store",
+        "number": 981,
+        "title": "Time Based Key-Value Store",
+        "difficulty": "Medium",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-array-by-parity",
+        "number": 905,
+        "title": "Sort Array By Parity",
+        "difficulty": "Easy",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-square",
+        "number": 221,
+        "title": "Maximal Square",
+        "difficulty": "Medium",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 71.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "open-the-lock",
+        "number": 752,
+        "title": "Open the Lock",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-unsorted-continuous-subarray",
+        "number": 581,
+        "title": "Shortest Unsorted Continuous Subarray",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "interleaving-string",
+        "number": 97,
+        "title": "Interleaving String",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-the-array-from-adjacent-pairs",
+        "number": 1743,
+        "title": "Restore the Array From Adjacent Pairs",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 63.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-a-stack-with-increment-operation",
+        "number": 1381,
+        "title": "Design a Stack With Increment Operation",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome-ii",
+        "number": 680,
+        "title": "Valid Palindrome II",
+        "difficulty": "Easy",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "repeated-substring-pattern",
+        "number": 459,
+        "title": "Repeated Substring Pattern",
+        "difficulty": "Easy",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "walls-and-gates",
+        "number": 286,
+        "title": "Walls and Gates",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-linked-list",
+        "number": 234,
+        "title": "Palindrome Linked List",
+        "difficulty": "Easy",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sudoku-solver",
+        "number": 37,
+        "title": "Sudoku Solver",
+        "difficulty": "Hard",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-array-except-self",
+        "number": 238,
+        "title": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-groups-ii",
+        "number": 3208,
+        "title": "Alternating Groups II",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "substring-with-concatenation-of-all-words",
+        "number": 30,
+        "title": "Substring with Concatenation of All Words",
+        "difficulty": "Hard",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix-ii",
+        "number": 59,
+        "title": "Spiral Matrix II",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-iii",
+        "number": 556,
+        "title": "Next Greater Element III",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-knight-moves",
+        "number": 1197,
+        "title": "Minimum Knight Moves",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stepping-numbers",
+        "number": 1215,
+        "title": "Stepping Numbers",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 52.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Ebay Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Ebay coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/ebay",
+    "keywords": [
+      "ebay interview questions",
+      "ebay leetcode",
+      "ebay coding questions",
+      "ebay online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

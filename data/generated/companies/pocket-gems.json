@@ -2,23 +2,174 @@
   "type": "company",
   "slug": "pocket-gems",
   "name": "Pocket Gems",
-  "description": "Coding interview preparation for Pocket Gems: high-frequency patterns and problem sets.",
-  "problemCount": 5,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Pocket Gems hiring and placement rounds.",
+  "problemCount": 14,
   "problemSlugs": [
     "sort-colors",
+    "non-negative-integers-without-consecutive-ones",
     "clone-graph",
     "word-break",
+    "top-k-frequent-words",
+    "shortest-palindrome",
     "kth-largest-element-in-an-array",
-    "top-k-frequent-elements"
+    "alien-dictionary",
+    "basic-calculator-iii",
+    "inorder-successor-in-bst",
+    "top-k-frequent-elements",
+    "insert-delete-getrandom-o1",
+    "longest-repeating-character-replacement",
+    "find-all-duplicates-in-an-array"
   ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 10,
+    "hard": 4
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-negative-integers-without-consecutive-ones",
+        "number": 600,
+        "title": "Non-negative Integers without Consecutive Ones",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-words",
+        "number": 692,
+        "title": "Top K Frequent Words",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-palindrome",
+        "number": 214,
+        "title": "Shortest Palindrome",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "inorder-successor-in-bst",
+        "number": 285,
+        "title": "Inorder Successor in BST",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-character-replacement",
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-all-duplicates-in-an-array",
+        "number": 442,
+        "title": "Find All Duplicates in an Array",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Pocket Gems Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Pocket Gems interviews with 5 problems, patterns, and roadmaps.",
+    "title": "Pocket Gems Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Pocket Gems coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/pocket-gems",
     "keywords": [
-      "Pocket Gems interview questions",
-      "Pocket Gems leetcode",
-      "Pocket Gems oa"
-    ],
-    "canonicalPath": "/companies/pocket-gems"
+      "pocket gems interview questions",
+      "pocket gems leetcode",
+      "pocket gems coding questions",
+      "pocket gems online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

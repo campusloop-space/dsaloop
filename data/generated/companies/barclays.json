@@ -1,0 +1,263 @@
+{
+  "type": "company",
+  "slug": "barclays",
+  "name": "Barclays",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Barclays hiring and placement rounds.",
+  "problemCount": 19,
+  "problemSlugs": [
+    "lexicographically-smallest-generated-string",
+    "double-modular-exponentiation",
+    "furthest-point-from-origin",
+    "count-submatrices-with-top-left-element-and-sum-less-than-k",
+    "mark-elements-on-array-by-performing-queries",
+    "second-highest-salary",
+    "partition-labels",
+    "two-sum",
+    "merge-intervals",
+    "valid-parentheses",
+    "number-of-islands",
+    "longest-common-prefix",
+    "next-greater-element-i",
+    "reverse-words-in-a-string",
+    "minimum-number-of-days-to-make-m-bouquets",
+    "remove-boxes",
+    "design-an-atm-machine",
+    "minimum-number-of-arrows-to-burst-balloons",
+    "maximum-employees-to-be-invited-to-a-meeting"
+  ],
+  "difficultyBreakdown": {
+    "easy": 5,
+    "medium": 11,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "number": 452,
+        "title": "Minimum Number of Arrows to Burst Balloons",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "remove-boxes",
+        "number": 546,
+        "title": "Remove Boxes",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "number": 452,
+        "title": "Minimum Number of Arrows to Burst Balloons",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "lexicographically-smallest-generated-string",
+        "number": 3474,
+        "title": "Lexicographically Smallest Generated String",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "double-modular-exponentiation",
+        "number": 2961,
+        "title": "Double Modular Exponentiation",
+        "difficulty": "Medium",
+        "frequency": 86.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "furthest-point-from-origin",
+        "number": 2833,
+        "title": "Furthest Point From Origin",
+        "difficulty": "Easy",
+        "frequency": 84.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-submatrices-with-top-left-element-and-sum-less-than-k",
+        "number": 3070,
+        "title": "Count Submatrices with Top-Left Element and Sum Less Than k",
+        "difficulty": "Medium",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "mark-elements-on-array-by-performing-queries",
+        "number": 3080,
+        "title": "Mark Elements on Array by Performing Queries",
+        "difficulty": "Medium",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "second-highest-salary",
+        "number": 176,
+        "title": "Second Highest Salary",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-labels",
+        "number": 763,
+        "title": "Partition Labels",
+        "difficulty": "Medium",
+        "frequency": 61,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 61,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 61,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-i",
+        "number": 496,
+        "title": "Next Greater Element I",
+        "difficulty": "Easy",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-days-to-make-m-bouquets",
+        "number": 1482,
+        "title": "Minimum Number of Days to Make m Bouquets",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-boxes",
+        "number": 546,
+        "title": "Remove Boxes",
+        "difficulty": "Hard",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-an-atm-machine",
+        "number": 2241,
+        "title": "Design an ATM Machine",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "number": 452,
+        "title": "Minimum Number of Arrows to Burst Balloons",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-employees-to-be-invited-to-a-meeting",
+        "number": 2127,
+        "title": "Maximum Employees to Be Invited to a Meeting",
+        "difficulty": "Hard",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Barclays Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Barclays coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/barclays",
+    "keywords": [
+      "barclays interview questions",
+      "barclays leetcode",
+      "barclays coding questions",
+      "barclays online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

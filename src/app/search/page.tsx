@@ -5,7 +5,7 @@ import { SearchClient } from "@/components/search/search-client";
 
 export const metadata: Metadata = buildMetadata(
   {
-    title: "Search Problems, Patterns & Guides | AlgoForge",
+    title: "Search Problems, Patterns & Guides | DSALoop by CampusLoop",
     description: "Search across coding problems, topics, patterns, companies, roadmaps, and guides.",
     keywords: ["leetcode search", "algorithm search", "coding interview search"],
     canonicalPath: "/search",

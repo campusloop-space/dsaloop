@@ -1,0 +1,379 @@
+{
+  "type": "company",
+  "slug": "waymo",
+  "name": "Waymo",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Waymo hiring and placement rounds.",
+  "problemCount": 28,
+  "problemSlugs": [
+    "max-points-on-a-line",
+    "logger-rate-limiter",
+    "number-of-islands",
+    "meeting-rooms-ii",
+    "minimum-number-of-refueling-stops",
+    "random-pick-with-weight",
+    "shortest-distance-from-all-buildings",
+    "number-of-visible-people-in-a-queue",
+    "design-tic-tac-toe",
+    "minimum-knight-moves",
+    "text-justification",
+    "design-excel-sum-formula",
+    "minimum-area-rectangle",
+    "path-with-minimum-effort",
+    "regular-expression-matching",
+    "alien-dictionary",
+    "range-sum-query-2d-immutable",
+    "robot-room-cleaner",
+    "divide-array-in-sets-of-k-consecutive-numbers",
+    "find-peak-element",
+    "largest-rectangle-in-histogram",
+    "maximum-earnings-from-taxi",
+    "number-of-islands-ii",
+    "car-fleet",
+    "maximum-gap",
+    "minimum-path-sum",
+    "majority-element-ii",
+    "design-circular-queue"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 16,
+    "hard": 11
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-refueling-stops",
+        "number": 871,
+        "title": "Minimum Number of Refueling Stops",
+        "difficulty": "Hard",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-gap",
+        "number": 164,
+        "title": "Maximum Gap",
+        "difficulty": "Medium",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-distance-from-all-buildings",
+        "number": 317,
+        "title": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "robot-room-cleaner",
+        "number": 489,
+        "title": "Robot Room Cleaner",
+        "difficulty": "Hard",
+        "frequency": 88.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "max-points-on-a-line",
+        "number": 149,
+        "title": "Max Points on a Line",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "logger-rate-limiter",
+        "number": 359,
+        "title": "Logger Rate Limiter",
+        "difficulty": "Easy",
+        "frequency": 83.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-refueling-stops",
+        "number": 871,
+        "title": "Minimum Number of Refueling Stops",
+        "difficulty": "Hard",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 79.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-distance-from-all-buildings",
+        "number": 317,
+        "title": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "frequency": 73.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-visible-people-in-a-queue",
+        "number": 1944,
+        "title": "Number of Visible People in a Queue",
+        "difficulty": "Hard",
+        "frequency": 73.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-tic-tac-toe",
+        "number": 348,
+        "title": "Design Tic-Tac-Toe",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-knight-moves",
+        "number": 1197,
+        "title": "Minimum Knight Moves",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-excel-sum-formula",
+        "number": 631,
+        "title": "Design Excel Sum Formula",
+        "difficulty": "Hard",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-area-rectangle",
+        "number": 939,
+        "title": "Minimum Area Rectangle",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-with-minimum-effort",
+        "number": 1631,
+        "title": "Path With Minimum Effort",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "regular-expression-matching",
+        "number": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "range-sum-query-2d-immutable",
+        "number": 304,
+        "title": "Range Sum Query 2D - Immutable",
+        "difficulty": "Medium",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "robot-room-cleaner",
+        "number": 489,
+        "title": "Robot Room Cleaner",
+        "difficulty": "Hard",
+        "frequency": 67.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divide-array-in-sets-of-k-consecutive-numbers",
+        "number": 1296,
+        "title": "Divide Array in Sets of K Consecutive Numbers",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-earnings-from-taxi",
+        "number": 2008,
+        "title": "Maximum Earnings From Taxi",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands-ii",
+        "number": 305,
+        "title": "Number of Islands II",
+        "difficulty": "Hard",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "car-fleet",
+        "number": 853,
+        "title": "Car Fleet",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-gap",
+        "number": 164,
+        "title": "Maximum Gap",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-path-sum",
+        "number": 64,
+        "title": "Minimum Path Sum",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "majority-element-ii",
+        "number": 229,
+        "title": "Majority Element II",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 57.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Waymo Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Waymo coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/waymo",
+    "keywords": [
+      "waymo interview questions",
+      "waymo leetcode",
+      "waymo coding questions",
+      "waymo online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

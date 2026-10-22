@@ -1,0 +1,123 @@
+{
+  "chapterNumber": 4,
+  "slug": "rate-limiter",
+  "title": "Design a Rate Limiter",
+  "subtitle": "Comprehensive interview guide for Design a Rate Limiter. Architecture, trade-offs, and key deep dives.",
+  "readTimeMinutes": 3,
+  "tags": [
+    "Rate Limiter",
+    "Concurrency",
+    "Security",
+    "Token Bucket"
+  ],
+  "imagesCount": 8,
+  "markdown": "## Introduction\nThis chapter explores the design and implementation of a rate limiter—a system component used to control traffic rates sent by clients or services. Rate limiters are crucial for preventing abuse, reducing costs, and ensuring the stability of server resources. Examples of their use include limiting posts, account creations, and reward claims.\n\n## Benefits of Rate Limiting\n- **Preventing DoS Attacks:** Blocking excess calls to avoid resource starvation.\n- **Cost Reduction:** Limiting unnecessary requests to reduce server expenses.\n- **Preventing Overloads:** Filtering out excessive requests to stabilize server performance.\n\n## Step 1: Understanding the Problem\n### Key Features\n- Server-side API rate limiter.\n- Support for multiple throttle rules.\n- Handle large-scale systems in distributed environments.\n- Option for a standalone service or application-level code.\n- Inform users when throttled.\n\n### Requirements\n- Accurate request throttling.\n- Minimal latency.\n- Low memory usage.\n- Distributed capability.\n- Clear exception handling.\n- High fault tolerance.\n\n## Step 2: High-Level Design\n### Placement Options\n\n\n\n    \n\n![Rate Limiting Middleware Architecture](/system-design-assets/rate-limiter/images/rate_limiter_architecture.png)\n\n\n\n\n\n\n1. **Client-Side Implementation:** Unreliable due to potential misuse.\n2. **Server-Side Implementation:** Preferred for control and reliability.\n3. **Middleware (API Gateway):** A flexible option for integrated rate limiting.\n\n\n### Guidelines for Placement\n- Evaluate current tech stack and choose efficient options.\n- Select appropriate algorithms based on business needs.\n- Use an API gateway if microservices are employed.\n- Opt for commercial solutions if resources are limited.\n\n## Step 3: Rate Limiting Algorithms\n### 1. Token Bucket\n\n\n\n  \n\n![Token Bucket Algorithm](/system-design-assets/rate-limiter/images/token-bucket.png)\n\n\n\n\n\n\n- **Description:** Tokens are added to a bucket at a fixed rate; each request consumes a token.\n- **Parameters:** Bucket size and refill rate.\n- **Pros:** Easy to implement, memory-efficient, supports traffic bursts.\n- **Cons:** Requires careful parameter tuning.\n\n\n\n### 2. Leaking Bucket\n\n\n\n  \n\n![Leaking Bucket Algorithm](/system-design-assets/rate-limiter/images/leaking-bucket.png)\n\n\n\n\n\n\n- **Description:** Processes requests at a fixed rate using a FIFO queue.\n- **Pros:** Memory-efficient, stable outflow rate.\n- **Cons:** Traffic bursts may delay recent requests.\n  \n\n  Example: https://github.com/uber-go/ratelimit\n\n\n\n### 3. Fixed Window Counter\n\n\n\n  \n\n![Fixed Window Counter](/system-design-assets/rate-limiter/images/fixed-window-counter.png)\n\n\n\n\n\n\n- **Description:** Divides time into fixed intervals and uses counters to limit requests.\n- **Pros:** Simple, efficient for specific use cases.\n- **Cons:** Traffic spikes at window edges can exceed limits.\n\n- Sudden burst of traffic at the edges of time windows\ncould cause more requests than allowed quota to go through.\n\n  \n\n![Fixed Window Issue](/system-design-assets/rate-limiter/images/fixed-window-issue.png)\n\n\n\n\n### 4. Sliding Window Log\n\n\n\n  \n\n![Sliding Window Log](/system-design-assets/rate-limiter/images/sliding-window-log.png)\n\n\n\n\n\n\n- **Description:** Tracks timestamps to allow a rolling time window.\n- **Pros:** Accurate rate limiting.\n- **Cons:** High memory consumption.\n  \n\n\n### 5. Sliding Window Counter\n\n\n\n  \n\n![Fixed Window Counter](/system-design-assets/rate-limiter/images/sliding-window-counter.png)\n\n\n\n\n\n\n- **Description:** Combines fixed window and sliding log methods for smoothing spikes.\n- **Pros:** Memory-efficient, handles traffic bursts.\n- **Cons:** Approximation may not be perfectly strict.\n  \n\n\n\n## High-Level Architecture\n\n\n\n  \n\n![Architecture](/system-design-assets/rate-limiter/images/architecture.png)\n\n\n\n\n\n\n- **Data Storage:** Use in-memory caching (e.g., Redis) for fast counter operations.\n- **Steps:**\n  1. Client sends request to middleware.\n  2. Middleware checks counters in Redis.\n  3. Request is processed or rejected based on limits.\n\n\n## Advanced Considerations\n### Distributed Environments\n- **Challenges:** Race conditions, synchronization issues.\n- **Solutions:** Use locks, Lua scripts, or sorted sets in Redis. Employ centralized data stores for synchronization.\n\n### Performance Optimizations\n- Multi-data center setups for reduced latency.\n- Eventual consistency models for synchronization.\n\n### Monitoring\n- Regular analytics to ensure algorithm effectiveness and adjust rules as needed.\n\n---\n\n> 🎓 **DSALoop by [CampusLoop](https://campusloop.space/)** — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.",
+  "html": "<h2>Introduction</h2>\n<p>This chapter explores the design and implementation of a rate limiter—a system component used to control traffic rates sent by clients or services. Rate limiters are crucial for preventing abuse, reducing costs, and ensuring the stability of server resources. Examples of their use include limiting posts, account creations, and reward claims.</p>\n<h2>Benefits of Rate Limiting</h2>\n<ul>\n<li><strong>Preventing DoS Attacks:</strong> Blocking excess calls to avoid resource starvation.</li>\n<li><strong>Cost Reduction:</strong> Limiting unnecessary requests to reduce server expenses.</li>\n<li><strong>Preventing Overloads:</strong> Filtering out excessive requests to stabilize server performance.</li>\n</ul>\n<h2>Step 1: Understanding the Problem</h2>\n<h3>Key Features</h3>\n<ul>\n<li>Server-side API rate limiter.</li>\n<li>Support for multiple throttle rules.</li>\n<li>Handle large-scale systems in distributed environments.</li>\n<li>Option for a standalone service or application-level code.</li>\n<li>Inform users when throttled.</li>\n</ul>\n<h3>Requirements</h3>\n<ul>\n<li>Accurate request throttling.</li>\n<li>Minimal latency.</li>\n<li>Low memory usage.</li>\n<li>Distributed capability.</li>\n<li>Clear exception handling.</li>\n<li>High fault tolerance.</li>\n</ul>\n<h2>Step 2: High-Level Design</h2>\n<h3>Placement Options</h3>\n<p><img src=\"/system-design-assets/rate-limiter/images/rate_limiter_architecture.png\" alt=\"Rate Limiting Middleware Architecture\"></p>\n<ol>\n<li><strong>Client-Side Implementation:</strong> Unreliable due to potential misuse.</li>\n<li><strong>Server-Side Implementation:</strong> Preferred for control and reliability.</li>\n<li><strong>Middleware (API Gateway):</strong> A flexible option for integrated rate limiting.</li>\n</ol>\n<h3>Guidelines for Placement</h3>\n<ul>\n<li>Evaluate current tech stack and choose efficient options.</li>\n<li>Select appropriate algorithms based on business needs.</li>\n<li>Use an API gateway if microservices are employed.</li>\n<li>Opt for commercial solutions if resources are limited.</li>\n</ul>\n<h2>Step 3: Rate Limiting Algorithms</h2>\n<h3>1. Token Bucket</h3>\n<p><img src=\"/system-design-assets/rate-limiter/images/token-bucket.png\" alt=\"Token Bucket Algorithm\"></p>\n<ul>\n<li><strong>Description:</strong> Tokens are added to a bucket at a fixed rate; each request consumes a token.</li>\n<li><strong>Parameters:</strong> Bucket size and refill rate.</li>\n<li><strong>Pros:</strong> Easy to implement, memory-efficient, supports traffic bursts.</li>\n<li><strong>Cons:</strong> Requires careful parameter tuning.</li>\n</ul>\n<h3>2. Leaking Bucket</h3>\n<p><img src=\"/system-design-assets/rate-limiter/images/leaking-bucket.png\" alt=\"Leaking Bucket Algorithm\"></p>\n<ul>\n<li>\n<p><strong>Description:</strong> Processes requests at a fixed rate using a FIFO queue.</p>\n</li>\n<li>\n<p><strong>Pros:</strong> Memory-efficient, stable outflow rate.</p>\n</li>\n<li>\n<p><strong>Cons:</strong> Traffic bursts may delay recent requests.</p>\n<p>Example: <a href=\"https://github.com/uber-go/ratelimit\">https://github.com/uber-go/ratelimit</a></p>\n</li>\n</ul>\n<h3>3. Fixed Window Counter</h3>\n<p><img src=\"/system-design-assets/rate-limiter/images/fixed-window-counter.png\" alt=\"Fixed Window Counter\"></p>\n<ul>\n<li>\n<p><strong>Description:</strong> Divides time into fixed intervals and uses counters to limit requests.</p>\n</li>\n<li>\n<p><strong>Pros:</strong> Simple, efficient for specific use cases.</p>\n</li>\n<li>\n<p><strong>Cons:</strong> Traffic spikes at window edges can exceed limits.</p>\n</li>\n<li>\n<p>Sudden burst of traffic at the edges of time windows\ncould cause more requests than allowed quota to go through.</p>\n</li>\n</ul>\n<p><img src=\"/system-design-assets/rate-limiter/images/fixed-window-issue.png\" alt=\"Fixed Window Issue\"></p>\n<h3>4. Sliding Window Log</h3>\n<p><img src=\"/system-design-assets/rate-limiter/images/sliding-window-log.png\" alt=\"Sliding Window Log\"></p>\n<ul>\n<li><strong>Description:</strong> Tracks timestamps to allow a rolling time window.</li>\n<li><strong>Pros:</strong> Accurate rate limiting.</li>\n<li><strong>Cons:</strong> High memory consumption.</li>\n</ul>\n<h3>5. Sliding Window Counter</h3>\n<p><img src=\"/system-design-assets/rate-limiter/images/sliding-window-counter.png\" alt=\"Fixed Window Counter\"></p>\n<ul>\n<li><strong>Description:</strong> Combines fixed window and sliding log methods for smoothing spikes.</li>\n<li><strong>Pros:</strong> Memory-efficient, handles traffic bursts.</li>\n<li><strong>Cons:</strong> Approximation may not be perfectly strict.</li>\n</ul>\n<h2>High-Level Architecture</h2>\n<p><img src=\"/system-design-assets/rate-limiter/images/architecture.png\" alt=\"Architecture\"></p>\n<ul>\n<li><strong>Data Storage:</strong> Use in-memory caching (e.g., Redis) for fast counter operations.</li>\n<li><strong>Steps:</strong>\n<ol>\n<li>Client sends request to middleware.</li>\n<li>Middleware checks counters in Redis.</li>\n<li>Request is processed or rejected based on limits.</li>\n</ol>\n</li>\n</ul>\n<h2>Advanced Considerations</h2>\n<h3>Distributed Environments</h3>\n<ul>\n<li><strong>Challenges:</strong> Race conditions, synchronization issues.</li>\n<li><strong>Solutions:</strong> Use locks, Lua scripts, or sorted sets in Redis. Employ centralized data stores for synchronization.</li>\n</ul>\n<h3>Performance Optimizations</h3>\n<ul>\n<li>Multi-data center setups for reduced latency.</li>\n<li>Eventual consistency models for synchronization.</li>\n</ul>\n<h3>Monitoring</h3>\n<ul>\n<li>Regular analytics to ensure algorithm effectiveness and adjust rules as needed.</li>\n</ul>\n<hr>\n<blockquote>\n<p>🎓 <strong>DSALoop by <a href=\"https://campusloop.space/\">CampusLoop</a></strong> — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.</p>\n</blockquote>\n",
+  "tableOfContents": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2
+    },
+    {
+      "id": "benefits-of-rate-limiting",
+      "title": "Benefits of Rate Limiting",
+      "level": 2
+    },
+    {
+      "id": "step-1-understanding-the-problem",
+      "title": "Step 1: Understanding the Problem",
+      "level": 2
+    },
+    {
+      "id": "key-features",
+      "title": "Key Features",
+      "level": 3
+    },
+    {
+      "id": "requirements",
+      "title": "Requirements",
+      "level": 3
+    },
+    {
+      "id": "step-2-high-level-design",
+      "title": "Step 2: High-Level Design",
+      "level": 2
+    },
+    {
+      "id": "placement-options",
+      "title": "Placement Options",
+      "level": 3
+    },
+    {
+      "id": "guidelines-for-placement",
+      "title": "Guidelines for Placement",
+      "level": 3
+    },
+    {
+      "id": "step-3-rate-limiting-algorithms",
+      "title": "Step 3: Rate Limiting Algorithms",
+      "level": 2
+    },
+    {
+      "id": "1-token-bucket",
+      "title": "1. Token Bucket",
+      "level": 3
+    },
+    {
+      "id": "2-leaking-bucket",
+      "title": "2. Leaking Bucket",
+      "level": 3
+    },
+    {
+      "id": "3-fixed-window-counter",
+      "title": "3. Fixed Window Counter",
+      "level": 3
+    },
+    {
+      "id": "4-sliding-window-log",
+      "title": "4. Sliding Window Log",
+      "level": 3
+    },
+    {
+      "id": "5-sliding-window-counter",
+      "title": "5. Sliding Window Counter",
+      "level": 3
+    },
+    {
+      "id": "high-level-architecture",
+      "title": "High-Level Architecture",
+      "level": 2
+    },
+    {
+      "id": "advanced-considerations",
+      "title": "Advanced Considerations",
+      "level": 2
+    },
+    {
+      "id": "distributed-environments",
+      "title": "Distributed Environments",
+      "level": 3
+    },
+    {
+      "id": "performance-optimizations",
+      "title": "Performance Optimizations",
+      "level": 3
+    },
+    {
+      "id": "monitoring",
+      "title": "Monitoring",
+      "level": 3
+    }
+  ],
+  "prevChapter": {
+    "slug": "system-design-framework",
+    "title": "A Framework for System Design Interviews",
+    "chapterNumber": 3
+  },
+  "nextChapter": {
+    "slug": "consistent-hashing",
+    "title": "Design Consistent Hashing",
+    "chapterNumber": 5
+  }
+}

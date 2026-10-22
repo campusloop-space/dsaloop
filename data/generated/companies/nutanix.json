@@ -1,0 +1,808 @@
+{
+  "type": "company",
+  "slug": "nutanix",
+  "name": "Nutanix",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Nutanix hiring and placement rounds.",
+  "problemCount": 69,
+  "problemSlugs": [
+    "broken-calculator",
+    "check-if-word-is-valid-after-substitutions",
+    "minimum-processing-time",
+    "grumpy-bookstore-owner",
+    "lru-cache",
+    "swap-for-longest-repeated-character-substring",
+    "online-majority-element-in-subarray",
+    "maximum-sum-of-an-hourglass",
+    "detect-cycles-in-2d-grid",
+    "delivering-boxes-from-storage-to-ports",
+    "partitioning-into-minimum-number-of-deci-binary-numbers",
+    "car-fleet",
+    "convert-binary-number-in-a-linked-list-to-integer",
+    "sliding-window-maximum",
+    "merge-intervals",
+    "group-anagrams",
+    "valid-number",
+    "increasing-triplet-subsequence",
+    "binary-tree-zigzag-level-order-traversal",
+    "binary-tree-maximum-path-sum",
+    "maximum-frequency-stack",
+    "decode-string",
+    "search-a-2d-matrix",
+    "reverse-linked-list-ii",
+    "trapping-rain-water",
+    "serialize-and-deserialize-binary-tree",
+    "max-stack",
+    "longest-increasing-path-in-a-matrix",
+    "best-sightseeing-pair",
+    "task-scheduler",
+    "course-schedule-ii",
+    "rotate-image",
+    "diameter-of-binary-tree",
+    "3sum",
+    "longest-substring-without-repeating-characters",
+    "first-missing-positive",
+    "jump-game-ii",
+    "pacific-atlantic-water-flow",
+    "boundary-of-binary-tree",
+    "top-k-frequent-elements",
+    "min-cost-to-connect-all-points",
+    "word-break",
+    "spiral-matrix",
+    "meeting-rooms-ii",
+    "search-in-rotated-sorted-array",
+    "clone-graph",
+    "surrounded-regions",
+    "longest-palindromic-subsequence",
+    "set-matrix-zeroes",
+    "rotate-array",
+    "maximum-employees-to-be-invited-to-a-meeting",
+    "snapshot-array",
+    "path-with-minimum-effort",
+    "split-array-largest-sum",
+    "max-consecutive-ones-iii",
+    "word-ladder-ii",
+    "reverse-nodes-in-even-length-groups",
+    "can-place-flowers",
+    "lfu-cache",
+    "binary-tree-cameras",
+    "find-the-winner-of-the-circular-game",
+    "asteroid-collision",
+    "implement-trie-prefix-tree",
+    "minimum-operations-to-halve-array-sum",
+    "house-robber-ii",
+    "remove-duplicate-letters",
+    "number-of-islands",
+    "meeting-rooms-iii",
+    "maximum-path-quality-of-a-graph"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 48,
+    "hard": 18
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "minimum-operations-to-halve-array-sum",
+        "number": 2208,
+        "title": "Minimum Operations to Halve Array Sum",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-path-quality-of-a-graph",
+        "number": 2065,
+        "title": "Maximum Path Quality of a Graph",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-halve-array-sum",
+        "number": 2208,
+        "title": "Minimum Operations to Halve Array Sum",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-path-quality-of-a-graph",
+        "number": 2065,
+        "title": "Maximum Path Quality of a Graph",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "broken-calculator",
+        "number": 991,
+        "title": "Broken Calculator",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-word-is-valid-after-substitutions",
+        "number": 1003,
+        "title": "Check If Word Is Valid After Substitutions",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-processing-time",
+        "number": 2895,
+        "title": "Minimum Processing Time",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "grumpy-bookstore-owner",
+        "number": 1052,
+        "title": "Grumpy Bookstore Owner",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "swap-for-longest-repeated-character-substring",
+        "number": 1156,
+        "title": "Swap For Longest Repeated Character Substring",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "online-majority-element-in-subarray",
+        "number": 1157,
+        "title": "Online Majority Element In Subarray",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-sum-of-an-hourglass",
+        "number": 2428,
+        "title": "Maximum Sum of an Hourglass",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "detect-cycles-in-2d-grid",
+        "number": 1559,
+        "title": "Detect Cycles in 2D Grid",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "delivering-boxes-from-storage-to-ports",
+        "number": 1687,
+        "title": "Delivering Boxes from Storage to Ports",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+        "number": 1689,
+        "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "car-fleet",
+        "number": 853,
+        "title": "Car Fleet",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-binary-number-in-a-linked-list-to-integer",
+        "number": 1290,
+        "title": "Convert Binary Number in a Linked List to Integer",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 96.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 96.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 79.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-number",
+        "number": 65,
+        "title": "Valid Number",
+        "difficulty": "Hard",
+        "frequency": 79.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "increasing-triplet-subsequence",
+        "number": 334,
+        "title": "Increasing Triplet Subsequence",
+        "difficulty": "Medium",
+        "frequency": 79.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-zigzag-level-order-traversal",
+        "number": 103,
+        "title": "Binary Tree Zigzag Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-frequency-stack",
+        "number": 895,
+        "title": "Maximum Frequency Stack",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-a-2d-matrix",
+        "number": 74,
+        "title": "Search a 2D Matrix",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list-ii",
+        "number": 92,
+        "title": "Reverse Linked List II",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "serialize-and-deserialize-binary-tree",
+        "number": 297,
+        "title": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-stack",
+        "number": 716,
+        "title": "Max Stack",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-sightseeing-pair",
+        "number": 1014,
+        "title": "Best Sightseeing Pair",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "diameter-of-binary-tree",
+        "number": 543,
+        "title": "Diameter of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 71.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-ii",
+        "number": 45,
+        "title": "Jump Game II",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "pacific-atlantic-water-flow",
+        "number": 417,
+        "title": "Pacific Atlantic Water Flow",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "boundary-of-binary-tree",
+        "number": 545,
+        "title": "Boundary of Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "min-cost-to-connect-all-points",
+        "number": 1584,
+        "title": "Min Cost to Connect All Points",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "clone-graph",
+        "number": 133,
+        "title": "Clone Graph",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "surrounded-regions",
+        "number": 130,
+        "title": "Surrounded Regions",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-subsequence",
+        "number": 516,
+        "title": "Longest Palindromic Subsequence",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "set-matrix-zeroes",
+        "number": 73,
+        "title": "Set Matrix Zeroes",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-employees-to-be-invited-to-a-meeting",
+        "number": 2127,
+        "title": "Maximum Employees to Be Invited to a Meeting",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "snapshot-array",
+        "number": 1146,
+        "title": "Snapshot Array",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-with-minimum-effort",
+        "number": 1631,
+        "title": "Path With Minimum Effort",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder-ii",
+        "number": 126,
+        "title": "Word Ladder II",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-even-length-groups",
+        "number": 2074,
+        "title": "Reverse Nodes in Even Length Groups",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "can-place-flowers",
+        "number": 605,
+        "title": "Can Place Flowers",
+        "difficulty": "Easy",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-winner-of-the-circular-game",
+        "number": 1823,
+        "title": "Find the Winner of the Circular Game",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-trie-prefix-tree",
+        "number": 208,
+        "title": "Implement Trie (Prefix Tree)",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-halve-array-sum",
+        "number": 2208,
+        "title": "Minimum Operations to Halve Array Sum",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-ii",
+        "number": 213,
+        "title": "House Robber II",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicate-letters",
+        "number": 316,
+        "title": "Remove Duplicate Letters",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-iii",
+        "number": 2402,
+        "title": "Meeting Rooms III",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-path-quality-of-a-graph",
+        "number": 2065,
+        "title": "Maximum Path Quality of a Graph",
+        "difficulty": "Hard",
+        "frequency": 59.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Nutanix Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Nutanix coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/nutanix",
+    "keywords": [
+      "nutanix interview questions",
+      "nutanix leetcode",
+      "nutanix coding questions",
+      "nutanix online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

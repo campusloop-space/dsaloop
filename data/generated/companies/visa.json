@@ -1,0 +1,1806 @@
+{
+  "type": "company",
+  "slug": "visa",
+  "name": "Visa",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Visa hiring and placement rounds.",
+  "problemCount": 148,
+  "problemSlugs": [
+    "text-justification",
+    "length-of-longest-v-shaped-diagonal-segment",
+    "longest-substring-without-repeating-characters",
+    "two-sum",
+    "rotating-the-box",
+    "minimum-operations-to-write-the-letter-y-on-a-grid",
+    "3sum",
+    "lru-cache",
+    "find-the-length-of-the-longest-common-prefix",
+    "split-the-array",
+    "best-time-to-buy-and-sell-stock",
+    "merge-intervals",
+    "block-placement-queries",
+    "number-of-black-blocks",
+    "group-anagrams",
+    "create-target-array-in-the-given-order",
+    "number-of-adjacent-elements-with-the-same-color",
+    "trapping-rain-water",
+    "simplify-path",
+    "longest-palindromic-substring",
+    "valid-parentheses",
+    "divisor-game",
+    "count-nodes-with-the-highest-score",
+    "two-furthest-houses-with-different-colors",
+    "earliest-possible-day-of-full-bloom",
+    "match-alphanumerical-pattern-in-matrix-i",
+    "maximum-number-of-events-that-can-be-attended",
+    "odd-string-difference",
+    "number-of-islands",
+    "largest-rectangle-in-histogram",
+    "number-of-divisible-triplet-sums",
+    "maximum-subarray",
+    "minimum-absolute-difference-between-elements-with-constraint",
+    "beautiful-arrangement",
+    "exclusive-time-of-functions",
+    "spiral-matrix",
+    "minimum-time-difference",
+    "reverse-linked-list",
+    "longest-valid-parentheses",
+    "grid-teleportation-traversal",
+    "subarray-sum-equals-k",
+    "rotate-image",
+    "number-of-perfect-pairs",
+    "divide-players-into-teams-of-equal-skill",
+    "count-palindromic-subsequences",
+    "top-k-frequent-elements",
+    "merge-two-sorted-lists",
+    "sort-colors",
+    "matrix-block-sum",
+    "gas-station",
+    "minimum-cost-path-with-teleportations",
+    "maximum-or",
+    "minimum-number-of-swaps-to-make-the-string-balanced",
+    "minimum-cost-to-move-between-indices",
+    "longest-common-prefix",
+    "walls-and-gates",
+    "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "word-ladder",
+    "restore-ip-addresses",
+    "container-with-most-water",
+    "number-of-matching-subsequences",
+    "balanced-binary-tree",
+    "find-median-from-data-stream",
+    "happy-number",
+    "add-strings",
+    "design-memory-allocator",
+    "number-of-changing-keys",
+    "best-time-to-buy-and-sell-stock-using-strategy",
+    "sell-diminishing-valued-colored-balls",
+    "hand-of-straights",
+    "palindrome-partitioning",
+    "count-ways-to-build-good-strings",
+    "minimize-malware-spread-ii",
+    "minimize-malware-spread",
+    "plus-one",
+    "image-smoother",
+    "valid-anagram",
+    "best-time-to-buy-and-sell-stock-iii",
+    "find-peak-element",
+    "sliding-window-maximum",
+    "candy-crush",
+    "partition-equal-subset-sum",
+    "substrings-of-size-three-with-distinct-characters",
+    "number-of-subarrays-that-match-a-pattern-i",
+    "edit-distance",
+    "brightest-position-on-street",
+    "contains-duplicate",
+    "sum-root-to-leaf-numbers",
+    "lfu-cache",
+    "longest-increasing-subsequence",
+    "sort-characters-by-frequency",
+    "best-time-to-buy-and-sell-stock-ii",
+    "product-of-array-except-self",
+    "check-if-array-is-sorted-and-rotated",
+    "kth-largest-element-in-an-array",
+    "reverse-vowels-of-a-string",
+    "valid-palindrome-ii",
+    "ugly-number-ii",
+    "unique-paths",
+    "restore-the-array-from-adjacent-pairs",
+    "letter-combinations-of-a-phone-number",
+    "reconstruct-itinerary",
+    "add-binary",
+    "last-stone-weight",
+    "count-mentions-per-user",
+    "maximal-rectangle",
+    "add-digits",
+    "candy",
+    "alternating-digit-sum",
+    "next-greater-element-ii",
+    "word-search",
+    "merge-sorted-array",
+    "valid-palindrome",
+    "first-unique-character-in-a-string",
+    "count-good-numbers",
+    "non-overlapping-intervals",
+    "maximal-score-after-applying-k-operations",
+    "flood-fill",
+    "meeting-rooms-ii",
+    "word-break",
+    "word-break-ii",
+    "maximum-palindromes-after-operations",
+    "jump-game-vi",
+    "path-with-minimum-effort",
+    "capacity-to-ship-packages-within-d-days",
+    "longest-common-subsequence",
+    "minimize-maximum-of-array",
+    "binary-tree-level-order-traversal",
+    "word-search-ii",
+    "kth-largest-sum-in-a-binary-tree",
+    "longest-non-decreasing-subarray-from-two-arrays",
+    "search-in-rotated-sorted-array",
+    "unique-length-3-palindromic-subsequences",
+    "best-time-to-buy-and-sell-stock-iv",
+    "jump-game",
+    "string-compression",
+    "distribute-elements-into-two-arrays-i",
+    "count-the-number-of-good-subarrays",
+    "using-a-robot-to-print-the-lexicographically-smallest-string",
+    "max-consecutive-ones-iii",
+    "lexicographically-smallest-palindrome",
+    "first-missing-positive",
+    "asteroid-collision",
+    "4sum",
+    "permutations",
+    "course-schedule-ii",
+    "longest-increasing-path-in-a-matrix",
+    "next-permutation"
+  ],
+  "difficultyBreakdown": {
+    "easy": 33,
+    "medium": 91,
+    "hard": 24
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "minimum-cost-to-move-between-indices",
+        "number": 3919,
+        "title": "Minimum Cost to Move Between Indices",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-move-between-indices",
+        "number": 3919,
+        "title": "Minimum Cost to Move Between Indices",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread-ii",
+        "number": 928,
+        "title": "Minimize Malware Spread II",
+        "difficulty": "Hard",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 81.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "beautiful-arrangement",
+        "number": 526,
+        "title": "Beautiful Arrangement",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exclusive-time-of-functions",
+        "number": 636,
+        "title": "Exclusive Time of Functions",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 93.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-palindromic-subsequences",
+        "number": 2484,
+        "title": "Count Palindromic Subsequences",
+        "difficulty": "Hard",
+        "frequency": 93.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-move-between-indices",
+        "number": 3919,
+        "title": "Minimum Cost to Move Between Indices",
+        "difficulty": "Medium",
+        "frequency": 93.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-divisible-triplet-sums",
+        "number": 2964,
+        "title": "Number of Divisible Triplet Sums",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-or",
+        "number": 2680,
+        "title": "Maximum OR",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+        "number": 1963,
+        "title": "Minimum Number of Swaps to Make the String Balanced",
+        "difficulty": "Medium",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread-ii",
+        "number": 928,
+        "title": "Minimize Malware Spread II",
+        "difficulty": "Hard",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 85.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-maximum-of-array",
+        "number": 2439,
+        "title": "Minimize Maximum of Array",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-ways-to-build-good-strings",
+        "number": 2466,
+        "title": "Count Ways To Build Good Strings",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-subsequence",
+        "number": 1143,
+        "title": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 73.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "length-of-longest-v-shaped-diagonal-segment",
+        "number": 3459,
+        "title": "Length of Longest V-Shaped Diagonal Segment",
+        "difficulty": "Hard",
+        "frequency": 98,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 95.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 94.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotating-the-box",
+        "number": 1861,
+        "title": "Rotating the Box",
+        "difficulty": "Medium",
+        "frequency": 94.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-write-the-letter-y-on-a-grid",
+        "number": 3071,
+        "title": "Minimum Operations to Write the Letter Y on a Grid",
+        "difficulty": "Medium",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 89.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "number": 3043,
+        "title": "Find the Length of the Longest Common Prefix",
+        "difficulty": "Medium",
+        "frequency": 87.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-the-array",
+        "number": 3046,
+        "title": "Split the Array",
+        "difficulty": "Easy",
+        "frequency": 85.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 84,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 79.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-black-blocks",
+        "number": 2768,
+        "title": "Number of Black Blocks",
+        "difficulty": "Medium",
+        "frequency": 79.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 77.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "create-target-array-in-the-given-order",
+        "number": 1389,
+        "title": "Create Target Array in the Given Order",
+        "difficulty": "Easy",
+        "frequency": 77.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-adjacent-elements-with-the-same-color",
+        "number": 2672,
+        "title": "Number of Adjacent Elements With the Same Color",
+        "difficulty": "Medium",
+        "frequency": 77.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 75,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divisor-game",
+        "number": 1025,
+        "title": "Divisor Game",
+        "difficulty": "Easy",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-nodes-with-the-highest-score",
+        "number": 2049,
+        "title": "Count Nodes With the Highest Score",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-furthest-houses-with-different-colors",
+        "number": 2078,
+        "title": "Two Furthest Houses With Different Colors",
+        "difficulty": "Easy",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "earliest-possible-day-of-full-bloom",
+        "number": 2136,
+        "title": "Earliest Possible Day of Full Bloom",
+        "difficulty": "Hard",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "match-alphanumerical-pattern-in-matrix-i",
+        "number": 3078,
+        "title": "Match Alphanumerical Pattern in Matrix I",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-events-that-can-be-attended",
+        "number": 1353,
+        "title": "Maximum Number of Events That Can Be Attended",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "odd-string-difference",
+        "number": 2451,
+        "title": "Odd String Difference",
+        "difficulty": "Easy",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-divisible-triplet-sums",
+        "number": 2964,
+        "title": "Number of Divisible Triplet Sums",
+        "difficulty": "Medium",
+        "frequency": 72.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 68.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference-between-elements-with-constraint",
+        "number": 2817,
+        "title": "Minimum Absolute Difference Between Elements With Constraint",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-arrangement",
+        "number": 526,
+        "title": "Beautiful Arrangement",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exclusive-time-of-functions",
+        "number": 636,
+        "title": "Exclusive Time of Functions",
+        "difficulty": "Medium",
+        "frequency": 65,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-difference",
+        "number": 539,
+        "title": "Minimum Time Difference",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-valid-parentheses",
+        "number": 32,
+        "title": "Longest Valid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "grid-teleportation-traversal",
+        "number": 3552,
+        "title": "Grid Teleportation Traversal",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-perfect-pairs",
+        "number": 3649,
+        "title": "Number of Perfect Pairs",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divide-players-into-teams-of-equal-skill",
+        "number": 2491,
+        "title": "Divide Players Into Teams of Equal Skill",
+        "difficulty": "Medium",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-palindromic-subsequences",
+        "number": 2484,
+        "title": "Count Palindromic Subsequences",
+        "difficulty": "Hard",
+        "frequency": 60.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-two-sorted-lists",
+        "number": 21,
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Easy",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "matrix-block-sum",
+        "number": 1314,
+        "title": "Matrix Block Sum",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "gas-station",
+        "number": 134,
+        "title": "Gas Station",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-path-with-teleportations",
+        "number": 3651,
+        "title": "Minimum Cost Path with Teleportations",
+        "difficulty": "Hard",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-or",
+        "number": 2680,
+        "title": "Maximum OR",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+        "number": 1963,
+        "title": "Minimum Number of Swaps to Make the String Balanced",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-to-move-between-indices",
+        "number": 3919,
+        "title": "Minimum Cost to Move Between Indices",
+        "difficulty": "Medium",
+        "frequency": 55.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "walls-and-gates",
+        "number": 286,
+        "title": "Walls and Gates",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+        "number": 1438,
+        "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-matching-subsequences",
+        "number": 792,
+        "title": "Number of Matching Subsequences",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "balanced-binary-tree",
+        "number": 110,
+        "title": "Balanced Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-strings",
+        "number": 415,
+        "title": "Add Strings",
+        "difficulty": "Easy",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-changing-keys",
+        "number": 3019,
+        "title": "Number of Changing Keys",
+        "difficulty": "Easy",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-using-strategy",
+        "number": 3652,
+        "title": "Best Time to Buy and Sell Stock using Strategy",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sell-diminishing-valued-colored-balls",
+        "number": 1648,
+        "title": "Sell Diminishing-Valued Colored Balls",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "hand-of-straights",
+        "number": 846,
+        "title": "Hand of Straights",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-partitioning",
+        "number": 131,
+        "title": "Palindrome Partitioning",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-ways-to-build-good-strings",
+        "number": 2466,
+        "title": "Count Ways To Build Good Strings",
+        "difficulty": "Medium",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread-ii",
+        "number": 928,
+        "title": "Minimize Malware Spread II",
+        "difficulty": "Hard",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-malware-spread",
+        "number": 924,
+        "title": "Minimize Malware Spread",
+        "difficulty": "Hard",
+        "frequency": 48.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "plus-one",
+        "number": 66,
+        "title": "Plus One",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "image-smoother",
+        "number": 661,
+        "title": "Image Smoother",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iii",
+        "number": 123,
+        "title": "Best Time to Buy and Sell Stock III",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-equal-subset-sum",
+        "number": 416,
+        "title": "Partition Equal Subset Sum",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "substrings-of-size-three-with-distinct-characters",
+        "number": 1876,
+        "title": "Substrings of Size Three with Distinct Characters",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-subarrays-that-match-a-pattern-i",
+        "number": 3034,
+        "title": "Number of Subarrays That Match a Pattern I",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "contains-duplicate",
+        "number": 217,
+        "title": "Contains Duplicate",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-root-to-leaf-numbers",
+        "number": 129,
+        "title": "Sum Root to Leaf Numbers",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-characters-by-frequency",
+        "number": 451,
+        "title": "Sort Characters By Frequency",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "number": 122,
+        "title": "Best Time to Buy and Sell Stock II",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-array-except-self",
+        "number": 238,
+        "title": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-array-is-sorted-and-rotated",
+        "number": 1752,
+        "title": "Check if Array Is Sorted and Rotated",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-vowels-of-a-string",
+        "number": 345,
+        "title": "Reverse Vowels of a String",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome-ii",
+        "number": 680,
+        "title": "Valid Palindrome II",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ugly-number-ii",
+        "number": 264,
+        "title": "Ugly Number II",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-paths",
+        "number": 62,
+        "title": "Unique Paths",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-the-array-from-adjacent-pairs",
+        "number": 1743,
+        "title": "Restore the Array From Adjacent Pairs",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-binary",
+        "number": 67,
+        "title": "Add Binary",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "last-stone-weight",
+        "number": 1046,
+        "title": "Last Stone Weight",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-mentions-per-user",
+        "number": 3433,
+        "title": "Count Mentions Per User",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-rectangle",
+        "number": 85,
+        "title": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-digits",
+        "number": 258,
+        "title": "Add Digits",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy",
+        "number": 135,
+        "title": "Candy",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-digit-sum",
+        "number": 2544,
+        "title": "Alternating Digit Sum",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-ii",
+        "number": 503,
+        "title": "Next Greater Element II",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search",
+        "number": 79,
+        "title": "Word Search",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-unique-character-in-a-string",
+        "number": 387,
+        "title": "First Unique Character in a String",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-good-numbers",
+        "number": 1922,
+        "title": "Count Good Numbers",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "non-overlapping-intervals",
+        "number": 435,
+        "title": "Non-overlapping Intervals",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-score-after-applying-k-operations",
+        "number": 2530,
+        "title": "Maximal Score After Applying K Operations",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flood-fill",
+        "number": 733,
+        "title": "Max Area of Island",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break-ii",
+        "number": 140,
+        "title": "Word Break II",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-palindromes-after-operations",
+        "number": 3035,
+        "title": "Maximum Palindromes After Operations",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game-vi",
+        "number": 1696,
+        "title": "Jump Game VI",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-with-minimum-effort",
+        "number": 1631,
+        "title": "Path With Minimum Effort",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-subsequence",
+        "number": 1143,
+        "title": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-maximum-of-array",
+        "number": 2439,
+        "title": "Minimize Maximum of Array",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-level-order-traversal",
+        "number": 102,
+        "title": "Binary Tree Level Order Traversal",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-search-ii",
+        "number": 212,
+        "title": "Word Search II",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-sum-in-a-binary-tree",
+        "number": 2583,
+        "title": "Kth Largest Sum in a Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-non-decreasing-subarray-from-two-arrays",
+        "number": 2771,
+        "title": "Longest Non-decreasing Subarray From Two Arrays",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-length-3-palindromic-subsequences",
+        "number": 1930,
+        "title": "Unique Length-3 Palindromic Subsequences",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock-iv",
+        "number": 188,
+        "title": "Best Time to Buy and Sell Stock IV",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "jump-game",
+        "number": 55,
+        "title": "Jump Game",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-elements-into-two-arrays-i",
+        "number": 3069,
+        "title": "Distribute Elements Into Two Arrays I",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-the-number-of-good-subarrays",
+        "number": 2537,
+        "title": "Count the Number of Good Subarrays",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lexicographically-smallest-palindrome",
+        "number": 2697,
+        "title": "Lexicographically Smallest Palindrome",
+        "difficulty": "Easy",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "4sum",
+        "number": 18,
+        "title": "4 Sum",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-path-in-a-matrix",
+        "number": 329,
+        "title": "Longest Increasing Path in a Matrix",
+        "difficulty": "Hard",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 38.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Visa Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Visa coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/visa",
+    "keywords": [
+      "visa interview questions",
+      "visa leetcode",
+      "visa coding questions",
+      "visa online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

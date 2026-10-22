@@ -1,0 +1,184 @@
+{
+  "type": "company",
+  "slug": "nokia",
+  "name": "Nokia",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Nokia hiring and placement rounds.",
+  "problemCount": 11,
+  "problemSlugs": [
+    "minimum-cost-of-buying-candies-with-discount",
+    "valid-anagram",
+    "validate-ip-address",
+    "lru-cache",
+    "check-if-it-is-a-good-array",
+    "longest-common-prefix",
+    "valid-parentheses",
+    "robot-collisions",
+    "koko-eating-bananas",
+    "reverse-linked-list",
+    "fizz-buzz"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 3,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 89.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "minimum-cost-of-buying-candies-with-discount",
+        "number": 2144,
+        "title": "Minimum Cost of Buying Candies With Discount",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-it-is-a-good-array",
+        "number": 1250,
+        "title": "Check If It Is a Good Array",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "robot-collisions",
+        "number": 2751,
+        "title": "Robot Collisions",
+        "difficulty": "Hard",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-linked-list",
+        "number": 206,
+        "title": "Reverse Linked List",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fizz-buzz",
+        "number": 412,
+        "title": "Fizz Buzz",
+        "difficulty": "Easy",
+        "frequency": 87.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Nokia Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Nokia coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/nokia",
+    "keywords": [
+      "nokia interview questions",
+      "nokia leetcode",
+      "nokia coding questions",
+      "nokia online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

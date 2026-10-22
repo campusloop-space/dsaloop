@@ -1,0 +1,595 @@
+{
+  "type": "company",
+  "slug": "samsung",
+  "name": "Samsung",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Samsung hiring and placement rounds.",
+  "problemCount": 55,
+  "problemSlugs": [
+    "longest-increasing-subsequence",
+    "burst-balloons",
+    "substring-with-concatenation-of-all-words",
+    "guess-number-higher-or-lower",
+    "trapping-rain-water",
+    "vertical-order-traversal-of-a-binary-tree",
+    "lru-cache",
+    "number-of-paths-with-max-score",
+    "minimum-cost-of-a-path-with-special-roads",
+    "minimize-deviation-in-array",
+    "minimum-number-of-operations-to-make-string-sorted",
+    "find-maximum-value-in-a-constrained-sequence",
+    "stone-game-ix",
+    "partition-array-into-two-arrays-to-minimize-sum-difference",
+    "largest-1-bordered-square",
+    "maximum-height-by-stacking-cuboids",
+    "maximum-product-of-two-elements-in-an-array",
+    "number-of-nodes-in-the-sub-tree-with-the-same-label",
+    "find-the-width-of-columns-of-a-grid",
+    "design-graph-with-shortest-path-calculator",
+    "two-sum-iv-input-is-a-bst",
+    "faulty-keyboard",
+    "two-sum",
+    "number-of-islands",
+    "possible-bipartition",
+    "ipo",
+    "is-graph-bipartite",
+    "subarray-product-less-than-k",
+    "find-peak-element",
+    "3sum",
+    "maximize-distance-to-closest-person",
+    "rotting-oranges",
+    "merge-k-sorted-lists",
+    "divide-two-integers",
+    "generate-parentheses",
+    "intersection-of-two-linked-lists",
+    "median-of-two-sorted-arrays",
+    "rotate-image",
+    "search-in-rotated-sorted-array",
+    "maximum-subarray",
+    "merge-intervals",
+    "rotate-array",
+    "permutations",
+    "trapping-rain-water-ii",
+    "sort-colors",
+    "merge-sorted-array",
+    "next-permutation",
+    "split-array-largest-sum",
+    "edit-distance",
+    "exam-room",
+    "check-if-there-is-a-valid-path-in-a-grid",
+    "tallest-billboard",
+    "broken-calculator",
+    "find-median-from-data-stream",
+    "container-with-most-water"
+  ],
+  "difficultyBreakdown": {
+    "easy": 8,
+    "medium": 30,
+    "hard": 17
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "burst-balloons",
+        "number": 312,
+        "title": "Burst Balloons",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "substring-with-concatenation-of-all-words",
+        "number": 30,
+        "title": "Substring with Concatenation of All Words",
+        "difficulty": "Hard",
+        "frequency": 95.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "guess-number-higher-or-lower",
+        "number": 374,
+        "title": "Guess Number Higher or Lower",
+        "difficulty": "Easy",
+        "frequency": 95.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "vertical-order-traversal-of-a-binary-tree",
+        "number": 987,
+        "title": "Vertical Order Traversal of a Binary Tree",
+        "difficulty": "Hard",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-paths-with-max-score",
+        "number": 1301,
+        "title": "Number of Paths with Max Score",
+        "difficulty": "Hard",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-cost-of-a-path-with-special-roads",
+        "number": 2662,
+        "title": "Minimum Cost of a Path With Special Roads",
+        "difficulty": "Medium",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-deviation-in-array",
+        "number": 1675,
+        "title": "Minimize Deviation in Array",
+        "difficulty": "Hard",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-operations-to-make-string-sorted",
+        "number": 1830,
+        "title": "Minimum Number of Operations to Make String Sorted",
+        "difficulty": "Hard",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-maximum-value-in-a-constrained-sequence",
+        "number": 3796,
+        "title": "Find Maximum Value in a Constrained Sequence",
+        "difficulty": "Medium",
+        "frequency": 92.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "stone-game-ix",
+        "number": 2029,
+        "title": "Stone Game IX",
+        "difficulty": "Medium",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+        "number": 2035,
+        "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+        "difficulty": "Hard",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-1-bordered-square",
+        "number": 1139,
+        "title": "Largest 1-Bordered Square",
+        "difficulty": "Medium",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-height-by-stacking-cuboids",
+        "number": 1691,
+        "title": "Maximum Height by Stacking Cuboids",
+        "difficulty": "Hard",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-of-two-elements-in-an-array",
+        "number": 1464,
+        "title": "Maximum Product of Two Elements in an Array",
+        "difficulty": "Easy",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+        "number": 1519,
+        "title": "Number of Nodes in the Sub-Tree With the Same Label",
+        "difficulty": "Medium",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-width-of-columns-of-a-grid",
+        "number": 2639,
+        "title": "Find the Width of Columns of a Grid",
+        "difficulty": "Easy",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-graph-with-shortest-path-calculator",
+        "number": 2642,
+        "title": "Design Graph With Shortest Path Calculator",
+        "difficulty": "Hard",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum-iv-input-is-a-bst",
+        "number": 653,
+        "title": "Two Sum IV - Input is a BST",
+        "difficulty": "Easy",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "faulty-keyboard",
+        "number": 2810,
+        "title": "Faulty Keyboard",
+        "difficulty": "Easy",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 85.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 85.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "possible-bipartition",
+        "number": 886,
+        "title": "Possible Bipartition",
+        "difficulty": "Medium",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "ipo",
+        "number": 502,
+        "title": "IPO",
+        "difficulty": "Hard",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "is-graph-bipartite",
+        "number": 785,
+        "title": "Is Graph Bipartite?",
+        "difficulty": "Medium",
+        "frequency": 70.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 70.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-peak-element",
+        "number": 162,
+        "title": "Find Peak Element",
+        "difficulty": "Medium",
+        "frequency": 70.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "3sum",
+        "number": 15,
+        "title": "3 Sum",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximize-distance-to-closest-person",
+        "number": 849,
+        "title": "Maximize Distance to Closest Person",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-k-sorted-lists",
+        "number": 23,
+        "title": "Merge k Sorted Lists",
+        "difficulty": "Hard",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divide-two-integers",
+        "number": 29,
+        "title": "Divide Two Integers",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "intersection-of-two-linked-lists",
+        "number": 160,
+        "title": "Intersection of Two Linked Lists",
+        "difficulty": "Easy",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 63.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-array",
+        "number": 189,
+        "title": "Rotate Array",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water-ii",
+        "number": 407,
+        "title": "Trapping Rain Water II",
+        "difficulty": "Hard",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "exam-room",
+        "number": 855,
+        "title": "Exam Room",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "check-if-there-is-a-valid-path-in-a-grid",
+        "number": 1391,
+        "title": "Check if There is a Valid Path in a Grid",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "tallest-billboard",
+        "number": 956,
+        "title": "Tallest Billboard",
+        "difficulty": "Hard",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "broken-calculator",
+        "number": 991,
+        "title": "Broken Calculator",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 52.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Samsung Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Samsung coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/samsung",
+    "keywords": [
+      "samsung interview questions",
+      "samsung leetcode",
+      "samsung coding questions",
+      "samsung online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

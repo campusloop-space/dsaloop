@@ -2,20 +2,134 @@
   "type": "company",
   "slug": "baidu",
   "name": "Baidu",
-  "description": "Coding interview preparation for Baidu: high-frequency patterns and problem sets.",
-  "problemCount": 2,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Baidu hiring and placement rounds.",
+  "problemCount": 10,
   "problemSlugs": [
+    "binary-tree-maximum-path-sum",
+    "longest-substring-with-at-least-k-repeating-characters",
+    "integer-replacement",
+    "split-array-largest-sum",
+    "arithmetic-slices",
+    "arithmetic-slices-ii-subsequence",
     "zuma-game",
-    "out-of-boundary-paths"
+    "out-of-boundary-paths",
+    "design-in-memory-file-system",
+    "length-of-longest-fibonacci-subsequence"
   ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 5,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-with-at-least-k-repeating-characters",
+        "number": 395,
+        "title": "Longest Substring with At Least K Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-replacement",
+        "number": 397,
+        "title": "Integer Replacement",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "arithmetic-slices",
+        "number": 413,
+        "title": "Arithmetic Slices",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "arithmetic-slices-ii-subsequence",
+        "number": 446,
+        "title": "Arithmetic Slices II - Subsequence",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "zuma-game",
+        "number": 488,
+        "title": "Zuma Game",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "out-of-boundary-paths",
+        "number": 576,
+        "title": "Out of Boundary Paths",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-in-memory-file-system",
+        "number": 588,
+        "title": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "length-of-longest-fibonacci-subsequence",
+        "number": 873,
+        "title": "Length of Longest Fibonacci Subsequence",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
   "seo": {
-    "title": "Baidu Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Baidu interviews with 2 problems, patterns, and roadmaps.",
+    "title": "Baidu Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Baidu coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/baidu",
     "keywords": [
-      "Baidu interview questions",
-      "Baidu leetcode",
-      "Baidu oa"
-    ],
-    "canonicalPath": "/companies/baidu"
+      "baidu interview questions",
+      "baidu leetcode",
+      "baidu coding questions",
+      "baidu online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

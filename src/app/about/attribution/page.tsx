@@ -4,8 +4,8 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Attribution & Licenses | AlgoForge",
-  description: "Source attribution for AlgoForge solution code and content policy.",
+  title: "Attribution & Licenses | DSALoop by CampusLoop",
+  description: "Source attribution for DSALoop solution code and content policy.",
   keywords: ["attribution", "mit license"],
   canonicalPath: "/about/attribution",
 });
@@ -36,8 +36,8 @@ export default function AttributionPage() {
           copyright notice.
         </p>
         <p>
-          Problem titles and links point to LeetCode. AlgoForge does not host official problem
-          statements. All teaching explanations, FAQs, roadmaps, and UI copy are original AlgoForge
+          Problem titles and links point to LeetCode. DSALoop does not host official problem
+          statements. All teaching explanations, FAQs, roadmaps, and UI copy are original DSALoop
           content.
         </p>
         <p>

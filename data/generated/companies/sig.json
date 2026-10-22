@@ -1,0 +1,145 @@
+{
+  "type": "company",
+  "slug": "sig",
+  "name": "Sig",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Sig hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "text-justification",
+    "block-placement-queries",
+    "number-of-black-blocks",
+    "rotate-image",
+    "restore-the-array-from-adjacent-pairs",
+    "find-the-length-of-the-longest-common-prefix",
+    "minimum-absolute-difference-between-elements-with-constraint",
+    "rotating-the-box",
+    "design-memory-allocator",
+    "find-median-from-data-stream"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 7,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-black-blocks",
+        "number": 2768,
+        "title": "Number of Black Blocks",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-the-array-from-adjacent-pairs",
+        "number": 1743,
+        "title": "Restore the Array From Adjacent Pairs",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "number": 3043,
+        "title": "Find the Length of the Longest Common Prefix",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference-between-elements-with-constraint",
+        "number": 2817,
+        "title": "Minimum Absolute Difference Between Elements With Constraint",
+        "difficulty": "Medium",
+        "frequency": 92.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotating-the-box",
+        "number": 1861,
+        "title": "Rotating the Box",
+        "difficulty": "Medium",
+        "frequency": 81.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 81.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 81.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sig Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Sig coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/sig",
+    "keywords": [
+      "sig interview questions",
+      "sig leetcode",
+      "sig coding questions",
+      "sig online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

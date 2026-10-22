@@ -1,0 +1,686 @@
+{
+  "type": "company",
+  "slug": "intuit",
+  "name": "Intuit",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Intuit hiring and placement rounds.",
+  "problemCount": 55,
+  "problemSlugs": [
+    "valid-parentheses",
+    "plus-one",
+    "dungeon-game",
+    "maximum-product-of-three-numbers",
+    "count-islands-with-total-value-divisible-by-k",
+    "maximum-difference-score-in-a-grid",
+    "most-profitable-path-in-a-tree",
+    "lru-cache",
+    "number-of-distinct-substrings-in-a-string",
+    "length-of-the-longest-subsequence-that-sums-to-target",
+    "maximum-total-beauty-of-the-gardens",
+    "make-string-anti-palindrome",
+    "destroy-sequential-targets",
+    "number-of-substrings-with-fixed-ratio",
+    "max-area-of-island",
+    "basic-calculator-iv",
+    "word-break",
+    "coin-change",
+    "find-median-from-data-stream",
+    "two-sum",
+    "number-of-ways-to-paint-n-3-grid",
+    "strange-printer",
+    "basic-calculator-iii",
+    "climbing-stairs",
+    "longest-increasing-subsequence",
+    "daily-temperatures",
+    "merge-intervals",
+    "painting-a-grid-with-three-different-colors",
+    "palindromic-substrings",
+    "longest-balanced-subarray-i",
+    "find-the-safest-path-in-a-grid",
+    "generate-parentheses",
+    "group-anagrams",
+    "rotting-oranges",
+    "house-robber",
+    "course-schedule-ii",
+    "unique-email-addresses",
+    "russian-doll-envelopes",
+    "maximal-rectangle",
+    "minimum-limit-of-balls-in-a-bag",
+    "lowest-common-ancestor-of-a-binary-tree",
+    "next-permutation",
+    "employee-free-time",
+    "minimum-deletions-to-make-character-frequencies-unique",
+    "cheapest-flights-within-k-stops",
+    "valid-palindrome",
+    "optimal-account-balancing",
+    "validate-ip-address",
+    "number-of-islands",
+    "remove-boxes",
+    "candy",
+    "alien-dictionary",
+    "department-top-three-salaries",
+    "longest-consecutive-sequence",
+    "trapping-rain-water"
+  ],
+  "difficultyBreakdown": {
+    "easy": 7,
+    "medium": 30,
+    "hard": 18
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "dungeon-game",
+        "number": 174,
+        "title": "Dungeon Game",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 78,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 64.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "dungeon-game",
+        "number": 174,
+        "title": "Dungeon Game",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 76.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-top-three-salaries",
+        "number": 185,
+        "title": "Department Top Three Salaries",
+        "difficulty": "Hard",
+        "frequency": 62.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "plus-one",
+        "number": 66,
+        "title": "Plus One",
+        "difficulty": "Easy",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "dungeon-game",
+        "number": 174,
+        "title": "Dungeon Game",
+        "difficulty": "Hard",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-of-three-numbers",
+        "number": 628,
+        "title": "Maximum Product of Three Numbers",
+        "difficulty": "Easy",
+        "frequency": 79.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-islands-with-total-value-divisible-by-k",
+        "number": 3619,
+        "title": "Count Islands With Total Value Divisible by K",
+        "difficulty": "Medium",
+        "frequency": 79.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-difference-score-in-a-grid",
+        "number": 3148,
+        "title": "Maximum Difference Score in a Grid",
+        "difficulty": "Medium",
+        "frequency": 77.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "most-profitable-path-in-a-tree",
+        "number": 2467,
+        "title": "Most Profitable Path in a Tree",
+        "difficulty": "Medium",
+        "frequency": 77.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 75.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-distinct-substrings-in-a-string",
+        "number": 1698,
+        "title": "Number of Distinct Substrings in a String",
+        "difficulty": "Medium",
+        "frequency": 75.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "length-of-the-longest-subsequence-that-sums-to-target",
+        "number": 2915,
+        "title": "Length of the Longest Subsequence That Sums to Target",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-total-beauty-of-the-gardens",
+        "number": 2234,
+        "title": "Maximum Total Beauty of the Gardens",
+        "difficulty": "Hard",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "make-string-anti-palindrome",
+        "number": 3088,
+        "title": "Make String Anti-palindrome",
+        "difficulty": "Hard",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "destroy-sequential-targets",
+        "number": 2453,
+        "title": "Destroy Sequential Targets",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-substrings-with-fixed-ratio",
+        "number": 2489,
+        "title": "Number of Substrings With Fixed Ratio",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-area-of-island",
+        "number": 695,
+        "title": "Max Area of Island",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iv",
+        "number": 770,
+        "title": "Basic Calculator IV",
+        "difficulty": "Hard",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 70,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 70,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-median-from-data-stream",
+        "number": 295,
+        "title": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "frequency": 66.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 58,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-paint-n-3-grid",
+        "number": 1411,
+        "title": "Number of Ways to Paint N × 3 Grid",
+        "difficulty": "Hard",
+        "frequency": 58,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "strange-printer",
+        "number": 664,
+        "title": "Strange Printer",
+        "difficulty": "Hard",
+        "frequency": 58,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-iii",
+        "number": 772,
+        "title": "Basic Calculator III",
+        "difficulty": "Hard",
+        "frequency": 58,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "climbing-stairs",
+        "number": 70,
+        "title": "Climbing Stairs",
+        "difficulty": "Easy",
+        "frequency": 58,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-increasing-subsequence",
+        "number": 300,
+        "title": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "painting-a-grid-with-three-different-colors",
+        "number": 1931,
+        "title": "Painting a Grid With Three Different Colors",
+        "difficulty": "Hard",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-balanced-subarray-i",
+        "number": 3719,
+        "title": "Longest Balanced Subarray I",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-safest-path-in-a-grid",
+        "number": 2812,
+        "title": "Find the Safest Path in a Grid",
+        "difficulty": "Medium",
+        "frequency": 51.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule-ii",
+        "number": 210,
+        "title": "Course Schedule II",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-email-addresses",
+        "number": 929,
+        "title": "Unique Email Addresses",
+        "difficulty": "Easy",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "russian-doll-envelopes",
+        "number": 354,
+        "title": "Russian Doll Envelopes",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-rectangle",
+        "number": 85,
+        "title": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-limit-of-balls-in-a-bag",
+        "number": 1760,
+        "title": "Minimum Limit of Balls in a Bag",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lowest-common-ancestor-of-a-binary-tree",
+        "number": 236,
+        "title": "Lowest Common Ancestor of a Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-permutation",
+        "number": 31,
+        "title": "Next Permutation",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-free-time",
+        "number": 759,
+        "title": "Employee Free Time",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-deletions-to-make-character-frequencies-unique",
+        "number": 1647,
+        "title": "Minimum Deletions to Make Character Frequencies Unique",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-palindrome",
+        "number": 125,
+        "title": "Valid Palindrome",
+        "difficulty": "Easy",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "optimal-account-balancing",
+        "number": 465,
+        "title": "Optimal Account Balancing",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-ip-address",
+        "number": 468,
+        "title": "Validate IP Address",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-boxes",
+        "number": 546,
+        "title": "Remove Boxes",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy",
+        "number": 135,
+        "title": "Candy",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "department-top-three-salaries",
+        "number": 185,
+        "title": "Department Top Three Salaries",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 43.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Intuit Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Intuit coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/intuit",
+    "keywords": [
+      "intuit interview questions",
+      "intuit leetcode",
+      "intuit coding questions",
+      "intuit online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

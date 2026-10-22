@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { PracticeClient } from "@/components/practice/practice-client";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Practice Modes | AlgoForge",
+  title: "Practice Modes | DSALoop by CampusLoop",
   description: "Daily, random, and timed coding interview practice without an account.",
   keywords: ["leetcode practice", "daily challenge", "coding interview practice"],
   canonicalPath: "/practice",

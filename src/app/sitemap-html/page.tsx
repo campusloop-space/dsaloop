@@ -7,11 +7,13 @@ import {
   getCompaniesIndex,
   getRoadmapsIndex,
   getBlogIndex,
+  getSystemDesignIndex,
 } from "@/lib/data/problems";
+import { Watermark } from "@/components/ui/watermark";
 
 export const metadata: Metadata = buildMetadata({
-  title: "HTML Sitemap | AlgoForge",
-  description: "Human-readable sitemap of major AlgoForge sections.",
+  title: "HTML Sitemap | DSALoop by CampusLoop",
+  description: "Human-readable sitemap of major DSALoop sections.",
   keywords: ["sitemap"],
   canonicalPath: "/sitemap-html",
 });
@@ -22,28 +24,46 @@ export default function HtmlSitemapPage() {
   const companies = getCompaniesIndex();
   const roadmaps = getRoadmapsIndex();
   const blogs = getBlogIndex();
+  const systemDesign = getSystemDesignIndex();
 
   return (
-    <div className="container py-10">
-      <h1 className="text-3xl font-bold">Sitemap</h1>
-      <div className="mt-8 grid md:grid-cols-2 gap-8 text-sm">
+    <div className="container py-10 max-w-6xl">
+      <div className="flex items-center justify-between gap-4">
+        <h1 className="text-3xl font-bold">Sitemap</h1>
+        <Watermark variant="pill" />
+      </div>
+      <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-sm">
         <section>
-          <h2 className="font-bold mb-2">Core</h2>
+          <h2 className="font-bold mb-2">Core Tracks</h2>
           <ul className="space-y-1">
             {[
               "/",
               "/problems",
+              "/companies",
+              "/system-design",
               "/search",
               "/blind-75",
               "/grind-169",
-              "/neetcode-alternatives",
-              "/practice",
-              "/pricing",
+              "/roadmaps",
+              "/patterns",
+              "/topics",
               "/about",
             ].map((p) => (
               <li key={p}>
                 <Link href={p} className="text-primary hover:underline">
                   {p}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section>
+          <h2 className="font-bold mb-2">System Design (28 Chapters)</h2>
+          <ul className="space-y-1 max-h-64 overflow-auto">
+            {systemDesign.map((sd) => (
+              <li key={sd.slug}>
+                <Link href={`/system-design/${sd.slug}`} className="text-primary hover:underline">
+                  Chapter {sd.chapterNumber}: {sd.title}
                 </Link>
               </li>
             ))}

@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "millennium",
+  "name": "Millennium",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Millennium hiring and placement rounds.",
+  "problemCount": 10,
+  "problemSlugs": [
+    "best-time-to-buy-and-sell-stock",
+    "count-palindromic-subsequences",
+    "collect-coins-in-a-tree",
+    "merge-intervals",
+    "remove-invalid-parentheses",
+    "word-break",
+    "path-sum-iii",
+    "validate-binary-search-tree",
+    "group-anagrams",
+    "lru-cache"
+  ],
+  "difficultyBreakdown": {
+    "easy": 1,
+    "medium": 6,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-palindromic-subsequences",
+        "number": 2484,
+        "title": "Count Palindromic Subsequences",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "collect-coins-in-a-tree",
+        "number": 2603,
+        "title": "Collect Coins in a Tree",
+        "difficulty": "Hard",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-invalid-parentheses",
+        "number": 301,
+        "title": "Remove Invalid Parentheses",
+        "difficulty": "Hard",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "path-sum-iii",
+        "number": 437,
+        "title": "Path Sum III",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 76.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Millennium Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Millennium coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/millennium",
+    "keywords": [
+      "millennium interview questions",
+      "millennium leetcode",
+      "millennium coding questions",
+      "millennium online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

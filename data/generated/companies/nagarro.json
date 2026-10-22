@@ -1,0 +1,115 @@
+{
+  "type": "company",
+  "slug": "nagarro",
+  "name": "Nagarro",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Nagarro hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "count-number-of-ways-to-place-houses",
+    "smallest-pair-with-different-frequencies",
+    "longest-substring-without-repeating-characters",
+    "valid-anagram",
+    "implement-stack-using-queues",
+    "sort-colors",
+    "linked-list-cycle",
+    "using-a-robot-to-print-the-lexicographically-smallest-string"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 4,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "count-number-of-ways-to-place-houses",
+        "number": 2320,
+        "title": "Count Number of Ways to Place Houses",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "smallest-pair-with-different-frequencies",
+        "number": 3852,
+        "title": "Smallest Pair With Different Frequencies",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "implement-stack-using-queues",
+        "number": 225,
+        "title": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "linked-list-cycle",
+        "number": 141,
+        "title": "Linked List Cycle",
+        "difficulty": "Easy",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 67,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Nagarro Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Nagarro coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/nagarro",
+    "keywords": [
+      "nagarro interview questions",
+      "nagarro leetcode",
+      "nagarro coding questions",
+      "nagarro online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

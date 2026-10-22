@@ -1,17 +1,20 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, Layers3, Route, Search, Sparkles, Target } from "lucide-react";
-import { getManifest, getProblemsIndex, getTopicsIndex, getRoadmapsIndex } from "@/lib/data/problems";
+import { ArrowRight, BookOpen, Layers3, Route, Search, Sparkles, Target, Server, Building2, Flame } from "lucide-react";
+import { getManifest, getProblemsIndex, getTopicsIndex, getRoadmapsIndex, getCompaniesIndex, getSystemDesignIndex } from "@/lib/data/problems";
 import { DifficultyBadge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { TerminalHero } from "@/components/terminal/terminal-hero";
 import { CuteSparkle } from "@/components/ui/cute-illustrations";
+import { Watermark } from "@/components/ui/watermark";
 
 export default function HomePage() {
   const manifest = getManifest();
   const problems = getProblemsIndex().slice(0, 6);
   const topics = getTopicsIndex().slice(0, 6);
   const roadmaps = getRoadmapsIndex().slice(0, 4);
+  const companies = getCompaniesIndex().slice(0, 6);
+  const systemDesign = getSystemDesignIndex().slice(0, 6);
 
   return (
     <div className="site-shell">
@@ -21,6 +24,14 @@ export default function HomePage() {
         topicCount={manifest?.topicCount ?? 0}
         languageCount={manifest?.languages.length ?? 0}
       />
+
+      {/* Watermark Banner */}
+      <div className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 lg:px-8">
+        <Watermark
+          variant="banner"
+          subtext="The pattern-first DSA, 185+ company problem sets, and 28-chapter system design primer"
+        />
+      </div>
 
       {/* Outcome Paths Section */}
       <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
@@ -36,7 +47,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             {
               href: "/roadmaps/dsa-fundamentals",
@@ -46,18 +57,25 @@ export default function HomePage() {
               action: "Explore Roadmaps",
             },
             {
+              href: "/system-design",
+              icon: Server,
+              title: "System Design",
+              desc: "28 comprehensive chapters from zero to millions of users, with 300+ clear architecture diagrams.",
+              action: "Read 28 Chapters",
+            },
+            {
+              href: "/companies",
+              icon: Building2,
+              title: "Company Tracks",
+              desc: "185+ companies (Google, Meta, TCS, Citadel) filtered by 30-day, 3-month recency frequencies.",
+              action: "View Companies",
+            },
+            {
               href: "/patterns",
               icon: Layers3,
               title: "Learn by Pattern",
               desc: "Master reusable algorithmic paradigms: two pointers, sliding window, BFS/DFS, and interval merges.",
               action: "View All Patterns",
-            },
-            {
-              href: "/search",
-              icon: Search,
-              title: "Instant Search",
-              desc: "Quickly look up specific problems, company tags, patterns, or language implementations.",
-              action: "Open Search",
             },
           ].map((item) => {
             const Icon = item.icon;
@@ -68,8 +86,8 @@ export default function HomePage() {
                     <div className="flex size-9 items-center justify-center rounded-xl bg-primary/10 border border-primary/20 text-primary shadow-2xs group-hover:scale-105 transition-transform">
                       <Icon className="size-4" />
                     </div>
-                    <CardTitle className="mt-3 text-lg">{item.title}</CardTitle>
-                    <CardDescription className="mt-1">{item.desc}</CardDescription>
+                    <CardTitle className="mt-3 text-base">{item.title}</CardTitle>
+                    <CardDescription className="mt-1 text-xs">{item.desc}</CardDescription>
                   </CardHeader>
                   <CardContent className="pt-0">
                     <span className="inline-flex items-center text-xs font-bold text-primary group-hover:underline">
@@ -246,6 +264,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Watermark Card */}
+      <div className="mx-auto max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
+        <Watermark variant="card" />
+      </div>
 
       {/* Minimal Loop Philosophy CTA Banner */}
       <section className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">

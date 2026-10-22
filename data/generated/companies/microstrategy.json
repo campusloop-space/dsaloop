@@ -1,0 +1,125 @@
+{
+  "type": "company",
+  "slug": "microstrategy",
+  "name": "Microstrategy",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Microstrategy hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "airplane-seat-assignment-probability",
+    "backspace-string-compare",
+    "top-k-frequent-elements",
+    "battleships-in-a-board",
+    "number-of-ways-to-build-sturdy-brick-wall",
+    "permutations",
+    "minimum-number-of-swaps-to-make-the-string-balanced",
+    "two-sum"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 6,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "airplane-seat-assignment-probability",
+        "number": 1227,
+        "title": "Airplane Seat Assignment Probability",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "backspace-string-compare",
+        "number": 844,
+        "title": "Backspace String Compare",
+        "difficulty": "Easy",
+        "frequency": 78.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "battleships-in-a-board",
+        "number": 419,
+        "title": "Battleships in a Board",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-ways-to-build-sturdy-brick-wall",
+        "number": 2184,
+        "title": "Number of Ways to Build Sturdy Brick Wall",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "permutations",
+        "number": 46,
+        "title": "Permutations",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+        "number": 1963,
+        "title": "Minimum Number of Swaps to Make the String Balanced",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Microstrategy Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Microstrategy coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/microstrategy",
+    "keywords": [
+      "microstrategy interview questions",
+      "microstrategy leetcode",
+      "microstrategy coding questions",
+      "microstrategy online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

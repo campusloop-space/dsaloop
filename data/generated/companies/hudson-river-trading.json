@@ -1,0 +1,215 @@
+{
+  "type": "company",
+  "slug": "hudson-river-trading",
+  "name": "Hudson River Trading",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Hudson River Trading hiring and placement rounds.",
+  "problemCount": 16,
+  "problemSlugs": [
+    "detect-pattern-of-length-m-repeated-k-or-more-times",
+    "convert-integer-to-the-sum-of-two-no-zero-integers",
+    "maximum-score-from-grid-operations",
+    "largest-combination-with-bitwise-and-greater-than-zero",
+    "add-edges-to-make-degrees-of-all-nodes-even",
+    "longest-path-with-different-adjacent-characters",
+    "maximum-total-importance-of-roads",
+    "number-of-steps-to-reduce-a-number-to-zero",
+    "maximum-69-number",
+    "apply-operations-to-make-all-array-elements-equal-to-zero",
+    "count-unguarded-cells-in-the-grid",
+    "block-placement-queries",
+    "longest-common-prefix",
+    "text-justification",
+    "design-memory-allocator",
+    "shortest-word-distance"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 5,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+        "number": 1566,
+        "title": "Detect Pattern of Length M Repeated K or More Times",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "convert-integer-to-the-sum-of-two-no-zero-integers",
+        "number": 1317,
+        "title": "Convert Integer to the Sum of Two No-Zero Integers",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-score-from-grid-operations",
+        "number": 3225,
+        "title": "Maximum Score From Grid Operations",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+        "number": 2275,
+        "title": "Largest Combination With Bitwise AND Greater Than Zero",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-edges-to-make-degrees-of-all-nodes-even",
+        "number": 2508,
+        "title": "Add Edges to Make Degrees of All Nodes Even",
+        "difficulty": "Hard",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-path-with-different-adjacent-characters",
+        "number": 2246,
+        "title": "Longest Path With Different Adjacent Characters",
+        "difficulty": "Hard",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-total-importance-of-roads",
+        "number": 2285,
+        "title": "Maximum Total Importance of Roads",
+        "difficulty": "Medium",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-steps-to-reduce-a-number-to-zero",
+        "number": 1342,
+        "title": "Number of Steps to Reduce a Number to Zero",
+        "difficulty": "Easy",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-69-number",
+        "number": 1323,
+        "title": "Maximum 69 Number",
+        "difficulty": "Easy",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "apply-operations-to-make-all-array-elements-equal-to-zero",
+        "number": 2772,
+        "title": "Apply Operations to Make All Array Elements Equal to Zero",
+        "difficulty": "Medium",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-unguarded-cells-in-the-grid",
+        "number": 2257,
+        "title": "Count Unguarded Cells in the Grid",
+        "difficulty": "Medium",
+        "frequency": 97.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 72.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-word-distance",
+        "number": 243,
+        "title": "Shortest Word Distance",
+        "difficulty": "Easy",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Hudson River Trading Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Hudson River Trading coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/hudson-river-trading",
+    "keywords": [
+      "hudson river trading interview questions",
+      "hudson river trading leetcode",
+      "hudson river trading coding questions",
+      "hudson river trading online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,864 @@
+{
+  "type": "company",
+  "slug": "capital-one",
+  "name": "Capital One",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Capital One hiring and placement rounds.",
+  "problemCount": 61,
+  "problemSlugs": [
+    "simple-bank-system",
+    "text-justification",
+    "block-placement-queries",
+    "candy-crush",
+    "spiral-matrix",
+    "minimum-operations-to-write-the-letter-y-on-a-grid",
+    "find-the-length-of-the-longest-common-prefix",
+    "restore-the-array-from-adjacent-pairs",
+    "number-of-adjacent-elements-with-the-same-color",
+    "design-memory-allocator",
+    "simplify-path",
+    "number-of-black-blocks",
+    "minimize-result-by-adding-parentheses-to-expression",
+    "rotate-image",
+    "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+    "four-divisors",
+    "largest-rectangle-in-histogram",
+    "number-of-islands",
+    "count-operations-to-obtain-zero",
+    "count-alternating-subarrays",
+    "binary-tree-paths",
+    "rotating-the-box",
+    "palindrome-number",
+    "count-prefix-and-suffix-pairs-ii",
+    "number-of-subarrays-that-match-a-pattern-i",
+    "container-with-most-water",
+    "brightest-position-on-street",
+    "merge-intervals",
+    "minimum-time-difference",
+    "count-positions-on-street-with-required-brightness",
+    "add-strings",
+    "minimum-absolute-difference-between-elements-with-constraint",
+    "monotonic-array",
+    "alternating-groups-ii",
+    "add-two-numbers",
+    "best-time-to-buy-and-sell-stock",
+    "design-file-system",
+    "count-prefix-and-suffix-pairs-i",
+    "grumpy-bookstore-owner",
+    "number-of-changing-keys",
+    "letter-combinations-of-a-phone-number",
+    "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+    "distribute-elements-into-two-arrays-ii",
+    "two-sum",
+    "calculate-digit-sum-of-a-string",
+    "lru-cache",
+    "subarrays-with-k-different-integers",
+    "flood-fill",
+    "alternating-digit-sum",
+    "count-nice-pairs-in-an-array",
+    "reconstruct-itinerary",
+    "word-ladder",
+    "subarray-sum-equals-k",
+    "maximum-running-time-of-n-computers",
+    "palindromic-substrings",
+    "fizz-buzz",
+    "sort-colors",
+    "finding-pairs-with-a-certain-sum",
+    "longest-palindromic-substring",
+    "max-consecutive-ones-iii",
+    "employee-free-time"
+  ],
+  "difficultyBreakdown": {
+    "easy": 13,
+    "medium": 38,
+    "hard": 10
+  },
+  "timeframes": {
+    "thirtyDays": [
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "threeMonths": [
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 97.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 88.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-positions-on-street-with-required-brightness",
+        "number": 2237,
+        "title": "Count Positions on Street With Required Brightness",
+        "difficulty": "Medium",
+        "frequency": 84.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 73.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "calculate-digit-sum-of-a-string",
+        "number": 2243,
+        "title": "Calculate Digit Sum of a String",
+        "difficulty": "Easy",
+        "frequency": 73.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-groups-ii",
+        "number": 3208,
+        "title": "Alternating Groups II",
+        "difficulty": "Medium",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-free-time",
+        "number": 759,
+        "title": "Employee Free Time",
+        "difficulty": "Hard",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 86.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-positions-on-street-with-required-brightness",
+        "number": 2237,
+        "title": "Count Positions on Street With Required Brightness",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-groups-ii",
+        "number": 3208,
+        "title": "Alternating Groups II",
+        "difficulty": "Medium",
+        "frequency": 73.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "number": 3043,
+        "title": "Find the Length of the Longest Common Prefix",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-adjacent-elements-with-the-same-color",
+        "number": 2672,
+        "title": "Number of Adjacent Elements With the Same Color",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "calculate-digit-sum-of-a-string",
+        "number": 2243,
+        "title": "Calculate Digit Sum of a String",
+        "difficulty": "Easy",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 67.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-paths",
+        "number": 257,
+        "title": "Binary Tree Paths",
+        "difficulty": "Easy",
+        "frequency": 58.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 58.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-free-time",
+        "number": 759,
+        "title": "Employee Free Time",
+        "difficulty": "Hard",
+        "frequency": 58.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "simple-bank-system",
+        "number": 2043,
+        "title": "Simple Bank System",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "text-justification",
+        "number": 68,
+        "title": "Text Justification",
+        "difficulty": "Hard",
+        "frequency": 91.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "block-placement-queries",
+        "number": 3161,
+        "title": "Block Placement Queries",
+        "difficulty": "Hard",
+        "frequency": 90.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "candy-crush",
+        "number": 723,
+        "title": "Candy Crush",
+        "difficulty": "Medium",
+        "frequency": 82.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 81.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-operations-to-write-the-letter-y-on-a-grid",
+        "number": 3071,
+        "title": "Minimum Operations to Write the Letter Y on a Grid",
+        "difficulty": "Medium",
+        "frequency": 78.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "number": 3043,
+        "title": "Find the Length of the Longest Common Prefix",
+        "difficulty": "Medium",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-the-array-from-adjacent-pairs",
+        "number": 1743,
+        "title": "Restore the Array From Adjacent Pairs",
+        "difficulty": "Medium",
+        "frequency": 75.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-adjacent-elements-with-the-same-color",
+        "number": 2672,
+        "title": "Number of Adjacent Elements With the Same Color",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-memory-allocator",
+        "number": 2502,
+        "title": "Design Memory Allocator",
+        "difficulty": "Medium",
+        "frequency": 72.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "simplify-path",
+        "number": 71,
+        "title": "Simplify Path",
+        "difficulty": "Medium",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-black-blocks",
+        "number": 2768,
+        "title": "Number of Black Blocks",
+        "difficulty": "Medium",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-result-by-adding-parentheses-to-expression",
+        "number": 2232,
+        "title": "Minimize Result by Adding Parentheses to Expression",
+        "difficulty": "Medium",
+        "frequency": 71.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-image",
+        "number": 48,
+        "title": "Rotate Image",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+        "number": 1438,
+        "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+        "difficulty": "Medium",
+        "frequency": 66.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "four-divisors",
+        "number": 1390,
+        "title": "Four Divisors",
+        "difficulty": "Medium",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-rectangle-in-histogram",
+        "number": 84,
+        "title": "Largest Rectangle in Histogram",
+        "difficulty": "Hard",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-operations-to-obtain-zero",
+        "number": 2169,
+        "title": "Count Operations to Obtain Zero",
+        "difficulty": "Easy",
+        "frequency": 64.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-alternating-subarrays",
+        "number": 3101,
+        "title": "Count Alternating Subarrays",
+        "difficulty": "Medium",
+        "frequency": 61.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-paths",
+        "number": 257,
+        "title": "Binary Tree Paths",
+        "difficulty": "Easy",
+        "frequency": 59.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotating-the-box",
+        "number": 1861,
+        "title": "Rotating the Box",
+        "difficulty": "Medium",
+        "frequency": 59.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-number",
+        "number": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "frequency": 56.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-prefix-and-suffix-pairs-ii",
+        "number": 3045,
+        "title": "Count Prefix and Suffix Pairs II",
+        "difficulty": "Hard",
+        "frequency": 56.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-subarrays-that-match-a-pattern-i",
+        "number": 3034,
+        "title": "Number of Subarrays That Match a Pattern I",
+        "difficulty": "Medium",
+        "frequency": 56.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 56.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "brightest-position-on-street",
+        "number": 2021,
+        "title": "Brightest Position on Street",
+        "difficulty": "Medium",
+        "frequency": 56.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-time-difference",
+        "number": 539,
+        "title": "Minimum Time Difference",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-positions-on-street-with-required-brightness",
+        "number": 2237,
+        "title": "Count Positions on Street With Required Brightness",
+        "difficulty": "Medium",
+        "frequency": 52.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-strings",
+        "number": 415,
+        "title": "Add Strings",
+        "difficulty": "Easy",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-absolute-difference-between-elements-with-constraint",
+        "number": 2817,
+        "title": "Minimum Absolute Difference Between Elements With Constraint",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "monotonic-array",
+        "number": 896,
+        "title": "Monotonic Array",
+        "difficulty": "Easy",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-groups-ii",
+        "number": 3208,
+        "title": "Alternating Groups II",
+        "difficulty": "Medium",
+        "frequency": 48.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "add-two-numbers",
+        "number": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-file-system",
+        "number": 1166,
+        "title": "Design File System",
+        "difficulty": "Medium",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-prefix-and-suffix-pairs-i",
+        "number": 3042,
+        "title": "Count Prefix and Suffix Pairs I",
+        "difficulty": "Easy",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "grumpy-bookstore-owner",
+        "number": 1052,
+        "title": "Grumpy Bookstore Owner",
+        "difficulty": "Medium",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-changing-keys",
+        "number": 3019,
+        "title": "Number of Changing Keys",
+        "difficulty": "Easy",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+        "number": 2023,
+        "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+        "difficulty": "Medium",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-elements-into-two-arrays-ii",
+        "number": 3072,
+        "title": "Distribute Elements Into Two Arrays II",
+        "difficulty": "Hard",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "calculate-digit-sum-of-a-string",
+        "number": 2243,
+        "title": "Calculate Digit Sum of a String",
+        "difficulty": "Easy",
+        "frequency": 42.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarrays-with-k-different-integers",
+        "number": 992,
+        "title": "Subarrays with K Different Integers",
+        "difficulty": "Hard",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flood-fill",
+        "number": 733,
+        "title": "Max Area of Island",
+        "difficulty": "Easy",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alternating-digit-sum",
+        "number": 2544,
+        "title": "Alternating Digit Sum",
+        "difficulty": "Easy",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-nice-pairs-in-an-array",
+        "number": 1814,
+        "title": "Count Nice Pairs in an Array",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-itinerary",
+        "number": 332,
+        "title": "Reconstruct Itinerary",
+        "difficulty": "Hard",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-sum-equals-k",
+        "number": 560,
+        "title": "Subarray Sum Equals K",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-running-time-of-n-computers",
+        "number": 2141,
+        "title": "Maximum Running Time of N Computers",
+        "difficulty": "Hard",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindromic-substrings",
+        "number": 647,
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fizz-buzz",
+        "number": 412,
+        "title": "Fizz Buzz",
+        "difficulty": "Easy",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "finding-pairs-with-a-certain-sum",
+        "number": 1865,
+        "title": "Finding Pairs With a Certain Sum",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "employee-free-time",
+        "number": 759,
+        "title": "Employee Free Time",
+        "difficulty": "Hard",
+        "frequency": 35,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Capital One Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Capital One coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/capital-one",
+    "keywords": [
+      "capital one interview questions",
+      "capital one leetcode",
+      "capital one coding questions",
+      "capital one online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

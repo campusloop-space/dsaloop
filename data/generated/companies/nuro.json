@@ -1,0 +1,194 @@
+{
+  "type": "company",
+  "slug": "nuro",
+  "name": "Nuro",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Nuro hiring and placement rounds.",
+  "problemCount": 13,
+  "problemSlugs": [
+    "maximum-number-of-visible-points",
+    "subrectangle-queries",
+    "random-pick-with-weight",
+    "evaluate-division",
+    "minesweeper",
+    "shortest-path-in-a-grid-with-obstacles-elimination",
+    "interval-list-intersections",
+    "asteroid-collision",
+    "sparse-matrix-multiplication",
+    "target-sum",
+    "alien-dictionary",
+    "remove-sub-folders-from-the-filesystem",
+    "dot-product-of-two-sparse-vectors"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 10,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "minesweeper",
+        "number": 529,
+        "title": "Minesweeper",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minesweeper",
+        "number": 529,
+        "title": "Minesweeper",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximum-number-of-visible-points",
+        "number": 1610,
+        "title": "Maximum Number of Visible Points",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subrectangle-queries",
+        "number": 1476,
+        "title": "Subrectangle Queries",
+        "difficulty": "Medium",
+        "frequency": 89.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "random-pick-with-weight",
+        "number": 528,
+        "title": "Random Pick with Weight",
+        "difficulty": "Medium",
+        "frequency": 86.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "evaluate-division",
+        "number": 399,
+        "title": "Evaluate Division",
+        "difficulty": "Medium",
+        "frequency": 74.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minesweeper",
+        "number": 529,
+        "title": "Minesweeper",
+        "difficulty": "Medium",
+        "frequency": 74.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+        "number": 1293,
+        "title": "Shortest Path in a Grid with Obstacles Elimination",
+        "difficulty": "Hard",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "interval-list-intersections",
+        "number": 986,
+        "title": "Interval List Intersections",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "asteroid-collision",
+        "number": 735,
+        "title": "Asteroid Collision",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sparse-matrix-multiplication",
+        "number": 311,
+        "title": "Sparse Matrix Multiplication",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "target-sum",
+        "number": 494,
+        "title": "Target Sum",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "alien-dictionary",
+        "number": 269,
+        "title": "Alien Dictionary",
+        "difficulty": "Hard",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-sub-folders-from-the-filesystem",
+        "number": 1233,
+        "title": "Remove Sub-Folders from the Filesystem",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "dot-product-of-two-sparse-vectors",
+        "number": 1570,
+        "title": "Dot Product of Two Sparse Vectors",
+        "difficulty": "Medium",
+        "frequency": 60,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Nuro Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Nuro coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/nuro",
+    "keywords": [
+      "nuro interview questions",
+      "nuro leetcode",
+      "nuro coding questions",
+      "nuro online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

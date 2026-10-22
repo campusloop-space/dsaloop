@@ -1,0 +1,135 @@
+{
+  "type": "company",
+  "slug": "publicis-sapient",
+  "name": "Publicis Sapient",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Publicis Sapient hiring and placement rounds.",
+  "problemCount": 9,
+  "problemSlugs": [
+    "sum-of-subsequence-widths",
+    "longest-common-prefix",
+    "minimum-sideway-jumps",
+    "trapping-rain-water",
+    "longest-substring-without-repeating-characters",
+    "longest-repeating-character-replacement",
+    "container-with-most-water",
+    "valid-parentheses",
+    "largest-palindromic-number"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 5,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "largest-palindromic-number",
+        "number": 2384,
+        "title": "Largest Palindromic Number",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "sum-of-subsequence-widths",
+        "number": 891,
+        "title": "Sum of Subsequence Widths",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-common-prefix",
+        "number": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "frequency": 77.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-sideway-jumps",
+        "number": 1824,
+        "title": "Minimum Sideway Jumps",
+        "difficulty": "Medium",
+        "frequency": 77.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-repeating-character-replacement",
+        "number": 424,
+        "title": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "largest-palindromic-number",
+        "number": 2384,
+        "title": "Largest Palindromic Number",
+        "difficulty": "Medium",
+        "frequency": 67.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Publicis Sapient Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Publicis Sapient coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/publicis-sapient",
+    "keywords": [
+      "publicis sapient interview questions",
+      "publicis sapient leetcode",
+      "publicis sapient coding questions",
+      "publicis sapient online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "chapterNumber": 11,
+  "slug": "news-feed-system",
+  "title": "Design a News Feed System",
+  "subtitle": "Comprehensive interview guide for Design a News Feed System. Architecture, trade-offs, and key deep dives.",
+  "readTimeMinutes": 4,
+  "tags": [
+    "News Feed",
+    "Fan-out",
+    "Caching",
+    "Social Graph"
+  ],
+  "imagesCount": 5,
+  "markdown": "## Introduction\nA **news feed system** displays a constantly updating list of posts (status updates, photos, videos, and links) from a user’s connections. Examples include Facebook’s news feed, Instagram’s feed, and Twitter’s timeline. This chapter explores the design of a scalable news feed system.\n\n---\n\n## Step 1: Understanding the Problem\n\n### Requirements\n1. **Platform:** The system supports both web and mobile apps.\n2. **Features:**\n   - Users can publish posts.\n   - Users can view posts from friends in their news feed.\n3. **Sorting:** Feeds are sorted in **reverse chronological order** for simplicity.\n4. **Scale:**\n   - Users can have up to 5,000 friends.\n   - 10 million daily active users (DAU).\n   - Feeds may include text, images, and videos.\n\n---\n\n## Step 2: High-Level Design\n\n### Overview\nThe design includes two main flows:\n1. **Feed Publishing:** A user publishes a post, which is written to the database and propagated to their friends’ feeds.\n2. **News Feed Building:** A user retrieves their news feed by aggregating posts from friends in reverse chronological order.\n\n---\n\n### News Feed APIs\n1. **Feed Publishing API:**\n   - **Endpoint:** `POST /v1/me/feed`\n   - **Params:** `content` (post text) and `auth_token` (authentication).\n\n2. **News Feed Retrieval API:**\n   - **Endpoint:** `GET /v1/me/feed`\n   - **Params:** `auth_token` (authentication).\n\n---\n\n### Feed Publishing\n\n   \n\n\n      \n\n![Feed Publishing](/system-design-assets/news-feed-system/images/feed-publishing.png)\n\n\n   \n\n\n\n1. **User Interaction:** The user publishes a post via the feed publishing API.\n2. **Load Balancer:** Distributes traffic to web servers.\n3. **Web Servers:** Authenticate requests and redirect to services.\n4. **Post Service:** Stores the post in the database and cache.\n5. **Fanout Service:** Propagates the post to friends’ news feeds in the cache.\n6. **Notification Service:** Sends notifications to friends.\n\n---\n\n### News Feed Building\n\n   \n\n\n      \n\n![News Feed Building](/system-design-assets/news-feed-system/images/news-feed-building.png)\n\n\n   \n\n\n\n1. **User Interaction:** The user requests their news feed via the retrieval API.\n2. **Load Balancer:** Distributes traffic to web servers.\n3. **Web Servers:** Forward requests to the news feed service.\n4. **News Feed Service:** Fetches post IDs from the news feed cache and retrieves complete post details from the database or cache.\n\n   \n---\n\n## Step 3: Design Deep Dive\n\n### Feed Publishing Deep Dive\n1. **Web Servers:**\n   - Authenticate users using `auth_token`.\n   - Enforce rate limits to prevent spam.\n\n2. **Fanout Service:**\n   - **Fanout on Write:** Push posts to friends’ feeds at write time.\n     - **Pros:** Real-time updates, fast feed retrieval.\n     - **Cons:** Resource-intensive for users with many friends.\n   - **Fanout on Read:** Pull posts at read time.\n     - **Pros:** Efficient for inactive users.\n     - **Cons:** Slower feed retrieval.\n   - **Hybrid Approach:** Use a push model for most users and a pull model for high-connection users (e.g., celebrities).\n\n        \n\n![Feed Publishing Deep Dive](/system-design-assets/news-feed-system/images/feed-publishing-deep-dive.png)\n\n\n\n    The **fanout service** works as following:\n\n    1. **Fetch Friend IDs:** Retrieve the friend list from a graph database.\n    2. **Filter Friends from Cache:** Access user settings in the cache to exclude certain friends (e.g., muted friends or selective sharing preferences).\n    3. **Send to Message Queue:** Send the filtered friend list along with the new post ID to a message queue for processing.\n    4. **Fanout Workers:** Workers retrieve data from the message queue and update the news feed cache. The cache stores `<post_id, user_id>` mappings instead of full user and post objects to save memory.\n    5. **Store in News Feed Cache:** Append new post IDs to the friends’ news feed cache. A configurable limit ensures that only recent posts are stored, as most users focus on the latest content, keeping cache memory consumption manageable.\n\n        \n\n![Fanout Service](/system-design-assets/news-feed-system/images/fanout-service.png)\n\n\n\n## News Feed Retrieval Deep Dive\n\n### Cache Architecture\nThe cache is divided into five layers:\n1. **News Feed Cache:** Stores post IDs for quick retrieval.\n2. **Content Cache:** Stores post details (popular posts in hot cache).\n3. **Social Graph Cache:** Stores user relationship data.\n4. **Action Cache:** Tracks user actions (likes, replies, shares).\n5. **Counter Cache:** Maintains counts for likes, replies, followers, etc.\n\n    \n\n![Cache Architecture](/system-design-assets/news-feed-system/images/cache-architecture.png)\n\n\n---\n\n## Key Optimizations\n\n### Scaling\n1. **Database Scaling:**\n   - Horizontal scaling and sharding.\n   - Use of read replicas for high-traffic queries.\n2. **Stateless Web Tier:** Keep web servers stateless to enable horizontal scaling.\n\n### Caching\n1. Store frequently accessed data in memory.\n2. Use cache layers to reduce latency and database load.\n\n### Reliability\n1. **Consistent Hashing:** Distribute requests evenly across servers.\n2. **Message Queues:** Decouple system components and buffer traffic.\n\n### Monitoring\n1. Track key metrics like QPS (queries per second) and latency.\n2. Monitor cache hit rates and adjust configurations accordingly.\n\n---\n\n> 🎓 **DSALoop by [CampusLoop](https://campusloop.space/)** — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.",
+  "html": "<h2>Introduction</h2>\n<p>A <strong>news feed system</strong> displays a constantly updating list of posts (status updates, photos, videos, and links) from a user’s connections. Examples include Facebook’s news feed, Instagram’s feed, and Twitter’s timeline. This chapter explores the design of a scalable news feed system.</p>\n<hr>\n<h2>Step 1: Understanding the Problem</h2>\n<h3>Requirements</h3>\n<ol>\n<li><strong>Platform:</strong> The system supports both web and mobile apps.</li>\n<li><strong>Features:</strong>\n<ul>\n<li>Users can publish posts.</li>\n<li>Users can view posts from friends in their news feed.</li>\n</ul>\n</li>\n<li><strong>Sorting:</strong> Feeds are sorted in <strong>reverse chronological order</strong> for simplicity.</li>\n<li><strong>Scale:</strong>\n<ul>\n<li>Users can have up to 5,000 friends.</li>\n<li>10 million daily active users (DAU).</li>\n<li>Feeds may include text, images, and videos.</li>\n</ul>\n</li>\n</ol>\n<hr>\n<h2>Step 2: High-Level Design</h2>\n<h3>Overview</h3>\n<p>The design includes two main flows:</p>\n<ol>\n<li><strong>Feed Publishing:</strong> A user publishes a post, which is written to the database and propagated to their friends’ feeds.</li>\n<li><strong>News Feed Building:</strong> A user retrieves their news feed by aggregating posts from friends in reverse chronological order.</li>\n</ol>\n<hr>\n<h3>News Feed APIs</h3>\n<ol>\n<li>\n<p><strong>Feed Publishing API:</strong></p>\n<ul>\n<li><strong>Endpoint:</strong> <code>POST /v1/me/feed</code></li>\n<li><strong>Params:</strong> <code>content</code> (post text) and <code>auth_token</code> (authentication).</li>\n</ul>\n</li>\n<li>\n<p><strong>News Feed Retrieval API:</strong></p>\n<ul>\n<li><strong>Endpoint:</strong> <code>GET /v1/me/feed</code></li>\n<li><strong>Params:</strong> <code>auth_token</code> (authentication).</li>\n</ul>\n</li>\n</ol>\n<hr>\n<h3>Feed Publishing</h3>\n<p><img src=\"/system-design-assets/news-feed-system/images/feed-publishing.png\" alt=\"Feed Publishing\"></p>\n<ol>\n<li><strong>User Interaction:</strong> The user publishes a post via the feed publishing API.</li>\n<li><strong>Load Balancer:</strong> Distributes traffic to web servers.</li>\n<li><strong>Web Servers:</strong> Authenticate requests and redirect to services.</li>\n<li><strong>Post Service:</strong> Stores the post in the database and cache.</li>\n<li><strong>Fanout Service:</strong> Propagates the post to friends’ news feeds in the cache.</li>\n<li><strong>Notification Service:</strong> Sends notifications to friends.</li>\n</ol>\n<hr>\n<h3>News Feed Building</h3>\n<p><img src=\"/system-design-assets/news-feed-system/images/news-feed-building.png\" alt=\"News Feed Building\"></p>\n<ol>\n<li><strong>User Interaction:</strong> The user requests their news feed via the retrieval API.</li>\n<li><strong>Load Balancer:</strong> Distributes traffic to web servers.</li>\n<li><strong>Web Servers:</strong> Forward requests to the news feed service.</li>\n<li><strong>News Feed Service:</strong> Fetches post IDs from the news feed cache and retrieves complete post details from the database or cache.</li>\n</ol>\n<hr>\n<h2>Step 3: Design Deep Dive</h2>\n<h3>Feed Publishing Deep Dive</h3>\n<ol>\n<li>\n<p><strong>Web Servers:</strong></p>\n<ul>\n<li>Authenticate users using <code>auth_token</code>.</li>\n<li>Enforce rate limits to prevent spam.</li>\n</ul>\n</li>\n<li>\n<p><strong>Fanout Service:</strong></p>\n<ul>\n<li><strong>Fanout on Write:</strong> Push posts to friends’ feeds at write time.\n<ul>\n<li><strong>Pros:</strong> Real-time updates, fast feed retrieval.</li>\n<li><strong>Cons:</strong> Resource-intensive for users with many friends.</li>\n</ul>\n</li>\n<li><strong>Fanout on Read:</strong> Pull posts at read time.\n<ul>\n<li><strong>Pros:</strong> Efficient for inactive users.</li>\n<li><strong>Cons:</strong> Slower feed retrieval.</li>\n</ul>\n</li>\n<li><strong>Hybrid Approach:</strong> Use a push model for most users and a pull model for high-connection users (e.g., celebrities).</li>\n</ul>\n</li>\n</ol>\n<p><img src=\"/system-design-assets/news-feed-system/images/feed-publishing-deep-dive.png\" alt=\"Feed Publishing Deep Dive\"></p>\n<pre><code>The **fanout service** works as following:\n\n1. **Fetch Friend IDs:** Retrieve the friend list from a graph database.\n2. **Filter Friends from Cache:** Access user settings in the cache to exclude certain friends (e.g., muted friends or selective sharing preferences).\n3. **Send to Message Queue:** Send the filtered friend list along with the new post ID to a message queue for processing.\n4. **Fanout Workers:** Workers retrieve data from the message queue and update the news feed cache. The cache stores `&#x3C;post_id, user_id>` mappings instead of full user and post objects to save memory.\n5. **Store in News Feed Cache:** Append new post IDs to the friends’ news feed cache. A configurable limit ensures that only recent posts are stored, as most users focus on the latest content, keeping cache memory consumption manageable.\n\n    \n</code></pre>\n<p><img src=\"/system-design-assets/news-feed-system/images/fanout-service.png\" alt=\"Fanout Service\"></p>\n<h2>News Feed Retrieval Deep Dive</h2>\n<h3>Cache Architecture</h3>\n<p>The cache is divided into five layers:</p>\n<ol>\n<li><strong>News Feed Cache:</strong> Stores post IDs for quick retrieval.</li>\n<li><strong>Content Cache:</strong> Stores post details (popular posts in hot cache).</li>\n<li><strong>Social Graph Cache:</strong> Stores user relationship data.</li>\n<li><strong>Action Cache:</strong> Tracks user actions (likes, replies, shares).</li>\n<li><strong>Counter Cache:</strong> Maintains counts for likes, replies, followers, etc.</li>\n</ol>\n<p><img src=\"/system-design-assets/news-feed-system/images/cache-architecture.png\" alt=\"Cache Architecture\"></p>\n<hr>\n<h2>Key Optimizations</h2>\n<h3>Scaling</h3>\n<ol>\n<li><strong>Database Scaling:</strong>\n<ul>\n<li>Horizontal scaling and sharding.</li>\n<li>Use of read replicas for high-traffic queries.</li>\n</ul>\n</li>\n<li><strong>Stateless Web Tier:</strong> Keep web servers stateless to enable horizontal scaling.</li>\n</ol>\n<h3>Caching</h3>\n<ol>\n<li>Store frequently accessed data in memory.</li>\n<li>Use cache layers to reduce latency and database load.</li>\n</ol>\n<h3>Reliability</h3>\n<ol>\n<li><strong>Consistent Hashing:</strong> Distribute requests evenly across servers.</li>\n<li><strong>Message Queues:</strong> Decouple system components and buffer traffic.</li>\n</ol>\n<h3>Monitoring</h3>\n<ol>\n<li>Track key metrics like QPS (queries per second) and latency.</li>\n<li>Monitor cache hit rates and adjust configurations accordingly.</li>\n</ol>\n<hr>\n<blockquote>\n<p>🎓 <strong>DSALoop by <a href=\"https://campusloop.space/\">CampusLoop</a></strong> — Master high-level and low-level system design with clean, pattern-oriented walkthroughs.</p>\n</blockquote>\n",
+  "tableOfContents": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2
+    },
+    {
+      "id": "step-1-understanding-the-problem",
+      "title": "Step 1: Understanding the Problem",
+      "level": 2
+    },
+    {
+      "id": "requirements",
+      "title": "Requirements",
+      "level": 3
+    },
+    {
+      "id": "step-2-high-level-design",
+      "title": "Step 2: High-Level Design",
+      "level": 2
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 3
+    },
+    {
+      "id": "news-feed-apis",
+      "title": "News Feed APIs",
+      "level": 3
+    },
+    {
+      "id": "feed-publishing",
+      "title": "Feed Publishing",
+      "level": 3
+    },
+    {
+      "id": "news-feed-building",
+      "title": "News Feed Building",
+      "level": 3
+    },
+    {
+      "id": "step-3-design-deep-dive",
+      "title": "Step 3: Design Deep Dive",
+      "level": 2
+    },
+    {
+      "id": "feed-publishing-deep-dive",
+      "title": "Feed Publishing Deep Dive",
+      "level": 3
+    },
+    {
+      "id": "news-feed-retrieval-deep-dive",
+      "title": "News Feed Retrieval Deep Dive",
+      "level": 2
+    },
+    {
+      "id": "cache-architecture",
+      "title": "Cache Architecture",
+      "level": 3
+    },
+    {
+      "id": "key-optimizations",
+      "title": "Key Optimizations",
+      "level": 2
+    },
+    {
+      "id": "scaling",
+      "title": "Scaling",
+      "level": 3
+    },
+    {
+      "id": "caching",
+      "title": "Caching",
+      "level": 3
+    },
+    {
+      "id": "reliability",
+      "title": "Reliability",
+      "level": 3
+    },
+    {
+      "id": "monitoring",
+      "title": "Monitoring",
+      "level": 3
+    }
+  ],
+  "prevChapter": {
+    "slug": "notification-system",
+    "title": "Design a Notification System",
+    "chapterNumber": 10
+  },
+  "nextChapter": {
+    "slug": "chat-system",
+    "title": "Design a Chat System",
+    "chapterNumber": 12
+  }
+}

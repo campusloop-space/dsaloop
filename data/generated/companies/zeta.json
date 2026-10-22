@@ -1,0 +1,305 @@
+{
+  "type": "company",
+  "slug": "zeta",
+  "name": "Zeta",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Zeta hiring and placement rounds.",
+  "problemCount": 27,
+  "problemSlugs": [
+    "apply-operations-to-make-two-strings-equal",
+    "split-array-largest-sum",
+    "task-scheduler",
+    "capacity-to-ship-packages-within-d-days",
+    "trapping-rain-water",
+    "minimum-window-substring",
+    "palindrome-partitioning-ii",
+    "remove-boxes",
+    "longest-substring-without-repeating-characters",
+    "count-univalue-subtrees",
+    "insert-delete-getrandom-o1",
+    "remove-k-digits",
+    "maximal-rectangle",
+    "heaters",
+    "maximum-subarray",
+    "find-all-possible-recipes-from-given-supplies",
+    "sliding-window-maximum",
+    "minimize-the-maximum-difference-of-pairs",
+    "binary-tree-cameras",
+    "partition-to-k-equal-sum-subsets",
+    "guess-number-higher-or-lower-ii",
+    "shifting-letters-ii",
+    "merge-intervals",
+    "median-of-two-sorted-arrays",
+    "distribute-coins-in-binary-tree",
+    "word-break",
+    "power-grid-maintenance"
+  ],
+  "difficultyBreakdown": {
+    "easy": 0,
+    "medium": 18,
+    "hard": 9
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "apply-operations-to-make-two-strings-equal",
+        "number": 2896,
+        "title": "Apply Operations to Make Two Strings Equal",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "split-array-largest-sum",
+        "number": 410,
+        "title": "Split Array Largest Sum",
+        "difficulty": "Hard",
+        "frequency": 81.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "task-scheduler",
+        "number": 621,
+        "title": "Task Scheduler",
+        "difficulty": "Medium",
+        "frequency": 74.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 74.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 74.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 74.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "palindrome-partitioning-ii",
+        "number": 132,
+        "title": "Palindrome Partitioning II",
+        "difficulty": "Hard",
+        "frequency": 74.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-boxes",
+        "number": 546,
+        "title": "Remove Boxes",
+        "difficulty": "Hard",
+        "frequency": 74.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-univalue-subtrees",
+        "number": 250,
+        "title": "Count Univalue Subtrees",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "insert-delete-getrandom-o1",
+        "number": 380,
+        "title": "Insert Delete GetRandom O(1)",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximal-rectangle",
+        "number": 85,
+        "title": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "heaters",
+        "number": 475,
+        "title": "Heaters",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-all-possible-recipes-from-given-supplies",
+        "number": 2115,
+        "title": "Find All Possible Recipes from Given Supplies",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimize-the-maximum-difference-of-pairs",
+        "number": 2616,
+        "title": "Minimize the Maximum Difference of Pairs",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-cameras",
+        "number": 968,
+        "title": "Binary Tree Cameras",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "partition-to-k-equal-sum-subsets",
+        "number": 698,
+        "title": "Partition to K Equal Sum Subsets",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "guess-number-higher-or-lower-ii",
+        "number": 375,
+        "title": "Guess Number Higher or Lower II",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shifting-letters-ii",
+        "number": 2381,
+        "title": "Shifting Letters II",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "median-of-two-sorted-arrays",
+        "number": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distribute-coins-in-binary-tree",
+        "number": 979,
+        "title": "Distribute Coins in Binary Tree",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-break",
+        "number": 139,
+        "title": "Word Break",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "power-grid-maintenance",
+        "number": 3607,
+        "title": "Power Grid Maintenance",
+        "difficulty": "Medium",
+        "frequency": 63.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Zeta Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Zeta coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/zeta",
+    "keywords": [
+      "zeta interview questions",
+      "zeta leetcode",
+      "zeta coding questions",
+      "zeta online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

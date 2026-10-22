@@ -1,0 +1,115 @@
+{
+  "type": "company",
+  "slug": "avito",
+  "name": "Avito",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Avito hiring and placement rounds.",
+  "problemCount": 8,
+  "problemSlugs": [
+    "group-anagrams",
+    "kth-largest-element-in-an-array",
+    "merge-sorted-array",
+    "sum-of-subarray-minimums",
+    "generate-parentheses",
+    "top-k-frequent-elements",
+    "maximum-depth-of-binary-tree",
+    "product-of-array-except-self"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 6,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-largest-element-in-an-array",
+        "number": 215,
+        "title": "Kth Largest Element in an Array",
+        "difficulty": "Medium",
+        "frequency": 95.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 83.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-subarray-minimums",
+        "number": 907,
+        "title": "Sum of Subarray Minimums",
+        "difficulty": "Medium",
+        "frequency": 83.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 73.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "top-k-frequent-elements",
+        "number": 347,
+        "title": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "frequency": 73.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-depth-of-binary-tree",
+        "number": 104,
+        "title": "Maximum Depth of Binary Tree",
+        "difficulty": "Easy",
+        "frequency": 73.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "product-of-array-except-self",
+        "number": 238,
+        "title": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "frequency": 73.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Avito Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Avito coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/avito",
+    "keywords": [
+      "avito interview questions",
+      "avito leetcode",
+      "avito coding questions",
+      "avito online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

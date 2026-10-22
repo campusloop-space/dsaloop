@@ -1,0 +1,202 @@
+{
+  "type": "company",
+  "slug": "netapp",
+  "name": "Netapp",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Netapp hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "two-sum",
+    "move-zeroes",
+    "rotate-string",
+    "lru-cache",
+    "reconstruct-original-digits-from-english",
+    "spiral-matrix",
+    "combination-sum",
+    "longest-well-performing-interval",
+    "longest-substring-without-repeating-characters",
+    "best-time-to-buy-and-sell-stock",
+    "rank-teams-by-votes",
+    "find-first-and-last-position-of-element-in-sorted-array"
+  ],
+  "difficultyBreakdown": {
+    "easy": 4,
+    "medium": 8,
+    "hard": 0
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-teams-by-votes",
+        "number": 1366,
+        "title": "Rank Teams by Votes",
+        "difficulty": "Medium",
+        "frequency": 89.8,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-string",
+        "number": 796,
+        "title": "Rotate String",
+        "difficulty": "Easy",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-teams-by-votes",
+        "number": 1366,
+        "title": "Rank Teams by Votes",
+        "difficulty": "Medium",
+        "frequency": 89.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "move-zeroes",
+        "number": 283,
+        "title": "Move Zeroes",
+        "difficulty": "Easy",
+        "frequency": 78.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotate-string",
+        "number": 796,
+        "title": "Rotate String",
+        "difficulty": "Easy",
+        "frequency": 78.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 78.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reconstruct-original-digits-from-english",
+        "number": 423,
+        "title": "Reconstruct Original Digits from English",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "spiral-matrix",
+        "number": 54,
+        "title": "Spiral Matrix",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "combination-sum",
+        "number": 39,
+        "title": "Combination Sum",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-well-performing-interval",
+        "number": 1124,
+        "title": "Longest Well-Performing Interval",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rank-teams-by-votes",
+        "number": 1366,
+        "title": "Rank Teams by Votes",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-first-and-last-position-of-element-in-sorted-array",
+        "number": 34,
+        "title": "Find First and Last Position of Element in Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 68.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Netapp Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Netapp coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/netapp",
+    "keywords": [
+      "netapp interview questions",
+      "netapp leetcode",
+      "netapp coding questions",
+      "netapp online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

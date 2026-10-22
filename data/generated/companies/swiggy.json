@@ -1,0 +1,405 @@
+{
+  "type": "company",
+  "slug": "swiggy",
+  "name": "Swiggy",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Swiggy hiring and placement rounds.",
+  "problemCount": 35,
+  "problemSlugs": [
+    "maximize-area-of-square-hole-in-grid",
+    "distinct-subsequences",
+    "count-good-meals",
+    "minimum-value-to-get-positive-step-by-step-sum",
+    "next-greater-element-i",
+    "happy-number",
+    "course-schedule",
+    "edit-distance",
+    "best-time-to-buy-and-sell-stock",
+    "merge-sorted-array",
+    "integer-to-roman",
+    "daily-temperatures",
+    "fair-candy-swap",
+    "trapping-rain-water",
+    "koko-eating-bananas",
+    "longest-substring-without-repeating-characters",
+    "unique-binary-search-trees",
+    "count-days-without-meetings",
+    "sort-colors",
+    "maximum-profit-in-job-scheduling",
+    "first-missing-positive",
+    "immediate-food-delivery-ii",
+    "maximum-score-from-removing-substrings",
+    "k-closest-points-to-origin",
+    "minimum-number-of-work-sessions-to-finish-the-tasks",
+    "two-city-scheduling",
+    "minimum-window-substring",
+    "maximum-product-subarray",
+    "sum-of-two-integers",
+    "lru-cache",
+    "maximum-subarray",
+    "longest-palindromic-substring",
+    "design-twitter",
+    "longest-consecutive-sequence",
+    "merge-intervals"
+  ],
+  "difficultyBreakdown": {
+    "easy": 6,
+    "medium": 24,
+    "hard": 5
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "distinct-subsequences",
+        "number": 115,
+        "title": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "sixMonths": [
+      {
+        "slug": "distinct-subsequences",
+        "number": 115,
+        "title": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "maximize-area-of-square-hole-in-grid",
+        "number": 2943,
+        "title": "Maximize Area of Square Hole in Grid",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "distinct-subsequences",
+        "number": 115,
+        "title": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-good-meals",
+        "number": 1711,
+        "title": "Count Good Meals",
+        "difficulty": "Medium",
+        "frequency": 97.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-value-to-get-positive-step-by-step-sum",
+        "number": 1413,
+        "title": "Minimum Value to Get Positive Step by Step Sum",
+        "difficulty": "Easy",
+        "frequency": 94.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "next-greater-element-i",
+        "number": 496,
+        "title": "Next Greater Element I",
+        "difficulty": "Easy",
+        "frequency": 82.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "happy-number",
+        "number": 202,
+        "title": "Happy Number",
+        "difficulty": "Easy",
+        "frequency": 82.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "course-schedule",
+        "number": 207,
+        "title": "Course Schedule",
+        "difficulty": "Medium",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "edit-distance",
+        "number": 72,
+        "title": "Edit Distance",
+        "difficulty": "Medium",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 76.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-sorted-array",
+        "number": 88,
+        "title": "Merge Sorted Array",
+        "difficulty": "Easy",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "integer-to-roman",
+        "number": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "daily-temperatures",
+        "number": 739,
+        "title": "Daily Temperatures",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fair-candy-swap",
+        "number": 888,
+        "title": "Fair Candy Swap",
+        "difficulty": "Easy",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-binary-search-trees",
+        "number": 96,
+        "title": "Unique Binary Search Trees",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-days-without-meetings",
+        "number": 3169,
+        "title": "Count Days Without Meetings",
+        "difficulty": "Medium",
+        "frequency": 69.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sort-colors",
+        "number": 75,
+        "title": "Sort Colors",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-profit-in-job-scheduling",
+        "number": 1235,
+        "title": "Maximum Profit in Job Scheduling",
+        "difficulty": "Hard",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "first-missing-positive",
+        "number": 41,
+        "title": "First Missing Positive",
+        "difficulty": "Hard",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "immediate-food-delivery-ii",
+        "number": 1174,
+        "title": "Immediate Food Delivery II",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-score-from-removing-substrings",
+        "number": 1717,
+        "title": "Maximum Score From Removing Substrings",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "k-closest-points-to-origin",
+        "number": 973,
+        "title": "K Closest Points to Origin",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+        "number": 1986,
+        "title": "Minimum Number of Work Sessions to Finish the Tasks",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-city-scheduling",
+        "number": 1029,
+        "title": "Two City Scheduling",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-window-substring",
+        "number": 76,
+        "title": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-product-subarray",
+        "number": 152,
+        "title": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sum-of-two-integers",
+        "number": 371,
+        "title": "Sum of Two Integers",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-subarray",
+        "number": 53,
+        "title": "Maximum Subarray",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-twitter",
+        "number": 355,
+        "title": "Design Twitter",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-consecutive-sequence",
+        "number": 128,
+        "title": "Longest Consecutive Sequence",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 59.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Swiggy Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Swiggy coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/swiggy",
+    "keywords": [
+      "swiggy interview questions",
+      "swiggy leetcode",
+      "swiggy coding questions",
+      "swiggy online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

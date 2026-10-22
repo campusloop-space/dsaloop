@@ -1,0 +1,155 @@
+{
+  "type": "company",
+  "slug": "datadog",
+  "name": "Datadog",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Datadog hiring and placement rounds.",
+  "problemCount": 12,
+  "problemSlugs": [
+    "most-common-word",
+    "coin-change",
+    "meeting-scheduler",
+    "valid-word-abbreviation",
+    "maximum-depth-of-n-ary-tree",
+    "design-circular-queue",
+    "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+    "house-robber",
+    "maximum-vacation-days",
+    "house-robber-ii",
+    "sliding-window-median",
+    "binary-tree-maximum-path-sum"
+  ],
+  "difficultyBreakdown": {
+    "easy": 3,
+    "medium": 6,
+    "hard": 3
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [],
+    "allTime": [
+      {
+        "slug": "most-common-word",
+        "number": 819,
+        "title": "Most Common Word",
+        "difficulty": "Easy",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "coin-change",
+        "number": 322,
+        "title": "Coin Change",
+        "difficulty": "Medium",
+        "frequency": 92.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-scheduler",
+        "number": 1229,
+        "title": "Meeting Scheduler",
+        "difficulty": "Medium",
+        "frequency": 90.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-word-abbreviation",
+        "number": 408,
+        "title": "Valid Word Abbreviation",
+        "difficulty": "Easy",
+        "frequency": 86.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-depth-of-n-ary-tree",
+        "number": 559,
+        "title": "Max Consecutive Ones",
+        "difficulty": "Easy",
+        "frequency": 82,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "design-circular-queue",
+        "number": 622,
+        "title": "Design Circular Queue",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+        "number": 1452,
+        "title": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 72.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-vacation-days",
+        "number": 568,
+        "title": "Maximum Vacation Days",
+        "difficulty": "Hard",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber-ii",
+        "number": 213,
+        "title": "House Robber II",
+        "difficulty": "Medium",
+        "frequency": 61.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-median",
+        "number": 480,
+        "title": "Sliding Window Median",
+        "difficulty": "Hard",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "binary-tree-maximum-path-sum",
+        "number": 124,
+        "title": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "frequency": 53.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Datadog Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Datadog coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/datadog",
+    "keywords": [
+      "datadog interview questions",
+      "datadog leetcode",
+      "datadog coding questions",
+      "datadog online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

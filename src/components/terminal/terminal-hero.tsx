@@ -20,9 +20,20 @@ export function TerminalHero({
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_.9fr] lg:gap-14">
           {/* Left Column: Heading & CTAs */}
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/80 bg-card px-3.5 py-1 text-xs font-semibold text-muted-foreground shadow-2xs">
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1 text-xs font-semibold text-muted-foreground shadow-2xs">
               <CuteSparkle className="size-3.5 text-primary" />
-              <span>CampusLoop Learning Track</span>
+              <span className="font-heading font-black text-foreground">
+                DSA<span className="text-primary font-black">Loop</span>
+              </span>
+              <span>by</span>
+              <a
+                href="https://campusloop.space/"
+                target="_blank"
+                rel="noreferrer"
+                className="font-bold text-foreground hover:text-primary transition-colors underline-offset-2 hover:underline"
+              >
+                https://campusloop.space/
+              </a>
               <span className="size-1 rounded-full bg-border" />
               <span className="text-primary font-bold">Free &amp; Open Source</span>
             </div>

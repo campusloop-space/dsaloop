@@ -2,19 +2,778 @@
   "type": "company",
   "slug": "expedia",
   "name": "Expedia",
-  "description": "Coding interview preparation for Expedia: high-frequency patterns and problem sets.",
-  "problemCount": 1,
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Expedia hiring and placement rounds.",
+  "problemCount": 67,
   "problemSlugs": [
-    "string-compression"
+    "find-the-smallest-divisor-given-a-threshold",
+    "the-kth-factor-of-n",
+    "valid-triangle-number",
+    "the-earliest-moment-when-everyone-become-friends",
+    "minimum-swaps-to-group-all-1s-together",
+    "break-a-palindrome",
+    "unique-substrings-with-equal-digit-frequency",
+    "valid-word",
+    "minimum-replacements-to-sort-the-array",
+    "string-compression",
+    "divide-players-into-teams-of-equal-skill",
+    "rearrange-words-in-a-sentence",
+    "number-of-good-binary-strings",
+    "most-visited-sector-in-a-circular-track",
+    "minimum-one-bit-operations-to-make-integers-zero",
+    "group-anagrams",
+    "remove-duplicate-letters",
+    "merge-intervals",
+    "count-vowel-substrings-of-a-string",
+    "remove-stones-to-minimize-the-total",
+    "sliding-window-maximum",
+    "number-of-visible-people-in-a-queue",
+    "two-sum",
+    "maximum-palindromes-after-operations",
+    "find-pivot-index",
+    "count-and-say",
+    "valid-parentheses",
+    "best-time-to-buy-and-sell-stock",
+    "house-robber",
+    "number-of-islands",
+    "lru-cache",
+    "minimum-number-of-chairs-in-a-waiting-room",
+    "flip-string-to-monotone-increasing",
+    "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+    "koko-eating-bananas",
+    "beautiful-towers-ii",
+    "longest-substring-without-repeating-characters",
+    "minimum-number-of-swaps-to-make-the-string-balanced",
+    "roman-to-integer",
+    "degree-of-an-array",
+    "rotting-oranges",
+    "container-with-most-water",
+    "generate-parentheses",
+    "verify-preorder-sequence-in-binary-search-tree",
+    "kth-smallest-element-in-a-bst",
+    "word-ladder",
+    "reorganize-string",
+    "cheapest-flights-within-k-stops",
+    "minimum-value-to-get-positive-step-by-step-sum",
+    "maximum-points-you-can-obtain-from-cards",
+    "reformat-date",
+    "maximum-number-of-events-that-can-be-attended",
+    "max-area-of-island",
+    "basic-calculator-ii",
+    "lfu-cache",
+    "validate-binary-search-tree",
+    "maximum-frequency-stack",
+    "search-in-rotated-sorted-array",
+    "capacity-to-ship-packages-within-d-days",
+    "max-consecutive-ones-iii",
+    "string-to-integer-atoi",
+    "using-a-robot-to-print-the-lexicographically-smallest-string",
+    "subarray-product-less-than-k",
+    "fruit-into-baskets",
+    "shortest-and-lexicographically-smallest-beautiful-string",
+    "minimum-number-of-arrows-to-burst-balloons",
+    "meeting-rooms-ii"
   ],
-  "seo": {
-    "title": "Expedia Coding Interview Questions | AlgoForge",
-    "description": "Prepare for Expedia interviews with 1 problems, patterns, and roadmaps.",
-    "keywords": [
-      "Expedia interview questions",
-      "Expedia leetcode",
-      "Expedia oa"
+  "difficultyBreakdown": {
+    "easy": 12,
+    "medium": 48,
+    "hard": 7
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-towers-ii",
+        "number": 2866,
+        "title": "Beautiful Towers II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
     ],
-    "canonicalPath": "/companies/expedia"
+    "sixMonths": [
+      {
+        "slug": "beautiful-towers-ii",
+        "number": 2866,
+        "title": "Beautiful Towers II",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "number": 452,
+        "title": "Minimum Number of Arrows to Burst Balloons",
+        "difficulty": "Medium",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-substrings-of-a-string",
+        "number": 2062,
+        "title": "Count Vowel Substrings of a String",
+        "difficulty": "Easy",
+        "frequency": 88.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "find-the-smallest-divisor-given-a-threshold",
+        "number": 1283,
+        "title": "Find the Smallest Divisor Given a Threshold",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-kth-factor-of-n",
+        "number": 1492,
+        "title": "The kth Factor of n",
+        "difficulty": "Medium",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-triangle-number",
+        "number": 611,
+        "title": "Valid Triangle Number",
+        "difficulty": "Medium",
+        "frequency": 94.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "the-earliest-moment-when-everyone-become-friends",
+        "number": 1101,
+        "title": "The Earliest Moment When Everyone Become Friends",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-swaps-to-group-all-1s-together",
+        "number": 1151,
+        "title": "Minimum Swaps to Group All 1's Together",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "break-a-palindrome",
+        "number": 1328,
+        "title": "Break a Palindrome",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "unique-substrings-with-equal-digit-frequency",
+        "number": 2168,
+        "title": "Unique Substrings With Equal Digit Frequency",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-word",
+        "number": 3136,
+        "title": "Valid Word",
+        "difficulty": "Easy",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-replacements-to-sort-the-array",
+        "number": 2366,
+        "title": "Minimum Replacements to Sort the Array",
+        "difficulty": "Hard",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-compression",
+        "number": 443,
+        "title": "String Compression",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "divide-players-into-teams-of-equal-skill",
+        "number": 2491,
+        "title": "Divide Players Into Teams of Equal Skill",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rearrange-words-in-a-sentence",
+        "number": 1451,
+        "title": "Rearrange Words in a Sentence",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-good-binary-strings",
+        "number": 2533,
+        "title": "Number of Good Binary Strings",
+        "difficulty": "Medium",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "most-visited-sector-in-a-circular-track",
+        "number": 1560,
+        "title": "Most Visited Sector in a Circular Track",
+        "difficulty": "Easy",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-one-bit-operations-to-make-integers-zero",
+        "number": 1611,
+        "title": "Minimum One Bit Operations to Make Integers Zero",
+        "difficulty": "Hard",
+        "frequency": 91.4,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "group-anagrams",
+        "number": 49,
+        "title": "Group Anagrams",
+        "difficulty": "Medium",
+        "frequency": 83.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-duplicate-letters",
+        "number": 316,
+        "title": "Remove Duplicate Letters",
+        "difficulty": "Medium",
+        "frequency": 83.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "merge-intervals",
+        "number": 56,
+        "title": "Merge Intervals",
+        "difficulty": "Medium",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-vowel-substrings-of-a-string",
+        "number": 2062,
+        "title": "Count Vowel Substrings of a String",
+        "difficulty": "Easy",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-stones-to-minimize-the-total",
+        "number": 1962,
+        "title": "Remove Stones to Minimize the Total",
+        "difficulty": "Medium",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "sliding-window-maximum",
+        "number": 239,
+        "title": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "frequency": 78.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-visible-people-in-a-queue",
+        "number": 1944,
+        "title": "Number of Visible People in a Queue",
+        "difficulty": "Hard",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "two-sum",
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-palindromes-after-operations",
+        "number": 3035,
+        "title": "Maximum Palindromes After Operations",
+        "difficulty": "Medium",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "find-pivot-index",
+        "number": 724,
+        "title": "Find Pivot Index",
+        "difficulty": "Easy",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "count-and-say",
+        "number": 38,
+        "title": "Count and Say",
+        "difficulty": "Medium",
+        "frequency": 72.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-parentheses",
+        "number": 20,
+        "title": "Valid Parentheses",
+        "difficulty": "Easy",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "best-time-to-buy-and-sell-stock",
+        "number": 121,
+        "title": "Best Time to Buy and Sell Stock",
+        "difficulty": "Easy",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "house-robber",
+        "number": 198,
+        "title": "House Robber",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "number-of-islands",
+        "number": 200,
+        "title": "Number of Islands",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lru-cache",
+        "number": 146,
+        "title": "LRU Cache",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-chairs-in-a-waiting-room",
+        "number": 3168,
+        "title": "Minimum Number of Chairs in a Waiting Room",
+        "difficulty": "Easy",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "flip-string-to-monotone-increasing",
+        "number": 926,
+        "title": "Flip String to Monotone Increasing",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+        "number": 1465,
+        "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "koko-eating-bananas",
+        "number": 875,
+        "title": "Koko Eating Bananas",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "beautiful-towers-ii",
+        "number": 2866,
+        "title": "Beautiful Towers II",
+        "difficulty": "Medium",
+        "frequency": 64.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-substring-without-repeating-characters",
+        "number": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+        "number": 1963,
+        "title": "Minimum Number of Swaps to Make the String Balanced",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "roman-to-integer",
+        "number": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "degree-of-an-array",
+        "number": 697,
+        "title": "Degree of an Array",
+        "difficulty": "Easy",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "rotting-oranges",
+        "number": 994,
+        "title": "Rotting Oranges",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "container-with-most-water",
+        "number": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "generate-parentheses",
+        "number": 22,
+        "title": "Generate Parentheses",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "verify-preorder-sequence-in-binary-search-tree",
+        "number": 255,
+        "title": "Verify Preorder Sequence in Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "kth-smallest-element-in-a-bst",
+        "number": 230,
+        "title": "Kth Smallest Element in a BST",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "word-ladder",
+        "number": 127,
+        "title": "Word Ladder",
+        "difficulty": "Hard",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reorganize-string",
+        "number": 767,
+        "title": "Reorganize String",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "cheapest-flights-within-k-stops",
+        "number": 787,
+        "title": "Cheapest Flights Within K Stops",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-value-to-get-positive-step-by-step-sum",
+        "number": 1413,
+        "title": "Minimum Value to Get Positive Step by Step Sum",
+        "difficulty": "Easy",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-points-you-can-obtain-from-cards",
+        "number": 1423,
+        "title": "Maximum Points You Can Obtain from Cards",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reformat-date",
+        "number": 1507,
+        "title": "Reformat Date",
+        "difficulty": "Easy",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-number-of-events-that-can-be-attended",
+        "number": 1353,
+        "title": "Maximum Number of Events That Can Be Attended",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-area-of-island",
+        "number": 695,
+        "title": "Max Area of Island",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "basic-calculator-ii",
+        "number": 227,
+        "title": "Basic Calculator II",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "lfu-cache",
+        "number": 460,
+        "title": "LFU Cache",
+        "difficulty": "Hard",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "validate-binary-search-tree",
+        "number": 98,
+        "title": "Validate Binary Search Tree",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "maximum-frequency-stack",
+        "number": 895,
+        "title": "Maximum Frequency Stack",
+        "difficulty": "Hard",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "search-in-rotated-sorted-array",
+        "number": 33,
+        "title": "Search in Rotated Sorted Array",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "capacity-to-ship-packages-within-d-days",
+        "number": 1011,
+        "title": "Capacity To Ship Packages Within D Days",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "max-consecutive-ones-iii",
+        "number": 1004,
+        "title": "Max Consecutive Ones III",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "string-to-integer-atoi",
+        "number": 8,
+        "title": "String to Integer (atoi)",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "using-a-robot-to-print-the-lexicographically-smallest-string",
+        "number": 2434,
+        "title": "Using a Robot to Print the Lexicographically Smallest String",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "subarray-product-less-than-k",
+        "number": 713,
+        "title": "Subarray Product Less Than K",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "fruit-into-baskets",
+        "number": 904,
+        "title": "Fruit Into Baskets",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+        "number": 2904,
+        "title": "Shortest and Lexicographically Smallest Beautiful String",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "number": 452,
+        "title": "Minimum Number of Arrows to Burst Balloons",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "meeting-rooms-ii",
+        "number": 253,
+        "title": "Meeting Rooms II",
+        "difficulty": "Medium",
+        "frequency": 54.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Expedia Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Expedia coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/expedia",
+    "keywords": [
+      "expedia interview questions",
+      "expedia leetcode",
+      "expedia coding questions",
+      "expedia online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
   }
 }

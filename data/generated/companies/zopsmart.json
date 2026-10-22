@@ -1,0 +1,212 @@
+{
+  "type": "company",
+  "slug": "zopsmart",
+  "name": "Zopsmart",
+  "description": "Top coding interview questions, assessments, and DSA frequency asked in Zopsmart hiring and placement rounds.",
+  "problemCount": 14,
+  "problemSlugs": [
+    "zigzag-conversion",
+    "decode-string",
+    "trapping-rain-water",
+    "hexadecimal-and-hexatrigesimal-conversion",
+    "reverse-nodes-in-even-length-groups",
+    "bulls-and-cows",
+    "reverse-words-in-a-string",
+    "remove-k-digits",
+    "letter-combinations-of-a-phone-number",
+    "broken-calculator",
+    "reverse-nodes-in-k-group",
+    "longest-palindromic-substring",
+    "valid-anagram",
+    "restore-ip-addresses"
+  ],
+  "difficultyBreakdown": {
+    "easy": 2,
+    "medium": 10,
+    "hard": 2
+  },
+  "timeframes": {
+    "thirtyDays": [],
+    "threeMonths": [],
+    "sixMonths": [
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 89.2,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 62.5,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ],
+    "allTime": [
+      {
+        "slug": "zigzag-conversion",
+        "number": 6,
+        "title": "ZigZag Conversion",
+        "difficulty": "Medium",
+        "frequency": 100,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "decode-string",
+        "number": 394,
+        "title": "Decode String",
+        "difficulty": "Medium",
+        "frequency": 85.1,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "trapping-rain-water",
+        "number": 42,
+        "title": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "frequency": 83.6,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "hexadecimal-and-hexatrigesimal-conversion",
+        "number": 3602,
+        "title": "Hexadecimal and Hexatrigesimal Conversion",
+        "difficulty": "Easy",
+        "frequency": 80,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-even-length-groups",
+        "number": 2074,
+        "title": "Reverse Nodes in Even Length Groups",
+        "difficulty": "Medium",
+        "frequency": 75.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "bulls-and-cows",
+        "number": 299,
+        "title": "Bulls and Cows",
+        "difficulty": "Medium",
+        "frequency": 62.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-words-in-a-string",
+        "number": 151,
+        "title": "Reverse Words in a String",
+        "difficulty": "Medium",
+        "frequency": 62.3,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "remove-k-digits",
+        "number": 402,
+        "title": "Remove K Digits",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "letter-combinations-of-a-phone-number",
+        "number": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "broken-calculator",
+        "number": 991,
+        "title": "Broken Calculator",
+        "difficulty": "Medium",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "reverse-nodes-in-k-group",
+        "number": 25,
+        "title": "Reverse Nodes in k-Group",
+        "difficulty": "Hard",
+        "frequency": 56.7,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "longest-palindromic-substring",
+        "number": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "frequency": 48.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "valid-anagram",
+        "number": 242,
+        "title": "Valid Anagram",
+        "difficulty": "Easy",
+        "frequency": 48.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      },
+      {
+        "slug": "restore-ip-addresses",
+        "number": 93,
+        "title": "Restore IP Addresses",
+        "difficulty": "Medium",
+        "frequency": 48.9,
+        "acceptanceRate": "50%",
+        "topics": []
+      }
+    ]
+  },
+  "seo": {
+    "title": "Zopsmart Interview Questions — DSALoop by CampusLoop",
+    "description": "Master top Zopsmart coding interview questions, problem frequency, and solutions. DSALoop by https://campusloop.space/",
+    "canonicalPath": "/companies/zopsmart",
+    "keywords": [
+      "zopsmart interview questions",
+      "zopsmart leetcode",
+      "zopsmart coding questions",
+      "zopsmart online assessment",
+      "campus placement dsa",
+      "dsaloop",
+      "campusloop"
+    ]
+  }
+}

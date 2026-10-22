@@ -9,12 +9,12 @@ import { CuteSparkle } from "@/components/ui/cute-illustrations";
 import { cn } from "@/lib/utils";
 
 const NAV_LINKS = [
-  { href: "/problems", label: "Problems", icon: Compass },
-  { href: "/patterns", label: "Patterns", icon: Layers3 },
-  { href: "/roadmaps", label: "Roadmaps", icon: Route },
-  { href: "/blind-75", label: "Blind 75", icon: Sparkles },
-  { href: "/topics", label: "Topics" },
-  { href: "/guides", label: "Guides" },
+  { href: "/problems", label: "Problems" },
+  { href: "/companies", label: "Companies" },
+  { href: "/system-design", label: "System Design" },
+  { href: "/patterns", label: "Patterns" },
+  { href: "/roadmaps", label: "Roadmaps" },
+  { href: "/blind-75", label: "Blind 75" },
 ];
 
 export function SiteHeader() {
@@ -22,7 +22,38 @@ export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <div className="sticky top-2 sm:top-3.5 z-50 px-3 sm:px-6 max-w-6xl mx-auto w-full select-none">
+    <div className="sticky top-2 sm:top-2.5 z-50 px-3 sm:px-6 max-w-6xl mx-auto w-full select-none">
+      {/* Top watermark banner */}
+      <div className="hidden sm:flex items-center justify-between px-3 py-1 mb-1 rounded-full bg-card/60 backdrop-blur-md border border-border/40 text-[11px] text-muted-foreground">
+        <div className="flex items-center gap-1.5">
+          <CuteSparkle className="size-3 text-primary shrink-0" />
+          <span className="font-heading font-black text-foreground">
+            DSA<span className="text-primary font-black">Loop</span>
+          </span>
+          <span>by</span>
+          <a
+            href="https://campusloop.space/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-foreground hover:text-primary transition-colors underline-offset-2 hover:underline inline-flex items-center gap-0.5"
+          >
+            https://campusloop.space/
+            <ArrowUpRight className="size-2.5" />
+          </a>
+          <span className="text-muted-foreground/60">•</span>
+          <span className="hidden md:inline">Open-source DSA problem bank &amp; 28-chapter system design primer</span>
+        </div>
+        <a
+          href="https://campusloop.space/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-primary hover:text-primary-hover transition-colors inline-flex items-center gap-1"
+        >
+          <span>Visit CampusLoop</span>
+          <ArrowUpRight className="size-2.5" />
+        </a>
+      </div>
+
       <header className="flex h-13 sm:h-14 items-center justify-between px-3 sm:px-5 rounded-full border border-border/80 bg-background/90 dark:bg-background/85 backdrop-blur-xl shadow-2xs transition-all">
         {/* Brand Logo */}
         <Link
@@ -38,8 +69,8 @@ export function SiteHeader() {
             <span className="font-heading text-base sm:text-lg font-black tracking-tight text-foreground">
               DSA<span className="text-primary font-black">Loop</span>
             </span>
-            <span className="hidden sm:inline-block text-[10px] font-semibold text-muted-foreground uppercase tracking-wider px-1.5 py-0.5 rounded-md bg-muted/60 border border-border/40">
-              CampusLoop
+            <span className="text-[10px] font-bold text-muted-foreground tracking-tight px-1.5 py-0.5 rounded-md bg-muted/60 border border-border/40">
+              by campusloop.space
             </span>
           </div>
         </Link>
