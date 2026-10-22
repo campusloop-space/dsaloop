@@ -83,7 +83,7 @@ export default async function ProblemPage({
       />
 
       <div className="mt-6 grid lg:grid-cols-[1fr_280px] gap-10">
-        <article>
+        <article className="min-w-0">
           <header className="space-y-4">
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-sm text-muted-foreground tabular-nums">#{problem.number}</span>

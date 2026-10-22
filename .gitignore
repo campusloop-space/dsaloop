@@ -45,4 +45,5 @@ next-env.d.ts
 /data/content/ai-queue/
 # generated data is large; generate in CI — keep indexes optional
 # /data/generated/
+/public/search-index.json
 .deploy/

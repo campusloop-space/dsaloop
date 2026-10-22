@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { Poppins, JetBrains_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Baloo_2, Nunito_Sans, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -14,18 +14,34 @@ import {
 } from "@/lib/seo/jsonld";
 import { siteConfig } from "@/lib/config";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const nunitoSans = Nunito_Sans({
+  variable: "--font-body",
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600", "700"],
 });
 
+const baloo2 = Baloo_2({
+  variable: "--font-display",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["600", "700", "800"],
+});
+
 const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
+  variable: "--font-mono-custom",
   subsets: ["latin"],
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FFF8ED" },
+    { media: "(prefers-color-scheme: dark)", color: "#1A1615" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   ...defaultMetadata(),
@@ -51,7 +67,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.variable} ${jetbrainsMono.variable} antialiased`}>
+      <body
+        className={`${nunitoSans.variable} ${baloo2.variable} ${jetbrainsMono.variable} font-sans antialiased min-h-screen bg-background text-foreground`}
+      >
         <ThemeProvider>
           <JsonLd data={organizationJsonLd()} />
           <JsonLd data={websiteJsonLd()} />
@@ -71,7 +89,7 @@ export default function RootLayout({
           </Script>
 
           <SiteHeader />
-          <main id="main" className="min-h-[70vh]">
+          <main id="main" className="min-h-[75vh]">
             {children}
           </main>
           <SiteFooter />

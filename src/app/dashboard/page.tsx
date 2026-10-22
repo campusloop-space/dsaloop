@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { DashboardClient } from "@/components/dashboard-client";
+import { CuteSparkle } from "@/components/ui/cute-illustrations";
 
 export const metadata: Metadata = buildMetadata(
   {
-    title: "Progress Dashboard | AlgoForge",
-    description: "Local progress, bookmarks, streaks, notes, review queue, and confidence tracking.",
-    keywords: ["leetcode progress", "study streak", "coding practice dashboard"],
+    title: "Progress Dashboard & Bookmarks | DSALoop",
+    description: "Local progress, bookmarks, practice streaks, notes, and review queue on CampusLoop.",
+    keywords: ["leetcode progress", "study streak", "coding practice dashboard", "dsaloop progress"],
     canonicalPath: "/dashboard",
   },
   {
@@ -22,13 +23,20 @@ export default function DashboardPage() {
   return (
     <div className="container py-10 md:py-12">
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Progress", path: "/dashboard" }]} />
+
       <header className="mt-5 max-w-2xl">
-        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-primary">Your workspace</p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight">Progress</h1>
-        <p className="mt-3 text-base leading-7 text-muted-foreground">
-          Your learning state is stored in this browser. Bookmarks, streaks, notes, timers, and review reminders stay lightweight and local.
+        <div className="inline-flex items-center gap-1.5 rounded-full border border-border/80 bg-card px-3 py-1 text-xs font-semibold text-muted-foreground shadow-2xs">
+          <CuteSparkle className="size-3.5 text-primary" />
+          <span>Local Device Storage</span>
+        </div>
+        <h1 className="mt-3 font-heading text-3xl sm:text-4xl font-black tracking-tight text-foreground">
+          Your Progress &amp; Vault
+        </h1>
+        <p className="mt-2 text-sm sm:text-base leading-relaxed text-muted-foreground">
+          Your study state is persisted securely in your local browser storage. Solved problems, active streaks, notes, and review items stay lightweight, zero-login, and always available.
         </p>
       </header>
+
       <div className="mt-8">
         <DashboardClient />
       </div>

@@ -1,33 +1,33 @@
 import type { MetadataRoute } from "next";
 
-const basePath = "/algoforge";
+export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "AlgoForge — Interview Workspace",
-    short_name: "AlgoForge",
+    name: "DSALoop — CampusLoop DSA & Interview Platform",
+    short_name: "DSALoop",
     description:
-      "Pattern-first coding interview preparation with roadmaps, problem search, and local progress tracking.",
-    start_url: basePath + "/",
-    scope: basePath + "/",
+      "Minimal, pattern-first coding interview preparation with roadmaps, problem search, and local progress tracking by CampusLoop.",
+    start_url: "/",
+    scope: "/",
     display: "standalone",
     orientation: "portrait-primary",
-    background_color: "#05070a",
-    theme_color: "#05070a",
+    background_color: "#FFF8ED",
+    theme_color: "#FFF8ED",
     categories: ["education", "developer", "productivity"],
     lang: "en",
     icons: [
       {
-        src: basePath + "/icons/icon-192.svg",
+        src: "/icons/icon-192.svg",
         sizes: "192x192",
         type: "image/svg+xml",
-        purpose: "any maskable",
+        purpose: "maskable",
       },
       {
-        src: basePath + "/icons/icon-512.svg",
+        src: "/icons/icon-512.svg",
         sizes: "512x512",
         type: "image/svg+xml",
-        purpose: "any maskable",
+        purpose: "maskable",
       },
     ],
   };

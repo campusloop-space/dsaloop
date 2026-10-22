@@ -3,9 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import MiniSearch from "minisearch";
+import { Search } from "lucide-react";
 import type { SearchDocument } from "@/lib/schema/types";
-import { siteConfig } from "@/lib/config";
 import { DifficultyBadge } from "@/components/ui/badge";
+import { CuteCatEmpty, CuteCatSearch } from "@/components/ui/cute-illustrations";
 
 export function SearchClient() {
   const [query, setQuery] = useState("");
@@ -17,9 +18,7 @@ export function SearchClient() {
     if (!query.trim() || documents.length || loading) return;
 
     setLoading(true);
-    const url = new URL(`${siteConfig.url}/search-index.json`);
-
-    fetch(url.toString(), { cache: "force-cache" })
+    fetch("/search-index.json", { cache: "force-cache" })
       .then((response) => {
         if (!response.ok) throw new Error("Search index could not be loaded.");
         return response.json() as Promise<SearchDocument[]>;
@@ -62,7 +61,7 @@ export function SearchClient() {
         if (seen.has(d.id)) return false;
         seen.add(d.id);
         return true;
-      }),
+      })
     );
     return mini;
   }, [documents]);
@@ -74,50 +73,86 @@ export function SearchClient() {
 
   return (
     <div className="space-y-6">
-      <div>
+      <div className="relative">
         <label htmlFor="search" className="sr-only">
           Search problems, topics, patterns
         </label>
-        <input
-          id="search"
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search Two Sum, DP, Google, Blind 75…"
-          className="w-full rounded-xl border border-border bg-card px-4 py-3 text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-ring"
-          autoFocus
-        />
-        <p className="mt-2 text-xs text-muted-foreground">
-          Search data loads only when you start typing.
+        <div className="relative flex items-center">
+          <Search className="absolute left-4 size-4 text-muted-foreground pointer-events-none" />
+          <input
+            id="search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search problems (e.g. Two Sum, Sliding Window, DP, Blind 75)…"
+            className="w-full rounded-2xl border border-border/80 bg-card pl-11 pr-4 py-3.5 text-sm font-medium shadow-2xs transition-all focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 placeholder:text-muted-foreground"
+            autoFocus
+          />
+        </div>
+        <p className="mt-2 text-[11px] text-muted-foreground px-1">
+          Fast client-side indexing across 3,000+ problems, company tags, and patterns.
         </p>
       </div>
 
-      {loading && <p className="text-sm text-muted-foreground">Loading search index…</p>}
-      {error && <p className="text-sm text-destructive">{error}</p>}
-      {!loading && !error && query.trim() && results.length === 0 && (
-        <p className="text-sm text-muted-foreground">No results. Try another query.</p>
+      {loading && (
+        <div className="flex items-center justify-center p-12 text-sm text-muted-foreground gap-2">
+          <div className="size-4 animate-spin rounded-full border-2 border-primary border-t-transparent" />
+          <span>Loading search index…</span>
+        </div>
       )}
 
-      <ul className="space-y-2">
+      {error && (
+        <div className="rounded-2xl border border-destructive/20 bg-destructive/10 p-4 text-xs font-semibold text-destructive">
+          {error}
+        </div>
+      )}
+
+      {!loading && !error && !query.trim() && (
+        <div className="rounded-3xl border border-border/60 bg-card/40 p-12 text-center flex flex-col items-center justify-center">
+          <CuteCatSearch size={90} />
+          <p className="mt-4 font-heading text-base font-bold text-foreground">
+            Search anything in the DSA vault
+          </p>
+          <p className="mt-1 text-xs text-muted-foreground max-w-sm">
+            Type problem names, techniques, or companies like &ldquo;Google&rdquo; or &ldquo;Two Pointers&rdquo;.
+          </p>
+        </div>
+      )}
+
+      {!loading && !error && query.trim() && results.length === 0 && (
+        <div className="rounded-3xl border border-dashed border-border/80 bg-card/50 p-12 text-center flex flex-col items-center justify-center">
+          <CuteCatEmpty size={90} />
+          <p className="mt-4 font-heading text-base font-bold text-foreground">
+            No results found for &ldquo;{query}&rdquo;
+          </p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            Try searching for a simpler keyword, pattern name, or problem number.
+          </p>
+        </div>
+      )}
+
+      <ul className="space-y-2.5">
         {results.map((r) => (
           <li key={r.id}>
             <Link
               href={r.path}
-              className="block rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="block rounded-2xl border border-border/80 bg-card p-4 transition-all hover:border-border-strong hover:shadow-2xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
             >
               <div className="flex flex-wrap items-center gap-2">
                 {r.number != null && (
-                  <span className="font-mono text-[11px] font-bold text-muted-foreground">
+                  <span className="font-mono text-xs font-bold text-muted-foreground">
                     #{r.number}
                   </span>
                 )}
-                <span className="text-[10px] uppercase tracking-wider font-semibold text-muted-foreground">
+                <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground bg-muted/60 border border-border/40 px-2 py-0.5 rounded-md">
                   {r.type}
                 </span>
                 {r.difficulty && <DifficultyBadge difficulty={r.difficulty} />}
               </div>
-              <p className="mt-1 font-semibold">{r.title}</p>
-              <p className="mt-1 text-sm text-muted-foreground line-clamp-2">{r.description}</p>
+              <p className="mt-1.5 font-heading text-sm font-bold text-foreground">{r.title}</p>
+              <p className="mt-1 text-xs text-muted-foreground line-clamp-2 leading-relaxed">
+                {r.description}
+              </p>
             </Link>
           </li>
         ))}

@@ -67,16 +67,16 @@ export function CodeTabs({
   }
 
   return (
-    <div className="rounded-xl border border-border overflow-hidden bg-code-bg text-slate-100">
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/10 bg-black/30 px-2 py-1.5">
+    <div className="w-full min-w-0 max-w-full rounded-2xl border border-border/80 overflow-hidden bg-code-bg text-slate-100 shadow-2xs">
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/10 bg-black/30 px-3 py-2">
         <div className="flex flex-wrap gap-1" role="group" aria-label="Language">
           {langs.map((lang) => (
             <button
               key={lang}
               className={cn(
-                "rounded-md px-2.5 py-1 text-xs font-medium transition-colors",
+                "rounded-lg px-2.5 py-1 text-xs font-semibold transition-colors",
                 active === lang
-                  ? "bg-white/15 text-white"
+                  ? "bg-white/20 text-white shadow-2xs"
                   : "text-slate-400 hover:text-white hover:bg-white/5"
               )}
               onClick={() => setActive(lang)}
@@ -89,7 +89,7 @@ export function CodeTabs({
           type="button"
           size="sm"
           variant="ghost"
-          className="text-slate-300 hover:text-white hover:bg-white/10 h-8"
+          className="text-slate-300 hover:text-white hover:bg-white/10 h-8 rounded-lg"
           onClick={copy}
           aria-label="Copy code"
         >
@@ -97,7 +97,7 @@ export function CodeTabs({
           {copied ? "Copied" : "Copy"}
         </Button>
       </div>
-      <pre className="overflow-x-auto p-4 text-[13px] leading-relaxed font-mono max-h-[32rem]">
+      <pre className="w-full min-w-0 max-w-full overflow-x-auto overscroll-x-contain whitespace-pre p-4 text-[13px] leading-relaxed font-mono max-h-[32rem]">
         {mounted ? (
           <code
             className={`language-${active}`}

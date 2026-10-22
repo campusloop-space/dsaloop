@@ -1,62 +1,139 @@
 import Link from "next/link";
+import { ArrowUpRight, GraduationCap } from "lucide-react";
 import { siteConfig } from "@/lib/config";
+import { CuteCatMascot, CuteSparkle } from "@/components/ui/cute-illustrations";
 import { Separator } from "@/components/ui/separator";
+
+const FOOTER_GROUPS = [
+  {
+    title: "Learning Tracks",
+    links: [
+      { label: "Problems Vault", href: "/problems" },
+      { label: "Algorithm Patterns", href: "/patterns" },
+      { label: "Structured Roadmaps", href: "/roadmaps" },
+      { label: "Topic Explorer", href: "/topics" },
+      { label: "Programming Languages", href: "/languages/python" },
+    ],
+  },
+  {
+    title: "Interview Sets",
+    links: [
+      { label: "Blind 75 Sheet", href: "/blind-75" },
+      { label: "Grind 169 Sheet", href: "/grind-169" },
+      { label: "Company Question Sets", href: "/companies" },
+      { label: "System Design Concepts", href: "/system-design" },
+      { label: "Interview Guides", href: "/guides" },
+    ],
+  },
+  {
+    title: "CampusLoop",
+    links: [
+      { label: "CampusLoop Space", href: "https://campusloop.space", external: true },
+      { label: "Academic Notes Vault", href: "https://campusloop.space/academics", external: true },
+      { label: "About DSALoop", href: "/about" },
+      { label: "Technical Glossary", href: "/glossary" },
+      { label: "Visual Sitemap", href: "/sitemap-html" },
+    ],
+  },
+] as const;
 
 export function SiteFooter() {
   return (
-    <footer className="mt-20 border-t border-border bg-muted/30">
-      <div className="container py-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-        <div>
-          <p className="font-bold text-lg">{siteConfig.name}</p>
-          <p className="mt-2 text-sm text-muted-foreground max-w-xs">
-            {siteConfig.tagline}
-          </p>
+    <footer className="mt-24 border-t border-border/60 bg-card/50 text-foreground select-none">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+        <div className="grid gap-10 lg:grid-cols-[1.3fr_2fr]">
+          {/* Brand info */}
+          <div>
+            <Link href="/" className="inline-flex items-center gap-2.5 group">
+              <div className="size-9 rounded-2xl bg-canvas/40 border border-border/70 flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:-rotate-3 shadow-2xs">
+                <CuteCatMascot size={32} />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-heading text-lg font-black tracking-tight text-foreground">
+                  DSA<span className="text-primary font-black">Loop</span>
+                </span>
+                <span className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider">
+                  CampusLoop Network
+                </span>
+              </div>
+            </Link>
+
+            <p className="mt-3.5 max-w-sm text-xs leading-relaxed text-muted-foreground">
+              {siteConfig.description} Designed with deliberate whitespace, pattern-first recall, and zero noise.
+            </p>
+
+            <div className="mt-4 flex items-center gap-2 text-[11px] font-medium text-muted-foreground">
+              <GraduationCap className="size-3.5 text-primary" />
+              <span>Free student DSA learning &amp; placement preparation tool</span>
+            </div>
+
+            <div className="mt-6 flex items-center gap-3 text-xs font-semibold text-muted-foreground">
+              <a
+                href="https://campusloop.space"
+                target="_blank"
+                rel="noreferrer"
+                className="text-foreground hover:text-primary transition-colors inline-flex items-center gap-1 font-bold"
+              >
+                campusloop.space <ArrowUpRight className="size-3" />
+              </a>
+              <span>•</span>
+              <a
+                href="https://github.com/campusloop-space/dsaloop"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-foreground transition-colors"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          {/* Grouped Link Columns */}
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+            {FOOTER_GROUPS.map((group) => (
+              <div key={group.title}>
+                <p className="text-xs font-black uppercase tracking-wider text-foreground">
+                  {group.title}
+                </p>
+                <ul className="mt-3.5 space-y-2.5">
+                  {group.links.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        target={"external" in link && link.external ? "_blank" : undefined}
+                        rel={"external" in link && link.external ? "noreferrer" : undefined}
+                        className="group inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
+                      >
+                        <span>{link.label}</span>
+                        {"external" in link && link.external ? (
+                          <ArrowUpRight className="size-3 text-muted-foreground/60" />
+                        ) : null}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
-        <div>
-          <p className="font-semibold text-sm mb-3">Learn</p>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><Link href="/problems" className="hover:text-primary">Problems</Link></li>
-            <li><Link href="/patterns" className="hover:text-primary">Patterns</Link></li>
-            <li><Link href="/roadmaps" className="hover:text-primary">Roadmaps</Link></li>
-            <li><Link href="/blind-75" className="hover:text-primary">Blind 75</Link></li>
-            <li><Link href="/grind-169" className="hover:text-primary">Grind 169</Link></li>
-          </ul>
+
+        <Separator className="my-8" />
+
+        {/* Bottom bar */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-muted-foreground">
+          <p>© {new Date().getFullYear()} CampusLoop. Open-source interview platform.</p>
+          <div className="flex items-center gap-4">
+            <Link href="/about" className="hover:text-foreground transition-colors">
+              About
+            </Link>
+            <Link href="/about/attribution" className="hover:text-foreground transition-colors">
+              Attribution
+            </Link>
+            <Link href="/sitemap-html" className="hover:text-foreground transition-colors">
+              Sitemap
+            </Link>
+          </div>
         </div>
-        <div>
-          <p className="font-semibold text-sm mb-3">Interview</p>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><Link href="/companies" className="hover:text-primary">Companies</Link></li>
-            <li><Link href="/interview-preparation" className="hover:text-primary">Interview prep</Link></li>
-            <li><Link href="/system-design" className="hover:text-primary">System design</Link></li>
-            <li><Link href="/glossary" className="hover:text-primary">Glossary</Link></li>
-            <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
-          </ul>
-        </div>
-        <div>
-          <p className="font-semibold text-sm mb-3">Product</p>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><Link href="/pricing" className="hover:text-primary">Pricing</Link></li>
-            <li><Link href="/about" className="hover:text-primary">About</Link></li>
-            <li><Link href="/about/attribution" className="hover:text-primary">Attribution</Link></li>
-            <li><Link href="/sitemap-html" className="hover:text-primary">Sitemap</Link></li>
-          </ul>
-        </div>
-      </div>
-      <Separator />
-      <div className="container py-4 flex flex-col sm:flex-row gap-2 justify-between text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} {siteConfig.name}. Educational use only.</p>
-        <p>
-          Solution code sourced under MIT from{" "}
-          <a
-            href={siteConfig.links.sourceSolutions}
-            className="underline hover:text-primary"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            kamyu104/LeetCode-Solutions
-          </a>
-          . Explanations are original AlgoForge content.
-        </p>
       </div>
     </footer>
   );
