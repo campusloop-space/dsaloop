@@ -2,8 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
+import { SiteShell } from "@/components/layout/site-shell";
 import { defaultMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
@@ -83,11 +82,9 @@ export default function RootLayout({
             `}
           </Script>
 
-          <SiteHeader />
-          <main id="main" className="min-h-[75vh]">
+          <SiteShell>
             {children}
-          </main>
-          <SiteFooter />
+          </SiteShell>
         </ThemeProvider>
       </body>
     </html>

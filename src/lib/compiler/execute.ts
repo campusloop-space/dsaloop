@@ -5,6 +5,7 @@ export interface ExecuteOptions {
   code: string;
   stdin?: string;
   timeoutMs?: number;
+  slug?: string;
 }
 
 export interface ExecutionResult {
@@ -22,7 +23,7 @@ export interface ExecutionResult {
  * Execute code using server Route Handler /api/code/run with Wandbox fallback
  */
 export async function executeCode(options: ExecuteOptions): Promise<ExecutionResult> {
-  const { language, code, stdin = "", timeoutMs = 15000 } = options;
+  const { language, code, stdin = "", timeoutMs = 15000, slug } = options;
 
   // 1. Try server-side API endpoint if in browser
   if (typeof window !== "undefined") {
@@ -30,7 +31,7 @@ export async function executeCode(options: ExecuteOptions): Promise<ExecutionRes
       const apiRes = await fetch("/api/code/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ language, code, stdin, timeoutMs }),
+        body: JSON.stringify({ language, code, stdin, timeoutMs, slug }),
       });
       if (apiRes.ok) {
         const json = await apiRes.json();

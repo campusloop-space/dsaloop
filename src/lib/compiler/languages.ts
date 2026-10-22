@@ -26,7 +26,7 @@ export const SUPPORTED_LANGUAGES: LanguageDefinition[] = [
     shortName: "Python",
     version: "3.12",
     slug: "online-python-compiler",
-    route: "/online-python-compiler",
+    route: "/online-compiler/python",
     extension: ".py",
     wandboxCompiler: "cpython-3.12.7",
     mode: "python",
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     shortName: "C++",
     version: "13.2",
     slug: "online-cpp-compiler",
-    route: "/online-cpp-compiler",
+    route: "/online-compiler/cpp",
     extension: ".cpp",
     wandboxCompiler: "gcc-13.2.0",
     mode: "cpp",
@@ -185,7 +185,7 @@ int main() {
     shortName: "C",
     version: "13.2",
     slug: "online-c-compiler",
-    route: "/online-c-compiler",
+    route: "/online-compiler/c",
     extension: ".c",
     wandboxCompiler: "gcc-13.2.0-c",
     mode: "c",
@@ -259,7 +259,7 @@ int main() {
     shortName: "Java",
     version: "21",
     slug: "online-java-compiler",
-    route: "/online-java-compiler",
+    route: "/online-compiler/java",
     extension: ".java",
     wandboxCompiler: "openjdk-jdk-21+35",
     mode: "java",
@@ -338,7 +338,7 @@ class Main {
     shortName: "JavaScript",
     version: "20.x",
     slug: "online-javascript-compiler",
-    route: "/online-javascript-compiler",
+    route: "/online-compiler/javascript",
     extension: ".js",
     wandboxCompiler: "nodejs-20.17.0",
     mode: "javascript",
@@ -413,7 +413,7 @@ console.log("Testing ${slug}...");
     shortName: "TypeScript",
     version: "5.6",
     slug: "online-typescript-compiler",
-    route: "/online-typescript-compiler",
+    route: "/online-compiler/typescript",
     extension: ".ts",
     wandboxCompiler: "typescript-5.6.2",
     mode: "typescript",
@@ -481,7 +481,7 @@ console.log("Testing ${slug}...");
     shortName: "Go",
     version: "1.23",
     slug: "online-go-compiler",
-    route: "/online-go-compiler",
+    route: "/online-compiler/go",
     extension: ".go",
     wandboxCompiler: "go-1.23.2",
     mode: "go",
@@ -564,7 +564,7 @@ func main() {
     shortName: "Rust",
     version: "1.82",
     slug: "online-rust-compiler",
-    route: "/online-rust-compiler",
+    route: "/online-compiler/rust",
     extension: ".rs",
     wandboxCompiler: "rust-1.82.0",
     mode: "rust",
@@ -632,10 +632,19 @@ fn main() {
 export function getLanguageById(id: string): LanguageDefinition | undefined {
   const norm = id.toLowerCase().trim();
   return SUPPORTED_LANGUAGES.find(
-    (l) => l.id === norm || l.shortName.toLowerCase() === norm || l.slug === norm
+    (l) =>
+      l.id === norm ||
+      l.shortName.toLowerCase() === norm ||
+      l.slug === norm ||
+      l.route === norm ||
+      `/online-compiler/${l.id}` === norm ||
+      `/online-${l.id}-compiler` === norm
   );
 }
 
 export function getLanguageBySlug(slug: string): LanguageDefinition | undefined {
-  return SUPPORTED_LANGUAGES.find((l) => l.slug === slug || l.route === slug);
+  const norm = slug.toLowerCase().trim();
+  return SUPPORTED_LANGUAGES.find(
+    (l) => l.slug === norm || l.route === norm || l.id === norm || `/online-compiler/${l.id}` === norm
+  );
 }

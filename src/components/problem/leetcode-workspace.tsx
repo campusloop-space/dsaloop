@@ -36,6 +36,7 @@ import {
   submitAuthoritativeJudge,
   compareOutputs,
 } from "@/lib/judge/runner";
+import { getProblemStarterTemplate } from "@/lib/judge/starter-code";
 import type { TestCase, JudgeSubmissionResult } from "@/lib/judge/types";
 import type { Problem, SolutionFile } from "@/lib/schema/types";
 import { DifficultyBadge, Badge } from "@/components/ui/badge";
@@ -78,29 +79,26 @@ export function LeetCodeWorkspace({
 
   const [selectedLang, setSelectedLang] = useState<string>(initialLang);
 
-  // Starter code resolution
+  // Starter code resolution: Clean function signature, NOT full solution
   const getInitialCode = useCallback(
     (langId: string) => {
+      const template = getProblemStarterTemplate(problem, langId);
       if (typeof window !== "undefined") {
         try {
           const draft = localStorage.getItem(`dsaloop:draft:${slug}:${langId}`);
-          if (draft && draft.trim()) return draft;
+          const sol = solutions[langId] || solutions[langId.toLowerCase()];
+          // If draft exists and is not the full reference solution, keep draft
+          if (draft && draft.trim() && (!sol?.code || draft.trim() !== sol.code.trim())) {
+            return draft;
+          }
         } catch {
           // ignore
         }
       }
 
-      const sol = solutions[langId] || solutions[langId.toLowerCase()];
-      if (sol?.code) return sol.code;
-
-      const def = getLanguageById(langId);
-      if (def?.dsaStarterTemplate) {
-        return def.dsaStarterTemplate(slug, "solve");
-      }
-
-      return `# DSALoop — ${title}\n# Write your solution below:\n`;
+      return template;
     },
-    [slug, title, solutions]
+    [problem, slug, solutions]
   );
 
   const [code, setCode] = useState<string>(() => getInitialCode(initialLang));
@@ -202,10 +200,7 @@ export function LeetCodeWorkspace({
   }, [solutions, selectedLang, slug]);
 
   const resetToTemplate = useCallback(() => {
-    const def = getLanguageById(selectedLang);
-    const template = def?.dsaStarterTemplate
-      ? def.dsaStarterTemplate(slug, "solve")
-      : `# Starter code for ${title}\n`;
+    const template = getProblemStarterTemplate(problem, selectedLang);
     setCode(template);
     if (typeof window !== "undefined") {
       try {
@@ -214,7 +209,7 @@ export function LeetCodeWorkspace({
         // ignore
       }
     }
-  }, [selectedLang, slug, title]);
+  }, [problem, selectedLang, slug]);
 
   // Run code against active test case
   const handleRun = useCallback(async () => {
@@ -225,6 +220,7 @@ export function LeetCodeWorkspace({
 
     try {
       const exec = await executeCode({
+        slug,
         language: selectedLang,
         code,
         stdin: activeTestCase.input,
@@ -303,14 +299,30 @@ export function LeetCodeWorkspace({
     <div className="flex flex-col min-h-screen bg-background text-foreground select-none">
       {/* Top LeetCode Workspace Navigation Bar */}
       <header className="h-12 border-b border-border/70 bg-card/70 px-3 sm:px-4 flex items-center justify-between gap-3 shrink-0 backdrop-blur-md">
-        {/* Left: Back Link & Problem Title */}
+        {/* Left: Brand Link, Back Link & Problem Title */}
         <div className="flex items-center gap-2 min-w-0">
+          <Link
+            href="/"
+            className="group flex items-center gap-1.5 shrink-0 mr-1"
+            title="DSALoop Home"
+          >
+            <div className="size-6.5 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center text-primary transition-all group-hover:scale-105">
+              <Sparkles className="size-3 text-primary" />
+            </div>
+            <span className="font-heading font-black text-sm tracking-tight text-foreground hidden sm:inline">
+              DSA<span className="text-primary font-black">Loop</span>
+            </span>
+          </Link>
+
+          <span className="text-muted-foreground/40 hidden sm:inline">|</span>
+
           <Link
             href={`/problems/${slug}`}
             className="inline-flex items-center gap-1 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors shrink-0"
+            title="Return to problem reading notes"
           >
             <ChevronLeft className="w-4 h-4" />
-            <span className="hidden sm:inline">Notes</span>
+            <span className="hidden md:inline">Notes</span>
           </Link>
 
           <span className="text-muted-foreground/40 hidden sm:inline">|</span>
@@ -318,12 +330,12 @@ export function LeetCodeWorkspace({
           <span className="text-xs font-mono text-muted-foreground tabular-nums shrink-0">
             #{problem.number}
           </span>
-          <h1 className="font-heading font-bold text-xs sm:text-sm tracking-tight text-foreground truncate max-w-[140px] sm:max-w-[280px]">
+          <h1 className="font-heading font-bold text-xs sm:text-sm tracking-tight text-foreground truncate max-w-[120px] sm:max-w-[240px]">
             {title}
           </h1>
           <DifficultyBadge difficulty={problem.difficulty} />
 
-          <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-primary/10 text-primary border border-primary/20 uppercase tracking-wider shrink-0">
+          <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-primary/10 text-primary border border-primary/20 uppercase tracking-wider shrink-0 hidden sm:inline-block">
             Beta
           </span>
         </div>
@@ -338,12 +350,15 @@ export function LeetCodeWorkspace({
           >
             <Play className={cn("w-3 h-3 text-emerald-500 fill-emerald-500", isRunning && "animate-spin")} />
             <span className="hidden sm:inline">{isRunning ? "Running..." : "Run"}</span>
+            <kbd className="hidden lg:inline text-[9px] px-1 py-0.2 rounded bg-black/10 dark:bg-white/10 text-muted-foreground font-mono">
+              Ctrl+↵
+            </kbd>
           </button>
 
           <button
             onClick={handleSubmit}
             disabled={isRunning || isJudging}
-            className="h-7.5 px-3.5 rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover text-xs font-semibold inline-flex items-center gap-1.5 shadow-2xs transition-all disabled:opacity-50 active:scale-95 cursor-pointer"
+            className="h-7.5 px-3.5 rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover text-xs font-bold inline-flex items-center gap-1.5 shadow-2xs transition-all disabled:opacity-50 active:scale-95 cursor-pointer"
             title="Submit solution to online judge"
           >
             <Send className={cn("w-3 h-3", isJudging && "animate-pulse")} />

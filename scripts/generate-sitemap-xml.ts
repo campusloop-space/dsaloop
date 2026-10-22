@@ -36,6 +36,14 @@ function main() {
   // Compiler paths
   const compilerPaths = [
     "/online-compiler",
+    "/online-compiler/python",
+    "/online-compiler/cpp",
+    "/online-compiler/c",
+    "/online-compiler/java",
+    "/online-compiler/javascript",
+    "/online-compiler/typescript",
+    "/online-compiler/go",
+    "/online-compiler/rust",
     "/online-python-compiler",
     "/online-cpp-compiler",
     "/online-java-compiler",

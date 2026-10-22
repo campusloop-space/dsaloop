@@ -15,6 +15,7 @@ export const RunCodeSchema = z.object({
   code: z.string().min(1, "Code cannot be empty").max(65536, "Code exceeds 64KB limit"),
   stdin: z.string().max(32768, "Stdin exceeds 32KB limit").optional().default(""),
   timeoutMs: z.number().int().min(500).max(15000).optional().default(10000),
+  slug: z.string().max(128).optional(),
 });
 
 export const SubmitCodeSchema = z.object({
@@ -73,7 +74,7 @@ export async function handleRunCode(rawBody: unknown, clientIp: string = "anonym
     };
   }
 
-  const { language, code, stdin, timeoutMs } = parseRes.data;
+  const { language, code, stdin, timeoutMs, slug } = parseRes.data;
   const langDef = getLanguageById(language);
   if (!langDef) {
     return {
@@ -85,10 +86,14 @@ export async function handleRunCode(rawBody: unknown, clientIp: string = "anonym
   }
 
   try {
+    const codeToRun = slug
+      ? wrapWithHarness(slug, language, code)
+      : code;
+
     const provider = getExecutionProvider();
     const result = await provider.execute({
       language,
-      code,
+      code: codeToRun,
       stdin,
       timeoutMs,
     });

@@ -31,9 +31,9 @@ async function runTestSuite() {
   console.log("1. Testing Language Registry & Metadata:");
   assert(SUPPORTED_LANGUAGES.length >= 8, "Registry contains at least 8 core languages");
   const python = getLanguageById("python");
-  assert(Boolean(python && python.id === "python" && python.route === "/online-python-compiler"), "Python definition is valid");
+  assert(Boolean(python && python.id === "python" && (python.route === "/online-compiler/python" || python.route === "/online-python-compiler")), "Python definition is valid");
   const cpp = getLanguageById("cpp");
-  assert(Boolean(cpp && cpp.wandboxCompiler && cpp.route === "/online-cpp-compiler"), "C++ definition is valid");
+  assert(Boolean(cpp && cpp.wandboxCompiler && (cpp.route === "/online-compiler/cpp" || cpp.route === "/online-cpp-compiler")), "C++ definition is valid");
   const java = getLanguageById("java");
   assert(Boolean(java && java.extension === ".java"), "Java definition is valid");
   const rust = getLanguageById("rust");

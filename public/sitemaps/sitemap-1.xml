@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://dsaloop.campusloop.space/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://dsaloop.campusloop.space/online-compiler</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/python</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/cpp</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/c</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/java</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/javascript</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/typescript</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/go</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dsaloop.campusloop.space/online-compiler/rust</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://dsaloop.campusloop.space/online-python-compiler</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://dsaloop.campusloop.space/online-cpp-compiler</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://dsaloop.campusloop.space/online-java-compiler</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>

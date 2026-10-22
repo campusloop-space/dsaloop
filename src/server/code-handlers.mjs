@@ -15203,7 +15203,7 @@ var SUPPORTED_LANGUAGES = [
     shortName: "Python",
     version: "3.12",
     slug: "online-python-compiler",
-    route: "/online-python-compiler",
+    route: "/online-compiler/python",
     extension: ".py",
     wandboxCompiler: "cpython-3.12.7",
     mode: "python",
@@ -15270,7 +15270,7 @@ if __name__ == "__main__":
     shortName: "C++",
     version: "13.2",
     slug: "online-cpp-compiler",
-    route: "/online-cpp-compiler",
+    route: "/online-compiler/cpp",
     extension: ".cpp",
     wandboxCompiler: "gcc-13.2.0",
     mode: "cpp",
@@ -15354,7 +15354,7 @@ int main() {
     shortName: "C",
     version: "13.2",
     slug: "online-c-compiler",
-    route: "/online-c-compiler",
+    route: "/online-compiler/c",
     extension: ".c",
     wandboxCompiler: "gcc-13.2.0-c",
     mode: "c",
@@ -15429,7 +15429,7 @@ int main() {
     shortName: "Java",
     version: "21",
     slug: "online-java-compiler",
-    route: "/online-java-compiler",
+    route: "/online-compiler/java",
     extension: ".java",
     wandboxCompiler: "openjdk-jdk-21+35",
     mode: "java",
@@ -15504,7 +15504,7 @@ class Main {
     shortName: "JavaScript",
     version: "20.x",
     slug: "online-javascript-compiler",
-    route: "/online-javascript-compiler",
+    route: "/online-compiler/javascript",
     extension: ".js",
     wandboxCompiler: "nodejs-20.17.0",
     mode: "javascript",
@@ -15575,7 +15575,7 @@ console.log("Testing ${slug}...");
     shortName: "TypeScript",
     version: "5.6",
     slug: "online-typescript-compiler",
-    route: "/online-typescript-compiler",
+    route: "/online-compiler/typescript",
     extension: ".ts",
     wandboxCompiler: "typescript-5.6.2",
     mode: "typescript",
@@ -15639,7 +15639,7 @@ console.log("Testing ${slug}...");
     shortName: "Go",
     version: "1.23",
     slug: "online-go-compiler",
-    route: "/online-go-compiler",
+    route: "/online-compiler/go",
     extension: ".go",
     wandboxCompiler: "go-1.23.2",
     mode: "go",
@@ -15720,7 +15720,7 @@ func main() {
     shortName: "Rust",
     version: "1.82",
     slug: "online-rust-compiler",
-    route: "/online-rust-compiler",
+    route: "/online-compiler/rust",
     extension: ".rs",
     wandboxCompiler: "rust-1.82.0",
     mode: "rust",
@@ -15783,7 +15783,7 @@ fn main() {
 function getLanguageById(id) {
   const norm = id.toLowerCase().trim();
   return SUPPORTED_LANGUAGES.find(
-    (l) => l.id === norm || l.shortName.toLowerCase() === norm || l.slug === norm
+    (l) => l.id === norm || l.shortName.toLowerCase() === norm || l.slug === norm || l.route === norm || `/online-compiler/${l.id}` === norm || `/online-${l.id}-compiler` === norm
   );
 }
 
@@ -15981,7 +15981,7 @@ function hasExecutableMain(language, code) {
     return /public\s+static\s+void\s+main\s*\(/.test(code);
   }
   if (norm.includes("javascript") || norm.includes("typescript") || norm === "js" || norm === "ts") {
-    return code.includes("readline") || code.includes("process.stdin") || code.includes("console.log(");
+    return code.includes("readline") || code.includes("process.stdin");
   }
   if (norm.includes("go")) {
     return /func\s+main\s*\(/.test(code);
@@ -15990,6 +15990,18 @@ function hasExecutableMain(language, code) {
     return /fn\s+main\s*\(/.test(code);
   }
   return false;
+}
+function parseCppMethod(code) {
+  const classIdx = code.indexOf("class Solution");
+  if (classIdx === -1) return null;
+  const fromClass = code.slice(classIdx);
+  const m = fromClass.match(/(?:public:\s*)?([a-zA-Z0-9_<>,: *&]+)\s+([a-zA-Z0-9_]+)\s*\(([^)]*)\)\s*\{/);
+  if (!m || m[2] === "Solution") return null;
+  return {
+    ret: m[1].trim().replace(/^public:\s*/, ""),
+    name: m[2].trim(),
+    args: m[3].trim()
+  };
 }
 function wrapWithHarness(slug, language, userCode) {
   if (hasExecutableMain(language, userCode)) {
@@ -16003,25 +16015,23 @@ import sys, json
 
 if __name__ == "__main__":
     raw_input = sys.stdin.read().strip()
-    if not raw_input:
-        sys.exit(0)
-    
     sol = Solution() if 'Solution' in globals() else None
     
-    # Try calling available method on Solution
     if sol:
-        # Find non-dunder method
+        # Find all public methods
         methods = [m for m in dir(sol) if not m.startswith('_') and callable(getattr(sol, m))]
         if methods:
-            target_method = getattr(sol, methods[0])
-            lines = [l.strip() for l in raw_input.splitlines() if l.strip()]
+            # Prefer method that matches problem slug or first defined method
+            slug_clean = "${slug}".replace("-", "").lower()
+            target_name = next((m for m in methods if m.lower() == slug_clean or m.lower() in slug_clean or slug_clean in m.lower()), methods[0])
+            target_method = getattr(sol, target_name)
             
+            lines = [l.strip() for l in raw_input.splitlines() if l.strip()]
             args = []
             for line in lines:
                 try:
                     args.append(json.loads(line))
                 except Exception:
-                    # Parse space-separated numbers or strings
                     parts = line.split()
                     try:
                         args.append([int(p) for p in parts] if len(parts) > 1 else int(parts[0]))
@@ -16029,30 +16039,104 @@ if __name__ == "__main__":
                         args.append(line)
             
             try:
-                res = target_method(*args)
-                if isinstance(res, (dict, list)):
-                    print(json.dumps(res))
-                elif isinstance(res, bool):
-                    print(str(res).lower())
+                if len(args) == 0:
+                    res = target_method()
                 else:
-                    print(res)
-            except TypeError:
-                # Fallback: pass raw single argument or list
-                try:
-                    res = target_method(args[0] if len(args) == 1 else args)
-                    print(res)
-                except Exception as e:
-                    sys.stderr.write(f"Runner invocation error: {e}\\n")
-                    sys.exit(1)
+                    try:
+                        res = target_method(*args)
+                    except TypeError:
+                        res = target_method(args[0] if len(args) == 1 else args)
+                
+                if res is not None:
+                    if isinstance(res, (dict, list)):
+                        print(json.dumps(res))
+                    elif isinstance(res, bool):
+                        print(str(res).lower())
+                    else:
+                        print(res)
+                elif len(args) > 0 and isinstance(args[0], list):
+                    # In-place array modification
+                    print(json.dumps(args[0]))
+            except Exception as e:
+                sys.stderr.write(f"Runner invocation error: {e}\\n")
+                sys.exit(1)
 `;
   }
   if (norm.includes("cpp") || norm.includes("c++")) {
+    const parsed = parseCppMethod(userCode);
+    const methodName = parsed?.name || "solve";
+    const retType = parsed?.ret || "void";
+    const args = parsed?.args || "";
+    const hasVectorArg = args.includes("vector<int>");
+    const hasIntArg = args.includes("int ") || args.endsWith("int");
+    const hasStringArg = args.includes("string");
+    const isMultiArg = args.includes(",");
+    let readLogic = "";
+    let callExpr = "";
+    let printLogic = "";
+    if (hasVectorArg && isMultiArg && hasIntArg) {
+      readLogic = `
+    string line;
+    vector<int> nums;
+    if (getline(cin, line)) {
+        stringstream ss(line);
+        int val;
+        while (ss >> val) nums.push_back(val);
+    }
+    int target = 0;
+    cin >> target;
+      `;
+      callExpr = `solver.${methodName}(nums, target)`;
+    } else if (hasVectorArg) {
+      readLogic = `
+    string line;
+    vector<int> nums;
+    if (getline(cin, line)) {
+        stringstream ss(line);
+        int val;
+        while (ss >> val) nums.push_back(val);
+    }
+      `;
+      callExpr = `solver.${methodName}(nums)`;
+    } else if (hasStringArg) {
+      readLogic = `
+    string s;
+    getline(cin, s);
+      `;
+      callExpr = `solver.${methodName}(s)`;
+    } else if (hasIntArg) {
+      readLogic = `
+    long long x = 0;
+    cin >> x;
+      `;
+      callExpr = `solver.${methodName}(x)`;
+    } else {
+      callExpr = `solver.${methodName}()`;
+    }
+    if (retType.includes("vector")) {
+      printLogic = `
+    cout << "[";
+    for (size_t i = 0; i < res.size(); ++i) {
+        if (i > 0) cout << ", ";
+        cout << res[i];
+    }
+    cout << "]" << endl;
+      `;
+    } else if (retType === "bool") {
+      printLogic = `cout << (res ? "true" : "false") << endl;`;
+    } else if (retType !== "void") {
+      printLogic = `cout << res << endl;`;
+    }
     return `#include <iostream>
 #include <vector>
 #include <string>
 #include <sstream>
 #include <unordered_map>
+#include <unordered_set>
 #include <algorithm>
+#include <queue>
+#include <stack>
+#include <cmath>
 
 using namespace std;
 
@@ -16063,22 +16147,9 @@ int main() {
     cin.tie(NULL);
     
     Solution solver;
-    // Reads input lines from stdin
-    string line;
-    if (getline(cin, line)) {
-        stringstream ss(line);
-        vector<int> nums;
-        int val;
-        while (ss >> val) nums.push_back(val);
-        
-        int target = 0;
-        if (cin >> target) {
-            // Two sum style invocation
-            vector<int> res = solver.twoSum(nums, target);
-            cout << "[" << (res.size() > 0 ? res[0] : 0) << ", " << (res.size() > 1 ? res[1] : 0) << "]" << endl;
-            return 0;
-        }
-    }
+    ${readLogic}
+    ${retType !== "void" ? `auto res = ${callExpr};` : `${callExpr};`}
+    ${printLogic}
     return 0;
 }
 `;
@@ -16090,16 +16161,37 @@ const fs = require('fs');
 const input = fs.readFileSync(0, 'utf-8').trim();
 if (input) {
     const lines = input.split('\\n').filter(Boolean);
-    const nums = lines[0].split(/\\s+/).map(Number);
-    const target = lines[1] ? Number(lines[1]) : undefined;
+    const args = [];
+    for (const line of lines) {
+        try {
+            args.push(JSON.parse(line));
+        } catch {
+            const parts = line.split(/\\s+/);
+            const nums = parts.map(Number);
+            args.push(nums.some(isNaN) ? line : (nums.length > 1 ? nums : nums[0]));
+        }
+    }
     
-    if (typeof twoSum === 'function') {
-        console.log(JSON.stringify(twoSum(nums, target)));
-    } else if (typeof Solution === 'function') {
+    if (typeof Solution === 'function') {
         const s = new Solution();
-        const fn = Object.getOwnPropertyNames(Solution.prototype).find(p => p !== 'constructor');
-        if (fn && typeof s[fn] === 'function') {
-            console.log(JSON.stringify(s[fn](nums, target)));
+        const fnNames = Object.getOwnPropertyNames(Solution.prototype).filter(p => p !== 'constructor' && typeof s[p] === 'function');
+        if (fnNames.length > 0) {
+            const res = s[fnNames[0]](...args);
+            if (res !== undefined) console.log(JSON.stringify(res));
+        }
+    } else {
+        // Look for function in scope
+        const globalFns = Object.keys(global).filter(k => typeof global[k] === 'function');
+        for (const k of globalFns) {
+            if (!['setTimeout', 'setInterval', 'require', 'fetch'].includes(k)) {
+                try {
+                    const res = global[k](...args);
+                    if (res !== undefined) {
+                        console.log(JSON.stringify(res));
+                        break;
+                    }
+                } catch {}
+            }
         }
     }
 }
@@ -16131,7 +16223,8 @@ var RunCodeSchema = external_exports.object({
   language: external_exports.string().min(1).max(32),
   code: external_exports.string().min(1, "Code cannot be empty").max(65536, "Code exceeds 64KB limit"),
   stdin: external_exports.string().max(32768, "Stdin exceeds 32KB limit").optional().default(""),
-  timeoutMs: external_exports.number().int().min(500).max(15e3).optional().default(1e4)
+  timeoutMs: external_exports.number().int().min(500).max(15e3).optional().default(1e4),
+  slug: external_exports.string().max(128).optional()
 });
 var SubmitCodeSchema = external_exports.object({
   slug: external_exports.string().min(1).max(128),
@@ -16175,7 +16268,7 @@ async function handleRunCode(rawBody, clientIp = "anonymous") {
       }
     };
   }
-  const { language, code, stdin, timeoutMs } = parseRes.data;
+  const { language, code, stdin, timeoutMs, slug } = parseRes.data;
   const langDef = getLanguageById(language);
   if (!langDef) {
     return {
@@ -16186,10 +16279,11 @@ async function handleRunCode(rawBody, clientIp = "anonymous") {
     };
   }
   try {
+    const codeToRun = slug ? wrapWithHarness(slug, language, code) : code;
     const provider = getExecutionProvider();
     const result = await provider.execute({
       language,
-      code,
+      code: codeToRun,
       stdin,
       timeoutMs
     });
