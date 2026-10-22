@@ -2,6 +2,11 @@ import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  handleRunCode,
+  handleSubmitCode,
+  handleGetLanguages,
+} from "./src/server/code-handlers.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = process.env.PORT || 3002;
@@ -54,18 +59,111 @@ function resolveFilePath(reqPath) {
   return null;
 }
 
-const server = http.createServer((req, res) => {
+function parseJsonBody(req, maxSize = 131072) {
+  return new Promise((resolve, reject) => {
+    let body = "";
+    let size = 0;
+
+    req.on("data", (chunk) => {
+      size += chunk.length;
+      if (size > maxSize) {
+        reject(new Error("Request body payload exceeded maximum size limit"));
+        req.destroy();
+        return;
+      }
+      body += chunk;
+    });
+
+    req.on("end", () => {
+      try {
+        const json = body ? JSON.parse(body) : {};
+        resolve(json);
+      } catch (err) {
+        reject(new Error("Malformed JSON in request body"));
+      }
+    });
+
+    req.on("error", (err) => reject(err));
+  });
+}
+
+const server = http.createServer(async (req, res) => {
   // CORS & Security headers
   res.setHeader("X-Content-Type-Options", "nosniff");
   res.setHeader("X-Frame-Options", "SAMEORIGIN");
   res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
-  if (req.url === "/api/health" || req.url === "/health") {
-    res.writeHead(200, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ status: "healthy", service: "dsaloop", timestamp: new Date().toISOString() }));
+  // Handle preflight OPTIONS
+  if (req.method === "OPTIONS") {
+    res.writeHead(204);
+    res.end();
     return;
   }
 
+  const urlPath = req.url ? req.url.split("?")[0] : "/";
+  const clientIp =
+    (req.headers["x-forwarded-for"]?.toString().split(",")[0] ||
+      req.socket.remoteAddress ||
+      "127.0.0.1"
+    ).trim();
+
+  // API Route: Health
+  if (urlPath === "/api/health" || urlPath === "/health") {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(
+      JSON.stringify({
+        status: "healthy",
+        service: "dsaloop",
+        timestamp: new Date().toISOString(),
+      })
+    );
+    return;
+  }
+
+  // API Route: GET /api/code/languages
+  if (urlPath === "/api/code/languages" && req.method === "GET") {
+    try {
+      const response = await handleGetLanguages();
+      res.writeHead(response.status, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(response.body));
+    } catch (err) {
+      res.writeHead(500, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: "Failed to retrieve languages" }));
+    }
+    return;
+  }
+
+  // API Route: POST /api/code/run
+  if (urlPath === "/api/code/run" && req.method === "POST") {
+    try {
+      const body = await parseJsonBody(req);
+      const response = await handleRunCode(body, clientIp);
+      res.writeHead(response.status, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(response.body));
+    } catch (err) {
+      res.writeHead(400, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: err instanceof Error ? err.message : "Bad Request" }));
+    }
+    return;
+  }
+
+  // API Route: POST /api/code/submit
+  if (urlPath === "/api/code/submit" && req.method === "POST") {
+    try {
+      const body = await parseJsonBody(req);
+      const response = await handleSubmitCode(body, clientIp);
+      res.writeHead(response.status, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(response.body));
+    } catch (err) {
+      res.writeHead(400, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: err instanceof Error ? err.message : "Bad Request" }));
+    }
+    return;
+  }
+
+  // Static File Serving
   const resolved = resolveFilePath(req.url);
 
   if (!resolved) {
@@ -98,4 +196,8 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 DSALoop Server listening at http://0.0.0.0:${PORT}`);
+  console.log(`📡 Code Execution Endpoints enabled:`);
+  console.log(`   - POST /api/code/run`);
+  console.log(`   - POST /api/code/submit`);
+  console.log(`   - GET  /api/code/languages`);
 });

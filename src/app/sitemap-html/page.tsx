@@ -58,6 +58,28 @@ export default function HtmlSitemapPage() {
           </ul>
         </section>
         <section>
+          <h2 className="font-bold mb-2">Online Compilers &amp; Judge</h2>
+          <ul className="space-y-1">
+            {[
+              { href: "/online-compiler", label: "Multi-Language Compiler Hub" },
+              { href: "/online-python-compiler", label: "Online Python 3 Compiler" },
+              { href: "/online-cpp-compiler", label: "Online C++ (GCC) Compiler" },
+              { href: "/online-c-compiler", label: "Online C Compiler" },
+              { href: "/online-java-compiler", label: "Online Java Compiler" },
+              { href: "/online-javascript-compiler", label: "Online JavaScript (Node) Compiler" },
+              { href: "/online-typescript-compiler", label: "Online TypeScript Compiler" },
+              { href: "/online-go-compiler", label: "Online Go Compiler" },
+              { href: "/online-rust-compiler", label: "Online Rust Compiler" },
+            ].map((c) => (
+              <li key={c.href}>
+                <Link href={c.href} className="text-primary hover:underline">
+                  {c.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section>
           <h2 className="font-bold mb-2">System Design (28 Chapters)</h2>
           <ul className="space-y-1 max-h-64 overflow-auto">
             {systemDesign.map((sd) => (

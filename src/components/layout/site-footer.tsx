@@ -9,6 +9,7 @@ const FOOTER_GROUPS = [
     title: "Learning Tracks",
     links: [
       { label: "Problems Vault", href: "/problems" },
+      { label: "Online Compilers", href: "/online-compiler" },
       { label: "Algorithm Patterns", href: "/patterns" },
       { label: "Structured Roadmaps", href: "/roadmaps" },
       { label: "Topic Explorer", href: "/topics" },
