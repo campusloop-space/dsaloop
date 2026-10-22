@@ -26,7 +26,10 @@ export const SubmitCodeSchema = z.object({
 // Simple in-memory IP Rate Limiter (Sliding Window)
 const rateLimitMap = new Map<string, number[]>();
 const RATE_LIMIT_WINDOW_MS = 60 * 1000; // 1 minute
-const MAX_REQUESTS_PER_WINDOW = 30; // 30 requests per minute
+const MAX_REQUESTS_PER_WINDOW =
+  typeof process !== "undefined" && process.env?.RATE_LIMIT_PER_MINUTE
+    ? parseInt(process.env.RATE_LIMIT_PER_MINUTE, 10) || 20
+    : 20;
 
 function checkRateLimit(clientIp: string): { allowed: boolean; remaining: number } {
   const now = Date.now();

@@ -3,6 +3,7 @@ import { ArrowUpRight, GraduationCap } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 import { CuteCatMascot, CuteSparkle } from "@/components/ui/cute-illustrations";
 import { Separator } from "@/components/ui/separator";
+import { PWAInstallButton } from "@/components/pwa-install-button";
 
 const FOOTER_GROUPS = [
   {
@@ -74,6 +75,10 @@ export function SiteFooter() {
             <div className="mt-4 flex items-center gap-2 text-[11px] font-medium text-muted-foreground">
               <GraduationCap className="size-3.5 text-primary" />
               <span>Free student DSA learning &amp; placement preparation tool</span>
+            </div>
+
+            <div className="mt-4 flex items-center gap-3">
+              <PWAInstallButton variant="footer" />
             </div>
 
             <div className="mt-6 flex items-center gap-3 text-xs font-semibold text-muted-foreground">

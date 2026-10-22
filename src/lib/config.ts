@@ -7,7 +7,7 @@ export const siteConfig = {
     "DSALoop by https://campusloop.space/ — The clean, minimal, pattern-first coding interview and DSA workspace. Follow structured roadmaps, explore 185+ company-tagged problems, and study 28 in-depth system design chapters.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://dsaloop.campusloop.space",
   basePath: "",
-  ogImage: "/og-default.svg",
+  ogImage: "/og-image.png",
   links: {
     github: "https://github.com/campusloop-space/dsaloop",
     campusloop: "https://campusloop.space",

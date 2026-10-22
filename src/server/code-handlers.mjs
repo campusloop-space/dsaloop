@@ -770,10 +770,10 @@ function mergeDefs(...defs) {
 function cloneDef(schema) {
   return mergeDefs(schema._zod.def);
 }
-function getElementAtPath(obj, path) {
-  if (!path)
+function getElementAtPath(obj, path2) {
+  if (!path2)
     return obj;
-  return path.reduce((acc, key) => acc?.[key], obj);
+  return path2.reduce((acc, key) => acc?.[key], obj);
 }
 function promiseAllObject(promisesObj) {
   const keys = Object.keys(promisesObj);
@@ -1182,11 +1182,11 @@ function explicitlyAborted(x, startIndex = 0) {
   }
   return false;
 }
-function prefixIssues(path, issues) {
+function prefixIssues(path2, issues) {
   return issues.map((iss) => {
     var _a3;
     (_a3 = iss).path ?? (_a3.path = []);
-    iss.path.unshift(path);
+    iss.path.unshift(path2);
     return iss;
   });
 }
@@ -1333,16 +1333,16 @@ function flattenError(error51, mapper = (issue2) => issue2.message) {
 }
 function formatError(error51, mapper = (issue2) => issue2.message) {
   const fieldErrors = { _errors: [] };
-  const processError = (error52, path = []) => {
+  const processError = (error52, path2 = []) => {
     for (const issue2 of error52.issues) {
       if (issue2.code === "invalid_union" && issue2.errors.length) {
-        issue2.errors.map((issues) => processError({ issues }, [...path, ...issue2.path]));
+        issue2.errors.map((issues) => processError({ issues }, [...path2, ...issue2.path]));
       } else if (issue2.code === "invalid_key") {
-        processError({ issues: issue2.issues }, [...path, ...issue2.path]);
+        processError({ issues: issue2.issues }, [...path2, ...issue2.path]);
       } else if (issue2.code === "invalid_element") {
-        processError({ issues: issue2.issues }, [...path, ...issue2.path]);
+        processError({ issues: issue2.issues }, [...path2, ...issue2.path]);
       } else {
-        const fullpath = [...path, ...issue2.path];
+        const fullpath = [...path2, ...issue2.path];
         if (fullpath.length === 0) {
           fieldErrors._errors.push(mapper(issue2));
         } else {
@@ -1369,17 +1369,17 @@ function formatError(error51, mapper = (issue2) => issue2.message) {
 }
 function treeifyError(error51, mapper = (issue2) => issue2.message) {
   const result = { errors: [] };
-  const processError = (error52, path = []) => {
+  const processError = (error52, path2 = []) => {
     var _a3, _b;
     for (const issue2 of error52.issues) {
       if (issue2.code === "invalid_union" && issue2.errors.length) {
-        issue2.errors.map((issues) => processError({ issues }, [...path, ...issue2.path]));
+        issue2.errors.map((issues) => processError({ issues }, [...path2, ...issue2.path]));
       } else if (issue2.code === "invalid_key") {
-        processError({ issues: issue2.issues }, [...path, ...issue2.path]);
+        processError({ issues: issue2.issues }, [...path2, ...issue2.path]);
       } else if (issue2.code === "invalid_element") {
-        processError({ issues: issue2.issues }, [...path, ...issue2.path]);
+        processError({ issues: issue2.issues }, [...path2, ...issue2.path]);
       } else {
-        const fullpath = [...path, ...issue2.path];
+        const fullpath = [...path2, ...issue2.path];
         if (fullpath.length === 0) {
           result.errors.push(mapper(issue2));
           continue;
@@ -1411,8 +1411,8 @@ function treeifyError(error51, mapper = (issue2) => issue2.message) {
 }
 function toDotPath(_path) {
   const segs = [];
-  const path = _path.map((seg) => typeof seg === "object" ? seg.key : seg);
-  for (const seg of path) {
+  const path2 = _path.map((seg) => typeof seg === "object" ? seg.key : seg);
+  for (const seg of path2) {
     if (typeof seg === "number")
       segs.push(`[${seg}]`);
     else if (typeof seg === "symbol")
@@ -14104,13 +14104,13 @@ function resolveRef(ref, ctx) {
   if (!ref.startsWith("#")) {
     throw new Error("External $ref is not supported, only local refs (#/...) are allowed");
   }
-  const path = ref.slice(1).split("/").filter(Boolean);
-  if (path.length === 0) {
+  const path2 = ref.slice(1).split("/").filter(Boolean);
+  if (path2.length === 0) {
     return ctx.rootSchema;
   }
   const defsKey = ctx.version === "draft-2020-12" ? "$defs" : "definitions";
-  if (path[0] === defsKey) {
-    const key = path[1];
+  if (path2[0] === defsKey) {
+    const key = path2[1];
     if (!key || !ctx.defs[key]) {
       throw new Error(`Reference not found: ${ref}`);
     }
@@ -14907,20 +14907,291 @@ ${stderr}` : "Program executed with no output."),
   }
 };
 
+// src/lib/compiler/providers/self-hosted.ts
+import fs from "node:fs";
+import path from "node:path";
+import os from "node:os";
+import { spawn } from "node:child_process";
+var SANDBOX_BASE = path.join(os.tmpdir(), "dsaloop-sandbox");
+function findBinary(candidates) {
+  for (const bin of candidates) {
+    try {
+      if (fs.existsSync(bin)) return bin;
+    } catch {
+    }
+  }
+  return null;
+}
+var PYTHON_BIN = findBinary([
+  "/apps/miniconda/bin/python",
+  "/apps/python-3.6/bin/python3",
+  "/usr/bin/python3",
+  "/usr/local/bin/python3"
+]) || "python3";
+var GCC_BIN = findBinary([
+  "/apps/gcc-11.2/bin/gcc",
+  "/usr/bin/gcc",
+  "/usr/local/bin/gcc"
+]) || "gcc";
+var GXX_BIN = findBinary([
+  "/apps/gcc-11.2/bin/g++",
+  "/usr/bin/g++",
+  "/usr/local/bin/g++"
+]) || "g++";
+var NODE_BIN = process.execPath || "node";
+var JAVAC_BIN = findBinary([
+  "/usr/bin/javac",
+  "/usr/local/bin/javac"
+]) || "javac";
+var JAVA_BIN = findBinary([
+  "/usr/bin/java",
+  "/usr/local/bin/java"
+]) || "java";
+var SelfHostedProvider = class {
+  constructor() {
+    this.name = "Self-Hosted Sandbox";
+    this.fallbackProvider = new WandboxProvider();
+    try {
+      if (!fs.existsSync(SANDBOX_BASE)) {
+        fs.mkdirSync(SANDBOX_BASE, { recursive: true });
+      }
+    } catch {
+    }
+  }
+  async isAvailable() {
+    return true;
+  }
+  async getLanguages() {
+    return [
+      { id: "python", name: "Python 3.9 (Self-Hosted)", version: "3.9", available: true },
+      { id: "cpp", name: "C++ (GCC 11.2 Self-Hosted)", version: "11.2", available: true },
+      { id: "c", name: "C (GCC 11.2 Self-Hosted)", version: "11.2", available: true },
+      { id: "javascript", name: "JavaScript (Node 20 Self-Hosted)", version: "20.x", available: true },
+      { id: "typescript", name: "TypeScript 5.6 (Wandbox)", version: "5.6", available: true },
+      { id: "java", name: "Java (OpenJDK Self-Hosted)", version: "OpenJDK", available: true },
+      { id: "go", name: "Go 1.23 (Wandbox)", version: "1.23", available: true },
+      { id: "rust", name: "Rust 1.82 (Wandbox)", version: "1.82", available: true }
+    ];
+  }
+  async execute(req) {
+    const normLang = req.language.toLowerCase().trim();
+    if (normLang === "rust" || normLang === "rs" || normLang === "go" || normLang === "golang") {
+      return this.fallbackProvider.execute(req);
+    }
+    const runId = `run-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
+    const runDir = path.join(SANDBOX_BASE, runId);
+    try {
+      fs.mkdirSync(runDir, { recursive: true });
+      if (normLang === "python" || normLang === "py") {
+        return await this.executePython(runDir, req);
+      }
+      if (normLang === "javascript" || normLang === "js" || normLang === "node") {
+        return await this.executeJavaScript(runDir, req);
+      }
+      if (normLang === "typescript" || normLang === "ts") {
+        return await this.executeJavaScript(runDir, req);
+      }
+      if (normLang === "cpp" || normLang === "c++") {
+        return await this.executeCpp(runDir, req);
+      }
+      if (normLang === "c") {
+        return await this.executeC(runDir, req);
+      }
+      if (normLang === "java") {
+        return await this.executeJava(runDir, req);
+      }
+      return this.fallbackProvider.execute(req);
+    } finally {
+      try {
+        fs.rmSync(runDir, { recursive: true, force: true });
+      } catch {
+      }
+    }
+  }
+  executePython(dir, req) {
+    const scriptPath = path.join(dir, "solution.py");
+    fs.writeFileSync(scriptPath, req.code, "utf8");
+    return this.runSubprocess(PYTHON_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8e3);
+  }
+  executeJavaScript(dir, req) {
+    const scriptPath = path.join(dir, "solution.js");
+    fs.writeFileSync(scriptPath, req.code, "utf8");
+    return this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8e3);
+  }
+  async executeCpp(dir, req) {
+    const srcPath = path.join(dir, "solution.cpp");
+    const outPath = path.join(dir, "solution.out");
+    fs.writeFileSync(srcPath, req.code, "utf8");
+    const compileRes = await this.runSubprocess(
+      GXX_BIN,
+      ["-O2", "-std=c++17", srcPath, "-o", outPath],
+      dir,
+      "",
+      6e3
+    );
+    if (compileRes.exitCode !== 0) {
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: compileRes.stderr || "C++ compilation failed",
+        output: compileRes.stderr || "C++ compilation failed",
+        exitCode: compileRes.exitCode,
+        executionTimeMs: compileRes.executionTimeMs,
+        provider: "Self-Hosted (GCC 11.2)"
+      };
+    }
+    return this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3);
+  }
+  async executeC(dir, req) {
+    const srcPath = path.join(dir, "solution.c");
+    const outPath = path.join(dir, "solution.out");
+    fs.writeFileSync(srcPath, req.code, "utf8");
+    const compileRes = await this.runSubprocess(
+      GCC_BIN,
+      ["-O2", "-std=c11", srcPath, "-o", outPath, "-lm"],
+      dir,
+      "",
+      6e3
+    );
+    if (compileRes.exitCode !== 0) {
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: compileRes.stderr || "C compilation failed",
+        output: compileRes.stderr || "C compilation failed",
+        exitCode: compileRes.exitCode,
+        executionTimeMs: compileRes.executionTimeMs,
+        provider: "Self-Hosted (GCC 11.2)"
+      };
+    }
+    return this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3);
+  }
+  async executeJava(dir, req) {
+    let cleanCode = req.code;
+    if (!cleanCode.includes("class Main") && !cleanCode.includes("public class")) {
+      cleanCode = `public class Main {
+${cleanCode}
+}`;
+    } else if (cleanCode.includes("class Main") && !cleanCode.includes("public class Main")) {
+      cleanCode = cleanCode.replace(/class\s+Main\b/, "public class Main");
+    }
+    const srcPath = path.join(dir, "Main.java");
+    fs.writeFileSync(srcPath, cleanCode, "utf8");
+    const compileRes = await this.runSubprocess(
+      JAVAC_BIN,
+      ["Main.java"],
+      dir,
+      "",
+      8e3
+    );
+    if (compileRes.exitCode !== 0) {
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: compileRes.stderr || "Java compilation failed",
+        output: compileRes.stderr || "Java compilation failed",
+        exitCode: compileRes.exitCode,
+        executionTimeMs: compileRes.executionTimeMs,
+        provider: "Self-Hosted (Java)"
+      };
+    }
+    return this.runSubprocess(JAVA_BIN, ["-Xmx256m", "Main"], dir, req.stdin, req.timeoutMs || 8e3);
+  }
+  runSubprocess(cmd, args, cwd, stdin = "", timeoutMs = 8e3) {
+    return new Promise((resolve) => {
+      const startTime = Date.now();
+      let stdout = "";
+      let stderr = "";
+      let killed = false;
+      const child = spawn(cmd, args, {
+        cwd,
+        stdio: ["pipe", "pipe", "pipe"],
+        env: {
+          ...process.env,
+          HOME: cwd,
+          LANG: "en_US.UTF-8"
+        }
+      });
+      const timer = setTimeout(() => {
+        killed = true;
+        child.kill("SIGKILL");
+      }, timeoutMs);
+      child.stdout.on("data", (data) => {
+        if (stdout.length < 262144) {
+          stdout += data.toString("utf8");
+        }
+      });
+      child.stderr.on("data", (data) => {
+        if (stderr.length < 262144) {
+          stderr += data.toString("utf8");
+        }
+      });
+      child.on("error", (err) => {
+        clearTimeout(timer);
+        resolve({
+          status: "runtime_error",
+          stdout: "",
+          stderr: err.message,
+          output: `Execution error: ${err.message}`,
+          exitCode: 1,
+          executionTimeMs: Date.now() - startTime,
+          provider: "Self-Hosted"
+        });
+      });
+      child.on("close", (code) => {
+        clearTimeout(timer);
+        const elapsed = Date.now() - startTime;
+        if (killed) {
+          return resolve({
+            status: "time_limit_exceeded",
+            stdout,
+            stderr: "Time Limit Exceeded (> " + timeoutMs / 1e3 + "s)",
+            output: stdout ? `${stdout}
+Time Limit Exceeded` : "Time Limit Exceeded",
+            exitCode: 124,
+            executionTimeMs: elapsed,
+            memoryKb: 2048,
+            provider: "Self-Hosted"
+          });
+        }
+        const exitCode = code ?? 0;
+        let status = "success";
+        if (exitCode !== 0) {
+          status = "runtime_error";
+        }
+        resolve({
+          status,
+          stdout,
+          stderr,
+          output: stdout || stderr || (exitCode === 0 ? "" : `Process exited with code ${exitCode}`),
+          exitCode,
+          executionTimeMs: elapsed,
+          memoryKb: 2048,
+          provider: "Self-Hosted"
+        });
+      });
+      if (stdin) {
+        child.stdin.write(stdin);
+      }
+      child.stdin.end();
+    });
+  }
+};
+
 // src/lib/compiler/providers/index.ts
 var activeProvider = null;
 function getExecutionProvider() {
   if (activeProvider) return activeProvider;
-  const prefer = typeof process !== "undefined" && process.env?.EXECUTION_PROVIDER?.toLowerCase() || "auto";
+  const prefer = typeof process !== "undefined" && process.env?.EXECUTION_PROVIDER?.toLowerCase() || "self-hosted";
   if (prefer === "wandbox") {
     activeProvider = new WandboxProvider();
     return activeProvider;
   }
-  if (typeof process !== "undefined" && (process.env?.JUDGE0_API_KEY || process.env?.JUDGE0_API_URL)) {
+  if (prefer === "judge0" || typeof process !== "undefined" && process.env?.JUDGE0_API_KEY) {
     activeProvider = new Judge0Provider();
     return activeProvider;
   }
-  activeProvider = new WandboxProvider();
+  activeProvider = new SelfHostedProvider();
   return activeProvider;
 }
 
@@ -15869,7 +16140,7 @@ var SubmitCodeSchema = external_exports.object({
 });
 var rateLimitMap = /* @__PURE__ */ new Map();
 var RATE_LIMIT_WINDOW_MS = 60 * 1e3;
-var MAX_REQUESTS_PER_WINDOW = 30;
+var MAX_REQUESTS_PER_WINDOW = typeof process !== "undefined" && process.env?.RATE_LIMIT_PER_MINUTE ? parseInt(process.env.RATE_LIMIT_PER_MINUTE, 10) || 20 : 20;
 function checkRateLimit(clientIp) {
   const now = Date.now();
   const timestamps = rateLimitMap.get(clientIp) || [];

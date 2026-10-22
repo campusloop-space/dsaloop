@@ -6,8 +6,16 @@ export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.name,
-    url: siteConfig.url,
+    name: "CampusLoop",
+    alternateName: "DSALoop by CampusLoop",
+    url: "https://campusloop.space",
+    logo: absoluteUrl("/logo.png"),
+    image: absoluteUrl("/og-image.png"),
+    sameAs: [
+      "https://github.com/campusloop-space/dsaloop",
+      "https://campusloop.space",
+      "https://dsaloop.campusloop.space"
+    ],
     description: siteConfig.description,
   };
 }
@@ -16,7 +24,8 @@ export function websiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: siteConfig.name,
+    name: "DSALoop by https://campusloop.space/",
+    alternateName: "DSALoop",
     url: siteConfig.url,
     description: siteConfig.description,
     potentialAction: {
@@ -33,16 +42,33 @@ export function websiteJsonLd() {
 export function softwareApplicationJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: siteConfig.name,
-    applicationCategory: "EducationalApplication",
-    operatingSystem: "Web",
+    "@type": "WebApplication",
+    name: "DSALoop by https://campusloop.space/",
+    alternateName: ["DSALoop", "DSALoop Compiler", "DSALoop LeetCode Practice Workspace"],
+    applicationCategory: "EducationalApplication, DeveloperApplication",
+    operatingSystem: "All (Web, Android, iOS, Windows, macOS, Linux)",
+    browserRequirements: "Requires modern JavaScript and HTML5 support",
+    installUrl: absoluteUrl("/"),
+    screenshot: absoluteUrl("/og-image.png"),
+    featureList: [
+      "Multi-Language Online Compiler (Python, C++, Java, Node.js, Go, Rust)",
+      "LeetCode-Style Practice IDE with Test Cases and Standard Input",
+      "Authoritative Hidden Test-Case Judge Engine",
+      "185+ Company-Tagged Question Tracks (Google, Amazon, Meta, Microsoft)",
+      "28-Chapter Interactive System Design Primer",
+      "Offline-Ready Progressive Web App (PWA)"
+    ],
     offers: {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD",
     },
     description: siteConfig.description,
+    author: {
+      "@type": "Organization",
+      name: "CampusLoop",
+      url: "https://campusloop.space"
+    }
   };
 }
 
