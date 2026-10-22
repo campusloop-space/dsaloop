@@ -55,6 +55,12 @@ const JAVA_BIN = findBinary([
   "/usr/local/bin/java",
 ]) || "java";
 
+const GO_BIN = findBinary([
+  "/home/btech1057424/go-sdk/bin/go",
+  "/usr/local/go/bin/go",
+  "/usr/bin/go",
+]) || "go";
+
 export class SelfHostedProvider implements ExecutionProvider {
   name = "Self-Hosted Sandbox";
   private fallbackProvider = new WandboxProvider();
@@ -79,9 +85,9 @@ export class SelfHostedProvider implements ExecutionProvider {
       { id: "cpp", name: "C++ (GCC 11.2 Self-Hosted)", version: "11.2", available: true },
       { id: "c", name: "C (GCC 11.2 Self-Hosted)", version: "11.2", available: true },
       { id: "javascript", name: "JavaScript (Node 20 Self-Hosted)", version: "20.x", available: true },
-      { id: "typescript", name: "TypeScript 5.6 (Wandbox)", version: "5.6", available: true },
+      { id: "typescript", name: "TypeScript 5.6 (Self-Hosted)", version: "5.6", available: true },
+      { id: "go", name: "Go 1.22 (Self-Hosted)", version: "1.22", available: true },
       { id: "java", name: "Java (OpenJDK Self-Hosted)", version: "OpenJDK", available: true },
-      { id: "go", name: "Go 1.23 (Wandbox)", version: "1.23", available: true },
       { id: "rust", name: "Rust 1.82 (Wandbox)", version: "1.82", available: true },
     ];
   }
@@ -90,7 +96,7 @@ export class SelfHostedProvider implements ExecutionProvider {
     const normLang = req.language.toLowerCase().trim();
 
     // Use fallback for languages that require external toolchains not installed locally
-    if (normLang === "rust" || normLang === "rs" || normLang === "go" || normLang === "golang") {
+    if (normLang === "rust" || normLang === "rs") {
       return this.fallbackProvider.execute(req);
     }
 
@@ -107,13 +113,16 @@ export class SelfHostedProvider implements ExecutionProvider {
         return await this.executeJavaScript(runDir, req);
       }
       if (normLang === "typescript" || normLang === "ts") {
-        return await this.executeJavaScript(runDir, req); // Handled with ts-node or transpiled/fallback
+        return await this.executeTypeScript(runDir, req);
       }
       if (normLang === "cpp" || normLang === "c++") {
         return await this.executeCpp(runDir, req);
       }
       if (normLang === "c") {
         return await this.executeC(runDir, req);
+      }
+      if (normLang === "go" || normLang === "golang") {
+        return await this.executeGo(runDir, req);
       }
       if (normLang === "java") {
         return await this.executeJava(runDir, req);
@@ -146,7 +155,56 @@ export class SelfHostedProvider implements ExecutionProvider {
   ): Promise<CodeExecutionResponse> {
     const scriptPath = path.join(dir, "solution.js");
     fs.writeFileSync(scriptPath, req.code, "utf8");
-    return this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8000);
+    return this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8000, {
+      LD_LIBRARY_PATH: "",
+    });
+  }
+
+  private async executeTypeScript(
+    dir: string,
+    req: CodeExecutionRequest
+  ): Promise<CodeExecutionResponse> {
+    try {
+      let esbuildTransform: ((code: string, opts: any) => { code: string }) | null = null;
+      try {
+        const { createRequire } = await import("node:module");
+        const localReq = createRequire(path.join(process.cwd(), "package.json"));
+        esbuildTransform = localReq("esbuild").transformSync;
+      } catch {
+        const eb = await import("esbuild");
+        esbuildTransform = eb.transformSync;
+      }
+
+      if (!esbuildTransform) {
+        throw new Error("Unable to load esbuild compiler");
+      }
+
+      const transformed = esbuildTransform(req.code, {
+        loader: "ts",
+        target: "es2022",
+      });
+
+      const scriptPath = path.join(dir, "solution.js");
+      fs.writeFileSync(scriptPath, transformed.code, "utf8");
+      const runRes = await this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8000, {
+        LD_LIBRARY_PATH: "",
+      });
+      return {
+        ...runRes,
+        provider: "Self-Hosted (TypeScript 5.6)",
+      };
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: msg,
+        output: `TypeScript Compilation Error:\n${msg}`,
+        exitCode: 1,
+        executionTimeMs: 0,
+        provider: "Self-Hosted (TypeScript)",
+      };
+    }
   }
 
   private async executeCpp(
@@ -157,13 +215,26 @@ export class SelfHostedProvider implements ExecutionProvider {
     const outPath = path.join(dir, "solution.out");
     fs.writeFileSync(srcPath, req.code, "utf8");
 
-    // 1. Compile C++
+    // 1. Compile C++ with static libstdc++ and explicit rpath so it runs standalone
     const compileRes = await this.runSubprocess(
       GXX_BIN,
-      ["-O2", "-std=c++17", srcPath, "-o", outPath],
+      [
+        "-O2",
+        "-std=c++17",
+        "-static-libstdc++",
+        "-static-libgcc",
+        "-Wl,-rpath,/apps/gcc-11.2/lib64",
+        "-L/apps/gcc-11.2/lib64",
+        srcPath,
+        "-o",
+        outPath,
+      ],
       dir,
       "",
-      6000
+      8000,
+      {
+        LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`,
+      }
     );
 
     if (compileRes.exitCode !== 0) {
@@ -179,7 +250,13 @@ export class SelfHostedProvider implements ExecutionProvider {
     }
 
     // 2. Execute binary
-    return this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8000);
+    const runRes = await this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8000, {
+      LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`,
+    });
+    return {
+      ...runRes,
+      provider: "Self-Hosted (GCC 11.2)",
+    };
   }
 
   private async executeC(
@@ -190,13 +267,26 @@ export class SelfHostedProvider implements ExecutionProvider {
     const outPath = path.join(dir, "solution.out");
     fs.writeFileSync(srcPath, req.code, "utf8");
 
-    // 1. Compile C
+    // 1. Compile C with static libgcc, explicit rpath, and math library
     const compileRes = await this.runSubprocess(
       GCC_BIN,
-      ["-O2", "-std=c11", srcPath, "-o", outPath, "-lm"],
+      [
+        "-O2",
+        "-std=c11",
+        "-static-libgcc",
+        "-Wl,-rpath,/apps/gcc-11.2/lib64",
+        "-L/apps/gcc-11.2/lib64",
+        srcPath,
+        "-o",
+        outPath,
+        "-lm",
+      ],
       dir,
       "",
-      6000
+      8000,
+      {
+        LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`,
+      }
     );
 
     if (compileRes.exitCode !== 0) {
@@ -212,7 +302,55 @@ export class SelfHostedProvider implements ExecutionProvider {
     }
 
     // 2. Execute binary
-    return this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8000);
+    const runRes = await this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8000, {
+      LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`,
+    });
+    return {
+      ...runRes,
+      provider: "Self-Hosted (GCC 11.2)",
+    };
+  }
+
+  private async executeGo(
+    dir: string,
+    req: CodeExecutionRequest
+  ): Promise<CodeExecutionResponse> {
+    const srcPath = path.join(dir, "main.go");
+    const outPath = path.join(dir, "main.out");
+    fs.writeFileSync(srcPath, req.code, "utf8");
+
+    // 1. Compile Go binary with local toolchain
+    const compileRes = await this.runSubprocess(
+      GO_BIN,
+      ["build", "-o", outPath, srcPath],
+      dir,
+      "",
+      10000,
+      {
+        GOROOT: "/home/btech1057424/go-sdk",
+        GOCACHE: path.join(SANDBOX_BASE, "gocache"),
+        GOPATH: path.join(SANDBOX_BASE, "gopath"),
+      }
+    );
+
+    if (compileRes.exitCode !== 0) {
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: compileRes.stderr || "Go compilation failed",
+        output: compileRes.stderr || "Go compilation failed",
+        exitCode: compileRes.exitCode,
+        executionTimeMs: compileRes.executionTimeMs,
+        provider: "Self-Hosted (Go 1.22)",
+      };
+    }
+
+    // 2. Run Go binary
+    const runRes = await this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8000);
+    return {
+      ...runRes,
+      provider: "Self-Hosted (Go 1.22)",
+    };
   }
 
   private async executeJava(
@@ -259,7 +397,8 @@ export class SelfHostedProvider implements ExecutionProvider {
     args: string[],
     cwd: string,
     stdin: string = "",
-    timeoutMs: number = 8000
+    timeoutMs: number = 8000,
+    extraEnv?: Record<string, string>
   ): Promise<CodeExecutionResponse> {
     return new Promise((resolve) => {
       const startTime = Date.now();
@@ -274,6 +413,7 @@ export class SelfHostedProvider implements ExecutionProvider {
           ...process.env,
           HOME: cwd,
           LANG: "en_US.UTF-8",
+          ...extraEnv,
         },
       });
 
@@ -330,11 +470,17 @@ export class SelfHostedProvider implements ExecutionProvider {
           status = "runtime_error";
         }
 
+        const cleanStderr = stderr
+          .split("\n")
+          .filter((line) => !line.includes("no version information available (required by node)"))
+          .join("\n")
+          .trim();
+
         resolve({
           status,
           stdout,
-          stderr,
-          output: stdout || stderr || (exitCode === 0 ? "" : `Process exited with code ${exitCode}`),
+          stderr: cleanStderr,
+          output: stdout || cleanStderr || (exitCode === 0 ? "" : `Process exited with code ${exitCode}`),
           exitCode,
           executionTimeMs: elapsed,
           memoryKb: 2048,

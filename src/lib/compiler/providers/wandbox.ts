@@ -17,8 +17,8 @@ const WANDBOX_COMPILERS: Record<string, string> = {
   node: "nodejs-20.17.0",
   typescript: "typescript-5.6.2",
   ts: "typescript-5.6.2",
-  go: "go-1.23.1",
-  golang: "go-1.23.1",
+  go: "go-1.23.2",
+  golang: "go-1.23.2",
   rust: "rust-1.82.0",
   rs: "rust-1.82.0",
 };

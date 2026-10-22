@@ -33,21 +33,21 @@ export async function executeCode(options: ExecuteOptions): Promise<ExecutionRes
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ language, code, stdin, timeoutMs, slug }),
       });
-      if (apiRes.ok) {
-        const json = await apiRes.json();
+      const json = await apiRes.json().catch(() => null);
+      if (json && (json.output !== undefined || json.stdout !== undefined || json.stderr !== undefined)) {
         return {
-          status: json.status,
-          stdout: json.stdout,
-          stderr: json.stderr,
-          output: json.output,
-          exitCode: json.exitCode,
-          executionTimeMs: json.executionTimeMs,
+          status: json.status || (apiRes.ok ? "success" : "error"),
+          stdout: json.stdout || "",
+          stderr: json.stderr || "",
+          output: json.output || json.stdout || json.stderr || "",
+          exitCode: json.exitCode ?? (apiRes.ok ? 0 : 1),
+          executionTimeMs: json.executionTimeMs || 0,
           memoryKb: json.memoryKb,
           provider: json.provider || "Server",
         };
       }
     } catch {
-      // API unavailable, proceed to client direct fallback
+      // API network error, proceed to client direct fallback
     }
   }
 

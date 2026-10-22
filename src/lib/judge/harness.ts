@@ -207,8 +207,53 @@ int main() {
 `;
   }
 
+  // C Harness
+  if (norm === "c") {
+    const cMatch = userCode.match(/([a-zA-Z0-9_*]+)\s+([a-zA-Z0-9_]+)\s*\([^)]*\)\s*\{/);
+    const cMethod = cMatch ? cMatch[2] : "twoSum";
+
+    return `#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+
+${userCode}
+
+int main() {
+    int nums[2048];
+    int n = 0;
+    char line[4096];
+    if (fgets(line, sizeof(line), stdin)) {
+        char *token = strtok(line, " \\t\\r\\n[],");
+        while (token && n < 2048) {
+            nums[n++] = atoi(token);
+            token = strtok(NULL, " \\t\\r\\n[],");
+        }
+    }
+    int target = 0;
+    if (scanf("%d", &target) == 1) {
+        int returnSize = 0;
+        int* res = ${cMethod}(nums, n, target, &returnSize);
+        if (res && returnSize > 0) {
+            printf("[");
+            for (int i = 0; i < returnSize; i++) {
+                if (i > 0) printf(", ");
+                printf("%d", res[i]);
+            }
+            printf("]\\n");
+            free(res);
+        }
+    }
+    return 0;
+}
+`;
+  }
+
   // JavaScript / Node Harness
   if (norm.includes("javascript") || norm.includes("typescript") || norm === "js" || norm === "ts") {
+    const fnMatch = userCode.match(/(?:function|var|let|const)\s+([a-zA-Z0-9_]+)/);
+    const targetFn = fnMatch ? fnMatch[1] : "";
+
     return `${userCode}
 
 const fs = require('fs');
@@ -234,18 +279,16 @@ if (input) {
             if (res !== undefined) console.log(JSON.stringify(res));
         }
     } else {
-        // Look for function in scope
-        const globalFns = Object.keys(global).filter(k => typeof global[k] === 'function');
-        for (const k of globalFns) {
-            if (!['setTimeout', 'setInterval', 'require', 'fetch'].includes(k)) {
-                try {
-                    const res = global[k](...args);
-                    if (res !== undefined) {
-                        console.log(JSON.stringify(res));
-                        break;
-                    }
-                } catch {}
+        let fnToCall = null;
+        try {
+            if ("${targetFn}" && typeof eval("${targetFn}") === 'function') {
+                fnToCall = eval("${targetFn}");
             }
+        } catch {}
+
+        if (fnToCall) {
+            const res = fnToCall(...args);
+            if (res !== undefined) console.log(JSON.stringify(res));
         }
     }
 }

@@ -80,7 +80,11 @@ export function getProblemStarterTemplate(problem: Problem, langId: string): str
     return `class Solution:\n    def ${sig.name}(${sig.pyArgs}):${doc}        # Write your code here\n        pass\n`;
   }
 
-  if (norm.includes("cpp") || norm.includes("c++") || norm === "c") {
+  if (norm === "c") {
+    return `/**\n * Solution for ${problem.title}\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* ${sig.name}(int* nums, int numsSize, int target, int* returnSize) {\n    *returnSize = 0;\n    // Write your C solution here\n    return NULL;\n}\n`;
+  }
+
+  if (norm.includes("cpp") || norm.includes("c++")) {
     const helperClasses = sig.cppArgs.includes("ListNode") || sig.cppRet.includes("ListNode")
       ? `/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     ListNode *next;\n *     ListNode(int x) : val(x), next(NULL) {}\n * };\n */\n\n`
       : sig.cppArgs.includes("TreeNode") || sig.cppRet.includes("TreeNode")

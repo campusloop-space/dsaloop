@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit && tsc -p tsconfig.scripts.json --noEmit",
     "validate:data": "tsx scripts/validate-generated.ts",
     "test": "tsx tests/compiler-judge.test.ts",
-    "build:server": "esbuild src/lib/api/code-handlers.ts --bundle --platform=node --format=esm --outfile=src/server/code-handlers.mjs",
+    "build:server": "esbuild src/lib/api/code-handlers.ts --bundle --platform=node --format=esm --external:esbuild --outfile=src/server/code-handlers.mjs",
     "check": "npm run lint && npm run typecheck && npm run validate:data",
     "build": "next build && npm run build:server",
     "start": "next start",

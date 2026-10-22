@@ -34,23 +34,28 @@ const MIME_TYPES = {
 
 function resolveFilePath(reqPath) {
   let decoded = decodeURIComponent(reqPath.split("?")[0]);
-  if (decoded === "/") decoded = "/index.html";
+  if (!decoded || decoded === "/") {
+    return path.join(OUT_DIR, "index.html");
+  }
+
+  // Strip trailing slashes for routing lookup (e.g. /online-compiler/ -> /online-compiler)
+  const cleanPath = decoded.replace(/\/+$/, "") || "/";
 
   // Prevent directory traversal
-  const safePath = path.normalize(decoded).replace(/^(\.\.[\/\\])+/, "");
-  let fullPath = path.join(OUT_DIR, safePath);
+  const safeRelative = path.normalize(cleanPath).replace(/^(\.\.[\/\\])+/, "").replace(/^\/+/, "");
+  const fullPath = path.join(OUT_DIR, safeRelative);
 
-  // 1. Direct file match
+  // 1. Direct file match (e.g. /favicon.ico, /logo.png, /_next/static/...)
   if (fs.existsSync(fullPath) && fs.statSync(fullPath).isFile()) {
     return fullPath;
   }
 
-  // 2. Try with .html extension (e.g. /problems -> /problems.html)
+  // 2. Try with .html extension (e.g. /online-compiler -> /online-compiler.html)
   if (fs.existsSync(fullPath + ".html") && fs.statSync(fullPath + ".html").isFile()) {
     return fullPath + ".html";
   }
 
-  // 3. Try directory/index.html
+  // 3. Try directory/index.html (e.g. /problems/two-sum -> /problems/two-sum/index.html)
   const indexPath = path.join(fullPath, "index.html");
   if (fs.existsSync(indexPath) && fs.statSync(indexPath).isFile()) {
     return indexPath;

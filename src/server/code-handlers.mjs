@@ -14786,8 +14786,8 @@ var WANDBOX_COMPILERS = {
   node: "nodejs-20.17.0",
   typescript: "typescript-5.6.2",
   ts: "typescript-5.6.2",
-  go: "go-1.23.1",
-  golang: "go-1.23.1",
+  go: "go-1.23.2",
+  golang: "go-1.23.2",
   rust: "rust-1.82.0",
   rs: "rust-1.82.0"
 };
@@ -14947,6 +14947,11 @@ var JAVA_BIN = findBinary([
   "/usr/bin/java",
   "/usr/local/bin/java"
 ]) || "java";
+var GO_BIN = findBinary([
+  "/home/btech1057424/go-sdk/bin/go",
+  "/usr/local/go/bin/go",
+  "/usr/bin/go"
+]) || "go";
 var SelfHostedProvider = class {
   constructor() {
     this.name = "Self-Hosted Sandbox";
@@ -14967,15 +14972,15 @@ var SelfHostedProvider = class {
       { id: "cpp", name: "C++ (GCC 11.2 Self-Hosted)", version: "11.2", available: true },
       { id: "c", name: "C (GCC 11.2 Self-Hosted)", version: "11.2", available: true },
       { id: "javascript", name: "JavaScript (Node 20 Self-Hosted)", version: "20.x", available: true },
-      { id: "typescript", name: "TypeScript 5.6 (Wandbox)", version: "5.6", available: true },
+      { id: "typescript", name: "TypeScript 5.6 (Self-Hosted)", version: "5.6", available: true },
+      { id: "go", name: "Go 1.22 (Self-Hosted)", version: "1.22", available: true },
       { id: "java", name: "Java (OpenJDK Self-Hosted)", version: "OpenJDK", available: true },
-      { id: "go", name: "Go 1.23 (Wandbox)", version: "1.23", available: true },
       { id: "rust", name: "Rust 1.82 (Wandbox)", version: "1.82", available: true }
     ];
   }
   async execute(req) {
     const normLang = req.language.toLowerCase().trim();
-    if (normLang === "rust" || normLang === "rs" || normLang === "go" || normLang === "golang") {
+    if (normLang === "rust" || normLang === "rs") {
       return this.fallbackProvider.execute(req);
     }
     const runId = `run-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
@@ -14989,13 +14994,16 @@ var SelfHostedProvider = class {
         return await this.executeJavaScript(runDir, req);
       }
       if (normLang === "typescript" || normLang === "ts") {
-        return await this.executeJavaScript(runDir, req);
+        return await this.executeTypeScript(runDir, req);
       }
       if (normLang === "cpp" || normLang === "c++") {
         return await this.executeCpp(runDir, req);
       }
       if (normLang === "c") {
         return await this.executeC(runDir, req);
+      }
+      if (normLang === "go" || normLang === "golang") {
+        return await this.executeGo(runDir, req);
       }
       if (normLang === "java") {
         return await this.executeJava(runDir, req);
@@ -15016,7 +15024,50 @@ var SelfHostedProvider = class {
   executeJavaScript(dir, req) {
     const scriptPath = path.join(dir, "solution.js");
     fs.writeFileSync(scriptPath, req.code, "utf8");
-    return this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8e3);
+    return this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8e3, {
+      LD_LIBRARY_PATH: ""
+    });
+  }
+  async executeTypeScript(dir, req) {
+    try {
+      let esbuildTransform = null;
+      try {
+        const { createRequire } = await import("node:module");
+        const localReq = createRequire(path.join(process.cwd(), "package.json"));
+        esbuildTransform = localReq("esbuild").transformSync;
+      } catch {
+        const eb = await import("esbuild");
+        esbuildTransform = eb.transformSync;
+      }
+      if (!esbuildTransform) {
+        throw new Error("Unable to load esbuild compiler");
+      }
+      const transformed = esbuildTransform(req.code, {
+        loader: "ts",
+        target: "es2022"
+      });
+      const scriptPath = path.join(dir, "solution.js");
+      fs.writeFileSync(scriptPath, transformed.code, "utf8");
+      const runRes = await this.runSubprocess(NODE_BIN, [scriptPath], dir, req.stdin, req.timeoutMs || 8e3, {
+        LD_LIBRARY_PATH: ""
+      });
+      return {
+        ...runRes,
+        provider: "Self-Hosted (TypeScript 5.6)"
+      };
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: msg,
+        output: `TypeScript Compilation Error:
+${msg}`,
+        exitCode: 1,
+        executionTimeMs: 0,
+        provider: "Self-Hosted (TypeScript)"
+      };
+    }
   }
   async executeCpp(dir, req) {
     const srcPath = path.join(dir, "solution.cpp");
@@ -15024,10 +15075,23 @@ var SelfHostedProvider = class {
     fs.writeFileSync(srcPath, req.code, "utf8");
     const compileRes = await this.runSubprocess(
       GXX_BIN,
-      ["-O2", "-std=c++17", srcPath, "-o", outPath],
+      [
+        "-O2",
+        "-std=c++17",
+        "-static-libstdc++",
+        "-static-libgcc",
+        "-Wl,-rpath,/apps/gcc-11.2/lib64",
+        "-L/apps/gcc-11.2/lib64",
+        srcPath,
+        "-o",
+        outPath
+      ],
       dir,
       "",
-      6e3
+      8e3,
+      {
+        LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`
+      }
     );
     if (compileRes.exitCode !== 0) {
       return {
@@ -15040,7 +15104,13 @@ var SelfHostedProvider = class {
         provider: "Self-Hosted (GCC 11.2)"
       };
     }
-    return this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3);
+    const runRes = await this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3, {
+      LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`
+    });
+    return {
+      ...runRes,
+      provider: "Self-Hosted (GCC 11.2)"
+    };
   }
   async executeC(dir, req) {
     const srcPath = path.join(dir, "solution.c");
@@ -15048,10 +15118,23 @@ var SelfHostedProvider = class {
     fs.writeFileSync(srcPath, req.code, "utf8");
     const compileRes = await this.runSubprocess(
       GCC_BIN,
-      ["-O2", "-std=c11", srcPath, "-o", outPath, "-lm"],
+      [
+        "-O2",
+        "-std=c11",
+        "-static-libgcc",
+        "-Wl,-rpath,/apps/gcc-11.2/lib64",
+        "-L/apps/gcc-11.2/lib64",
+        srcPath,
+        "-o",
+        outPath,
+        "-lm"
+      ],
       dir,
       "",
-      6e3
+      8e3,
+      {
+        LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`
+      }
     );
     if (compileRes.exitCode !== 0) {
       return {
@@ -15064,7 +15147,46 @@ var SelfHostedProvider = class {
         provider: "Self-Hosted (GCC 11.2)"
       };
     }
-    return this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3);
+    const runRes = await this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3, {
+      LD_LIBRARY_PATH: `/apps/gcc-11.2/lib64:/apps/gcc-11.2/lib:${process.env.LD_LIBRARY_PATH || ""}`
+    });
+    return {
+      ...runRes,
+      provider: "Self-Hosted (GCC 11.2)"
+    };
+  }
+  async executeGo(dir, req) {
+    const srcPath = path.join(dir, "main.go");
+    const outPath = path.join(dir, "main.out");
+    fs.writeFileSync(srcPath, req.code, "utf8");
+    const compileRes = await this.runSubprocess(
+      GO_BIN,
+      ["build", "-o", outPath, srcPath],
+      dir,
+      "",
+      1e4,
+      {
+        GOROOT: "/home/btech1057424/go-sdk",
+        GOCACHE: path.join(SANDBOX_BASE, "gocache"),
+        GOPATH: path.join(SANDBOX_BASE, "gopath")
+      }
+    );
+    if (compileRes.exitCode !== 0) {
+      return {
+        status: "compile_error",
+        stdout: "",
+        stderr: compileRes.stderr || "Go compilation failed",
+        output: compileRes.stderr || "Go compilation failed",
+        exitCode: compileRes.exitCode,
+        executionTimeMs: compileRes.executionTimeMs,
+        provider: "Self-Hosted (Go 1.22)"
+      };
+    }
+    const runRes = await this.runSubprocess(outPath, [], dir, req.stdin, req.timeoutMs || 8e3);
+    return {
+      ...runRes,
+      provider: "Self-Hosted (Go 1.22)"
+    };
   }
   async executeJava(dir, req) {
     let cleanCode = req.code;
@@ -15097,7 +15219,7 @@ ${cleanCode}
     }
     return this.runSubprocess(JAVA_BIN, ["-Xmx256m", "Main"], dir, req.stdin, req.timeoutMs || 8e3);
   }
-  runSubprocess(cmd, args, cwd, stdin = "", timeoutMs = 8e3) {
+  runSubprocess(cmd, args, cwd, stdin = "", timeoutMs = 8e3, extraEnv) {
     return new Promise((resolve) => {
       const startTime = Date.now();
       let stdout = "";
@@ -15109,7 +15231,8 @@ ${cleanCode}
         env: {
           ...process.env,
           HOME: cwd,
-          LANG: "en_US.UTF-8"
+          LANG: "en_US.UTF-8",
+          ...extraEnv
         }
       });
       const timer = setTimeout(() => {
@@ -15159,11 +15282,12 @@ Time Limit Exceeded` : "Time Limit Exceeded",
         if (exitCode !== 0) {
           status = "runtime_error";
         }
+        const cleanStderr = stderr.split("\n").filter((line) => !line.includes("no version information available (required by node)")).join("\n").trim();
         resolve({
           status,
           stdout,
-          stderr,
-          output: stdout || stderr || (exitCode === 0 ? "" : `Process exited with code ${exitCode}`),
+          stderr: cleanStderr,
+          output: stdout || cleanStderr || (exitCode === 0 ? "" : `Process exited with code ${exitCode}`),
           exitCode,
           executionTimeMs: elapsed,
           memoryKb: 2048,
@@ -16154,7 +16278,48 @@ int main() {
 }
 `;
   }
+  if (norm === "c") {
+    const cMatch = userCode.match(/([a-zA-Z0-9_*]+)\s+([a-zA-Z0-9_]+)\s*\([^)]*\)\s*\{/);
+    const cMethod = cMatch ? cMatch[2] : "twoSum";
+    return `#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+
+${userCode}
+
+int main() {
+    int nums[2048];
+    int n = 0;
+    char line[4096];
+    if (fgets(line, sizeof(line), stdin)) {
+        char *token = strtok(line, " \\t\\r\\n[],");
+        while (token && n < 2048) {
+            nums[n++] = atoi(token);
+            token = strtok(NULL, " \\t\\r\\n[],");
+        }
+    }
+    int target = 0;
+    if (scanf("%d", &target) == 1) {
+        int returnSize = 0;
+        int* res = ${cMethod}(nums, n, target, &returnSize);
+        if (res && returnSize > 0) {
+            printf("[");
+            for (int i = 0; i < returnSize; i++) {
+                if (i > 0) printf(", ");
+                printf("%d", res[i]);
+            }
+            printf("]\\n");
+            free(res);
+        }
+    }
+    return 0;
+}
+`;
+  }
   if (norm.includes("javascript") || norm.includes("typescript") || norm === "js" || norm === "ts") {
+    const fnMatch = userCode.match(/(?:function|var|let|const)\s+([a-zA-Z0-9_]+)/);
+    const targetFn = fnMatch ? fnMatch[1] : "";
     return `${userCode}
 
 const fs = require('fs');
@@ -16180,18 +16345,16 @@ if (input) {
             if (res !== undefined) console.log(JSON.stringify(res));
         }
     } else {
-        // Look for function in scope
-        const globalFns = Object.keys(global).filter(k => typeof global[k] === 'function');
-        for (const k of globalFns) {
-            if (!['setTimeout', 'setInterval', 'require', 'fetch'].includes(k)) {
-                try {
-                    const res = global[k](...args);
-                    if (res !== undefined) {
-                        console.log(JSON.stringify(res));
-                        break;
-                    }
-                } catch {}
+        let fnToCall = null;
+        try {
+            if ("${targetFn}" && typeof eval("${targetFn}") === 'function') {
+                fnToCall = eval("${targetFn}");
             }
+        } catch {}
+
+        if (fnToCall) {
+            const res = fnToCall(...args);
+            if (res !== undefined) console.log(JSON.stringify(res));
         }
     }
 }
