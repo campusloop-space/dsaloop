@@ -31,14 +31,18 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Key URLs
 
-- `/problems/[slug]` — solution + original explanations
+- `/online-compiler` — multi-language online compiler directory (Python, C++, Java, JS, TS, Go, Rust, C)
+- `/online-python-compiler`, `/online-cpp-compiler`, `/online-c-compiler`, `/online-java-compiler`
+- `/problems/[slug]` — interactive CodeMirror 6 workspace, test cases, and online judge
 - `/topics/*`, `/patterns/*`, `/companies/*`
+- `/system-design/*` — 28-chapter system design primer
 - `/blind-75`, `/grind-169`, `/neetcode-alternatives`
 - `/roadmaps/*`, `/blog/*`, `/explore/*`
 - `/search`, `/practice`, `/dashboard`
 
 ## Documentation
 
+- [Online Compiler & Judge Engine](./docs/COMPILER_AND_JUDGE.md)
 - [Architecture](./docs/architecture.md)
 - [Data pipeline](./docs/data-pipeline.md)
 - [SEO](./docs/seo.md)

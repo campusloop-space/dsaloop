@@ -12,6 +12,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { articleJsonLd, faqJsonLd, howToJsonLd } from "@/lib/seo/jsonld";
 import { DifficultyBadge, Badge } from "@/components/ui/badge";
 import { CodeTabs } from "@/components/problem/code-tabs";
+import { ProblemWorkspace } from "@/components/problem/problem-workspace";
 import { BookmarkButton } from "@/components/problem/bookmark-button";
 import { ConfidenceTracker } from "@/components/problem/confidence-tracker";
 import { ProblemVisualizer } from "@/components/problem/problem-visualizer";
@@ -127,8 +128,14 @@ export default async function ProblemPage({
                 </Link>
               ))}
             </div>
-            <div className="flex flex-wrap gap-2 pt-1">
+            <div className="flex flex-wrap items-center gap-3 pt-1">
               <BookmarkButton slug={problem.slug} />
+              <a
+                href="#workspace"
+                className="text-xs font-semibold px-2.5 py-1 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors inline-flex items-center gap-1"
+              >
+                ⚡ Code & Judge
+              </a>
               {problem.languages.map((lang) => (
                 <a key={lang} href="#solutions" className="text-sm text-primary hover:underline">
                   {lang}
@@ -136,6 +143,14 @@ export default async function ProblemPage({
               ))}
             </div>
           </header>
+
+          <section className="mt-8" id="workspace">
+            <ProblemWorkspace
+              slug={problem.slug}
+              title={problem.title}
+              solutions={problem.solutions}
+            />
+          </section>
 
           <section className="mt-10" id="solutions">
             <h2 className="text-xl font-bold mb-3">Solutions</h2>
@@ -239,6 +254,11 @@ export default async function ProblemPage({
           >
             <p className="text-sm font-semibold mb-2">On this page</p>
             <ul className="space-y-1.5 text-sm">
+              <li>
+                <a href="#workspace" className="text-muted-foreground hover:text-primary font-medium">
+                  ⚡ Code & Judge
+                </a>
+              </li>
               <li>
                 <a href="#solutions" className="text-muted-foreground hover:text-primary">
                   Solutions

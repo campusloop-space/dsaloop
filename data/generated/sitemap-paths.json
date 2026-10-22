@@ -11867,5 +11867,14 @@
   "/languages/mysql",
   "/languages/shell",
   "/languages/typescript",
-  "/languages/python3"
+  "/languages/python3",
+  "/online-compiler",
+  "/online-python-compiler",
+  "/online-cpp-compiler",
+  "/online-c-compiler",
+  "/online-java-compiler",
+  "/online-javascript-compiler",
+  "/online-typescript-compiler",
+  "/online-go-compiler",
+  "/online-rust-compiler"
 ]
