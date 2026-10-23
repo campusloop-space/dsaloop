@@ -7,6 +7,7 @@ import { ArrowUpRight, Code2, Menu, Search, Sparkles, X } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { CuteSparkle } from "@/components/ui/cute-illustrations";
 import { PWAInstallButton } from "@/components/pwa-install-button";
+import { CampusLoopUserButton } from "@/components/auth/campusloop-user-button";
 import { cn } from "@/lib/utils";
 
 // Minimal, focused navigation
@@ -86,6 +87,8 @@ export function SiteHeader() {
             </kbd>
           </Link>
 
+          <CampusLoopUserButton variant="header" />
+
           <ThemeToggle />
 
           <Link
@@ -116,6 +119,9 @@ export function SiteHeader() {
       {mobileOpen && (
         <div className="mt-2 p-3 rounded-2xl border border-border/80 bg-card/95 backdrop-blur-2xl shadow-md md:hidden space-y-2.5 animate-in fade-in-0 zoom-in-95">
           <nav className="flex flex-col gap-1">
+            <div className="pb-2 border-b border-border/50 flex justify-center">
+              <CampusLoopUserButton variant="header" />
+            </div>
             {NAV_LINKS.map((item) => (
               <Link
                 key={item.href}

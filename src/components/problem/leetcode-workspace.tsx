@@ -44,6 +44,7 @@ import { CodeTabs } from "@/components/problem/code-tabs";
 import { MarkdownBody } from "@/components/markdown-body";
 import { Watermark } from "@/components/ui/watermark";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { CampusLoopUserButton } from "@/components/auth/campusloop-user-button";
 import { cn } from "@/lib/utils/cn";
 
 interface LeetCodeWorkspaceProps {
@@ -366,9 +367,10 @@ export function LeetCodeWorkspace({
           </button>
         </div>
 
-        {/* Right: Theme Toggle & Watermark */}
+        {/* Right: Theme Toggle, CampusLoop User Button & Watermark */}
         <div className="flex items-center gap-2 shrink-0">
           <ThemeToggle />
+          <CampusLoopUserButton variant="workspace" />
           <div className="hidden lg:block">
             <Watermark variant="pill" />
           </div>

@@ -7,6 +7,7 @@ import {
   handleSubmitCode,
   handleGetLanguages,
 } from "./src/server/code-handlers.mjs";
+import { handleAuthRequest } from "./src/server/auth-handler.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = process.env.PORT || 3002;
@@ -127,6 +128,12 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  // API Route: Auth.js / CampusLoop OIDC (/api/auth/*)
+  if (urlPath.startsWith("/api/auth")) {
+    await handleAuthRequest(req, res);
+    return;
+  }
+
   // API Route: GET /api/code/languages
   if (urlPath === "/api/code/languages" && req.method === "GET") {
     try {
@@ -201,8 +208,9 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 DSALoop Server listening at http://0.0.0.0:${PORT}`);
-  console.log(`📡 Code Execution Endpoints enabled:`);
+  console.log(`📡 Endpoints enabled:`);
   console.log(`   - POST /api/code/run`);
   console.log(`   - POST /api/code/submit`);
   console.log(`   - GET  /api/code/languages`);
+  console.log(`   - ALL  /api/auth/* (CampusLoop OIDC Authentication)`);
 });

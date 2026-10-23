@@ -32,6 +32,7 @@ import {
 import { executeCode, type ExecutionResult } from "@/lib/compiler/execute";
 import { Watermark } from "@/components/ui/watermark";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { CampusLoopUserButton } from "@/components/auth/campusloop-user-button";
 import { cn } from "@/lib/utils/cn";
 
 interface FullscreenCompilerProps {
@@ -296,6 +297,8 @@ export function FullscreenCompiler({
           </button>
 
           <ThemeToggle />
+
+          <CampusLoopUserButton variant="compact" />
 
           <div className="hidden xl:block">
             <Watermark variant="pill" />
