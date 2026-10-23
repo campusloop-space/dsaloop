@@ -121,8 +121,8 @@ export function CampusLoopUserButton({
           className="size-3.5 shrink-0"
           unoptimized
         />
-        <span className="font-medium whitespace-nowrap">
-          {variant === "compact" ? "CampusLoop" : "Continue with CampusLoop"}
+        <span className="font-semibold whitespace-nowrap">
+          {variant === "header" ? "Sign In" : "CampusLoop"}
         </span>
       </button>
     );
