@@ -14,8 +14,8 @@ import { siteConfig } from "@/lib/config";
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FFF8ED" },
-    { media: "(prefers-color-scheme: dark)", color: "#1A1615" },
+    { media: "(prefers-color-scheme: light)", color: "#FFF9F2" },
+    { media: "(prefers-color-scheme: dark)", color: "#141211" },
   ],
   width: "device-width",
   initialScale: 1,

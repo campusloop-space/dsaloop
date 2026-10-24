@@ -38,7 +38,7 @@ export function TerminalHero({
               <span className="text-primary font-bold">Free &amp; Open Source</span>
             </div>
 
-            <h1 className="mt-5 font-heading text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-foreground leading-[1.05]">
+            <h1 className="mt-5 font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground leading-[1.05]">
               Stop grinding at random.
               <span className="block text-primary mt-1">Master reusable patterns.</span>
             </h1>
@@ -84,7 +84,7 @@ export function TerminalHero({
                   <p className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
                     {label}
                   </p>
-                  <p className="mt-1 font-heading text-2xl font-black text-foreground tabular-nums">
+                  <p className="mt-1 font-heading text-2xl font-bold text-foreground tabular-nums">
                     {value}
                   </p>
                 </div>
@@ -104,7 +104,7 @@ export function TerminalHero({
                     <span className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
                       Today&apos;s Featured Pattern
                     </span>
-                    <h3 className="font-heading text-lg font-black text-foreground">
+                    <h3 className="font-heading text-lg font-bold text-foreground">
                       Sliding Window
                     </h3>
                   </div>

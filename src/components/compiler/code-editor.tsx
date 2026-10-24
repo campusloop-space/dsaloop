@@ -28,9 +28,10 @@ interface CodeEditorProps {
 const campusLoopLightTheme = EditorView.theme(
   {
     "&": {
-      color: "#5A554B",
-      backgroundColor: "#FFFCF7",
-      fontSize: "13px",
+      color: "#221E1B",
+      backgroundColor: "#FFFFFF",
+      fontSize: "13.5px",
+      lineHeight: "1.65",
       fontFamily: "var(--font-mono-custom, monospace)",
     },
     ".cm-content": {
@@ -43,15 +44,15 @@ const campusLoopLightTheme = EditorView.theme(
       backgroundColor: "#FEC7BE55",
     },
     ".cm-gutters": {
-      backgroundColor: "#FDF8F0",
-      color: "#9C9488",
-      borderRight: "1px solid #EADCCE",
+      backgroundColor: "#FAF4EC",
+      color: "#8C8376",
+      borderRight: "1px solid #E8DCD0",
     },
     ".cm-activeLine": {
-      backgroundColor: "#FDF4E780",
+      backgroundColor: "#FDF6EE",
     },
     ".cm-activeLineGutter": {
-      backgroundColor: "#F6ECE0",
+      backgroundColor: "#F4ECE2",
       color: "#BD4B2A",
       fontWeight: "bold",
     },
@@ -62,31 +63,32 @@ const campusLoopLightTheme = EditorView.theme(
 const campusLoopDarkTheme = EditorView.theme(
   {
     "&": {
-      color: "#EADCCE",
+      color: "#F6EFE6",
       backgroundColor: "#161312",
-      fontSize: "13px",
+      fontSize: "13.5px",
+      lineHeight: "1.65",
       fontFamily: "var(--font-mono-custom, monospace)",
     },
     ".cm-content": {
-      caretColor: "#F47A55",
+      caretColor: "#FF804E",
     },
     "&.cm-focused .cm-cursor": {
-      borderLeftColor: "#F47A55",
+      borderLeftColor: "#FF804E",
     },
     "&.cm-focused .cm-selectionBackground, ::selection": {
       backgroundColor: "#42282277",
     },
     ".cm-gutters": {
-      backgroundColor: "#1A1615",
-      color: "#746E63",
-      borderRight: "1px solid #2B2522",
+      backgroundColor: "#1A1715",
+      color: "#857A6E",
+      borderRight: "1px solid #2F2825",
     },
     ".cm-activeLine": {
-      backgroundColor: "#241E1C",
+      backgroundColor: "#201B19",
     },
     ".cm-activeLineGutter": {
-      backgroundColor: "#2E2623",
-      color: "#F47A55",
+      backgroundColor: "#27211E",
+      color: "#FF804E",
       fontWeight: "bold",
     },
   },

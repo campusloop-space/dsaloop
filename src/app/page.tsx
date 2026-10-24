@@ -39,7 +39,7 @@ export default function HomePage() {
           <p className="text-xs font-bold uppercase tracking-wider text-primary">
             Choose your learning mode
           </p>
-          <h2 className="font-heading text-2xl sm:text-3xl font-black tracking-tight text-foreground">
+          <h2 className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
             Start with an outcome, not an endless list.
           </h2>
           <p className="max-w-2xl text-xs sm:text-sm leading-relaxed text-muted-foreground">
@@ -110,7 +110,7 @@ export default function HomePage() {
               <p className="text-xs font-bold uppercase tracking-wider text-primary">
                 Structured Curriculums
               </p>
-              <h2 className="mt-1 font-heading text-2xl sm:text-3xl font-black tracking-tight text-foreground">
+              <h2 className="mt-1 font-heading text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
                 Roadmaps with real conceptual sequence
               </h2>
             </div>
@@ -166,7 +166,7 @@ export default function HomePage() {
                 <p className="text-xs font-bold uppercase tracking-wider text-primary">
                   Warm-Up Practice
                 </p>
-                <h2 className="mt-1 font-heading text-2xl font-black tracking-tight text-foreground">
+                <h2 className="mt-1 font-heading text-2xl font-extrabold tracking-tight text-foreground">
                   A focused set to get moving
                 </h2>
               </div>
@@ -206,7 +206,7 @@ export default function HomePage() {
             <p className="text-xs font-bold uppercase tracking-wider text-primary">
               Curated Collections
             </p>
-            <h2 className="mt-1 font-heading text-2xl font-black tracking-tight text-foreground">
+            <h2 className="mt-1 font-heading text-2xl font-extrabold tracking-tight text-foreground">
               Interview-ready study sheets
             </h2>
 
@@ -279,7 +279,7 @@ export default function HomePage() {
                 <CuteSparkle className="size-3.5" />
                 <span>Zero Account Barrier</span>
               </div>
-              <h2 className="mt-2 font-heading text-2xl sm:text-3xl font-black tracking-tight text-foreground">
+              <h2 className="mt-2 font-heading text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
                 Study with intent. Keep progress right in your browser.
               </h2>
               <p className="mt-2 text-xs sm:text-sm leading-relaxed text-muted-foreground">

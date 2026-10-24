@@ -95,8 +95,10 @@ export default async function ProblemPage({
               </div>
               <Watermark variant="pill" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{problem.title}</h1>
-            <p className="text-muted-foreground max-w-2xl">
+            <h1 className="font-heading text-3xl md:text-4xl font-extrabold tracking-tight text-foreground">
+              {problem.title}
+            </h1>
+            <p className="text-muted-foreground max-w-2xl text-sm leading-relaxed">
               Time <strong className="text-foreground">{problem.timeComplexity}</strong>
               {" · "}
               Space <strong className="text-foreground">{problem.spaceComplexity}</strong>
@@ -105,7 +107,7 @@ export default async function ProblemPage({
                 href={problem.leetcodeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary underline-offset-2 hover:underline"
+                className="text-primary underline-offset-2 hover:underline font-medium"
               >
                 Official statement on LeetCode
               </a>
@@ -139,7 +141,7 @@ export default async function ProblemPage({
               </Link>
               <BookmarkButton slug={problem.slug} />
               {problem.languages.map((lang) => (
-                <a key={lang} href="#solutions" className="text-sm text-primary hover:underline font-mono">
+                <a key={lang} href="#solutions" className="text-xs font-semibold text-primary hover:underline font-mono">
                   {lang}
                 </a>
               ))}
@@ -147,14 +149,14 @@ export default async function ProblemPage({
           </header>
 
           <section className="mt-10" id="solutions">
-            <h2 className="text-xl font-bold mb-3">Solutions</h2>
+            <h2 className="font-heading text-xl font-bold tracking-tight text-foreground mb-3">Solutions</h2>
             <CodeTabs solutions={problem.solutions} />
           </section>
 
           {sectionsHtml.map((section) => (
             <section key={section.id} id={section.id} className="mt-10 scroll-mt-24">
               <div className="flex items-center gap-2 mb-3">
-                <h2 className="text-xl font-bold">{section.title}</h2>
+                <h2 className="font-heading text-xl font-bold tracking-tight text-foreground">{section.title}</h2>
                 {section.status === "placeholder" && (
                   <Badge variant="muted">AI expand later</Badge>
                 )}
@@ -164,17 +166,17 @@ export default async function ProblemPage({
           ))}
 
           <section id="visualization" className="mt-10 scroll-mt-24">
-            <h2 className="text-xl font-bold mb-3">Visualization</h2>
+            <h2 className="font-heading text-xl font-bold tracking-tight text-foreground mb-3">Visualization</h2>
             <ProblemVisualizer slug={problem.slug} fallbackDescription={problem.visualizationDescription} />
           </section>
 
           <section id="checklist" className="mt-10 scroll-mt-24">
-            <h2 className="text-xl font-bold mb-3">Study checklist</h2>
+            <h2 className="font-heading text-xl font-bold tracking-tight text-foreground mb-3">Study checklist</h2>
             <ul className="space-y-2">
               {problem.studyChecklist.map((item) => (
-                <li key={item} className="flex gap-2 text-sm">
-                  <span className="text-primary" aria-hidden>
-                    ☐
+                <li key={item} className="flex gap-2 text-sm leading-relaxed">
+                  <span className="text-primary font-bold" aria-hidden>
+                    ✓
                   </span>
                   {item}
                 </li>
@@ -183,27 +185,27 @@ export default async function ProblemPage({
           </section>
 
           <section id="revision" className="mt-10 scroll-mt-24">
-            <h2 className="text-xl font-bold mb-3">Revision notes</h2>
-            <p className="text-sm rounded-xl border border-border bg-card p-4">
+            <h2 className="font-heading text-xl font-bold tracking-tight text-foreground mb-3">Revision notes</h2>
+            <p className="text-sm leading-relaxed rounded-2xl border border-border/80 bg-card p-5 text-foreground shadow-2xs">
               {problem.revisionNotes}
             </p>
           </section>
 
           <section id="faq" className="mt-10 scroll-mt-24">
-            <h2 className="text-xl font-bold mb-3">FAQs</h2>
+            <h2 className="font-heading text-xl font-bold tracking-tight text-foreground mb-3">FAQs</h2>
             <div className="space-y-3">
               {problem.faqs.map((f) => (
                 <details
                   key={f.question}
-                  className="rounded-xl border border-border bg-card p-4 group"
+                  className="rounded-2xl border border-border/80 bg-card p-4 group shadow-2xs transition-all hover:border-border-strong"
                 >
-                  <summary className="font-medium cursor-pointer list-none flex justify-between gap-2">
+                  <summary className="font-heading font-semibold text-foreground text-sm cursor-pointer list-none flex justify-between items-center gap-2">
                     {f.question}
-                    <span className="text-muted-foreground group-open:rotate-45 transition-transform">
+                    <span className="text-muted-foreground group-open:rotate-45 transition-transform text-base font-bold">
                       +
                     </span>
                   </summary>
-                  <p className="mt-3 text-sm text-muted-foreground">{f.answer}</p>
+                  <p className="mt-2.5 text-sm leading-relaxed text-muted-foreground">{f.answer}</p>
                 </details>
               ))}
             </div>
@@ -211,7 +213,7 @@ export default async function ProblemPage({
 
           {related.length > 0 && (
             <section id="related" className="mt-12 scroll-mt-24">
-              <h2 className="text-xl font-bold mb-3">Related problems</h2>
+              <h2 className="font-heading text-xl font-bold tracking-tight text-foreground mb-3">Related problems</h2>
               <ProblemList problems={related} />
             </section>
           )}
@@ -223,14 +225,14 @@ export default async function ProblemPage({
             aria-label="Previous and next problem"
           >
             {problem.prevSlug ? (
-              <Link href={`/problems/${problem.prevSlug}`} className="text-primary hover:underline">
+              <Link href={`/problems/${problem.prevSlug}`} className="text-primary hover:underline font-semibold">
                 ← Previous
               </Link>
             ) : (
               <span />
             )}
             {problem.nextSlug ? (
-              <Link href={`/problems/${problem.nextSlug}`} className="text-primary hover:underline">
+              <Link href={`/problems/${problem.nextSlug}`} className="text-primary hover:underline font-semibold">
                 Next →
               </Link>
             ) : (
@@ -244,9 +246,9 @@ export default async function ProblemPage({
           <StudyPanel slug={problem.slug} title={problem.title} />
           <nav
             aria-label="Table of contents"
-            className="rounded-xl border border-border bg-card p-4 hidden lg:block"
+            className="rounded-2xl border border-border/80 bg-card p-4 shadow-2xs hidden lg:block"
           >
-            <p className="text-sm font-semibold mb-2">On this page</p>
+            <p className="font-heading text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">On this page</p>
             <ul className="space-y-1.5 text-sm">
               <li>
                 <Link

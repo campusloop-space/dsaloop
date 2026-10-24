@@ -56,8 +56,12 @@ export default async function BlogPostPage({
         <p className="text-sm text-muted-foreground">
           {post.date} · {post.readingMinutes} min read
         </p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight">{post.title}</h1>
-        <p className="mt-3 text-lg text-muted-foreground">{post.description}</p>
+        <h1 className="mt-2 font-heading text-3xl sm:text-4xl font-extrabold tracking-tight text-foreground">
+          {post.title}
+        </h1>
+        <p className="mt-3 text-base sm:text-lg leading-relaxed text-muted-foreground">
+          {post.description}
+        </p>
         <div className="mt-8">
           <MarkdownBody html={html} />
         </div>

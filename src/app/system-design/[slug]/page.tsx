@@ -107,9 +107,7 @@ export default async function SystemDesignChapterPage({
       {/* Content & Sidebar Grid */}
       <div className="grid lg:grid-cols-[1fr_260px] gap-10">
         <article className="min-w-0">
-          <div className="prose prose-slate dark:prose-invert max-w-none prose-headings:font-heading prose-headings:font-bold prose-headings:tracking-tight prose-a:text-primary prose-a:underline-offset-4 prose-img:rounded-2xl prose-img:border prose-img:border-border/80 prose-img:shadow-2xs prose-img:mx-auto prose-img:my-8 prose-img:max-h-[500px] prose-img:object-contain prose-blockquote:border-l-primary prose-blockquote:bg-muted/30 prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:rounded-r-xl">
-            <MarkdownBody html={chapter.html} />
-          </div>
+          <MarkdownBody html={chapter.html} />
 
           {/* Navigation between chapters */}
           <nav
