@@ -1,13 +1,25 @@
-# AlgoForge
+<p align="center">
+  <img src="https://raw.githubusercontent.com/campusloop-space/.github/main/profile/assets/banner.svg" alt="CampusLoop — All of college. One loop." width="100%" />
+</p>
 
-**Master coding interviews with patterns, roadmaps, and original explanations.**
+# 🧩 DSALoop — Master DSA & Coding Interviews
 
-AlgoForge is a production-oriented LeetCode learning platform:
+**Patterns, roadmaps, and original explanations — plus an online judge, multi-language compilers and a 28-chapter system-design primer.**
+
+<p>
+  <a href="https://dsaloop.campusloop.space"><img src="https://img.shields.io/badge/Live-dsaloop.campusloop.space-7C3AED?style=for-the-badge" alt="Live site" /></a>
+  <a href="https://campusloop.space"><img src="https://img.shields.io/badge/Part%20of-CampusLoop-9D6CFF?style=for-the-badge" alt="Part of CampusLoop" /></a>
+  <img src="https://img.shields.io/badge/Next.js-App%20Router-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js App Router" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</p>
+
+DSALoop (built on the AlgoForge platform) is a production-oriented LeetCode learning platform by **[CampusLoop](https://campusloop.space)**:
 
 - Static-first **Next.js App Router** + TypeScript + Tailwind
 - Data pipeline over [kamyu104/LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions) (MIT) — **not a mirror**
 - SEO: sitemaps, JSON-LD, programmatic landings, Blind 75 / Grind 169
-- Local progress (bookmarks, confidence, streaks) with a pluggable `UserStore` for future cloud sync
+- Local progress (bookmarks, confidence, streaks) with a pluggable `UserStore` for future cloud sync — solve here, and it can count toward your CampusLoop loop
 
 ## Quick start
 
@@ -50,8 +62,14 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Attribution
 
-Reference solution code is MIT-licensed from kamyu104/LeetCode-Solutions. Explanations and product UX are original AlgoForge content. See `/about/attribution`.
+Reference solution code is MIT-licensed from kamyu104/LeetCode-Solutions. Explanations and product UX are original DSALoop/AlgoForge content. See `/about/attribution`.
 
 ## License
 
 Application code: MIT (or as designated by maintainers). Upstream solutions retain their MIT copyright.
+
+---
+
+<p align="center">
+  <sub>🧩 <strong>DSALoop</strong> is a <a href="https://campusloop.space">CampusLoop</a> product — see also <a href="https://opportunities.campusloop.space">Opportunities</a> for internships, hackathons, scholarships &amp; fellowships.</sub>
+</p>
